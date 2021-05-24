@@ -1,3 +1,12 @@
 <nav>
-  <p>Esta es la navbar</p>
+  <ul style="display: flex; list-style: none;">
+    <li style="padding: 0 4px">
+      <a href="{{ .Site.BaseURL }}">Inicio</a>
+    </li>
+    {{ range $.Site.RegularPages }}
+      <li style="padding: 0 4px">
+        <a href="{{.Permalink}}">{{ .Title }}</a>
+      </li>
+    {{ end }}
+  </ul>
 </nav>
