@@ -4,13 +4,15 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {{ $styles := resources.Get "styles/tailwind.pcss" | toCSS | postCSS }}
+  <link rel="stylesheet" href="{{ $styles.Permalink }}">
   {{ if .Title }}
     <title>{{ .Title }} | {{ .Site.Title }}</title>
   {{ else }}
     <title>{{ .Site.Title }}</title>
   {{ end }}
 </head>
-<body>
+<body class="font-source-sans-pro bg-linen">
   {{ partial "nav.html" . }}
   <main>
     {{ block "main" . }}{{ end }}

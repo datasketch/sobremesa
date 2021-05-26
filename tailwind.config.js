@@ -1,0 +1,27 @@
+module.exports = {
+  purge: [],
+  darkMode: false, // or 'media' or 'class'
+  theme: {
+    extend: {
+      colors: {
+        chocolate: '#1f1b18',
+        'darmouth-green': '#007540',
+        'fire-opal': '#ea5745',
+        'gold-metallic': '#d8b400',
+        linen: '#fff4e7'
+      },
+      fontFamily: {
+        martin: ['MARTIN', 'sans-serif'],
+        'source-sans-pro': ['"Source Sans Pro"', 'sans-serif'],
+        'source-serif-pro': ['"Source Serif Pro"', 'serif']
+      }
+    },
+  },
+  variants: {
+    extend: {},
+  },
+  plugins: [],
+  corePlugins: {
+    container: false
+  }
+}

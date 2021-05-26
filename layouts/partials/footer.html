@@ -1,3 +1,58 @@
-<footer>
-  <p>Este es el footer</p>
+<footer class="bg-fire-opal text-linen p-10">
+  <div class="flex flex-wrap space-y-4 md:space-y-0">
+    <div class="w-full md:w-1/2 lg:w-3/12">
+      <div class="h-full flex flex-col justify-center">
+        <img class="w-64" src="{{ "images/logo-white.png" | absURL }}" alt="">
+      </div>
+    </div>
+    <div class="w-full md:w-1/2 lg:w-2/12">
+      <div class="h-full flex flex-col justify-center">
+        <ul class="uppercase font-bold">
+          <li>
+            <a href="{{ .Site.BaseURL }}">Inicio</a>
+          </li>
+          {{ range $.Site.RegularPages }}
+            <li>
+              <a href="{{.Permalink}}">{{ .Title }}</a>
+            </li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+    <div class="w-full md:w-1/2 lg:w-4/12">
+      <div class="h-full flex flex-col justify-center">
+        <p class="font-semibold text-lg text-center lg:text-xl">
+          ¿Quieres recibir nuestro newsletter?
+        </p>
+      </div>
+    </div>
+    <div class="w-full md:w-1/2 lg:w-3/12 h-64 lg:h-auto">
+      <div class="h-full flex flex-col justify-center relative">
+        <img class="absolute top-0 left-0 w-full h-full object-contain" src="{{ "images/chat-bubble.png" | absURL }}" alt="">
+        <div class="text-chocolate font-source-serif-pro text-center relative left-5">
+          <h3 class="font-bold text-2xl">Contáctanos</h3>
+          <p class="font-semibold">
+            <a href="mailto:hola@sobremesa.com">hola@sobremesa.com</a>
+          </p>
+          <ul class="mt-2 flex justify-center items-center space-x-3">
+            <li>
+              <a href="" target="_blank">
+                <img src="{{ "images/twitter.svg" | absURL }}" alt="">
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                <img src="{{ "images/facebook.svg" | absURL }}" alt="">
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                <img src="{{ "images/instagram.svg" | absURL }}" alt="">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 </footer>

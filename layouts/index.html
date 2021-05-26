@@ -1,3 +1,171 @@
 {{ define "main" }}
-<h1>Página de inicio</h1>
+<section class="px-4 py-16">
+  <div class="container">
+    <h2 class="section-title text-center text-chocolate">
+      ¿Qué hacemos?
+    </h2>
+    <div class="mt-16 grid gap-16 lg:grid-cols-3">
+      <div class="max-w-sm mx-auto text-chocolate">
+        <img class="mx-auto h-48 object-center object-contain" src="{{ "images/resources-sketch.png" | absURL }}" alt="">
+        <h3 class="mt-4 font-source-serif-pro text-4xl text-center">Recursos</h3>
+        <p class="mt-6 font-semibold text-xl">
+          ¿Quieres aprender por tu propia cuenta, con materiales relevantes para ti?
+        </p>
+        <p class="mt-8 text-lg">
+          Seleccionamos - y creamos - recursos que te van a inspirar y guiar, en temas como crear una cultura de trabajo saludable y buscar la sostenibilidad de tu organización.
+        </p>
+        <a href="" class="mt-8 site-link">Leer más</a>
+      </div>
+      <div class="max-w-sm mx-auto text-chocolate">
+        <img class="mx-auto h-48 object-center object-contain" src="{{ "images/conversation-sketch.png" | absURL }}" alt="">
+        <h3 class="mt-4 font-source-serif-pro text-4xl text-center">Conversaciones</h3>
+        <p class="mt-6 font-semibold text-xl">
+          ¿Quieres escuchar y hablar con personas tratando con los mismos desafíos que tú?
+        </p>
+        <p class="mt-8 text-lg">
+          Creamos espacios para conversaciones reales, honestas, y constructivas donde puedes hablar de problemas del sector y generar ideas para tratarlos con colegas.
+        </p>
+        <a href="" class="mt-8 site-link">Leer más</a>
+      </div>
+      <div class="max-w-sm mx-auto text-chocolate">
+        <img class="mx-auto h-48 object-center object-contain" src="{{ "images/guide-sketch.png" | absURL }}" alt="">
+        <h3 class="mt-4 font-source-serif-pro text-4xl text-center">Servicios</h3>
+        <p class="mt-6 font-semibold text-xl">
+          ¿Quieres profundizar en tu proceso de reflexionar, revisar y repensar tu organización?
+        </p>
+        <p class="mt-8 text-lg">
+          Acompañamos a organizaciones de sociedad civil en América Latina, en el diseño y facilitación de procesos de cambio basados en sus contextos, desafíos, y necesidades.
+        </p>
+        <a href="" class="mt-8 site-link">Leer más</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="px-4 py-16 bg-darmouth-green">
+  <div class="container">
+    <div class="section-row">
+      <div class="section-col">
+        <div class="section-col-inner">
+          <h2 class="section-title text-linen relative">
+            ¿Qué materiales nos están inspirando?
+          </h2>
+          <img class="w-96 -mt-20" src="{{ "images/resources.png" | absURL }}" alt="">
+        </div>
+      </div>
+      <div class="section-col">
+        <div class="section-col-inner">
+          <ul class="flex-grow space-y-12 xl:w-4/5">
+            <li class="flex space-x-6 items-center">
+              <div class="numbered-item">1</div>
+              <div class="text-chocolate">
+                <p class="text-xl font-source-serif-pro font-bold leading-none">
+                  El ABC de la Contratación Pública
+                </p>
+                <a href="" class="site-link mt-2">Leer más</a>
+              </div>
+            </li>
+            <li class="flex space-x-6 items-center">
+              <div class="numbered-item">2</div>
+              <div class="text-chocolate">
+                <p class="text-xl font-source-serif-pro font-bold leading-none">
+                  Datasketch Apps
+                </p>
+                <a href="" class="site-link mt-2">Leer más</a>
+              </div>
+            </li>
+            <li class="flex space-x-6 items-center">
+              <div class="numbered-item">3</div>
+              <div class="text-chocolate">
+                <p class="text-xl font-source-serif-pro font-bold leading-none">
+                  Recursos y herramientas del BID
+                </p>
+                <a href="" class="site-link mt-2">Leer más</a>
+            </li>
+            <li class="flex space-x-6 items-center">
+              <div class="numbered-item">4</div>
+              <div class="text-chocolate">
+                <p class="text-xl font-source-serif-pro font-bold leading-none">
+                  Observatorio de Contrataciones Abiertas
+                </p>
+                <a href="" class="site-link mt-2">Leer más</a>
+            </li>
+            <li class="flex space-x-6 items-center">
+              <div class="numbered-item">5</div>
+              <div class="text-chocolate">
+                <p class="text-xl font-source-serif-pro font-bold leading-none">
+                  Manual práctico de investigación para organizaciones no gubernamentales
+                </p>
+                <a href="" class="site-link mt-2">Leer más</a>
+            </li>
+          </ul>
+          <div class="mt-16">
+            <a href="" class="site-link text-white">Nuestros recursos</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="px-4 py-16 bg-gold-metallic">
+  <div class="container">
+    <div class="section-row section-row-reverse">
+      <div class="section-col">
+        <div class="section-col-inner">
+          <h2 class="section-title text-center text-linen relative">
+            ¿De qué estamos hablando?
+          </h2>
+          <img class="w-96 -mt-20" src="{{ "images/conversation-sketch.png" | absURL }}" alt="">
+        </div>
+      </div>
+      <div class="section-col">
+        <div class="section-col-inner">
+          <ul class="flex-grow space-y-12 xl:w-4/5">
+            <li class="flex space-x-6 items-center">
+              <div class="numbered-item">1</div>
+              <div class="text-chocolate">
+                <p class="text-xl font-source-serif-pro font-bold leading-none">
+                  ¿Cómo se aprende dentro de la sociedad civil?
+                </p>
+                <a href="" class="site-link mt-2">Leer más</a>
+              </div>
+            </li>
+            <li class="flex space-x-6 items-center">
+              <div class="numbered-item">2</div>
+              <div class="text-chocolate">
+                <p class="text-xl font-source-serif-pro font-bold leading-none">
+                  ¿Cómo y cuándo se colabora dentro de sociedad civil?
+                </p>
+                <a href="" class="site-link mt-2">Leer más</a>
+              </div>
+            </li>
+            <li class="flex space-x-6 items-center">
+              <div class="numbered-item">3</div>
+              <div class="text-chocolate">
+                <p class="text-xl font-source-serif-pro font-bold leading-none">
+                  ¿Que significa la innovación dentro de la sociedad civil y cómo se hace?
+                </p>
+                <a href="" class="site-link mt-2">Leer más</a>
+            </li>
+          </ul>
+          <div class="mt-16 text-center">
+            <a href="" class="site-link text-white">Nuestras conversaciones</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="px-4 py-16">
+  <div class="container-md">
+    <h2 class="section-title text-center text-fire-opal">
+      ¿A quiénes estamos acompañando?
+    </h2>
+    <div class="py-12"></div>
+    <div class="text-center">
+      <a href="" class="site-link text-chocolate">
+        Nuestros servicios
+      </a>
+    </div>
+  </div>
+</section>
 {{ end }}
