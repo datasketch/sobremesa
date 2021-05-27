@@ -3,12 +3,18 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      lineHeight: {
+        'extra-tight': '0.75',
+      },
       colors: {
-        chocolate: '#1f1b18',
+        'chocolate': '#1f1b18',
         'darmouth-green': '#007540',
         'fire-opal': '#ea5745',
         'gold-metallic': '#d8b400',
         linen: '#fff4e7'
+      },
+      fontSize: {
+        'tiny': '.875rem'
       },
       fontFamily: {
         martin: ['MARTIN', 'sans-serif'],

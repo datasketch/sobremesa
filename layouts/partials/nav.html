@@ -1,12 +1,26 @@
-<!-- <nav>
-  <ul style="display: flex; list-style: none;">
-    <li style="padding: 0 4px">
-      <a href="{{ .Site.BaseURL }}">Inicio</a>
+<nav class="h-32 p-4 flex flex-wrap justify-between content-start uppercase font-source-sans-pro font-bold tracking-wide text-tiny text-chocolate">
+  <div class="h-full flex flex-col justify-center">
+    <img class="h-full w-auto" src="{{ "images/logo.png" | absURL }}" alt="">
+  </div>
+  <ul class="lg:flex list-none pt-2 hidden">
+    <li class="py-0 px-7">
+      <a class="hover:text-gold-metallic" href="{{ .Site.BaseURL }}">Inicio</a>
     </li>
     {{ range $.Site.RegularPages }}
-      <li style="padding: 0 4px">
-        <a href="{{.Permalink}}">{{ .Title }}</a>
+      <li class="py-0 px-7">
+        <a class="hover:text-gold-metallic" href="{{.Permalink}}">{{ .Title }}</a>
       </li>
     {{ end }}
   </ul>
-</nav> -->
+  <div class="self-start py-1 px-2 border-chocolate border-2 lg:block hidden">
+    <span class="hover:text-gold-metallic cursor-pointer">ES</span>/<span class="hover:text-gold-metallic cursor-pointer">EN</span>
+  </div>
+  <div class="h-12 self-start mt-4 mr-4 py-1 px-1 hover:text-gold-metallic lg:hidden block cursor-pointer">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-full stroke-current icon icon-tabler icon-tabler-menu-2" viewBox="0 0 24 24" stroke-width="1.5">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <line x1="4" y1="6" x2="20" y2="6" />
+      <line x1="4" y1="12" x2="20" y2="12" />
+      <line x1="4" y1="18" x2="20" y2="18" />
+    </svg>
+  </div>
+</nav>

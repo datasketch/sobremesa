@@ -42,6 +42,9 @@
   .container-md {
     @apply w-full mx-auto md:w-8/12;
   }
+  .container-sm {
+    @apply w-full mx-auto md:w-6/12;
+  }
   .site-link {
     @apply font-bold text-lg uppercase inline-block border-b border-chocolate relative pr-10;
   }
@@ -66,6 +69,13 @@
     @apply h-full flex flex-col;
   }
   .section-title {
-    @apply uppercase text-6xl font-martin leading-none xl:text-8xl;
+    @apply uppercase text-6xl font-martin lg:text-8xl;
+  }
+  .section-description {
+    @apply text-xl lg:text-2xl font-source-serif-pro font-semibold;
+  }
+  .blue-bubble {
+    @apply bg-cover bg-right bg-no-repeat;
+    background-image: url("/images/blue-bubble.png");
   }
 }
