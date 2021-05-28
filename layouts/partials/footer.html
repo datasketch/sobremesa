@@ -9,11 +9,11 @@
       <div class="h-full flex flex-col justify-center">
         <ul class="uppercase font-bold tracking-wide text-tiny">
           <li>
-            <a href="{{ .Site.BaseURL }}">Inicio</a>
+            <a class="hover:text-chocolate" href="{{ .Site.BaseURL }}">Inicio</a>
           </li>
           {{ range $.Site.RegularPages }}
             <li>
-              <a href="{{.Permalink}}">{{ .Title }}</a>
+              <a class="hover:text-chocolate" href="{{.Permalink}}">{{ .Title }}</a>
             </li>
           {{ end }}
         </ul>
