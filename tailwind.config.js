@@ -14,9 +14,6 @@ module.exports = {
         'linen': '#fff4e7',
         'blue': '#0036f6'
       },
-      fontSize: {
-        'tiny': '.875rem'
-      },
       fontFamily: {
         martin: ['MARTIN', 'sans-serif'],
         'source-sans-pro': ['"Source Sans Pro"', 'sans-serif'],

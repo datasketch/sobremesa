@@ -15,7 +15,24 @@
       </div>
       <div class="page-col self-end">
         <img class="mx-auto h-auto w-3/4 sm:w-2/3 md:w-3/4 lg:w-5/6 object-center object-contain" src="{{ "images/recursos.png" | absURL }}" alt="">
-      </div>
+</section>
+<section class="px-4 py-16">
+  <div class="container-lg">
+    <h2 class="font-source-serif-pro text-4xl font-bold text-darmouth-green">
+      Recursos principales
+    </h2>
+    <div class="mt-6 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+      {{ range .Site.Data.resources.principal }}
+        {{ partial "resource-card.html" . }}
+      {{ end }}
+    </div>
+    <h2 class="mt-20 font-source-serif-pro text-4xl font-bold text-darmouth-green">
+      Todos los recursos
+    </h2>
+    <div class="mt-6 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+      {{ range .Site.Data.resources.all }}
+        {{ partial "resource-card.html" . }}
+      {{ end }}
     </div>
   </div>
 </section>
