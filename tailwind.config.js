@@ -14,6 +14,7 @@ module.exports = {
         linen: '#fff4e7'
       },
       fontFamily: {
+        'beth-ellen': ['"Beth Ellen"', 'cursive'],
         martin: ['MARTIN', 'sans-serif'],
         'source-sans-pro': ['"Source Sans Pro"', 'sans-serif'],
         'source-serif-pro': ['"Source Serif Pro"', 'serif']
