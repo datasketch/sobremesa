@@ -7,9 +7,11 @@
       <a class="hover:text-gold-metallic" href="{{ .Site.BaseURL }}">Inicio</a>
     </li>
     {{ range $.Site.RegularPages }}
-      <li class="py-0 px-7">
-        <a class="hover:text-gold-metallic" href="{{.Permalink}}">{{ .Title }}</a>
-      </li>
+      {{ if isset .Params "weight" }}
+        <li class="py-0 px-7">
+          <a class="hover:text-gold-metallic" href="{{.Permalink}}">{{ .Title }}</a>
+        </li>
+      {{ end }}
     {{ end }}
   </ul>
   <div class="self-start py-1 px-2 border-chocolate border-2 lg:block hidden">

@@ -54,7 +54,7 @@
   }
   .site-link,
   .site-link-white {
-    @apply font-bold text-lg uppercase inline-block border-b relative pr-10;
+    @apply font-bold text-base uppercase tracking-wide inline-block border-b relative pr-10;
   }
   .site-link {
     @apply border-chocolate text-chocolate;
@@ -89,7 +89,10 @@
     @apply h-full flex flex-col;
   }
   .section-title {
-    @apply uppercase text-6xl font-martin lg:text-8xl relative;
+    @apply uppercase text-6xl font-martin leading-extra-tight lg:text-8xl relative;
+  }
+  .section-col-title {
+    @apply lg:text-7xl lg:leading-extra-tight;
   }
   .section-title-md {
     @apply uppercase text-3xl font-martin lg:text-5xl relative;
@@ -102,7 +105,7 @@
     background-image: url("/images/blue-bubble.png");
   }
   .with-arrow {
-    @apply pb-10;
+    @apply pb-16;
   }
   .with-arrow:after {
     @apply absolute left-0 bottom-0 w-full bg-contain bg-no-repeat h-10;
@@ -113,7 +116,7 @@
     @apply border-2 border-darmouth-green px-6 py-4 flex flex-col items-start;
   }
   .resource-body {
-    @apply flex-grow mb-6;    
+    @apply flex-grow mb-6;
   }
   .resource-type {
     @apply font-bold text-darmouth-green;
@@ -123,5 +126,14 @@
   }
   .resource-source {
     @apply text-lg italic;
+  }
+  .page-header-container {
+    @apply w-full mx-auto sm:w-10/12 lg:w-10/12;
+  }
+  .page-row {
+    @apply flex flex-col space-y-12 md:space-y-0 md:flex-row;
+  }
+  .page-col {
+    @apply w-full md:w-1/2;
   }
 }

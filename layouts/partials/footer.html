@@ -7,23 +7,27 @@
     </div>
     <div class="w-full md:w-1/2 lg:w-2/12">
       <div class="h-full flex flex-col justify-center">
-        <ul class="uppercase font-bold">
+        <ul class="uppercase font-bold tracking-wide text-sm">
           <li>
-            <a href="{{ .Site.BaseURL }}">Inicio</a>
+            <a class="hover:text-chocolate" href="{{ .Site.BaseURL }}">Inicio</a>
           </li>
           {{ range $.Site.RegularPages }}
             <li>
-              <a href="{{.Permalink}}">{{ .Title }}</a>
+              <a class="hover:text-chocolate" href="{{.Permalink}}">{{ .Title }}</a>
             </li>
           {{ end }}
         </ul>
       </div>
     </div>
     <div class="w-full md:w-1/2 lg:w-4/12">
-      <div class="h-full flex flex-col justify-center">
-        <p class="font-semibold text-lg text-center lg:text-xl">
+      <div class="h-full flex flex-col justify-center text-center">
+        <p class="font-semibold text-lg tracking-wide lg:text-xl">
           ¿Quieres recibir nuestro newsletter?
         </p>
+        <form class="my-4" action="/">
+          <input class="mr-2 bg-linen text-chocolate px-4 py-2 border border-linen" type="email" id="email" name="email" placeholder="email">
+          <input class="bg-fire-opal text-chocolate font-bold py-2 px-2 border border-chocolate cursor-pointer hover:bg-chocolate hover:text-linen" type="submit" value="OK">
+        </form>
       </div>
     </div>
     <div class="w-full md:w-1/2 lg:w-3/12 h-64 lg:h-auto">
