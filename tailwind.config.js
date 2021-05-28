@@ -11,7 +11,8 @@ module.exports = {
         'darmouth-green': '#007540',
         'fire-opal': '#ea5745',
         'gold-metallic': '#d8b400',
-        linen: '#fff4e7'
+        'linen': '#fff4e7',
+        'blue': '#0036f6'
       },
       fontSize: {
         'tiny': '.875rem'

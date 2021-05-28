@@ -1,3 +1,40 @@
 {{ define "main" }}
-<h1>Contacto</h1>
+<section class="px-4 py-16">
+  <div class="page-header-container">
+    <div class="page-row pt-0">
+      <div class="page-col pt-0">
+        <div class="section-col-inner items-start">
+          <h2 class="text-chocolate uppercase text-6xl font-martin leading-extra-tight xl:text-7xl xl:leading-extra-tight">
+            ¿Están listos para aprender, reflexionar y renovarse?
+          </h2>
+          <img class="my-6 h-8 object-center object-contain" src="{{ "images/long-arrow-left.svg" | absURL }}" alt="">
+          <p class="section-description text-lg lg:text-xl">
+            Hablemos de cómo podemos apoyarte a ti y a tu organización de sociedad civil en su proceso de transformación.
+          </p>
+        </div>
+      </div>
+      <div class="page-col self-end">
+        <img class="mx-auto h-auto w-2/3 sm:w-1/2 md:w-2/3 lg:w-3/4 object-center object-contain" src="{{ "images/contacto.png" | absURL }}" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+<section class="px-4 pb-32">
+  <div class="container">
+    <div class="container flex justify-center items-center">
+      <img class="h-10 object-center object-contain hidden sm:block" src="{{ "images/stars.png" | absURL }}" alt="">
+      <h2 class="section-title text-center text-chocolate mx-4">
+        Contáctanos
+      </h2>
+      <img class="h-10 object-center object-contain hidden sm:block" src="{{ "images/stars.png" | absURL }}" alt="">
+    </div>
+    <div class="mt-4 text-center">
+      <a href="" class="mt-8 site-link hover:text-fire-opal">Agenda una llamada</a>
+      <p class="mt-10 section-description text-lg lg:text-xl">
+        O escríbenos a
+      </p>
+      <a href="" class="mt-2 site-link hover:text-fire-opal">hola@lasobremesa.com</a>
+    </div>
+  </div>
+</section>
 {{ end }}
