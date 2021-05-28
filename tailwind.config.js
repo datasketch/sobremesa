@@ -13,9 +13,6 @@ module.exports = {
         'gold-metallic': '#d8b400',
         linen: '#fff4e7'
       },
-      fontSize: {
-        'tiny': '.875rem'
-      },
       fontFamily: {
         martin: ['MARTIN', 'sans-serif'],
         'source-sans-pro': ['"Source Sans Pro"', 'sans-serif'],
