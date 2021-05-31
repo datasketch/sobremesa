@@ -3,10 +3,7 @@
     <img class="h-full w-auto" src="{{ "images/logo.png" | absURL }}" alt="">
   </div>
   <ul class="lg:flex list-none pt-2 hidden">
-    <li class="py-0 px-7">
-      <a class="hover:text-gold-metallic" href="{{ .Site.BaseURL }}">Inicio</a>
-    </li>
-    {{ range $.Site.RegularPages }}
+    {{ range $.Site.Pages }}
       {{ if isset .Params "weight" }}
         <li class="py-0 px-7">
           <a class="hover:text-gold-metallic" href="{{.Permalink}}">{{ .Title }}</a>
@@ -14,9 +11,16 @@
       {{ end }}
     {{ end }}
   </ul>
-  <div class="self-start py-1 px-2 border-chocolate border-2 lg:block hidden">
-    <span class="hover:text-gold-metallic cursor-pointer">ES</span>/<span class="hover:text-gold-metallic cursor-pointer">EN</span>
-  </div>
+  <ul class="self-start border-chocolate border-2 lg:flex hidden">
+    {{ $current_lang := .Language }}
+    {{ range $.Site.Home.AllTranslations }}
+      <li class="hover:text-gold-metallic">
+        <a href="{{ .Permalink }}" class="inline-block py-1 px-2 {{ if eq .Language $current_lang }}bg-chocolate text-linen cursor-not-allowed{{ end }}">
+          <span>{{ .Language }}</span>
+        </a>
+      </li>
+    {{ end }}
+  </ul>
   <div class="h-12 self-start mt-4 mr-4 py-1 px-1 hover:text-gold-metallic lg:hidden block cursor-pointer">
     <svg xmlns="http://www.w3.org/2000/svg" class="h-full stroke-current icon icon-tabler icon-tabler-menu-2" viewBox="0 0 24 24" stroke-width="1.5">
       <path stroke="none" d="M0 0h24v24H0z" fill="none"/>

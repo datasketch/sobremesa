@@ -1,5 +1,5 @@
 ---
 title: Contacto
 layout: contacto
-weight: 5
+weight: 6
 ---

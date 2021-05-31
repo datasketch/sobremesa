@@ -1,4 +1,15 @@
 baseURL = "/"
 languageCode = "es"
 title = "La sobremesa"
+defaultContentLanguage = "es"
 taxonomies = []
+
+[languages]
+  [languages.es]
+    contentDir = "content/es"
+    languageName = "Español"
+    weight = 1
+  [languages.en]
+    contentDir = "content/en"
+    languageName = "English"
+    weight = 2
