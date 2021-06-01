@@ -1,9 +1,9 @@
 {{ define "main" }}
-{{ partial "page-header.html" (dict "title" "Recursos" "description" "¡Explora estos recursos, herramientas, guías, artículos y más! Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod." "image" "images/resources-section.png")}}
+{{ partial "page-header.html" (dict "title" "Herramientas" "description" "¡Explora estos recursos, herramientas, guías, artículos y más! Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod." "image" "images/resources-section.png")}}
 <section class="px-4 py-16">
   <div class="container-lg">
     <h2 class="font-source-serif-pro text-4xl font-bold text-darmouth-green">
-      Recursos principales
+      Herramientas principales
     </h2>
     <div class="mt-6 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
       {{ range .Site.Data.resources.principal }}
@@ -11,7 +11,7 @@
       {{ end }}
     </div>
     <h2 class="mt-20 font-source-serif-pro text-4xl font-bold text-darmouth-green">
-      Todos los recursos
+      Todas las herramientas
     </h2>
     <div class="mt-6 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
       {{ range .Site.Data.resources.all }}
