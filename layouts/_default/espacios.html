@@ -1,23 +1,23 @@
 {{ define "main" }}
 {{ partial "page-header.html" (dict "title" "Espacios" "description" "En La Sobremesa, generamos espacios para tener las conversaciones reales que necesitamos desde sociedad civil. Diseñamos y facilitamos conversaciones para escucharnos, analizarnos, e inspirarnos." "image" "images/conversation-section.png")}}
-<section class="container px-4 py-16 relative">
-  <img class="absolute top-0 left-0 h-full object-contain md:object-fill lg:w-1/2 xl:w-1/3" src="{{ "images/yellow-texture.png" | absURL }}" alt="">
-  <div class="relative">
+<section class="container px-4 py-16">
+  <div class="">
     <div class="section-row xl:space-x-24">
-      <div class="w-full lg:w-1/2 xl:w-1/3">
-        <h2 class="section-title leading-extra-tight">
+      <div class="relative w-full lg:w-1/2 xl:w-1/3">
+        <img class="absolute top-0 left-0 h-full object-contain md:object-fill" src="{{ "images/yellow-texture.png" | absURL }}" alt="">
+        <h2 class="section-title leading-extra-tight relative">
           Estamos conversando sobre
         </h2>
       </div>
       <div class="w-full lg:w-1/2 xl:w-2/3 self-center">
-        <div class="section-description">
-          <p>¿Cómo se aprende dentro de la sociedad civil?</p>
-          <p>¿Cómo y cuándo se colabora dentro de sociedad civil?</p>
-          <p>¿Cómo se ve la innovación?</p>
-        </div>
+        <ul class="section-description list-arrow text-lg lg:text-xl">
+          <li>¿Cómo se aprende dentro de la sociedad civil?</li>
+          <li>¿Cómo y cuándo se colabora dentro de sociedad civil?</li>
+          <li>¿Cómo se ve la innovación?</li>
+        </ul>
         <div class="mt-12 h-full flex flex-col">
           <p class="font-semibold text-lg tracking-wide lg:text-xl">
-            Suscríbete a nuestro newsletter
+            Suscribete a nuestro newsletter para poder unirte a futuros espacios liderados por La Sobremesa
           </p>
           <form class="my-4" action="/">
             <input class="mr-2 bg-linen text-chocolate px-4 py-2 border border-chocolate placeholder-chocolate" type="email" id="email" name="email" placeholder="e-mail">
@@ -58,7 +58,7 @@
         <div class="flex flex-col lg:flex-row lg:items-center">
           <div class="w-full lg:w-2/5">
             <p class="font-source-serif-pro text-lg font-bold leading-tight lg:text-center">
-              Para más sobre nuestros aprendizajes...
+              Para más sobre los aprendizajes que tuvimos en este espacio...
             </p>
           </div>
           <div class="w-full lg:w-3/5">
@@ -113,8 +113,8 @@
       <img class="mx-auto w-2/3" src="{{ "images/join-us.png" | absURL }}" alt="">
     </div>
     <div class="section-col text-center">
-      <h2 class="section-title-md">
-        ¿Te interesa ser parte de futuras <span class="text-gold-metallic">conversaciones</span> y recibir noticias sobre nuestros <span class="text-gold-metallic">debates</span>?
+      <h2 class="section-title-md leading-extra-tight">
+        ¿Te interesa ser parte de futuros <span class="text-gold-metallic">espacios</span> y recibir noticias sobre nuestras <span class="text-gold-metallic">conversaciones</span>?
       </h2>
       <div class="mt-12 h-full flex flex-col">
         <p class="font-semibold text-lg tracking-wide lg:text-xl">
