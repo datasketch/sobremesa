@@ -159,12 +159,10 @@
     background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMCIgaGVpZ2h0PSIzMCI+PGNpcmNsZSBjeD0iMTUiIGN5PSIxNSIgcj0iMTUiIGZpbGw9IiNlYTU3NDUiLz48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNmZmY0ZTciIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIzIiBkPSJNOCAxNWgxNCIvPjwvc3ZnPg==");
   }
   .accordion-item .accordion-content {
-    @apply py-0 max-h-0 overflow-hidden;
-    transition: all 0.3s ease-in;
+    @apply py-12 hidden;
   }
   .accordion-item.is-open .accordion-content {
-    @apply py-12;
-    max-height: initial;
+    @apply block;
   }
   .list-arrow {
     @apply list-none pl-8 space-y-2;
