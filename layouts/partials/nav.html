@@ -30,3 +30,26 @@
     </svg>
   </div>
 </nav>
+<!-- Loop menu -->
+<!--
+<ul class="lg:flex list-none pt-2 hidden">
+  {{ range .Site.Menus.main }}
+    <li class="py-0 px-7">
+      <a class="hover:text-gold-metallic" href="{{ .URL }}">
+        {{ .Title }}
+      </a>
+      {{ if .Children }}
+        <ul>
+          {{ range .Children }}
+            <li class="py-0 px-7">
+              <a class="hover:text-gold-metallic" href="{{ .URL }}">
+              {{ .Title }}
+            </a>
+          </li>
+          {{ end }}
+        </ul>
+      {{ end }}
+    </li>
+  {{ end }}
+</ul>
+-->

@@ -1,5 +1,7 @@
 ---
 title: Quiénes somos
 layout: quienes-somos
-weight: 2
+menu:
+  main:
+    parent: wrapper
 ---
