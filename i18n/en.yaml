@@ -1,2 +1,17 @@
-id: read_more
-translation: Read more
+- id: read_more
+  translation: Read more
+
+- id: read_more_about_us
+  translation: Read more about us
+
+- id: read_more_tools
+  translation: Explore our tools
+
+- id: read_more_spaces
+  translation: Join our spaces
+
+- id: read_more_acompaniment
+  translation: Consider our acompaniment
+
+- id: join_conversation
+  translation: Join the conversation
