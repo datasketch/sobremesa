@@ -1,26 +1,22 @@
 {{ define "main" }}
 {{ partial "page-header.html" (dict "title" "Acompañamiento" "description" "Si buscas un acompañamiento más profundo y hecho a tu medida, nosotras en La Sobremesa diseñamos y facilitamos un proceso de reflexión, aprendizaje, y transformación para ti." "image" "images/services-section.png")}}
-<section class="px-4 py-16">
-  <div class="container">
-    <div class="section-row">
-      <div class="section-col">
-        <div class="offer section-col-inner">
-          <h2 class="section-title-md static text-linen leading-extra-tight m-auto">
-            ¿Qué ofrecemos?
-          </h2>
-        </div>
-      </div>
-      <div class="section-col">
-        <div class="section-col-inner">
-          <p class="section-description mt-6">
-            Trabajamos junto a organizaciones, redes, y donantes para apoyarlos en sus necesidades. Cada acompañamiento es distinto, pero hemos identificado estas categorías y ejemplos de apoyo que te puedan inspirar.
-          </p>
-        </div>
+<section class="container px-4 py-16">
+  <div class="section-row items-center">
+    <div class="section-col">
+      <div class="section-col-inner">
+        <img src="{{ "images/what-do-we-offer-es.svg" | absURL }}" alt="" class="w-2/3 mx-auto md:ml-0 md:mr-auto md:w-4/5">
       </div>
     </div>
-    <div class="max-w-4xl ml-auto mt-24">
-      {{ partial "accordion.html" . }}
+    <div class="section-col">
+      <div class="section-col-inner">
+        <p class="section-description mt-6">
+          Trabajamos junto a organizaciones, redes, y donantes para apoyarlos en sus necesidades. Cada acompañamiento es distinto, pero hemos identificado estas categorías y ejemplos de apoyo que te puedan inspirar.
+        </p>
+      </div>
     </div>
+  </div>
+  <div class="max-w-4xl ml-auto mt-24">
+    {{ partial "accordion.html" . }}
   </div>
 </section>
 <section class="container px-4 py-16">
@@ -33,8 +29,20 @@
   <p class="mt-4 text-center text-lg">
     Hemos acompañado a varias organizaciones, redes, y donantes en La Sobremesa.
   </p>
-  <div class="">
-
+  <div class="mt-16">
+    <h3 class="font-martin text-5xl uppercase with-arrow-red">
+      Organizaciones
+    </h3>
+  </div>
+  <div class="mt-16">
+    <h3 class="font-martin text-5xl uppercase with-arrow-red">
+      Redes
+    </h3>
+  </div>
+  <div class="mt-16">
+    <h3 class="font-martin text-5xl uppercase with-arrow-red">
+      Donantes
+    </h3>
   </div>
 </section>
 <section class="container px-4 py-16">
@@ -44,8 +52,56 @@
     </h2>
     <span class="font-beth-ellen text-xl relative z-10 -ml-8">en La Sobremesa</span>
   </div>
-  <div class="">
-    Carrusel
+  <div class="slider-wrapper mt-12">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="container">
+            <div class="section-row items-center">
+              <div class="section-col"></div>
+              <div class="section-col">
+                <div class="leading-extra-tight">
+                  <h3 class="font-source-serif-pro text-fire-opal text-2xl">
+                    Hivos
+                  </h3>
+                  <a href="https://hivos.org" target="_blank" class="font-bold">https://hivos.org</a>
+                </div>
+                <div class="mt-6 leading-tight">
+                  <p>La Sobremesa es un espacio seguro y creativo, que permite dar discusiones abiertas y re-pensarnos como organizaciones y como ecosistema. La Sobremesa son personas llenas de empatía y con capacidad de crear soluciones innovadoras y sostenibles para la resiliencia cívica tan necesaria en América Latina.</p>
+                  <p class="font-source-serif-pro mt-6">¿Qué trabajo hicieron con La Sobremesa?</p>
+                  <p class="mt-2">Mentoría especializada a nuestras socias de Open Contracting para garantizar la resiliencia y sostenibilidad de sus organizaciones e iniciativas.</p>
+                  <p class="font-bold mt-2">Ana Gabriel Zúñiga Aponte</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="container">
+            <div class="section-row items-center">
+              <div class="section-col"></div>
+              <div class="section-col">
+                <div class="leading-extra-tight">
+                  <h3 class="font-source-serif-pro text-fire-opal text-2xl">
+                    Hivos
+                  </h3>
+                  <a href="https://hivos.org" target="_blank" class="font-bold">https://hivos.org</a>
+                </div>
+                <div class="mt-6 leading-tight">
+                  <p>La Sobremesa es un espacio seguro y creativo, que permite dar discusiones abiertas y re-pensarnos como organizaciones y como ecosistema. La Sobremesa son personas llenas de empatía y con capacidad de crear soluciones innovadoras y sostenibles para la resiliencia cívica tan necesaria en América Latina.</p>
+                  <p class="font-source-serif-pro mt-6">¿Qué trabajo hicieron con La Sobremesa?</p>
+                  <p class="mt-2">Mentoría especializada a nuestras socias de Open Contracting para garantizar la resiliencia y sostenibilidad de sus organizaciones e iniciativas.</p>
+                  <p class="font-bold mt-2">Ana Gabriel Zúñiga Aponte</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slider-prev"></div>
+    <div class="slider-next"></div>
+    <div class="slider-pagination"></div>
   </div>
 </section>
 <div class="container px-4 py-16">
@@ -70,7 +126,11 @@
 </div>
 {{ end }}
 
+{{ define "head" }}
+  <link rel="stylesheet" href="https://unpkg.com/swiper@6.7.0/swiper-bundle.min.css">
+{{ end }}
+
 {{ define "js" }}
-  {{ $accordion := resources.Get "js/accordion.js" }}
-  <script src="{{ $accordion.Permalink }}"></script>
+  {{ $services := resources.Get "js/services.js" | js.Build (dict "minify" true "targetPath" "tests")}}
+  <script src="{{ $services.Permalink }}"></script>
 {{ end }}
