@@ -16,7 +16,9 @@
 <section class="px-4 py-24 bg-fire-opal">
   <div class="container">
     <div class="section-row items-center">
-      <div class="section-col"></div>
+      <div class="section-col">
+        <img class="mx-auto w-full md:w-2/3 lg:w-4/5 lg:ml-0" src="{{ "images/join-team-es.svg" | absURL }}" alt="">
+      </div>
       <div class="section-col text-white">
         <p class="text-2xl font-bold">Estamos buscando</p>
         <ul class="mt-4 font-source-serif-pro text-xl">
@@ -42,6 +44,18 @@
     <h2 class="section-title with-stars">
       Nos apoyan y aconsejan
     </h2>
+  </div>
+  <div class="mt-24 grid gap-12 sm:grid-cols-2 lg:grid-cols-3">
+    {{ range .Site.Data.guests }}
+      <button class="p-8 text-left" data-modal="guests-modal">
+        <div class="aspect-w-1 aspect-h-1">
+          <img class="object-cover object-left-top" src="{{ .image | absURL }}" alt="">
+        </div>
+        <p class="mt-2 font-source-serif-pro text-lg font-bold">{{ .name }}</p>
+        <p class="text-fire-opal font-bold leading-tight">{{ .location }}</p>
+        <p class="italic mt-2">"{{ .tagline }}"</p>
+      </button>
+    {{ end }}
   </div>
 </section>
 <section class="px-4 py-10 bg-gold-metallic">
