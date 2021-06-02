@@ -131,6 +131,6 @@
 {{ end }}
 
 {{ define "js" }}
-  {{ $services := resources.Get "js/services.js" | js.Build (dict "minify" true "targetPath" "tests")}}
+  {{ $services := resources.Get "js/services.js" | js.Build (dict "minify" true)}}
   <script src="{{ $services.Permalink }}"></script>
 {{ end }}
