@@ -19,6 +19,14 @@ module.exports = {
         martin: ['MARTIN', 'sans-serif'],
         'source-sans-pro': ['"Source Sans Pro"', 'sans-serif'],
         'source-serif-pro': ['"Source Serif Pro"', 'serif']
+      },
+      backgroundImage: {
+        'tools-sm': "url('/images/tools-sm.svg')",
+        'tools-lg': "url('/images/tools-lg.svg')",
+        'spaces-sm': "url('/images/spaces-sm.svg')",
+        'spaces-lg': "url('/images/spaces-lg.svg')",
+        'acompaniment-sm': "url('/images/acompaniment-sm.svg')",
+        'acompaniment-lg': "url('/images/acompaniment-lg.svg')",
       }
     },
   },

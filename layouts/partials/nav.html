@@ -6,7 +6,7 @@
     {{ range .Site.Menus.main }}
       <li>
         {{ if .Children }}
-          <div class="py-4 dropdown text-center cursor-default" href="">
+          <div class="py-4 dropdown border-2 border-linen text-center cursor-default" href="">
             <a class="py-0 px-7">{{ .Title }}</a>
             <ul>
               {{ range .Children }}
