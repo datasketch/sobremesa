@@ -116,6 +116,21 @@
     content: '';
     background-image: url("data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjExNy4zMzMiIGhlaWdodD0iMzAuNjY3IiB2aWV3Qm94PSIwIDAgODggMjMiPjxwYXRoIGZpbGw9IiNlYTU3NDUiIGQ9Ik03My41IDUuOWMuMy41IDEuOSAxLjMgMy43IDEuNiAyLjcuNiAyLjkuOSAxLjQgMS43LTMgMS43LTE4LjggMS40LTQxLjEtLjZDMjQuMiA3LjQgMTQuNCA3IDEwLjcgNy40Yy04LjUgMS4xLTYuMiAxLjkgNC41IDEuNyA1LjEtLjEgMTcuNi41IDI3LjggMS41IDExLjMgMSAyMi41IDEuNCAyOC42IDEuMSA5LjYtLjUgMTAuMi0uNSA5LjcgMS4zLS4zIDEtMS40IDIuNi0yLjQgMy42LTIuMSAxLjgtMi41IDMuNC0uOSAzLjQuNSAwIDIuMi0yLjEgMy43LTQuNyAxLjUtMi43IDMuMS01IDMuNS01LjEgMi0uOS40LTIuMy00LjQtMy43LTUuOS0xLjctOC4yLTEuOS03LjMtLjZ6Ii8+PC9zdmc+");
   }
+  .with-stars {
+    @apply inline-block;
+  }
+  .with-stars:after,
+  .with-stars:before {
+    @apply absolute transform bg-center bg-no-repeat bg-contain h-full w-28;
+    content: '';
+    background-image: url("/images/stars.svg");
+  }
+  .with-stars:after {
+    @apply top-full left-1/2 -translate-x-1/2 md:top-0 md:left-auto md:-translate-x-0;
+  }
+  .with-stars:before {
+    @apply hidden md:block -left-28;
+  }
   .resource-card {
     @apply border-2 border-darmouth-green px-6 py-4 flex flex-col items-start;
   }

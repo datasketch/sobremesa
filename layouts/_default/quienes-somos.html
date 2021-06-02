@@ -1,3 +1,58 @@
 {{ define "main" }}
 {{ partial "page-header.html" (dict "title" "Quiénes somos" "description" "Somos una colectiva de personas con diversas experiencias, conocimientos y fortalezas, todas trabajando en nuestros distintos sectores para hacer que la sociedad civil en América Latina pueda generar el impacto que buscan." "image" "images/who-section.png")}}
+<section class="container px-4 py-16">
+  <div class="text-center leading-tight">
+    <p class="font-source-serif-pro text-xl md:text-2xl">Sentadas en la mesa, todos los días, está</p>
+    <h2 class="section-title with-stars">El equipo</h2>
+  </div>
+</section>
+<section class="container-md px-4 pb-24">
+  <div class="space-y-24">
+    {{ range .Site.Data.team }}
+      {{ partial "team-member.html" . }}
+    {{ end }}
+  </div>
+</section>
+<section class="px-4 py-24 bg-fire-opal">
+  <div class="container">
+    <div class="section-row items-center">
+      <div class="section-col"></div>
+      <div class="section-col text-white">
+        <p class="text-2xl font-bold">Estamos buscando</p>
+        <ul class="mt-4 font-source-serif-pro text-xl">
+          <li class="flex items-center space-x-3">
+            <img class="w-4" src="{{ "images/yellow-star.svg" | absURL }}" alt="">
+            <p>Research Assistant</p>
+          </li>
+          <li class="flex items-center space-x-3">
+            <img class="w-4" src="{{ "images/yellow-star.svg" | absURL }}" alt="">
+            <p>Comms / Content Creator</p>
+          </li>
+        </ul>
+        <a href="" class="mt-12 site-link-white">Aplicar a una vacante</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="container px-4 py-24">
+  <div class="text-center leading-tight">
+    <p class="font-source-serif-pro text-xl md:text-2xl">
+      Según el desafío que enfrenta sociedad civil,
+    </p>
+    <h2 class="section-title with-stars">
+      Nos apoyan y aconsejan
+    </h2>
+  </div>
+</section>
+<section class="px-4 py-10 bg-gold-metallic">
+  <div class="container flex flex-wrap justify-center items-center">
+    <div class="relative">
+      <img class="absolute -top-10 -left-12 h-36 object-contain md:object-fill" src="{{ "images/fire-opal-footprint.png" | absURL }}" alt="">
+      <h2 class="section-title relative text-linen lg:text-7xl">
+        Sobre nosotras
+      </h2>
+    </div>
+    <a href="" class="site-link-white ml-8 mt-8 mb-0 sm:mb-8 hover:text-gold-metallic">{{ T "read_more" }}</a>
+  </div>
+</section>
 {{ end }}
