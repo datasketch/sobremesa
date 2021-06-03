@@ -1,6 +1,15 @@
 <nav class="h-32 py-2 px-4 flex flex-wrap justify-between content-start uppercase font-source-sans-pro font-bold tracking-wide text-sm">
   <div class="h-full flex flex-col justify-center">
-    <img class="h-full w-auto" src="{{ "images/logo.png" | absURL }}" alt="">
+    {{ $currentPage := .Page.Params.layout }}
+    {{ if eq $currentPage "acompanamiento" }}
+      <img class="h-full w-auto" src="{{ "images/logo-acompaniment.png" | absURL }}" alt="">
+    {{ else if eq $currentPage "espacios"}}
+      <img class="h-full w-auto" src="{{ "images/logo-spaces.png" | absURL }}" alt="">
+    {{ else if eq $currentPage "herramientas"}}
+      <img class="h-full w-auto" src="{{ "images/logo-tools.png" | absURL }}" alt="">
+    {{ else }}
+      <img class="h-full w-auto" src="{{ "images/logo.png" | absURL }}" alt="">
+    {{ end }}
   </div>
   <ul class="lg:flex list-none hidden">
     {{ range .Site.Menus.main }}
@@ -19,7 +28,7 @@
             </ul>
           </div>
         {{ else }}
-          <div class="py-4 px-7">
+          <div class="py-4 px-7 border-t-2 border-linen">
             <a class="hover:text-{{ with .Page.Params.color }}{{ . }}{{ end }}" href="{{ .URL }}">
               {{ .Title }}
             </a>
@@ -47,36 +56,3 @@
     </svg>
   </div>
 </nav>
-<!-- Loop menu -->
-<!--
-<ul class="lg:flex list-none pt-2 hidden">
-  {{ range .Site.Menus.main }}
-    <li class="py-0 px-7">
-      <a class="hover:text-gold-metallic" href="{{ .URL }}">
-        {{ .Title }}
-      </a>
-      {{ if .Children }}
-        <ul>
-          {{ range .Children }}
-            <li class="py-0 px-7">
-              <a class="hover:text-gold-metallic" href="{{ .URL }}">
-              {{ .Title }}
-            </a>
-          </li>
-          {{ end }}
-        </ul>
-      {{ end }}
-    </li>
-  {{ end }}
-</ul>
--->
-
-<!-- <ul class="lg:flex list-none pt-2 hidden">
-  {{ range $.Site.Pages }}
-    {{ if isset .Params "weight" }}
-      <li class="py-0 px-7">
-        <a class="hover:text-gold-metallic" href="{{.Permalink}}">{{ .Title }}</a>
-      </li>
-    {{ end }}
-  {{ end }}
-</ul> -->
