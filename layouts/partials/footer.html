@@ -11,11 +11,19 @@
           <li>
             <a class="hover:text-chocolate" href="{{ .Site.BaseURL }}">Inicio</a>
           </li>
-          {{ range $.Site.RegularPages }}
-            <li>
-              <a class="hover:text-chocolate" href="{{.Permalink}}">{{ .Title }}</a>
-            </li>
-          {{ end }}
+          {{ range .Site.Menus.main }}
+            {{ if .Children }}
+              {{ range .Children }}
+                <li>
+                  <a class="hover:text-chocolate" href="{{.URL}}">{{ .Title }}</a>
+                </li>
+              {{ end }}
+            {{ else }}
+              <li>
+                <a class="hover:text-chocolate" href="{{.URL}}">{{ .Title }}</a>
+              </li>
+            {{ end }}
+          {{ end}}
         </ul>
       </div>
     </div>
