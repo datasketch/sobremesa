@@ -4,4 +4,5 @@ layout: que-hacemos
 menu:
   main:
     parent: wrapper
+color: gold-metallic
 ---
