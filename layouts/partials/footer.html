@@ -8,9 +8,6 @@
     <div class="w-full md:w-1/2 lg:w-2/12">
       <div class="h-full flex flex-col justify-center">
         <ul class="uppercase font-bold tracking-wide text-sm">
-          <li>
-            <a class="hover:text-chocolate" href="{{ .Site.BaseURL }}">Inicio</a>
-          </li>
           {{ range .Site.Menus.main }}
             {{ if .Children }}
               {{ range .Children }}
