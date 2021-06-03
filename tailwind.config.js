@@ -15,7 +15,9 @@ module.exports = {
         'fire-opal': '#ea5745',
         'gold-metallic': '#d8b400',
         'linen': '#fff4e7',
-        'blue': '#0036f6'
+        'blue': '#0036f6',
+        'maximum-green': "#618D3F",
+        'pine-green': '#007266',
       },
       fontFamily: {
         'beth-ellen': ['"Beth Ellen"', 'cursive'],
