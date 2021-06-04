@@ -14,13 +14,13 @@
     {{ if $has_social_media }}
       <div class="mt-6 pb-1 inline-flex items-center space-x-4 site-link">
         {{ if .twitter }}
-          <a href="{{ printf "https://twitter.com/%s" .twitter }}" target="_blank" class="flex items-center space-x-2">
+          <a href="{{ printf "https://twitter.com/%s" .twitter }}" target="_blank" class="flex items-center space-x-2 hover:text-fire-opal">
             <img src="{{ "images/twitter.svg" | absURL }}" alt="">
             <span>{{ .twitter }}</span>
           </a>
         {{ end }}
         {{ if .instagram }}
-          <a href="{{ printf "https://instagram.com/%s" .instagram }}" target="_blank" class="flex items-center space-x-2">
+          <a href="{{ printf "https://instagram.com/%s" .instagram }}" target="_blank" class="flex items-center space-x-2 hover:text-fire-opal">
             <img src="{{ "images/instagram.svg" | absURL }}" alt="">
             <span>{{ .instagram }}</span>
           </a>
