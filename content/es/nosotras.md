@@ -1,5 +1,5 @@
 ---
-title: Sobre nosotras
+title: Nosotras
 weight: 2
 menu:
   main:

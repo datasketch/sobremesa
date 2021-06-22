@@ -5,7 +5,14 @@ module.exports = {
   },
   darkMode: false, // or 'media' or 'class'
   theme: {
+    minWidth: {
+      '165': '165px',
+    },
     extend: {
+      inset: {
+        '18': '4.5rem',
+        '-18': '-4.5rem',
+      },
       lineHeight: {
         'extra-tight': '0.75',
       },

@@ -1,7 +1,7 @@
 ---
-title: Acompañamiento
+title: Acompañamientos
 layout: acompanamiento
-weight: 5
+weight: 3
 menu: main
 color: fire-opal
 ---

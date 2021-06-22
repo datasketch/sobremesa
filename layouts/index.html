@@ -1,23 +1,23 @@
 {{ define "main" }}
 <section class="px-4 pb-16 pt-0">
-  <div class="container">
+  <div class="container-lg md:w-full md:ml-6">
     <div class="section-row">
-      <div class="section-col pt-12 lg:pt-32">
-        <div class="section-col-inner">
+      <div class="section-col pt-12 z-50 lg:pt-32">
+        <div class="section-col-inner relative z-50 lg:left-10 xl:left-18">
           <p class="section-description">
             Un espacio de reflexión y aprendizaje
           </p>
-          <h2 class="uppercase text-7xl font-martin leading-extra-tight xl:text-8xl xl:leading-extra-tight">
+          <h2 class="uppercase text-7xl font-martin leading-extra-tight md:text-8xl md:leading-extra-tight">
             Con sociedad civil
           </h2>
-          <h2 class="text-gold-metallic uppercase text-7xl font-martin leading-extra-tight xl:text-8xl xl:leading-extra-tight">
+          <h2 class="text-gold-metallic uppercase text-7xl font-martin leading-extra-tight md:text-8xl md:leading-extra-tight">
             Para sociedad civil
           </h2>
           <img class="h-20 mt-4 object-left object-contain" src="{{ "images/arrow-down.svg" | absURL }}" alt="">
         </div>
       </div>
       <div class="section-col">
-        <img class="mx-auto object-center object-contain" src="{{ "images/sobremesa.png" | absURL }}" alt="">
+        <img class="relative z-0 object-center object-contain -top-10 lg:-left-10 xl:-left-18 lg:top-0" src="{{ "images/sobremesa.png" | absURL }}" alt="">
       </div>
     </div>
   </div>
@@ -31,16 +31,16 @@
           <img class="lg:-ml-32 lg:-mt-16 md:-ml-6 md:mt-0 -mt-8 md:hidden" src="{{ "images/blue-bubble-complete.svg" | absURL }}" alt="En La Sobremesa vas a encontrar un espacio para aprender en colectivo con la sociedad civil en América Latina.">
         </div>
       </div>
-      <div class="section-col lg:w-1/3 mx-auto md:px-6 lg:px-0">
+      <div class="section-col lg:w-1/2 mx-auto md:px-6 lg:px-0">
         <div class="section-col-inner">
           <p class="my-4">
-            El mundo está cambiando todos los días. El futuro es incierto. Mientras nosotros estamos atrapados en nuestras rutinas de siempre o estancados por la rigidez de nuestras estrategias y proyectos de ayer que quizás ya no nos sirven hoy.
+            Enfrentamos limites - tanto externos como internos - en nuestro trabajo. En los momentos mas criticos estamos obligados a reaccionar, no reflexionamos ni tomamos una pausa.
           </p>
           <p class="my-4">
-            Para poder tratar los problemas que trabajamos desde sociedad civil, para poder ser resilientes y generar espacios sanos, necesitamos reflexionar y repensar, honestamente y creativamente.
+            Para ser mas resilientes en el futuro, necesitamos un espacio para repensarnos honesta y creativamente.
           </p>
           <p class="section-description my-4">
-            Necesitamos un espacio para crecer, inspirar y transformarnos.
+            Necesitamos un espacio para crecer y transformarnos.
           </p>
           <div class="my-4">
             <a href="" class="site-link text-chocolate hover:text-fire-opal">{{ T "read_more_about_us" }}</a>
@@ -57,18 +57,18 @@
     </h2>
     <div class="mt-16 grid gap-16 lg:grid-cols-3">
       <div class="max-w-sm mx-auto">
-        <img class="mx-auto h-48 object-center object-contain" src="{{ "images/resources-sketch.png" | absURL }}" alt="">
-        <div class="flex flex-row justify-start items-start -ml-10">
-          <img class="h-10 object-center object-contain" src="{{ "images/green-star.svg" | absURL }}" alt="">
-          <h3 class="mt-4 font-source-serif-pro text-4xl">Compartimos herramientas</h3>
+        <img class="mx-auto h-48 object-center object-contain" src="{{ "images/guide-sketch.png" | absURL }}" alt="">
+        <div class="flex flex-row justify-center items-start -ml-10">
+          <img class="h-10 object-center object-contain" src="{{ "images/red-star.svg" | absURL }}" alt="">
+          <h3 class="mt-4 font-source-serif-pro text-4xl">Damos acompañamiento</h3>
         </div>
         <p class="mt-6 font-semibold text-xl">
-          ¿Quieres aprender por tu propia cuenta, con materiales relevantes para ti?
+          ¿Quieres profundizar en tu proceso de reflexionar, revisar y repensar tu organización?
         </p>
         <p class="mt-8 text-lg">
-          Seleccionamos - y creamos - recursos que te van a inspirar y guiar, en temas como crear una cultura de trabajo saludable y buscar la sostenibilidad de tu organización.
+          Acompañamos, diseñamos y facilitamos procesos de cambio personalizados, uno a uno, para organizaciones de la Sociedad Civil en América Latina.
         </p>
-        <a href="" class="mt-8 site-link hover:text-darmouth-green">{{ T "read_more_tools" }}</a>
+        <a href="" class="mt-8 site-link hover:text-fire-opal">{{ T "read_more_acompaniment" }}</a>
       </div>
       <div class="max-w-sm mx-auto">
         <img class="mx-auto h-48 object-center object-contain" src="{{ "images/conversation-sketch.png" | absURL }}" alt="">
@@ -80,23 +80,24 @@
           ¿Quieres escuchar y hablar con personas tratando con los mismos desafíos que tú?
         </p>
         <p class="mt-8 text-lg">
-          Creamos espacios para conversaciones reales, honestas, y constructivas donde puedes hablar de problemas del sector y generar ideas para tratarlos con colegas.
+          Creamos espacios de confianza para hablar entre organizaciones que están enfrentando los mismos desafíos y co-crear soluciones de sociedad civil para sociedad civil.
         </p>
         <a href="" class="mt-8 site-link hover:text-gold-metallic">{{ T "read_more_spaces" }}</a>
       </div>
       <div class="max-w-sm mx-auto">
-        <img class="mx-auto h-48 object-center object-contain" src="{{ "images/guide-sketch.png" | absURL }}" alt="">
-        <div class="flex flex-row justify-center items-start -ml-10">
-          <img class="h-10 object-center object-contain" src="{{ "images/red-star.svg" | absURL }}" alt="">
-          <h3 class="mt-4 font-source-serif-pro text-4xl">Les acompañamos</h3>
+        <img class="mx-auto h-48 object-center object-contain" src="{{ "images/resources-sketch.png" | absURL }}" alt="">
+        <div class="flex flex-row justify-start items-start -ml-10">
+          <img class="h-10 object-center object-contain" src="{{ "images/green-star.svg" | absURL }}" alt="">
+          <h3 class="mt-4 font-source-serif-pro text-4xl">Compartimos herramientas</h3>
+          <span class="w-10 border-b-4 border-darmouth-green"></span>
         </div>
         <p class="mt-6 font-semibold text-xl">
-          ¿Quieres profundizar en tu proceso de reflexionar, revisar y repensar tu organización?
+          ¿Quieres aprender por tu propia cuenta, con materiales relevantes para ti?
         </p>
         <p class="mt-8 text-lg">
-          Acompañamos a organizaciones de sociedad civil en América Latina, en el diseño y facilitación de procesos de cambio basados en sus contextos, desafíos, y necesidades.
+          Creamos y seleccionamos una batería de materiales que te van a guiar e inspirar en tu trabajo y a tu organización: Podcast, toolkits, videos, artículos, guías y más.
         </p>
-        <a href="" class="mt-8 site-link hover:text-fire-opal">{{ T "read_more_acompaniment" }}</a>
+        <a href="" class="mt-8 site-link hover:text-darmouth-green">{{ T "read_more_tools" }}</a>
       </div>
     </div>
   </div>
@@ -206,7 +207,7 @@
             </li>
           </ul>
           <div class="mt-16 text-center">
-            <a href="" class="site-link text-white hover:text-chocolate">Nuestras conversaciones</a>
+            <a href="" class="site-link text-white hover:text-chocolate">Súmate a nuestros espacios</a>
           </div>
         </div>
       </div>
@@ -229,7 +230,7 @@
     </div>
     <div class="text-center">
       <a href="" class="site-link text-chocolate hover:text-fire-opal">
-        Nuestros servicios
+        Lee más sobre nuestros acompañamientos
       </a>
     </div>
   </div>

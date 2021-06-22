@@ -1,4 +1,4 @@
-<nav class="h-32 py-2 px-4 flex flex-wrap justify-between content-start uppercase font-source-sans-pro font-bold tracking-wide text-sm">
+<nav class="h-32 py-2 px-4 flex justify-between content-start uppercase font-source-sans-pro font-bold tracking-wide text-sm">
   <div class="h-full flex flex-col justify-center">
     {{ $currentPage := .Page.Params.layout }}
     {{ if eq $currentPage "quienes-somos" }}
@@ -21,8 +21,8 @@
     {{ range .Site.Menus.main }}
       <li>
         {{ if .Children }}
-          <div class="py-4 dropdown border-2 border-linen text-center cursor-default" href="">
-            <a class="py-0 px-4">{{ .Title }}</a>
+          <div class="py-4 px-5 min-w-165 dropdown border-2 border-linen text-center cursor-default" href="">
+            <a class="py-0">{{ .Title }}</a>
             <ul>
               {{ range .Children }}
                 <li class="my-2">
@@ -34,7 +34,7 @@
             </ul>
           </div>
         {{ else }}
-          <div class="py-4 px-7 border-t-2 border-linen">
+          <div class="py-4 px-5 border-2 border-linen">
             <a class="hover:text-{{ with .Page.Params.color }}{{ . }}{{ end }}" href="{{ .URL }}">
               {{ .Title }}
             </a>
