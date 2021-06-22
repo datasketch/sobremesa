@@ -43,7 +43,7 @@
             Necesitamos un espacio para crecer y transformarnos.
           </p>
           <div class="my-4">
-            <a href="" class="site-link text-chocolate hover:text-fire-opal">{{ T "read_more_about_us" }}</a>
+            <a href="{{ relref . "quienes-somos" }}" class="site-link text-chocolate hover:text-fire-opal">{{ T "read_more_about_us" }}</a>
           </div>
         </div>
       </div>
@@ -59,32 +59,32 @@
       <div class="max-w-sm mx-auto">
         <img class="mx-auto h-48 object-center object-contain" src="{{ "images/guide-sketch.png" | absURL }}" alt="">
         <div class="flex flex-row justify-center items-start">
-          <h3 class="mt-4 font-source-serif-pro text-4xl text-center">Damos <span class="w-10 border-b-4 border-fire-opal">acompañamientos</span></h3>
+          <h3 class="mt-4 font-source-serif-pro text-4xl text-center">Damos <span class="w-10 text-fire-opal">acompañamientos</span></h3>
         </div>
         <p class="mt-8 text-lg">
           Acompañamos, diseñamos y facilitamos procesos de cambio personalizados, uno a uno, para organizaciones de la Sociedad Civil en América Latina.
         </p>
-        <a href="" class="mt-8 site-link hover:text-fire-opal">{{ T "read_more_acompaniment" }}</a>
+        <a href="{{ relref . "acompanamiento" }}" class="mt-8 site-link hover:text-fire-opal">{{ T "read_more_acompaniment" }}</a>
       </div>
       <div class="max-w-sm mx-auto">
         <img class="mx-auto h-48 object-center object-contain" src="{{ "images/conversation-sketch.png" | absURL }}" alt="">
         <div class="flex flex-row justify-start items-start">
-          <h3 class="mt-4 font-source-serif-pro text-4xl text-center">Facilitamos <span class="w-10 border-b-4 border-gold-metallic">espacios</span></h3>
+          <h3 class="mt-4 font-source-serif-pro text-4xl text-center">Facilitamos <span class="w-10 text-gold-metallic">espacios</span></h3>
         </div>
         <p class="mt-8 text-lg">
           Creamos espacios de confianza para hablar entre organizaciones que están enfrentando los mismos desafíos y co-crear soluciones de sociedad civil para sociedad civil.
         </p>
-        <a href="" class="mt-8 site-link hover:text-gold-metallic">{{ T "read_more_spaces" }}</a>
+        <a href="{{ relref . "espacios" }}" class="mt-8 site-link hover:text-gold-metallic">{{ T "read_more_spaces" }}</a>
       </div>
       <div class="max-w-sm mx-auto">
         <img class="mx-auto h-48 object-center object-contain" src="{{ "images/resources-sketch.png" | absURL }}" alt="">
         <div class="flex flex-row justify-start items-start">
-          <h3 class="mt-4 font-source-serif-pro text-4xl text-center">Compartimos <span class="w-10 border-b-4 border-darmouth-green">herramientas</span></h3>
+          <h3 class="mt-4 font-source-serif-pro text-4xl text-center">Compartimos <span class="w-10 text-darmouth-green">herramientas</span></h3>
         </div>
         <p class="mt-8 text-lg">
           Creamos y seleccionamos una batería de materiales que te van a guiar e inspirar en tu trabajo y a tu organización: Podcast, toolkits, videos, artículos, guías y más.
         </p>
-        <a href="" class="mt-8 site-link hover:text-darmouth-green">{{ T "read_more_tools" }}</a>
+        <a href="{{ relref . "herramientas" }}" class="mt-8 site-link hover:text-darmouth-green">{{ T "read_more_tools" }}</a>
       </div>
     </div>
   </div>
@@ -146,7 +146,7 @@
             </li>
           </ul>
           <div class="mt-16">
-            <a href="" class="site-link text-white hover:text-gold-metallic">{{ T "read_more_tools" }}</a>
+            <a href="{{ relref . "herramientas" }}" class="site-link text-white hover:text-gold-metallic">{{ T "read_more_tools" }}</a>
           </div>
         </div>
       </div>
@@ -194,7 +194,7 @@
             </li>
           </ul>
           <div class="mt-16 text-center">
-            <a href="" class="site-link text-white hover:text-chocolate">Súmate a nuestros espacios</a>
+            <a href="{{ relref . "espacios" }}" class="site-link text-white hover:text-chocolate">Súmate a nuestros espacios</a>
           </div>
         </div>
       </div>
@@ -216,7 +216,7 @@
       <img class="logo-md" src="{{ "images/logos/code-for-all.png" | absURL }}" alt="">
     </div>
     <div class="text-center">
-      <a href="" class="site-link text-chocolate hover:text-fire-opal">
+      <a href="{{ relref . "acompanamiento" }}" class="site-link text-chocolate hover:text-fire-opal">
         Lee más sobre nuestros acompañamientos
       </a>
     </div>

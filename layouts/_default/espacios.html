@@ -1,12 +1,12 @@
 {{ define "main" }}
-{{ partial "page-header.html" (dict "title" "Espacios" "description" "En La Sobremesa, generamos espacios para tener las conversaciones reales que necesitamos desde sociedad civil. Diseñamos y facilitamos conversaciones para escucharnos, analizarnos, e inspirarnos." "image" "images/conversation-section.png")}}
+{{ partial "page-header.html" (dict "title" "Nuestros espacios" "description" "En La Sobremesa, generamos espacios para hablar de las necesidades y desafios de sociedad civil. Diseñamos y facilitamos conversaciones para escucharnos, analizarnos e inspirarnos." "image" "images/conversation-section.png")}}
 <section class="container px-4 py-16">
   <div class="">
     <div class="section-row xl:space-x-24">
       <div class="relative w-full lg:w-1/2 xl:w-1/3">
         <img class="absolute top-0 left-0 h-full object-contain md:object-fill" src="{{ "images/gold-metallic-footprint.png" | absURL }}" alt="">
         <h2 class="section-title leading-extra-tight relative">
-          Estamos conversando sobre
+          En nuestros espacios de hoy
         </h2>
       </div>
       <div class="w-full lg:w-1/2 xl:w-2/3 self-center">
@@ -16,42 +16,44 @@
           <li>¿Cómo se ve la innovación?</li>
         </ul>
         <div class="mt-12 h-full flex flex-col">
-          <p class="font-semibold text-lg tracking-wide lg:text-xl">
-            Suscribete a nuestro newsletter para poder unirte a futuros espacios liderados por La Sobremesa
+          <p class="font-semibold text-md tracking-wide lg:text-lg">
+            Suscribete a nuestro newsletter para enterarte y participar en futuros espacios.
           </p>
-          <form class="my-4" action="/">
-            <input class="mr-2 bg-linen text-chocolate px-4 py-2 border border-chocolate placeholder-chocolate" type="email" id="email" name="email" placeholder="e-mail">
-            <input class="bg-linen text-chocolate font-bold py-2 px-2 border border-chocolate cursor-pointer hover:bg-chocolate hover:text-linen" type="submit" value="OK">
+          <form class="my-2" action="/">
+            <input class="mr-2 bg-linen text-chocolate px-4 py-1 border border-chocolate placeholder-chocolate" type="email" id="email" name="email" placeholder="e-mail">
+            <input class="bg-linen text-chocolate font-bold py-1 px-2 border border-chocolate cursor-pointer hover:bg-chocolate hover:text-linen" type="submit" value="OK">
           </form>
         </div>
       </div>
     </div>
   </div>
 </section>
-<section class="container px-4 py-16">
-  <div class="flex items-center justify-center">
-    <span class="font-beth-ellen text-xl relative z-10">Nuestros</span>
-    <h2 class="section-title text-gold-metallic -ml-8">
-      Espacios
+<section class="container px-4 pt-24 pb-16">
+  <div class="text-center">
+    <p class="font-beth-ellen text-xl">Lo que hemos aprendido en</p>
+    <h2 class="section-title text-gold-metallic lg:-mt-4">
+      Nuestros espacios
     </h2>
   </div>
-  <p class="mt-4 text-center text-2xl">
-    Generamos y facilitamos espacios para tener conversaciones según sus necesidades y desafios como sociedad civil, en base a que aprendimos con nuestros acompañamientos.
+  <p class="mt-6 text-center text-xl">
+    Te compartimos los aprendizajes de las organizaciones de sociedad civil que participaron en nuestros espacios.
   </p>
   <div class="mt-24 space-y-24">
     <div class="flex flex-col">
-      <div class="flex flex-wrap pb-6 space-y-6 lg:space-y-0 lg:items-center lg:justify-between">
+      <div class="flex flex-wrap pb-6 space-y-6 lg:space-y-0 lg:items-start lg:justify-between">
         <div class="w-full lg:w-1/2 lg:max-w-lg">
-          <h3 class="font-source-serif-pro text-2xl leading-tight">¿Qué tipo de apoyo - o acompañamiento técnico - se recibe dentro de la sociedad civil?</h3>
+          <h3 class="font-source-serif-pro text-2xl leading-tight">¿Qué tipo de apoyo reciben las organizaciones dentro de la sociedad civil?</h3>
           <p class="mt-6">
-            Como parte de nuestro trabajo con Open Contracting Partnership (en esa época, como Agency), entrevistamos a personas de organizaciones de apoyo o "intermediarios", que dan algún tipo de acompañamiento. Hablamos con organizaciones regionales, con redes, con INGOs, e incluso con organizaciones locales.
+            Como parte de nuestro trabajo con <a href="https://www.open-contracting.org/" class="font-bold cursor-pointer hover:text-gold-metallic underline">Open Contracting Partnership</a> (desde Agency), entrevistamos a organizaciones de apoyo que dan acompañamientos. Quisimos entender que tipos de apoyo más les beneficiaban a las organizaciones que buscaban mejorar su implementación de contrataciones abiertas.
           </p>
         </div>
         <div class="w-full lg:w-1/2 lg:max-w-md">
-          <p class="text-gold-metallic font-source-serif-pro text-xl">
+          <p class="font-source-serif-pro text-2xl leading-tight text-gold-metallic">
             ¿Qué encontramos?
           </p>
-          <p>Muchas de las formas de apoyo que se utilizan no funcionan. Hay que escuchar a las voces de las personas quienes reciben este apoyo.</p>
+          <p class="mt-6">
+            Hay muchas formas de apoyo que se utilizan pero que en realidad no funcionan. Para mejorar las practicas de acompañamiento, hay que escuchar las voces de las personas que reciben este apoyo.
+          </p>
         </div>
       </div>
       <div class="bg-gold-metallic p-6 md:px-12">
@@ -63,36 +65,38 @@
           </div>
           <div class="w-full lg:w-3/5">
             <div class="flex flex-col items-start mt-4 md:flex-row md:justify-between lg:mt-0 lg:justify-end lg:space-x-12">
-              <a href="" class="site-link-white hover:text-chocolate">Full report</a>
-              <a href="" class="site-link-white hover:text-chocolate">Blog post</a>
-              <a href="" class="site-link-white hover:text-chocolate">Podcast</a>
+              <a href="https://docs.google.com/document/d/1q2D__OmTi2lwNJcIHef5coq-fOFZ-bHTIp1QiB8dbis/edit" class="site-link-white hover:text-chocolate">Full report</a>
+              <a href="https://docs.google.com/presentation/d/1uRidmBzqRk0LEg2Uh_9-RJg8cCeUf7EA3A_4KpJsWQQ/edit#slide=id.p" class="site-link-white hover:text-chocolate">Presentación</a>
+              <a href="https://docs.google.com/spreadsheets/d/1SVrzcc5zfvwaZZQupGow9oQoyL1CuiCoOoq47rInv0E/edit#gid=1115331350" class="site-link-white hover:text-chocolate">Mapeo</a>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="flex flex-col">
+    <!-- <div class="flex flex-col">
       <div class="flex flex-wrap pb-6 space-y-6 lg:space-y-0 lg:items-center lg:justify-between">
         <div class="w-full lg:w-1/2 lg:max-w-lg">
           <h3 class="font-source-serif-pro text-2xl leading-tight">
             ¿Cómo se ve el futuro de la filantropía en América Latina?
           </h3>
           <p class="mt-6">
-            Como parte de nuestro apoyo a la coalición de donantes y actores filantrópicos, facilitamos una serie de talleres sobre qué factores - o "tendencias" - pueden influir la filantropía en América. Latina.
+            Como parte de nuestro apoyo a la coalición de donantes y actores filantrópicos de <a href="https://wingsweb.org/" class="font-bold cursor-pointer hover:text-gold-metallic underline">WINGS</a> facilitamos una serie de tres talleres en línea sobre qué factores -o que "tendencias"- pueden influir en el futuro la filantropía en América Latina.
           </p>
         </div>
         <div class="w-full lg:w-1/2 lg:max-w-md">
-          <p class="text-gold-metallic font-source-serif-pro text-xl">
+          <p class="font-source-serif-pro text-2xl leading-tight text-gold-metallic">
             ¿Qué encontramos?
           </p>
-          <p>Hay tendencias muy positivas que nos dan esperanza como trust based philanthropy y mutual aid networks pero por otro lado hay nuevos actores privados y un cierre de "civic spaces" y fiscal borders que nos preocupan.</p>
+          <p class="mt-6">
+            Hay tendencias muy positivas que nos dan esperanza como "trust based philanthropy" (filantropía basada en confianza)  y "mutual aid networks" (redes de apoyo mutuo), pero por otro lado hay tentendicas que nos preocupan, como el cierre del espacio cívico, limitaciones fiscales e incluso nuevos actores con distintos valores a la filantropía.
+          </p>
         </div>
       </div>
       <div class="bg-gold-metallic p-6 md:px-12">
         <div class="flex flex-col lg:flex-row lg:items-center">
           <div class="w-full lg:w-2/5">
             <p class="font-source-serif-pro text-lg font-bold leading-tight lg:text-center">
-              Lee más sobre los prototipos de escenarios que crearon la coalición aquí.
+              Lee más sobre los potenciales futuros que creamos en este espacio...
             </p>
           </div>
           <div class="w-full lg:w-3/5">
@@ -104,7 +108,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </section>
 <div class="container px-4 py-16">
@@ -114,7 +118,7 @@
     </div>
     <div class="section-col text-center">
       <h2 class="section-title-md leading-extra-tight">
-        ¿Te interesa ser parte de futuros <span class="text-gold-metallic">espacios</span> y recibir noticias sobre nuestras <span class="text-gold-metallic">conversaciones</span>?
+        ¿Te interesa participar en <span class="text-gold-metallic">futuros espacios</span> y recibir noticias sobre <span class="text-gold-metallic">nuestras conversaciones</span>?
       </h2>
       <div class="mt-12 h-full flex flex-col">
         <p class="font-semibold text-lg tracking-wide lg:text-xl">

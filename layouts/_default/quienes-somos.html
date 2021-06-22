@@ -1,8 +1,8 @@
 {{ define "main" }}
-{{ partial "page-header.html" (dict "title" "Quiénes somos" "description" "Somos una colectiva de personas con diversas experiencias, conocimientos y fortalezas, todas trabajando en nuestros distintos sectores para hacer que la sociedad civil en América Latina pueda generar el impacto que buscan." "image" "images/who-section.png")}}
+{{ partial "page-header.html" (dict "title" "Quiénes somos" "description" "Somos un colectivo de personas con diversas experiencias y conocimientos, todas trabajando en distintos sectores para aportar a una sociedad civil en América Latina más fuerte y resiliente." "image" "images/who-section.png")}}
 <section class="container px-4 py-16">
   <div class="text-center leading-tight">
-    <p class="font-source-serif-pro text-xl md:text-2xl">Sentadas en la mesa, todos los días, está</p>
+    <p class="font-source-serif-pro text-xl md:text-2xl">Sentadas en la mesa de La Sobremesa está</p>
     <h2 class="section-title with-stars">El equipo</h2>
   </div>
 </section>
@@ -20,8 +20,9 @@
         <img class="mx-auto w-full md:w-2/3 lg:w-4/5 lg:ml-0" src="{{ "images/join-team-es.svg" | absURL }}" alt="">
       </div>
       <div class="section-col text-white">
-        <p class="text-2xl font-bold">Estamos buscando</p>
-        <ul class="mt-4 font-source-serif-pro text-xl">
+        <p class="text-2xl font-bold">¡Súmate!</p>
+        <p class="mt-4 font-source-serif-pro text-xl">Pronto anunciaremos vacantes disponibles</p>
+        <!-- <ul class="mt-4 font-source-serif-pro text-xl">
           <li class="flex items-center space-x-3">
             <img class="w-4" src="{{ "images/yellow-star.svg" | absURL }}" alt="">
             <p>Research Assistant</p>
@@ -31,7 +32,7 @@
             <p>Comms / Content Creator</p>
           </li>
         </ul>
-        <a href="" class="mt-12 site-link-white hover:text-gold-metallic">Aplicar a una vacante</a>
+        <a href="" class="mt-12 site-link-white hover:text-gold-metallic">Aplicar a una vacante</a> -->
       </div>
     </div>
   </div>
@@ -59,7 +60,7 @@
         Qué hacemos
       </h2>
     </div>
-    <a href="" class="site-link-white ml-8 mt-8 mb-0 sm:mb-8 hover:text-chocolate">{{ T "read_more" }}</a>
+    <a href="{{ relref . "que-hacemos" }}" class="site-link-white ml-8 mt-8 mb-0 sm:mb-8 hover:text-chocolate">{{ T "read_more" }}</a>
   </div>
 </section>
 {{ range .Site.Data.guests }}

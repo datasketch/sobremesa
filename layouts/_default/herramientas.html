@@ -2,16 +2,16 @@
 {{ partial "page-header.html" (dict "title" "Herramientas" "description" "Explora las herramientas - guías, videos, podcasts, artículos, y más - que estamos usando en nuestros acompañamientos y demás trabajo." "image" "images/resources-section.png")}}
 <section class="px-4 py-16">
   <div class="container-lg">
-    <h2 class="font-source-serif-pro text-4xl font-bold text-darmouth-green">
+    <!-- <h2 class="font-source-serif-pro text-4xl font-bold text-darmouth-green">
       Herramientas principales
     </h2>
     <div class="mt-6 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
       {{ range .Site.Data.resources.principal }}
         {{ partial "resource-card.html" . }}
       {{ end }}
-    </div>
-    <h2 class="mt-20 font-source-serif-pro text-4xl font-bold text-darmouth-green">
-      Todas las herramientas
+    </div> -->
+    <h2 class="font-source-serif-pro text-4xl font-bold text-darmouth-green">
+      Las herramientas que hemos usado
     </h2>
     <div class="mt-6 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
       {{ range .Site.Data.resources.all }}
