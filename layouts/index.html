@@ -5,11 +5,13 @@
       <div class="section-col pt-12 z-50 lg:pt-32">
         <div class="section-col-inner relative z-50 lg:left-10 xl:left-18">
           <p class="section-description">
-            Un espacio de reflexión y aprendizaje
+            {{- T "page_home_header_first_row" -}}
           </p>
           <h1 class="uppercase text-7xl font-martin leading-extra-tight md:text-8xl md:leading-extra-tight">
-            <span>Con sociedad civil</span>
-            <span class="text-gold-metallic block">Para sociedad civil</span>
+            <span>{{- T "page_home_header_second_row" -}}</span>
+            <span class="text-gold-metallic block">
+              {{- T "page_home_header_third_row" -}}
+            </span>
           </h1>
           <img class="h-20 mt-4 object-left object-contain" src="{{ "images/arrow-down.svg" | absURL }}" alt="">
         </div>
@@ -32,16 +34,16 @@
       <div class="section-col lg:w-1/2 mx-auto md:px-6 lg:px-0">
         <div class="section-col-inner">
           <p class="my-4">
-            Enfrentamos límites -tanto externos como internos- en nuestro trabajo. En los momentos mas críticos estamos obligados a reaccionar, no reflexionamos ni tomamos una pausa.
+            {{- T "page_home_about_first_row" -}}
           </p>
           <p class="my-4">
-            Para ser mas resilientes en el futuro, necesitamos un espacio para repensarnos honesta y creativamente.
+            {{- T "page_home_about_second_row" -}}
           </p>
           <p class="section-description my-4">
-            Necesitamos un espacio para crecer y transformarnos.
+            {{- T "page_home_about_third_row" -}}
           </p>
           <div class="my-4">
-            <a href="{{ relref . "quienes-somos" }}" class="site-link text-chocolate hover:text-fire-opal">{{ T "read_more_about_us" }}</a>
+            <a href="{{ relref . "quienes-somos" }}" class="site-link text-chocolate hover:text-fire-opal">{{- T "action_read_about_us_sobremesa" -}}</a>
           </div>
         </div>
       </div>
@@ -51,41 +53,47 @@
 <section class="px-4 pt-16 pb-32">
   <div class="container">
     <h2 class="section-title text-center">
-      ¿Qué hacemos?
+      {{- T "label_what_do_we_do" -}}
     </h2>
     <div class="mt-16 grid gap-16 lg:grid-cols-3">
       <div class="max-w-sm mx-auto">
         <img class="mx-auto h-48 object-center object-contain" src="{{ "images/guide-sketch.png" | absURL }}" alt="">
         <div class="flex flex-row justify-center items-start -ml-10">
           <img class="h-10 object-center object-contain" src="{{ "images/red-star.svg" | absURL }}" alt="">
-          <h3 class="mt-4 font-source-serif-pro text-4xl text-left">Damos <span class="w-10 text-fire-opal">acompañamientos</span></h3>
+          <h3 class="mt-4 font-source-serif-pro text-4xl text-left">
+            {{ T "page_home_services_first_title" }} <span class="w-10 text-fire-opal">{{ T "page_home_services_first_hl" }}</span>
+          </h3>
         </div>
         <p class="mt-8 text-lg">
-          Acompañamos, diseñamos y facilitamos procesos de cambio personalizados, uno a uno, para organizaciones de la Sociedad Civil en América Latina.
+          {{- T "page_home_services_first_desc" -}}
         </p>
-        <a href="{{ relref . "acompanamiento" }}" class="mt-8 site-link hover:text-fire-opal">{{ T "read_more_acompaniment" }}</a>
+        <a href="{{ relref . "acompanamiento" }}" class="mt-8 site-link hover:text-fire-opal">{{- T "action_read_about_accompaniment" -}}</a>
       </div>
       <div class="max-w-sm mx-auto">
         <img class="mx-auto h-48 object-center object-contain" src="{{ "images/conversation-sketch.png" | absURL }}" alt="">
         <div class="flex flex-row justify-start items-start -ml-10">
           <img class="h-10 object-center object-contain" src="{{ "images/yellow-star.svg" | absURL }}" alt="">
-          <h3 class="mt-4 font-source-serif-pro text-4xl text-left">Facilitamos <span class="w-10 text-gold-metallic">espacios</span></h3>
+          <h3 class="mt-4 font-source-serif-pro text-4xl text-left">
+            {{ T "page_home_services_second_title" }} <span class="w-10 text-gold-metallic">{{ T "page_home_services_second_hl" }}</span>
+          </h3>
         </div>
         <p class="mt-8 text-lg">
-          Creamos espacios de confianza para hablar entre organizaciones que están enfrentando los mismos desafíos y co-crear soluciones de sociedad civil para sociedad civil.
+          {{- T "page_home_services_second_desc" -}}
         </p>
-        <a href="{{ relref . "espacios" }}" class="mt-8 site-link hover:text-gold-metallic">{{ T "read_more_spaces" }}</a>
+        <a href="{{ relref . "espacios" }}" class="mt-8 site-link hover:text-gold-metallic">{{- T "action_join_spaces" -}}</a>
       </div>
       <div class="max-w-sm mx-auto">
         <img class="mx-auto h-48 object-center object-contain" src="{{ "images/resources-sketch.png" | absURL }}" alt="">
         <div class="flex flex-row justify-start items-start -ml-10">
           <img class="h-10 object-center object-contain" src="{{ "images/green-star.svg" | absURL }}" alt="">
-          <h3 class="mt-4 font-source-serif-pro text-4xl text-left">Compartimos <span class="w-10 text-darmouth-green">herramientas</span></h3>
+          <h3 class="mt-4 font-source-serif-pro text-4xl text-left">
+            {{ T "page_home_services_third_title" }} <span class="w-10 text-darmouth-green">{{ T "page_home_services_third_hl" }}</span>
+          </h3>
         </div>
         <p class="mt-8 text-lg">
-          Creamos y seleccionamos una batería de materiales que te van a guiar e inspirar en tu trabajo y a tu organización: Podcast, toolkits, videos, artículos, guías y más.
+          {{- T "page_home_services_third_desc" -}}
         </p>
-        <a href="{{ relref . "herramientas" }}" class="mt-8 site-link hover:text-darmouth-green">{{ T "read_more_tools" }}</a>
+        <a href="{{ relref . "herramientas" }}" class="mt-8 site-link hover:text-darmouth-green">{{ T "action_explore_resources" }}</a>
       </div>
     </div>
   </div>
@@ -109,7 +117,7 @@
                 <p class="text-xl font-source-serif-pro font-bold leading-none">
                   El ABC de la Contratación Pública
                 </p>
-                <a href="" class="site-link mt-2 hover:text-gold-metallic">{{ T "read_more" }}</a>
+                <a href="" class="site-link mt-2 hover:text-gold-metallic">{{ T "action_read_more" }}</a>
               </div>
             </li>
             <li class="flex space-x-6 items-center">
@@ -147,7 +155,7 @@
             </li>
           </ul>
           <div class="mt-16">
-            <a href="{{ relref . "herramientas" }}" class="site-link text-white hover:text-gold-metallic">{{ T "read_more_tools" }}</a>
+            <a href="{{ relref . "herramientas" }}" class="site-link text-white hover:text-gold-metallic">{{ T "action_explore_more_tools" }}</a>
           </div>
         </div>
       </div>
@@ -156,7 +164,7 @@
 </section>
 <section class="px-8 pb-16 md:px-4 md:pb-0 bg-gold-metallic">
   <div class="container w-full lg:w-10/12">
-    <div class="section-row section-row-reverse md:space-y-0 md:flex-row md:flex-row-reverse">
+    <div class="section-row section-row-reverse md:space-y-0 md:flex-row-reverse">
       <div class="section-col md:py-0 md:px-4 md:w-1/2">
         <div class="section-col-inner home-banner bg-spaces-sm md:bg-spaces-lg">
           <h2 class="section-title leading-extra-tight text-linen relative">
@@ -171,31 +179,31 @@
               <div class="numbered-item">1</div>
               <div>
                 <p class="text-xl font-source-serif-pro font-bold leading-none">
-                  ¿Cómo se aprende dentro de la sociedad civil?
+                  {{- T "page_home_discuss_first_q" -}}
                 </p>
-                <a href="" class="site-link mt-2 hover:text-linen hidden">{{ T "join_conversation" }}</a>
+                <a href="" class="site-link mt-2 hover:text-linen hidden">{{ T "action_read_more" }}</a>
               </div>
             </li>
             <li class="flex space-x-6 items-center">
               <div class="numbered-item">2</div>
               <div>
                 <p class="text-xl font-source-serif-pro font-bold leading-none">
-                  ¿Cómo y cuándo se colabora dentro de sociedad civil?
+                  {{- T "page_home_discuss_second_q" -}}
                 </p>
-                <a href="" class="site-link mt-2 hover:text-linen hidden">{{ T "join_conversation" }}</a>
+                <a href="" class="site-link mt-2 hover:text-linen hidden">{{ T "action_read_more" }}</a>
               </div>
             </li>
             <li class="flex space-x-6 items-center">
               <div class="numbered-item">3</div>
               <div>
                 <p class="text-xl font-source-serif-pro font-bold leading-none">
-                  ¿Que significa la innovación dentro de la sociedad civil y cómo se hace?
+                  {{- T "page_home_discuss_third_q" -}}
                 </p>
-                <a href="" class="site-link mt-2 hover:text-linen hidden">{{ T "join_conversation" }}</a>
+                <a href="" class="site-link mt-2 hover:text-linen hidden">{{ T "action_read_more" }}</a>
             </li>
           </ul>
           <div class="mt-16 text-center">
-            <a href="{{ relref . "espacios" }}" class="site-link text-white hover:text-chocolate">Súmate a nuestros espacios</a>
+            <a href="{{ relref . "espacios" }}" class="site-link text-white hover:text-chocolate">{{- T "action_join_future_spaces" -}}</a>
           </div>
         </div>
       </div>
@@ -206,7 +214,7 @@
   <div class="container-md pt-8 md:pt-16">
     <div class="home-banner bg-acompaniment-sm md:bg-acompaniment-lg bg-top pt-40">
       <h2 class="section-title leading-extra-tight text-center text-fire-opal">
-        ¿Con quiénes hemos trabajado?
+        {{- T "page_home_accompaniment_title" -}}
       </h2>
     </div>
     <div class="py-12 flex flex-wrap justify-center items-center">
@@ -218,7 +226,7 @@
     </div>
     <div class="text-center">
       <a href="{{ relref . "acompanamiento" }}" class="site-link text-chocolate hover:text-fire-opal">
-        Lee más sobre nuestros acompañamientos
+        {{- T "action_read_about_accompaniment_support" -}}
       </a>
     </div>
   </div>

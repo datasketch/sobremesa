@@ -14,7 +14,7 @@
   translation: Leer más
 - id: label_join
   translation: "¡Súmate!"
-- id: label_read_about_us_sobremesa
+- id: action_read_about_us_sobremesa
   translation: Leer más sobre La Sobremesa
 - id: label_receive_newsletter
   translation: "¿Quieres recibir nuestra newsletter?"
