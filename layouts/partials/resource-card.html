@@ -1,36 +1,53 @@
 <div class="resource-card
-  {{ if eq "Guía" .type }}
+  {{ if eq .type (or "Guía" (or "Libro" "Reporte")) }}
     border-darmouth-green
-  {{ else if eq "Sitio web" .type }}
+  {{ else if eq .type (or "Sitio web" (or "Herramienta")) }}
     border-maximum-green
   {{ else }}
     border-pine-green
   {{ end }}">
-  <div class="resource-body">
-    <span class="resource-type
-      {{ if eq "Guía" .type }}
-        text-darmouth-green
-      {{ else if eq "Sitio web" .type }}
-        text-maximum-green
-      {{ else }}
-        text-pine-green
-      {{ end }}">
-      {{ .type }}</span>
-    <h3 class="resource-title">
-      {{ .title }}
-    </h3>
-    <p class="resource-source">
-      {{ .source }}
-    </p>
+  <div class="resource-image">
+    <img src="{{ .clip }}" alt="">
   </div>
-  <a href="{{ .url }}" class="text-white font-bold text-lg px-4 py-2 hover:bg-chocolate
-    {{ if eq "Guía" .type }}
-      bg-darmouth-green
-    {{ else if eq "Sitio web" .type }}
-      bg-maximum-green
-    {{ else }}
-      bg-pine-green
-    {{ end }}">
-    Ver más
-  </a>
+  <div class="resource-content">
+    <div class="resource-body">
+      <span class="resource-type
+        {{ if eq .type (or "Guía" (or "Libro" "Reporte")) }}
+          text-darmouth-green
+        {{ else if eq .type (or "Sitio web" (or "Herramienta")) }}
+          text-maximum-green
+        {{ else }}
+          text-pine-green
+        {{ end }}">
+        {{ .type }}</span>
+      <h3 class="resource-title">
+        {{ .title }}
+      </h3>
+      <p class="resource-source">
+        {{ .creator }}
+      </p>
+    </div>
+    <div class="resource-buttons">
+      <a href="{{ .url }}" class="text-white font-bold text-lg mr-4 px-4 py-2 hover:bg-chocolate
+        {{ if eq .type (or "Guía" (or "Libro" "Reporte")) }}
+          bg-darmouth-green
+        {{ else if eq .type (or "Sitio web" (or "Herramienta")) }}
+          bg-maximum-green
+        {{ else }}
+          bg-pine-green
+        {{ end }}">
+        Leer más
+      </a>
+      <a href="{{ .url }}" class="text-white font-bold text-lg mr-4 px-4 py-2 hover:bg-chocolate
+        {{ if eq .type (or "Guía" (or "Libro" "Reporte")) }}
+          bg-darmouth-green
+        {{ else if eq .type (or "Sitio web" (or "Herramienta")) }}
+          bg-maximum-green
+        {{ else }}
+          bg-pine-green
+        {{ end }}">
+        Ir a la herramienta
+      </a>
+    </div>
+  </div>
 </div>

@@ -138,19 +138,25 @@
     @apply hidden md:block -left-28;
   }
   .resource-card {
-    @apply border-2 px-6 py-4 flex flex-col items-start;
+    @apply border-2 px-6 py-4 flex flex-col;
+  }
+  .resource-image img {
+    @apply h-32 w-auto;
   }
   .resource-body {
-    @apply flex-grow mb-6;
+    @apply flex-grow;
   }
   .resource-type {
     @apply font-bold;
   }
   .resource-title {
-    @apply font-source-serif-pro font-semibold text-2xl leading-none mt-2;
+    @apply font-source-serif-pro font-semibold text-xl leading-none mt-2;
   }
   .resource-source {
-    @apply text-lg italic;
+    @apply text-base italic;
+  }
+  .resource-buttons {
+    @apply mt-6 mb-2;
   }
   .page-header-container {
     @apply w-full mx-auto sm:w-10/12 lg:w-10/12;
