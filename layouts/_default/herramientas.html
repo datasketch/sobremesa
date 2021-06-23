@@ -33,4 +33,12 @@
     </div>
   </div>
 </div>
+{{ range .Site.Data.resources.all }}
+  {{ partial "resource-modal.html" . }}
+{{ end }}
+{{ end }}
+
+{{ define "js" }}
+  {{ $do := resources.Get "js/do.js" | js.Build (dict "minify" true)}}
+  <script src="{{ $do.Permalink }}"></script>
 {{ end }}

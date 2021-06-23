@@ -28,7 +28,7 @@
       </p>
     </div>
     <div class="resource-buttons">
-      <a href="{{ .url }}" class="text-white font-bold text-lg mr-4 px-4 py-2 hover:bg-chocolate
+      <button data-modal="{{ .url }}" class="text-white font-bold text-lg mr-4 px-4 py-2 hover:bg-chocolate
         {{ if eq .type (or "Guía" (or "Libro" "Reporte")) }}
           bg-darmouth-green
         {{ else if eq .type (or "Sitio web" (or "Herramienta")) }}
@@ -37,7 +37,7 @@
           bg-pine-green
         {{ end }}">
         Leer más
-      </a>
+      </button>
       <a href="{{ .url }}" class="text-white font-bold text-lg mr-4 px-4 py-2 hover:bg-chocolate
         {{ if eq .type (or "Guía" (or "Libro" "Reporte")) }}
           bg-darmouth-green
