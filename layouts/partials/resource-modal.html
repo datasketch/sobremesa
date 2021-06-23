@@ -1,0 +1,31 @@
+<div class="modal-wrapper" id="{{ .url }}" tabindex="-1" role="dialog" aria-labelledby="resource-name" aria-describedby="resource-answer">
+  <div class="w-full bg-linen m-auto p-4 md:py-8 lg:max-w-5xl lg:pt-16">
+    <div class="section-row items-center lg:items-start">
+      <div class="w-full md:w-1/3 lg:w-1/2 lg:pr-20">
+        <div class="mx-auto lg:w-56 lg:mr-0">
+          <div class="aspect-w-1 aspect-h-1">
+            <img class="object-cover object-left-top" src="{{ .clip }}" alt="">
+          </div>
+        </div>
+        <div class="lg:text-right">
+          <p class="mt-2 font-source-serif-pro text-2xl text-fire-opal font-bold" id="guest-name">
+            {{ .title }}
+          </p>
+          <p class="font-bold leading-tight uppercase">{{ .creator }}</p>
+          <p class="font-source-serif-pro font-normal">{{ .target }}</p>
+        </div>
+      </div>
+      <div class="w-full md:w-2/3 lg:w-1/2 lg:max-w-sm">
+        <h2 class="font-source-serif-pro text-xl leading-tight">
+          ¿Qué desafíos ves en la sociedad civil latinoamericana?
+        </h2>
+        <p class="mt-6" id="resource-answer">{{ .description }}</p>
+      </div>
+    </div>
+    <div class="text-center mt-12">
+      <button class="border-2 border-chocolate uppercase font-bold p-2 leading-none">
+        Cerrar
+      </button>
+    </div>
+  </div>
+</div>
