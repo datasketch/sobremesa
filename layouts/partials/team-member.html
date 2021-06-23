@@ -1,8 +1,10 @@
 {{ $has_social_media := or .instagram .twitter }}
 {{ $info := index .Member .Lang }}
 <div class="section-row items-start">
-  <div class="section-col">
-    <img src="{{ .Member.image | absURL }}" alt="">
+  <div class="section-col lg:px-12 lg:pt-1">
+    <div class="aspect-w-1 aspect-h-1">
+      <img class="object-cover object-center" src="{{ .Member.image | absURL }}" alt="">
+    </div>
   </div>
   <div class="section-col">
     <h3 class="text-fire-opal font-source-serif-pro font-bold text-3xl">
