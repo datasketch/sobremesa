@@ -1,3 +1,62 @@
+- id: action_explore_more_tools
+  translation: Explora más herramientas
+- id: action_explore_resources
+  translation: Explora los recursos
+- id: action_join_future_spaces
+  translation: Súmate a nuestros espacios
+- id: action_join_spaces
+  translation: Súmate a los espacios
+- id: action_read_about_accompaniment
+  translation: Lee más sobre nuestros acompañamientos
+- id: action_read_about_accompaniment_support
+  translation: Lee más sobre nuestros acompañamientos
+- id: action_read_more
+  translation: Leer más
+- id: label_read_about_us_sobremesa
+  translation: Leer más sobre La Sobremesa
+- id: label_receive_newsletter
+  translation: "¿Quieres recibir nuestra newsletter?"
+- id: label_what_do_we_do
+  translation: "¿Qué hacemos?"
+- id: page_home_about_first_row
+  translation: Enfrentamos límites - tanto externos como internos - en nuestro trabajo. En los momentos más críticos estamos obligados a reaccionar, no reflexionamos ni tomamos una pausa.
+- id: page_home_about_second_row
+  translation: Para ser más resilientes en el futuro, necesitamos un espacio para repensarnos honesta y creativamente.
+- id: page_home_about_third_row
+  translation: Necesitamos un espacio para crecer y transformarnos.
+- id: page_home_accompaniment_title
+  translation: "¿Con quién hemos trabajado?"
+- id: page_home_discuss_first_q
+  translation: "¿Cómo se aprende dentro de la sociedad civil?"
+- id: page_home_discuss_second_q
+  translation: "¿Cuándo y cómo colaboramos dentro de sociedad civil?"
+- id: page_home_discuss_third_q
+  translation: "¿Qué significa innovación para sociedad civil? ¿Cómo innovamos?"
+- id: page_home_header_first_row
+  translation: Un espacio de reflexión y aprendizaje
+- id: page_home_header_second_row
+  translation: Con sociedad civil
+- id: page_home_header_third_row
+  translation: Para sociedad civil
+- id: page_home_services_first_desc
+  translation: Acompañamos, diseñamos y facilitamos procesos de cambio personalizados, uno-a-uno para organizaciones de la Sociedad Civil en América Latina.
+- id: page_home_services_first_hl
+  translation: acompañamientos
+- id: page_home_services_first_title
+  translation: Damos
+- id: page_home_services_second_desc
+  translation: Creamos espacios de confianza para hablar entre organizaciones que están enfrentando los mismos desafíos y co-crear soluciones de sociedad civil para sociedad civil.
+- id: page_home_services_second_hl
+  translation: espacios
+- id: page_home_services_second_title
+  translation: Facilitamos
+- id: page_home_services_third_desc
+  translation: 'Creamos y seleccionamos una batería de materiales que te van a guiar e inspirar en tu trabajo y a tu organización: Podcast, toolkits, videos, artículos, guías y más.'
+- id: page_home_services_third_hl
+  translation: herramientas
+- id: page_home_services_third_title
+  translation: Compartimos
+
 - id: read_more
   translation: Leer más
 

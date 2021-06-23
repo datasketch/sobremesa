@@ -1,3 +1,62 @@
+- id: action_explore_more_tools
+  translation: Explore more tools
+- id: action_explore_resources
+  translation: Explore the resources we use
+- id: action_join_future_spaces
+  translation: Join future spaces
+- id: action_join_spaces
+  translation: Learn about and join our spaces
+- id: action_read_about_accompaniment
+  translation: Read more about our accompaniments
+- id: action_read_about_accompaniment_support
+  translation: Read more about our accompaniment support
+- id: action_read_about_us_sobremesa
+  translation: Read more about La Sobremesa
+- id: action_read_more
+  translation: Read more
+- id: label_receive_newsletter
+  translation: Want to receive our newsletter?
+- id: label_what_do_we_do
+  translation: What do we do?
+- id: page_home_about_first_row
+  translation: We face many challenges - external and internal - with our work. In the most critical moments we are forced to react, rather than reflect or take a pause.
+- id: page_home_about_second_row
+  translation: To be more resilient in the future, we need a space to honestly and creatively rethink ourselves.
+- id: page_home_about_third_row
+  translation: We need a space to grow and transform.
+- id: page_home_accompaniment_title
+  translation: Who have we worked with?
+- id: page_home_discuss_first_q
+  translation: 'How does learning happen within civil society? '
+- id: page_home_discuss_second_q
+  translation: When and how do we collaborate within civil society?
+- id: page_home_discuss_third_q
+  translation: What does innovation mean within civil society? How do we innovate?
+- id: page_home_header_first_row
+  translation: A space to reflect and learn
+- id: page_home_header_second_row
+  translation: With civil society
+- id: page_home_header_third_row
+  translation: For civil society
+- id: page_home_services_first_desc
+  translation: We accompany, and design and facilitate personalized, one-on-one change processes for civil society organizations in Latin America.
+- id: page_home_services_first_hl
+  translation: accompany you
+- id: page_home_services_first_title
+  translation: We
+- id: page_home_services_second_desc
+  translation: We create trust-filled conversation spaces for organizations that are facing the same challenges, and together we co-create solutions by civil society for civil society.
+- id: page_home_services_second_hl
+  translation: spaces
+- id: page_home_services_second_title
+  translation: We facilitate
+- id: page_home_services_third_desc
+  translation: 'We create and select materials that will guide and inspire you in your work and your organization: podcasts, toolkits, videos, articles, guides and more.'
+- id: page_home_services_third_hl
+  translation: tools
+- id: page_home_services_third_title
+  translation: We curate
+
 - id: read_more
   translation: Read more
 
