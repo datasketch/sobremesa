@@ -3,18 +3,28 @@
     "name": "Anca Matioc",
     "role": "Fundadora y Directora de La Sobremesa",
     "email": "anca@lasobremesa.co",
-    "about": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
+    "es": {
+      "about": "Hola! Soy Anca, la fundadora y la directora de La Sobremesa. Llevo más de una decada trabajando y acompañando a organizaciones y redes de sociedad civil en America Latina y en el sur global. Ahora creamos La Sobremesa, un espacio de reflexión y aprendizaje que tanto se necesita en el sector, para pensar y repensar soluciones realistas de sociedad civil para sociedad civil.\nSoy diseñadora y facilitadora de procesos de cambio. Apoyo a organizaciones de sociedad civil a mejor diseñar sus estrategias, a fortalecer la institucion , y a repensar y fortalecer sus estructuras y equipos. Me he enfocado en trabajar con actores de transparencia, anticorrupción, y derechos humanos. Disfruto mucho el acompañamiento y trabajar con personas que se enfocan en mejorar las realidades de sus paises."
+    },
+    "en": {
+      "about": "Hi! I'm Anca, the founder and director of La Sobremesa. I've been working with and accompanying civil society organizations and networks in Latin America and the global south for over a year. Now, through La Sobremesa, we're creating a space of reflection and learning, which is so needed in the space, to think of and iterate realistic solutions for civil society and by civil society.\nI am a designer and facilitator of change processes. I support civil society organizations to better design their strategies, strenthen their institutional practices, and re-think their structures and teams. I have focused on working with transparency, anticorruption and human rights organizations. My passion is getting to accompan those who focus on improving the realities within their countries."
+    },
     "twitter": "AncaMatioc",
     "instagram": "matiocanca",
     "image": "images/people/fake-anca.png"
   },
   {
-    "name": "Graciela Guadarrama",
+    "name": "Graciela Guadarrama Buena",
     "role": "Lideresa de Diseño & Futuros",
     "email": "graciela@lasobremesa.co",
-    "about": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
-    "twitter": "xxxxxxxx",
-    "instagram": "xxxxxxxx",
+    "es": {
+      "about": "¡Hola! Soy Graciela. Mi experiencia engloba Innovación y Diseño en toda su extensión. Utilizo metodologías de diferentes disciplinas para facilitar procesos de acción y transformación; entre ellas se encuentran la Innovación Social, el Diseño Crítico, Futuros Participativos y el Pensamiento Sistémico. Creo en la narrativa como herramienta crucial para el cambio y disfruto mucho del diseño participativo y de los procesos de co-creación.\nPor mi perfil y mente curiosa he trabajado con diversos grupos y organizaciones tanto del sector público, como privado y sociedad civil. Además, con instituciones internacionales como UNESCO, WFP y EU en temas diversos tanto sociales como ambientales."
+    },
+    "en": {
+      "about": "Hi! I'm Graciela. My experience encompasses innovation and design in their entirety. I use  methodologies from different disciplines to facilitate processes of action and transformation – some of these include social innovation, critical design, participatory futures and systems thinking. I believe in narratives as critical tools for change, and I enjoy participatory design and co-creation.\nDue to my profile and curious mind, I have worked with various groups and organizations from both the public and private sectors and civil society. I've also worked with international institutions such as UNESCO, WFP and the EU on various social and environmental issues."
+    },
+    "twitter": "okanaga86",
+    "instagram": "okanaga",
     "image": "images/people/fake-graciela.png"
   }
 ]

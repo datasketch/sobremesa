@@ -1,16 +1,17 @@
 {{ $has_social_media := or .instagram .twitter }}
+{{ $info := index .Member .Lang }}
 <div class="section-row items-start">
   <div class="section-col">
-    <img src="{{ .image | absURL }}" alt="">
+    <img src="{{ .Member.image | absURL }}" alt="">
   </div>
   <div class="section-col">
     <h3 class="text-fire-opal font-source-serif-pro font-bold text-3xl">
-      {{ .name }}
+      {{ .Member.name }}
     </h3>
     <p class="font-source-serif-pro font-bold text-xl">
       {{ .role }}
     </p>
-    <p class="mt-6">{{ .about }}</p>
+    <div class="mt-6">{{ $info.about }}</div>
     {{ if $has_social_media }}
       <div class="mt-6 pb-1 inline-flex items-center space-x-4 site-link">
         {{ if .twitter }}

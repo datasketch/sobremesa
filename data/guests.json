@@ -3,111 +3,191 @@
     "id": "milena-pafundi",
     "name": "Milena Pafundi",
     "image": "images/people/milena-pafundi.jpg",
-    "tagline": "Veo organizaciones con desafios de estrategias a largo plazo...",
-    "location": "Argentina basada en Ciudad de México, México",
+    "en": {
+      "tagline": "I see organizations with long-term strategy challenges ... ",
+      "location": "Argentina, based in Mexico City, Mexico",
+      "about": "I see organizations with long-term strategy challenges, as well as internal communication problems, especially in regional institutions. Another challenge is the lack of funding for LGBT + organizations, also seeing the challenges that it implies for some organizations to constitute themselves as AS or CSOs. I am a communicator and project leader in communication campaigns and have worked on the ground for 12 years, as a journalist and as an artist."
+    },
+    "es": {
+      "tagline": "Veo organizaciones con desafios de estrategias a largo plazo...",
+      "location": "Argentina basada en Ciudad de México, México",
+      "about": "Veo organizaciones con desafios de estrategias a mas largo plazo, además de problemas de comunicacion interna especialmente en instituciones regionales. Otro desafío es la base de fondos para organizaciones LGBT+ también el ver los retos que implica para algunas organizaciones constituirse como AS o OSC. Soy comunicadora y líder de proyectos en campañas de comunicación. También trabajo en territorio desde hace 12 años, como periodista y como artivista."
+    },
     "twitter": "milenapafundi",
     "instagram": "milenapafundi",
-    "about": "Veo organizaciones con desafios de estrategias a mas largo plazo, además de problemas de comunicacion interna especialmente en instituciones regionales. Otro desafío es la base de fondos para organizaciones LGBT+ también el ver los retos que implica para algunas organizaciones constituirse como AS o OSC. Soy comunicadora y líder de proyectos en campañas de comunicación. También trabajo en territorio desde hace 12 años, como periodista y como artivista.",
     "company": "agenciapresentes.org"
   },
   {
     "id": "carla-bonina",
     "name": "Carla Bonina",
     "image": "images/people/carla-bonina.jpg",
-    "tagline": "Veo organizaciones con desafios de estrategias a largo plazo...",
-    "location": "Argentina basada en Ciudad de México, México",
+    "es": {
+      "tagline": "Veo grandes desafíos a resolver con una inestabilidad financiera... ",
+      "location": "Argentina, basada en Londres, UK.",
+      "about": "Veo al menos tres: grandes problemas para resolver, un escenario regional de creciente violencia e inestabilidad política y económica, y grandes desafíos para lograr la sostenibilidad financiera de las organizaciones. Trato estos desafíos siendo asesora de gobiernos, organismos internacionales y start-ups en temas de gobierno y datos abiertos, emprendimiento digital e innovación social sostenible. Soy autora, académica y consultora estratégica con más de 15 años de experiencia."
+    },
+    "en": {
+      "tagline": "I see large challenges to solve, alongside financial instability...",
+      "location": "Argentina, based in London, UK.",
+      "about": "I see at least three: large challenges to solve, a regional scenario of growing violence and political and economic instability, and great barriers to achieving  financial sustainability of organizations. I address these challenges by being an advisor to governments, international organizations and start-ups on issues of government and open data, digital entrepreneurship and sustainable social innovation. I am an author, academic, and strategic consultant with more than 15 years of experience."
+    },
     "twitter": "carlabonina",
-    "about": "Light from a service hatch at the rear of the bright void beyond the chain link. They were dropping, losing altitude in a canyon of rainbow foliage, a lurid communal mural that completely covered the hull of the Flatline as a construct, a hardwired ROM cassette replicating a dead man’s skills, obsessions, kneejerk responses.",
-    "company": "Agenciapresentes.org"
+    "company": "surrey.ac.uk/centre-digital-economy "
   },
   {
     "id": "alejandra-betanzo",
     "name": "Alejandra Betanzo de la Rosa",
     "image": "images/people/alejandra-betanzo.jpg",
-    "tagline": "Veo desafios en las instituciones y sus liderazgos...",
-    "location": "Basada en Ciudad de México, México",
+    "es": {
+      "tagline": "Veo desafios en las instituciones y sus liderazgos...",
+      "location": "Basada en Ciudad de México, México",
+      "about": "Veo desafios en las institucionales y sus liderazgos, que se traducen en la sobre carga de trabajo que impone desafios a la salud emocional de las personas. Acompaño a las organizaciones para co-constuir acuerdos explícitos que les permitan distribuir el poder para trabajar de manera más auto-gestiva, además de generar dinámicas colaborativas, transformación de conflictos, regulación de emociones y auto-cuidado. Soy consultora de la Comunicación No Violenta, la Justicia Restaurativa y las prácticas narrativas."
+    },
+    "en": {
+      "tagline": "I see challenges in institutions and in their leadership...",
+      "location": "Based in Mexico City, Mexico",
+      "about": "I see challenges in  institutions and their leadership, which translate into too much work that threatens people's emotional health. I accompany organizations to co-construct explicit agreements that allow them to distribute power and work in a more self-managing way, in addition to generating collaborative dynamics, conflict transformation, emotion regulation and self-care. I am a consultant on Nonviolent Communication, Restorative Justice and narrative practices."
+    },
     "twitter": "abetanzo",
-    "about": "Veo desafios en las institucionales y sus liderazgos, que se traducen en la sobre carga de trabajo que impone desafios a la salud emocional de las personas. Acompaño a las organizaciones para co-constuir acuerdos explícitos que les permitan distribuir el poder para trabajar de manera más auto-gestiva, además de generar dinámicas colaborativas, transformación de conflictos, regulación de emociones y auto-cuidado. Soy consultora de la Comunicación No Violenta, la Justicia Restaurativa y las prácticas narrativas.",
     "company": "Consultora Independiente"
   },
   {
     "id": "justine-dupuy",
     "name": "Justine Dupuy",
     "image": "images/people/justine-dupuy.jpg",
-    "tagline": "Veo que para lograr cambios sustanciales se necesitan alianzas.",
-    "location": "Francesa basada en Ciudad de México, México",
+    "es": {
+      "tagline": "Veo que para lograr cambios sustanciales se necesitan alianzas.",
+      "location": "Francesa basada en Ciudad de México, México",
+      "about": "Veo que para lograr cambios sustanciales, se necesita más que evidencias e investigaciones sino también construir colectivos y alianzas. Tejer confianza entre los diversos actores de la sociedad civil es uno de los desafíos más importantes, dado ademas un contexto político cada vez mas adverso al dialogo. Trabajo justamente construyendo estos vínculos y alianzas, buscando incluir voces diversas. Soy periodista de formación, especializada en transparencia y combate a la corrupción."
+    },
+    "en": {
+      "tagline": "I see that in order to achieve substantial change, alliances are needed...",
+      "location": "French, based in Mexico City, Mexico",
+      "about": "I see that in order to achieve substantial changes, you need more than evidence and research – you alsoneed to build collectives and alliances. Building trust between the various actors of civil society is one of the most important challenges, especially given a political context that is increasingly opposed to dialogue. I work  by building these links and alliances, seeking to include diverse voices. I am a journalist by training, specialized in transparency and fighting corruption."
+      
+    },
     "twitter": "justinedupuy",
-    "about": "Veo que para lograr cambios sustanciales, se necesita más que evidencias e investigaciones sino también construir colectivos y alianzas. Tejer confianza entre los diversos actores de la sociedad civil es uno de los desafíos más importantes, dado ademas un contexto político cada vez mas adverso al dialogo. Trabajo justamente construyendo estos vínculos y alianzas, buscando incluir voces diversas. Soy periodista de formación, especializada en transparencia y combate a la corrupción.",
     "company": "fundar.org.mx"
   },
   {
     "id": "laura-lehman",
     "name": "Laura Lehman",
     "image": "images/people/laura-lehman.jpeg",
-    "tagline": "Veo organizaciones con desafios de estrategias a largo plazo...",
-    "location": "Argentina basada en Ciudad de México, México",
+    "es": {
+      "tagline": "Veo desigualdades que limitan recursos para los más marginalizados.",
+      "location": "Basada en Washington D.C.",
+      "about": "Veo desigualdades dentro del sistema que limitan el financiamiento y los recursos para los grupos más cercanos a los problemas. ¿Qué pasaría si las organizaciones de la sociedad civil lideradas localmente tuvieran todo lo que necesitan para llevar a cabo sus visiones de una sociedad más democrática, inclusiva y equitativa? Trabajo en aprendizaje y evaluación para financiadores y organizaciones que participan en la promoción y la construcción de la justicia social y económica. He sido organizadora comunitaria, maestra e investigadora."
+    },
+    "en": {
+      "tagline": "I see inequalities that limit resources available to the most marginalized.",
+      "location": "Based in Washington D.C.",
+      "about": "I see inequalities within the system that limit funding and resources for the groups closest to the problems. What if locally led civil society organizations had everything they needed to carry out their visions for a more democratic, inclusive and equitable society? I work in learning and evaluation for funders and organizations that participate in the promotion and construction of social and economic justice. I have been a community organizer, teacher, and researcher."
+    },
     "twitter": "LauraALehman",
-    "about": "Light from a service hatch at the rear of the bright void beyond the chain link. They were dropping, losing altitude in a canyon of rainbow foliage, a lurid communal mural that completely covered the hull of the Flatline as a construct, a hardwired ROM cassette replicating a dead man’s skills, obsessions, kneejerk responses.",
-    "company": "Agenciapresentes.org"
+    "company": "https://www.innonet.org/"
   },
   {
     "id": "ana-zuniga",
     "name": "Ana Gabriel Zúñiga Aponte",
     "image": "images/people/ana-zuniga.jpg",
-    "tagline": "Veo una polarización sociopolitica, ademas de una aceleracion de las desigualdades.",
-    "location": "Basada en San José, Costa Rica",
+    "es": {
+      "tagline": "Veo una polarización sociopolitica, ademas de una aceleracion de las desigualdades.",
+      "location": "Basada en San José, Costa Rica",
+      "about": "Veo una polarización sociopolítica a la que nos están arrastrando los grupos hegemónicos para seguir monopolizando el ejercicio del poder, además de una aceleración de las desigualdades. Trabajo acompañando a organizaciones de sociedad civil en sus procesos para revertir los impactos de la desinformación y en el resguardo de los derechos cívicos en la era digital. Soy una optimista empedernida, que cree en el diálogo ciudadano, en la resiliencia cívica y devolverle las democracias a quienes les pertenecen ¡a las mayorías!"
+    },
+    "en": {
+      "tagline": "I see sociopolitical polarization, in addition to accelerating inequalities.",
+      "location": "Based in San José, Costa Rica",
+      "about": "I see a sociopolitical polarization to which the hegemonic groups are dragging us so they can continue monopolizing the exercise of power, in addition to an acceleration of inequalities. I work accompanying civil society organizations in their processes to reverse the impacts of disinformation and in the protection of civic rights in the digital age. I am an inveterate optimist, who believes in civic dialogue, in civic resilience and returning democracies to those who belong to the majority!"
+    },
     "twitter": "agza05",
-    "about": "Veo una polarización sociopolítica a la que nos están arrastrando los grupos hegemónicos para seguir monopolizando el ejercicio del poder, además de una aceleración de las desigualdades. Trabajo acompañando a organizaciones de sociedad civil en sus procesos para revertir los impactos de la desinformación y en el resguardo de los derechos cívicos en la era digital. Soy una optimista empedernida, que cree en el diálogo ciudadano, en la resiliencia cívica y devolverle las democracias a quienes les pertenecen ¡a las mayorías!",
     "company": "hivos.org"
   },
   {
     "id": "adri-peralta",
     "name": "Adriana Peralta",
     "image": "images/people/adri-peralta.jpg",
-    "tagline": "Veo un desafío con nuestros contextos de violencia y corrupción.",
-    "location": "Basada en Asunción, Paraguay",
+    "es": {
+      "tagline": "Veo un desafío con nuestros contextos de violencia y corrupción.",
+      "location": "Basada en Asunción, Paraguay",
+      "about": "Veo un desafío con nuestros contextos que muchas veces son violentos y corruptas como las de América Latina. Para no perder la motivación en hacer las cosas lo mejor posible ayuda mucho rodearse de personas que estiren para el mismo lado, que también crean en que se puede, que te inspiren, que te alienten, con quienes puedas tomarte unas cervecitas y relajar y reir un poco. Soy ilustradora y diseñadora gráfica especilizada en sociología. (Y si, soy la diseñadora detrás de La Sobremesa!)"
+    },
+    "en": {
+      "tagline": "I see a challenge given our contexts of violence and corruption.",
+      "location": "Based in Asunción, Paraguay",
+      "about": "I see a challenge with contexts that are often violent and corrupt, like those of Latin America. In order not to lose motivation to do things as well as possible, it helps a lot to surround yourself with people who you align with, who also believe that you can do it, who inspire you, who encourage you, with whom you can have a few beers and relax and laugh a bit. I am an illustrator and graphic designer specialized in sociology. (And yes, I'm the designer behind La Sobremesa!",
+      "company": "Freelance designer"
+    },
     "twitter": "adriperaltaaa",
-    "about": "Veo un desafío con nuestros contextos que muchas veces son violentos y corruptas como las de América Latina. Para no perder la motivación en hacer las cosas lo mejor posible ayuda mucho rodearse de personas que estiren para el mismo lado, que también crean en que se puede, que te inspiren, que te alienten, con quienes puedas tomarte unas cervecitas y relajar y reir un poco. Soy ilustradora y diseñadora gráfica especilizada en sociología. (Y si, soy la diseñadora detrás de La Sobremesa!)",
     "company": "Diseñadora freelance"
   },
   {
     "id": "eduborregon",
     "name": "Eduard Martín-Borregón",
     "image": "images/people/eduborregon.jpg",
-    "tagline": "Veo nuestra sociedad civil y le tengo dos grandes preguntas...",
-    "location": "Catalán basado en Ciudad de México, México",
+    "es": {
+      "tagline": "Veo nuestra sociedad civil y le tengo dos grandes preguntas...",
+      "location": "Catalán basado en Ciudad de México, México",
+      "about": "Veo una sociedad civil latinoamericana y le tengo dos grandes preguntas: - ¿Cómo se puede medir e incrementar el impacto de nuestro trabajo? - ¿Cómo se generan oportunidades dentro del sector para mantener y atraer nuevo talento? Cualquier proyecto que diseño siempre parte a partir de una problematica sobre la cual podemos aportar desde lo que sabemos hacer bien.  La suma de las partes es siempre más grande que las partes en si. Soy periodista de datos, mezclando datos, narrativa y tecnologia."
+    },
+    "en": {
+      "tagline": "I see our civil society and have two big questions...",
+      "location": "Catalan, based in Mexico City, Mexico",
+      "about": "I see Latin American civil society and I have two big questions for it: How can the impact of our work be measured and increased? How are can we generate opportunities within the sector to retain and attract new talent? Any project that I design always starts from a problem to which we can contribute based on what we know how to do well. The sum of the parts is always greater than the parts themselves. I am a data journalist, mixing data, narrative and technology."
+    },
     "twitter": "emartinborregon",
-    "about": "Veo una sociedad civil latinoamericana y le tengo dos grandes preguntas: - ¿Cómo se puede medir e incrementar el impacto de nuestro trabajo? - ¿Cómo se generan oportunidades dentro del sector para mantener y atraer nuevo talento? Cualquier proyecto que diseño siempre parte a partir de una problematica sobre la cual podemos aportar desde lo que sabemos hacer bien.  La suma de las partes es siempre más grande que las partes en si. Soy periodista de datos, mezclando datos, narrativa y tecnologia.",
     "company": "poderlatam.org"
   },
   {
     "id": "ana-ruiz",
     "name": "Ana Joaquina Ruiz Guerra ",
     "image": "images/people/ana-joaquina-ruiz.jpeg",
-    "tagline": "Veo la desigualdad en todos niveles y el cierre del espacio civico.",
-    "location": "Basada en Ciudad de México, México",
+    "es": {
+      "tagline": "Veo la desigualdad en todos niveles y el cierre del espacio civico.",
+      "location": "Basada en Ciudad de México, México",
+      "about": "Veo la desigualdad en todos los niveles y el cierre del espacio civico. Trabajo en el analisis y hechura de políticas con perspectiva de género e interseccionalidad, además en iniciativas que incrementan la participación ciudadana. Soy una creyente de que la vida se transforma con un mucho de técnica y otro tanto de política."
+    },
+    "en": {
+      "tagline": "I see inequality at all levels and the closure of civic space...",
+      "location": "Based in Mexico City, Mexico",
+      "about": "I see inequality at all levels and the closure of civic space. I work on the analysis and making of policies with a gender and intersectionality perspective, as well as initiatives that increase citizen participation. I am a believer that life is transformed with some technique and some politics.",
+      "company": "Independent consultant"
+    },
     "twitter": "ana_joaca",
-    "about": "Veo la desigualdad en todos los niveles y el cierre del espacio civico. Trabajo en el analisis y hechura de políticas con perspectiva de género e interseccionalidad, además en iniciativas que incrementan la participación ciudadana. Soy una creyente de que la vida se transforma con un mucho de técnica y otro tanto de política.",
     "company": "Consultora independiente"
   },
   {
     "id": "jpmarindiaz",
     "name": "Juan Pablo Marín Díaz",
     "image": "images/people/jp-marin-diaz.png",
-    "tagline": "Veo una falta de infraestructura tecnologica de datos.",
-    "location": "Basado en Bogotá, Colombia",
+    "es": {
+      "tagline": "Veo una falta de infraestructura tecnologica de datos.",
+      "location": "Basado en Bogotá, Colombia",
+      "about": "Veo una falta de infraestructura tecnologia de datos para la incidencia desde sociedad civil. Trabajo justamente creando tecnologias de ciencia de datos accesibles y de bajo costo para las organizaciones sociales. Soy cientifico de datos y fundador de Datasketch."
+    },
+    "en": {
+      "tagline": "I see a lack of data technology infrastructure...",
+      "location": "Based in Bogotá, Colombia",
+      "about": "I see a lack of data technology infrastructure for advocacy from civil society. I work creating accessible and low-cost data science technologies for social organizations. I am a data scientist and founder of Datasketch."
+    },
     "twitter": "jpmarindiaz",
-    "about": "Veo una falta de infraestructura tecnologia de datos para la incidencia desde sociedad civil. Trabajo justamente creando tecnologias de ciencia de datos accesibles y de bajo costo para las organizaciones sociales. Soy cientifico de datos y fundador de Datasketch.",
     "company": "datasketch.co"
   },
   {
     "id": "jorge-florez",
     "name": "Jorge Flórez",
     "image": "images/people/jorge-florez.jpeg",
-    "tagline": "Veo desafios al articular el impacto que esperamos lograr.",
-    "location": "Basado en Bogotá, Colombia",
+    "es": {
+      "tagline": "Veo desafios al articular el impacto que esperamos lograr.",
+      "location": "Basado en Bogotá, Colombia",
+      "about": "Veo desafios al articular claramente el impacto que se espera alcanzar a nivel organizacional y de proyectos, incluyendo definir procesos y herramientas para hacer seguimiento al avance en esta meta, usar esta evidencia para mejorar y para comunicar efectivamente nuestro trabajo. Trato el desafio a través de conversaciones en equipos y uso de metodologías que respondan a las necesidades específicas de dichos grupos, sus metas y sus recursos. Soy facilitador de estrategias de cambio social."
+    },
+    "en": {
+      "tagline": "I see challenges in articulating the impact we hope to make...",
+      "location": "Based in Bogotá, Colombia",
+      "about": "I see challenges in clearly articulating the impact that we expect to achieve at the organizational and project level, including defining processes and tools to track progress on this goal, and using this evidence to improve and effectively communicate our work. I address this challenge through team conversations and use of methodologies that respond to the specific needs of these groups, their goals, and their resources. I am a facilitator of social change strategies."
+    },
     "twitter": "j_florezh",
-    "about": "Veo desafios al articular claramente el impacto que se espera alcanzar a nivel organizacional y de proyectos, incluyendo definir procesos y herramientas para hacer seguimiento al avance en esta meta, usar esta evidencia para mejorar y para comunicar efectivamente nuestro trabajo. Trato el desafio a través de conversaciones en equipos y uso de metodologías que respondan a las necesidades específicas de dichos grupos, sus metas y sus recursos. Soy facilitador de estrategias de cambio social.",
     "company": "globalintegrity.org"
   }
 ]

@@ -9,7 +9,7 @@
 <section class="container-md px-4 pb-24">
   <div class="space-y-24">
     {{ range .Site.Data.team }}
-      {{ partial "team-member.html" . }}
+      {{ partial "team-member.html" (dict "Member" . "Lang" $.Site.Language.Lang) }}
     {{ end }}
   </div>
 </section>
@@ -48,7 +48,7 @@
   </div>
   <div class="mt-24 grid gap-12 sm:grid-cols-2 lg:grid-cols-3">
     {{ range .Site.Data.guests }}
-      {{ partial "guest-card.html" . }}
+      {{ partial "guest-card.html" (dict "Guest" . "Lang" $.Site.Language.Lang) }}
     {{ end }}
   </div>
 </section>
@@ -64,7 +64,7 @@
   </div>
 </section>
 {{ range .Site.Data.guests }}
-  {{ partial "guest-modal.html" . }}
+  {{ partial "guest-modal.html" (dict "Guest" . "Lang" $.Site.Language.Lang) }}
 {{ end }}
 {{ end }}
 
