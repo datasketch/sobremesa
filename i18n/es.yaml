@@ -14,18 +14,104 @@
   translation: Leer más sobre La Sobremesa
 - id: action_read_more
   translation: Leer más
+- id: label_accompaniments
+  translation: Acompañamientos
+- id: label_clients
+  translation: Clientes
+- id: label_donors
+  translation: Donantes
 - id: label_join
   translation: ¡Súmate!
+- id: label_networks
+  translation: Redes
+- id: label_orgs
+  translation: Organizaciones
+- id: label_our
+  translation: Nuestros
 - id: label_receive_newsletter
   translation: ¿Quieres recibir nuestra newsletter?
 - id: label_the_team
   translation: el equipo
+- id: label_their_exp
+  translation: Sus experiencias
 - id: label_what_do_we_do
   translation: ¿Qué hacemos?
 - id: label_what_we_do
   translation: Qué hacemos
 - id: label_who_we_are
   translation: Quiénes somos
+- id: label_with
+  translation: en
+- id: page_accompaniment_clients_desc
+  translation: Hemos acompañado a varias organizaciones, redes, y donantes en La Sobremesa.
+- id: page_accompaniment_desc
+  translation: >-
+    Si buscas un acompañamiento personalizado, nosotras en La Sobremesa
+    diseñamos y facilitamos un proceso de reflexión, aprendizaje y
+    transformación para ti.
+- id: page_accompaniment_fifth_service
+  translation: >-
+    Para <span class="text-fire-opal">(des)aprender</span> sobre tus procesos
+    como donante
+- id: page_accompaniment_fifth_service_i1
+  translation: >-
+    Apoyar como **socios de aprendizaje** (_learning partner_) para tu
+    fundación, en tus programas y con tus _grantees_
+- id: page_accompaniment_fifth_service_i2
+  translation: >-
+    Acompañar tus procesos de evaluación para luego **incorporar los
+    aprendizajes** dentro de tus prácticas
+- id: page_accompaniment_first_service
+  translation: >-
+    Para una organización <span class="text-fire-opal">resiliente</span> y <span
+    class="text-fire-opal">fuerte</span>
+- id: page_accompaniment_first_service_i1
+  translation: Apoyar una **transición** de organización o de liderazgo
+- id: page_accompaniment_first_service_i2
+  translation: Renovar (o crear) una **Mision, Vision, y Teoría de Cambio**
+- id: page_accompaniment_first_service_i3
+  translation: Repensar **estrategias programáticas** para que sean mas resilientes
+- id: page_accompaniment_first_service_i4
+  translation: Integrar **procesos de diseño** dentro de su trabajo, programas y proyectos
+- id: page_accompaniment_fourth_service
+  translation: Para el <span class="text-fire-opal">rediseño</span> de una red
+- id: page_accompaniment_fourth_service_i1
+  translation: >-
+    Crear **procesos de aprendizaje** dentro de la red que son abiertos,
+    horizontales y colaborativos
+- id: page_accompaniment_fourth_service_i2
+  translation: >-
+    Implementar procesos diversos que son co-creados y basados en **los
+    objetivos y valores de la red**
+- id: page_accompaniment_offer
+  translation: >-
+    Trabajamos junto a organizaciones, redes y donantes para apoyarles en sus
+    necesidades y desafíos. Cada acompañamiento es distinto, pero hemos
+    identificado estas categorías y ejemplos de apoyo que te pueden inspirar.
+- id: page_accompaniment_second_service
+  translation: Para un <span class="text-fire-opal">equipo sano</span>
+- id: page_accompaniment_second_service_i1
+  translation: Diseñar y facilitar **retiros**
+- id: page_accompaniment_second_service_i2
+  translation: '**Procesos de aprendizaje y de retroalimentación** entre todo el equipo'
+- id: page_accompaniment_second_service_i3
+  translation: >-
+    Acompañamiento a **líderes** para reflexionar sobre sus estilos y procesos
+    de liderazgo
+- id: page_accompaniment_second_service_i4
+  translation: Talleres y apoyo en **comunicación no violenta**
+- id: page_accompaniment_third_service
+  translation: Para una organización <span class="text-fire-opal">sostenible</span>
+- id: page_accompaniment_third_service_i1
+  translation: Apoyar en repensar e implementar un **plan de financiamiento**
+- id: page_accompaniment_third_service_i2
+  translation: >-
+    **Investigar diferentes formas de sostener** tu organización, experimentando
+    con nuevos modeles e ideas
+- id: page_accompaniment_third_service_i3
+  translation: >-
+    Ayudar en conocer **el ecosistema de donantes**, haciendo "inteligencia del
+    donante"
 - id: page_home_about_first_row
   translation: >-
     Enfrentamos límites - tanto externos como internos - en nuestro trabajo. En

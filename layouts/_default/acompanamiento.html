@@ -1,16 +1,16 @@
 {{ define "main" }}
-{{ partial "page-header.html" (dict "title" "Acompañamientos" "description" "Si buscas un acompañamiento personalizado, nosotras en La Sobremesa diseñamos y facilitamos un proceso de reflexión, aprendizaje y transformación para ti." "image" "images/services-section.png")}}
+{{ partial "page-header.html" (dict "title" (T "label_accompaniments") "description" (T "page_accompaniment_desc") "image" "images/services-section.png")}}
 <section class="container px-4 py-16">
   <div class="section-row items-center">
     <div class="section-col">
       <div class="section-col-inner">
-        <img src="{{ "images/what-do-we-offer-es.svg" | absURL }}" alt="" class="w-2/3 mx-auto md:ml-0 md:mr-auto md:w-4/5">
+        <img src="{{ (print "images/what-do-we-offer-" .Site.Language.Lang ".svg") | absURL }}" alt="" class="w-2/3 mx-auto md:ml-0 md:mr-auto md:w-4/5">
       </div>
     </div>
     <div class="section-col">
       <div class="section-col-inner">
         <p class="section-description mt-6">
-          Trabajamos junto a organizaciones, redes y donantes para apoyarles en sus necesidades y desafíos. Cada acompañamiento es distinto, pero hemos identificado estas categorías y ejemplos de apoyo que te pueden inspirar.
+          {{ T "page_accompaniment_offer" }}
         </p>
       </div>
     </div>
@@ -21,36 +21,36 @@
 </section>
 <section class="container px-4 py-16">
   <div class="flex items-center justify-center">
-    <span class="font-beth-ellen text-xl relative z-10">Nuestros</span>
+    <span class="font-beth-ellen text-xl relative z-10">{{ T "label_our" }}</span>
     <h2 class="section-title text-fire-opal -ml-8">
-      Clientes
+      {{ T "label_clients" }}
     </h2>
   </div>
   <p class="mt-4 text-center text-lg">
-    Hemos acompañado a varias organizaciones, redes, y donantes en La Sobremesa.
+    {{ T "page_accompaniment_clients_desc" }}
   </p>
   <div class="mt-16">
     <h3 class="font-martin text-5xl uppercase with-arrow-red">
-      Organizaciones
+      {{ T "label_orgs" }}
     </h3>
   </div>
   <div class="mt-16">
     <h3 class="font-martin text-5xl uppercase with-arrow-red">
-      Redes
+      {{ T "label_networks" }}
     </h3>
   </div>
   <div class="mt-16">
     <h3 class="font-martin text-5xl uppercase with-arrow-red">
-      Donantes
+      {{ T "label_donors" }}
     </h3>
   </div>
 </section>
 <section class="container px-4 py-16">
   <div class="flex items-center justify-center">
     <h2 class="section-title text-fire-opal">
-      Sus experiencias
+      {{ T "label_their_exp" }}
     </h2>
-    <span class="font-beth-ellen text-xl relative z-10 -ml-8">en La Sobremesa</span>
+    <span class="font-beth-ellen text-xl relative z-10 -ml-8">{{ T "label_with" }} La Sobremesa</span>
   </div>
   <div class="mt-12">
     {{ partial "experiences-slider.html" . }}
@@ -63,15 +63,15 @@
     </div>
     <div class="section-col text-center">
       <h2 class="section-title-md text-4xl font-martin lg:text-5xl">
-        ¿Estás interesada y quieres saber más sobre los <span class="text-fire-opal">acompañamientos</span>?
+        {{ T "page_accompaniment_cta_q" | safeHTML }}
       </h2>
       <div class="m-8 h-full flex flex-col">
         <p class="font-source-serif-pro font-semibold text-lg lg:text-xl">
-          Agenda una reunión con nosotras aquí, para hablar de tu organización y para pensar en que tipo de servicios te benefician.
+          {{ T "page_accompaniment_cta_desc" }}
         </p>
       </div>
       <a href="" class="site-link text-chocolate hover:text-fire-opal">
-        Agenda una llamada
+        {{ T "action_schedule_call" }}
       </a>
     </div>
   </div>

@@ -14,18 +14,97 @@
   translation: Read more about La Sobremesa
 - id: action_read_more
   translation: Read more
+- id: label_accompaniments
+  translation: Accompaniments
+- id: label_clients
+  translation: Clients
+- id: label_donors
+  translation: Donors
 - id: label_join
   translation: Join us!
+- id: label_networks
+  translation: Networks
+- id: label_orgs
+  translation: Organizations
+- id: label_our
+  translation: Our
 - id: label_receive_newsletter
   translation: Want to receive our newsletter?
 - id: label_the_team
   translation: the team
+- id: label_their_exp
+  translation: Their experiences
 - id: label_what_do_we_do
   translation: What do we do?
 - id: label_what_we_do
   translation: What we do
 - id: label_who_we_are
   translation: Who we are
+- id: label_with
+  translation: with
+- id: page_accompaniment_clients_desc
+  translation: >-
+    We have accompanied various organizations, networks, and donors in La
+    Sobremesa.
+- id: page_accompaniment_desc
+  translation: >-
+    If you are looking for personalized support, we can design and facilitate a
+    process of reflection, learning and transformation tailored to you.
+- id: page_accompaniment_fifth_service
+  translation: To <span class="text-fire-opal">(un)learn</span> practices as a donor
+- id: page_accompaniment_fifth_service_i1
+  translation: >-
+    Serving as **learning partners** for your foundation, in your programs and
+    with your _grantees_
+- id: page_accompaniment_fifth_service_i2
+  translation: >-
+    Accompanying your evaluation processes and **incorporating learnings** into
+    your practices
+- id: page_accompaniment_first_service
+  translation: For a <span class="text-fire-opal">resilient, strong</span> organization
+- id: page_accompaniment_first_service_i1
+  translation: Supporting organizational or leadership **transitions**
+- id: page_accompaniment_first_service_i2
+  translation: Creating or renewing **Mission, Vision, and/or Theory of Change**
+- id: page_accompaniment_first_service_i3
+  translation: Rethinking **programmatic strategies** to make them more resilient
+- id: page_accompaniment_first_service_i4
+  translation: Integrating **design processes** into your work, programs and projects
+- id: page_accompaniment_fourth_service
+  translation: For the <span class="text-fire-opal">redesign</span> of a network
+- id: page_accompaniment_fourth_service_i1
+  translation: >-
+    Creating **learning processes** within the network that are open, horizontal
+    and collaborative
+- id: page_accompaniment_fourth_service_i2
+  translation: >-
+    Implementing diverse processes that are co-created and based on the
+    **objectives and values ​​of the network**
+- id: page_accompaniment_offer
+  translation: >-
+    We work with organizations, networks and donors to support them in their
+    needs and challenges. While each accompaniment is different, many fall into
+    the categories below. We hope they can serve to inspire you!
+- id: page_accompaniment_second_service
+  translation: For a <span class="text-fire-opal">healthy team</span> dynamic
+- id: page_accompaniment_second_service_i1
+  translation: Designing and facilitating **retreats**
+- id: page_accompaniment_second_service_i2
+  translation: '**Building learning and feedback processes** for the entire team'
+- id: page_accompaniment_second_service_i3
+  translation: Accompanying **leaders** to reflect on their leadership styles and processes
+- id: page_accompaniment_second_service_i4
+  translation: Facilitating workshops and supporting **non-violent communication**
+- id: page_accompaniment_third_service
+  translation: For a <span class="text-fire-opal">sustainable</span> organization
+- id: page_accompaniment_third_service_i1
+  translation: Rethinking and implementing a **financial plan**
+- id: page_accompaniment_third_service_i2
+  translation: >-
+    **Investigating different ways to sustain** your organization, experimenting
+    with new models and ideas
+- id: page_accompaniment_third_service_i3
+  translation: Exploring the **donor ecosystem**, and carrying out "donor intelligence"
 - id: page_home_about_first_row
   translation: >-
     We face many challenges - external and internal - with our work. In the most
