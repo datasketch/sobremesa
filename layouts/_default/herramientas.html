@@ -1,12 +1,13 @@
 {{ define "main" }}
-{{ partial "page-header.html" (dict "title" "Herramientas" "description" "Explora las herramientas - guías, videos, podcasts, artículos, y más - que estamos usando en nuestros acompañamientos y demás trabajo." "image" "images/resources-section.png")}}
+{{ partial "page-header.html" (dict "title" (T "label_tools") "description" (T "page_tools_desc") "image" "images/resources-section.png")}}
+{{ $data := index .Site.Data .Site.Language.Lang }}
 <section class="px-4 py-16">
   <div class="container-lg">
     <h2 class="font-source-serif-pro text-4xl font-bold text-darmouth-green">
-      Las herramientas que hemos usado
+      {{ T "page_tools_used" }}
     </h2>
     <div class="mt-6 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-      {{ range .Site.Data.resources.all }}
+      {{ range $data.resources.all }}
         {{ partial "resource-card.html" . }}
       {{ end }}
     </div>
@@ -19,11 +20,11 @@
     </div>
     <div class="section-col text-center">
       <h2 class="section-title-md leading-extra-tight">
-        ¿Te interesa ser parte de futuros <span class="text-darmouth-green">espacios</span> y recibir noticias sobre nuestras <span class="text-darmouth-green">conversaciones</span>?
+        {{ T "page_tools_cta_q" | safeHTML }}
       </h2>
       <div class="mt-12 h-full flex flex-col">
         <p class="font-semibold text-lg tracking-wide lg:text-xl">
-          Suscríbete a nuestro newsletter
+          {{ T "label_subscribe_newsletter" }}
         </p>
         <form class="my-4" action="/">
           <input class="mr-2 bg-linen text-chocolate px-4 py-2 border border-chocolate placeholder-chocolate" type="email" id="email" name="email" placeholder="e-mail">

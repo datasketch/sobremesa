@@ -1,24 +1,27 @@
-<div class="resource-card
-  {{ if eq .type (or "Guía" (or "Libro" "Reporte")) }}
-    border-darmouth-green
-  {{ else if eq .type (or "Sitio web" (or "Herramienta")) }}
-    border-maximum-green
-  {{ else }}
-    border-pine-green
-  {{ end }}">
+{{ $border_class := "" }}
+{{ $bg_class := "" }}
+{{ $text_class := "" }}
+{{ if in (slice "Guía" "Libro" "Reporte") .type }}
+  {{ $border_class = "border-darmouth-green" }}
+  {{ $text_class = "text-darmouth-green" }}
+  {{ $bg_class := "bg-darmouth-green" }}
+{{ else if in (slice "Sitio web" "Herramienta") .type }}
+  {{ $border_class = "border-maximum-green" }}
+  {{ $text_class = "text-maximum-green" }}
+  {{ $bg_class = "bg-maximum-green" }}
+{{ else }}
+  {{ $border_class = "border-pine-green" }}
+  {{ $text_class = "text-pine-green" }}
+  {{ $bg_class = "bg-pine-green" }}
+{{ end }}
+
+<div class="resource-card {{ $border_class }}">
   <div class="resource-image">
     <img src="{{ .clip }}" alt="">
   </div>
   <div class="resource-content">
     <div class="resource-body">
-      <span class="resource-type
-        {{ if eq .type (or "Guía" (or "Libro" "Reporte")) }}
-          text-darmouth-green
-        {{ else if eq .type (or "Sitio web" (or "Herramienta")) }}
-          text-maximum-green
-        {{ else }}
-          text-pine-green
-        {{ end }}">
+      <span class="resource-type {{ $text_class }}">
         {{ .type }}</span>
       <h3 class="resource-title">
         {{ .title }}
@@ -28,25 +31,11 @@
       </p>
     </div>
     <div class="resource-buttons">
-      <button data-modal="{{ .url }}" class="leading-tight text-white font-bold text-lg mr-4 px-4 py-2 hover:bg-chocolate
-        {{ if eq .type (or "Guía" (or "Libro" "Reporte")) }}
-          bg-darmouth-green
-        {{ else if eq .type (or "Sitio web" (or "Herramienta")) }}
-          bg-maximum-green
-        {{ else }}
-          bg-pine-green
-        {{ end }}">
-        Leer más
+      <button data-modal="{{ .url }}" class="leading-tight text-white font-bold text-lg mr-4 px-4 py-2 hover:bg-chocolate {{ $bg_class }}">
+        {{ T "action_read_more" }}
       </button>
-      <a href="{{ .url }}" class="text-white font-bold text-lg mr-4 px-4 py-2 hover:bg-chocolate
-        {{ if eq .type (or "Guía" (or "Libro" "Reporte")) }}
-          bg-darmouth-green
-        {{ else if eq .type (or "Sitio web" (or "Herramienta")) }}
-          bg-maximum-green
-        {{ else }}
-          bg-pine-green
-        {{ end }}">
-        Ir a la herramienta
+      <a href="{{ .url }}" class="text-white font-bold text-lg mr-4 px-4 py-2 hover:bg-chocolate {{ $bg_class }}">
+        {{ T "action_visit_tool" }}
       </a>
     </div>
   </div>
