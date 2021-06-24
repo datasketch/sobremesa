@@ -193,13 +193,16 @@
   .accordion-item.is-open .accordion-content {
     @apply block;
   }
-  .list-arrow {
-    @apply list-none pl-10 space-y-2;
+  .list-arrow,
+  .what-we-do-content ul {
+    @apply list-none pl-10 space-y-4;
   }
-  .list-arrow li {
+  .list-arrow li,
+  .what-we-do-content ul li {
     @apply relative;
   }
-  .list-arrow li:before {
+  .list-arrow li:before,
+  .what-we-do-content ul li:before {
     @apply absolute -left-10 transform -translate-y-1 w-8 h-8 bg-center bg-contain bg-no-repeat;
     content: '';
     background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDIwMDEwOTA0Ly9FTiIKICJodHRwOi8vd3d3LnczLm9yZy9UUi8yMDAxL1JFQy1TVkctMjAwMTA5MDQvRFREL3N2ZzEwLmR0ZCI+CjxzdmcgdmVyc2lvbj0iMS4wIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiB3aWR0aD0iNDUuMDAwMDAwcHQiIGhlaWdodD0iMjQuMDAwMDAwcHQiIHZpZXdCb3g9IjAgMCA0NS4wMDAwMDAgMjQuMDAwMDAwIgogcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCI+Cgo8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwyNC4wMDAwMDApIHNjYWxlKDAuMTAwMDAwLC0wLjEwMDAwMCkiCmZpbGw9IiMwMDAwMDAiIHN0cm9rZT0ibm9uZSI+CjxwYXRoIGQ9Ik0zNDAgMTkzIGMwIC01IDcgLTE3IDE1IC0yNyA4IC0xMSAxNSAtMjIgMTUgLTI1IDAgLTMgLTUzIC02IC0xMTcKLTYgLTE0MCAwIC0yNTMgLTEyIC0yNTMgLTI3IDAgLTcgMTQgLTggMzcgLTQgNzYgMTMgMzAwIDE5IDMwNiA5IDQgLTYgLTQgLTE0Ci0xOCAtMTcgLTE0IC00IC0yMyAtMTEgLTIwIC0xNiA1IC04IDkwIDExIDEwMiAyNCA4IDcgLTQ2IDk2IC01NyA5NiAtNiAwIC0xMAotMyAtMTAgLTd6Ii8+CjwvZz4KPC9zdmc+Cg==");
@@ -245,17 +248,26 @@
   .slider-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active{
     @apply bg-fire-opal;
   }
-
   .home-banner {
     @apply bg-left-top bg-contain bg-no-repeat pt-36;
   }
-
   .card-filter:hover img {
     filter: brightness(0.6);
   }
-
   .circle {
     background-image: url("/images/fire-opal-line.png");
     @apply bg-bottom bg-cover bg-no-repeat py-4;
+  }
+  .what-we-do-content blockquote {
+    @apply mt-10 text-xl lg:text-2xl font-source-serif-pro font-semibold;
+  }
+  .what-we-do-content p {
+    @apply my-6;
+  }
+  .what-we-do-content img {
+    @apply mt-12 w-2/3 md:w-1/2;
+  }
+  .what-we-do-content ul {
+    @apply my-6;
   }
 }
