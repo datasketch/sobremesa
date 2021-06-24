@@ -3,10 +3,10 @@
   <div class="section-row items-center sm:space-y-0 sm:flex-row">
     <div class="section-col">
       <h1 class="font-martin leading-extra-tight uppercase text-7xl">
-        ¿Quieres aprender, reflexionar, y renovar a tu organización?
+        {{ T "page_contact_title" }}
       </h1>
       <p class="section-description mt-6">
-        Hablemos de cómo podemos apoyarte a ti y a tu organización de sociedad civil en su proceso de transformación.
+        {{ T "page_contact_desc" }}
       </p>
     </div>
     <div class="section-col">
@@ -19,19 +19,23 @@
     <div class="container flex justify-center items-center">
       <img class="h-10 object-center object-contain hidden sm:block" src="{{ "images/stars.svg" | absURL }}" alt="">
       <h2 class="section-title text-center text-chocolate mx-4">
-        Contáctanos
+        {{ T "label_contact_us" }}
       </h2>
       <img class="h-10 object-center object-contain hidden sm:block" src="{{ "images/stars.svg" | absURL }}" alt="">
     </div>
     <div class="mt-4 text-center">
       <p class="mt-10 mx-auto max-w-lg section-description text-lg lg:text-xl">
-        Si te interesa saber más de como sería trabajar con La Sobremesa a través de un acompañamiento,
+        {{ T "page_contact_schedule" }}
       </p>
-      <a href="" class="mt-6 site-link hover:text-fire-opal">Agenda una llamada</a>
+      <a href="" class="mt-6 site-link hover:text-fire-opal">
+        {{ T "action_schedule_call" }}
+      </a>
       <p class="mt-14 mx-auto max-w-lg section-description text-lg lg:text-xl">
-        Si te interesa saber más de nosotras o si tienes preguntas o ideas, escríbenos a
+        {{ T "page_contact_write" }}
       </p>
-      <a href="" class="mt-6 site-link hover:text-fire-opal">hola@lasobremesa.co</a>
+      <a href="" class="mt-6 site-link hover:text-fire-opal">
+        hola@lasobremesa.co
+      </a>
     </div>
   </div>
 </section>
@@ -42,11 +46,11 @@
     </div>
     <div class="section-col text-center">
       <h2 class="section-title-md leading-extra-tight">
-        ¿Te interesa enterarte de novedades en <span class="text-gold-metallic">La Sobremesa</span> y ser parte de nuestra <span class="text-gold-metallic">comunidad</span>?
+        {{ T "page_contact_cta_q" | safeHTML }}
       </h2>
       <div class="mt-12 h-full flex flex-col">
         <p class="font-semibold text-lg tracking-wide lg:text-xl">
-          Suscríbete a nuestro newsletter
+          {{ T "label_subscribe_newsletter" }}
         </p>
         <form class="my-4" action="/">
           <input class="mr-2 bg-linen text-chocolate px-4 py-2 border border-chocolate placeholder-chocolate" type="email" id="email" name="email" placeholder="e-mail">

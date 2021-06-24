@@ -14,10 +14,14 @@
   translation: Read more about La Sobremesa
 - id: action_read_more
   translation: Read more
+- id: action_schedule_call
+  translation: Schedule a call
 - id: label_accompaniments
   translation: Accompaniments
 - id: label_clients
   translation: Clients
+- id: label_contact_us
+  translation: Contact us
 - id: label_donors
   translation: Donors
 - id: label_join
@@ -30,6 +34,8 @@
   translation: Our
 - id: label_receive_newsletter
   translation: Want to receive our newsletter?
+- id: label_subscribe_newsletter
+  translation: Sign up for our newsletter
 - id: label_the_team
   translation: the team
 - id: label_their_exp
@@ -46,6 +52,14 @@
   translation: >-
     We have accompanied various organizations, networks, and donors in La
     Sobremesa.
+- id: page_accompaniment_cta_desc
+  translation: >-
+    Schedule a meeting with us to talk about your organization and explore what
+    kinds of support are right for you.
+- id: page_accompaniment_cta_q
+  translation: >-
+    Want to know more about our <span
+    class="text-fire-opal">accompaniment</span>?
 - id: page_accompaniment_desc
   translation: >-
     If you are looking for personalized support, we can design and facilitate a
@@ -105,6 +119,21 @@
     with new models and ideas
 - id: page_accompaniment_third_service_i3
   translation: Exploring the **donor ecosystem**, and carrying out "donor intelligence"
+- id: page_contact_cta_q
+  translation: >-
+    Want to be part of the <span class="text-gold-metallic">community</span>,
+    and stay up-to-date on <span class="text-gold-metallic">La
+    Sobremesa’s</span> news?
+- id: page_contact_desc
+  translation: >-
+    Let’s talk about how we can support you and your civil society organization
+    through a process of transformation.
+- id: page_contact_schedule
+  translation: If you are interested in whether our accompaniment support is right for you,
+- id: page_contact_title
+  translation: Want to learn, reflect and transform your organization?
+- id: page_contact_write
+  translation: To learn more about us or share your questions and ideas, write to us at
 - id: page_home_about_first_row
   translation: >-
     We face many challenges - external and internal - with our work. In the most

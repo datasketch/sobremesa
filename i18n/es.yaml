@@ -14,10 +14,14 @@
   translation: Leer más sobre La Sobremesa
 - id: action_read_more
   translation: Leer más
+- id: action_schedule_call
+  translation: Agenda una llamada
 - id: label_accompaniments
   translation: Acompañamientos
 - id: label_clients
   translation: Clientes
+- id: label_contact_us
+  translation: Contáctanos
 - id: label_donors
   translation: Donantes
 - id: label_join
@@ -30,6 +34,8 @@
   translation: Nuestros
 - id: label_receive_newsletter
   translation: ¿Quieres recibir nuestra newsletter?
+- id: label_subscribe_newsletter
+  translation: Suscríbete a nuestro newsletter
 - id: label_the_team
   translation: el equipo
 - id: label_their_exp
@@ -44,6 +50,14 @@
   translation: en
 - id: page_accompaniment_clients_desc
   translation: Hemos acompañado a varias organizaciones, redes, y donantes en La Sobremesa.
+- id: page_accompaniment_cta_desc
+  translation: >-
+    Agenda una reunión con nosotras aquí, para hablar de tu organización y para
+    pensar en que tipo de servicios te benefician.
+- id: page_accompaniment_cta_q
+  translation: >-
+    ¿Estás interesada y quieres saber más sobre los <span
+    class="text-fire-opal">acompañamientos</span>?
 - id: page_accompaniment_desc
   translation: >-
     Si buscas un acompañamiento personalizado, nosotras en La Sobremesa
@@ -112,6 +126,25 @@
   translation: >-
     Ayudar en conocer **el ecosistema de donantes**, haciendo "inteligencia del
     donante"
+- id: page_contact_cta_q
+  translation: >-
+    ¿Te interesa enterarte de novedades en <span class="text-gold-metallic">La
+    Sobremesa</span> y ser parte de nuestra <span
+    class="text-gold-metallic">comunidad</span>?
+- id: page_contact_desc
+  translation: >-
+    Hablemos de cómo podemos apoyarte a ti y a tu organización de sociedad civil
+    en su proceso de transformación.
+- id: page_contact_schedule
+  translation: >-
+    Si te interesa saber más de como sería trabajar con La Sobremesa a través de
+    un acompañamiento,
+- id: page_contact_title
+  translation: ¿Quieres aprender, reflexionar, y renovar a tu organización?
+- id: page_contact_write
+  translation: >-
+    Si te interesa saber más de nosotras o si tienes preguntas o ideas,
+    escríbenos a
 - id: page_home_about_first_row
   translation: >-
     Enfrentamos límites - tanto externos como internos - en nuestro trabajo. En
