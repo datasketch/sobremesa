@@ -73,6 +73,9 @@
 {{ range $data.guests }}
   {{ partial "guest-modal.html" . }}
 {{ end }}
+{{ range $data.team }}
+  {{ partial "team-modal.html" . }}
+{{ end }}
 {{ end }}
 
 {{ define "js" }}

@@ -14,9 +14,9 @@
     </p>
     <div class="mt-6">{{ .about }}</div>
     {{ if $has_social_media }}
-      <div class="mt-6 pb-1 inline-flex items-center space-x-4 site-link">
+      <div class="mt-6 pb-1 inline-flex items-center font-bold text-base uppercase tracking-wide">
         {{ if .twitter }}
-          <a href="{{ printf "https://twitter.com/%s" .twitter }}" target="_blank" class="flex items-center space-x-2 hover:text-fire-opal">
+          <a href="{{ printf "https://twitter.com/%s" .twitter }}" target="_blank" class="mr-6 flex items-center space-x-2 hover:text-fire-opal">
             <img src="{{ "images/twitter.svg" | absURL }}" alt="">
             <span>{{ .twitter }}</span>
           </a>
@@ -29,5 +29,10 @@
         {{ end }}
       </div>
     {{ end }}
+    <div class="">
+      <button data-modal="{{ .id }}" class="mt-6 site-link hover:text-fire-opal">
+        {{ T "action_read_more" }}
+      </button>
+    </div>
   </div>
 </div>

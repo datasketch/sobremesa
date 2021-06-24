@@ -199,3 +199,5 @@
   translation: We will be announcing available positions soon.
 - id: page_who_we_are_intro_team
   translation: Sitting at the table of La Sobremesa is
+- id: page_who_we_are_read_more
+  translation: More about me

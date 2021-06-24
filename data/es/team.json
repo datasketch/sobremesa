@@ -1,20 +1,24 @@
 [
   {
+    "id": "anca-matioc",
     "name": "Anca Matioc",
     "role": "Fundadora y Directora de La Sobremesa",
     "email": "anca@lasobremesa.co",
     "about": "Hola! Soy Anca, la fundadora y la directora de La Sobremesa. Llevo más de una decada trabajando y acompañando a organizaciones y redes de sociedad civil en America Latina y en el sur global. Ahora creamos La Sobremesa, un espacio de reflexión y aprendizaje que tanto se necesita en el sector, para pensar y repensar soluciones realistas de sociedad civil para sociedad civil.\nSoy diseñadora y facilitadora de procesos de cambio. Apoyo a organizaciones de sociedad civil a mejor diseñar sus estrategias, a fortalecer la institucion , y a repensar y fortalecer sus estructuras y equipos. Me he enfocado en trabajar con actores de transparencia, anticorrupción, y derechos humanos. Disfruto mucho el acompañamiento y trabajar con personas que se enfocan en mejorar las realidades de sus paises.",
     "twitter": "AncaMatioc",
     "instagram": "matiocanca",
-    "image": "images/people/anca-matioc.jpg"
+    "image": "images/people/anca-matioc.jpg",
+    "readmore": "Antes de fundar La Sobremesa, fui la coordinadora de Matchbox de The Engine Room (https://theengineroom.org/) en América Latina y luego a nivel Global, donde acompañé docenas de organizaciones a ser más estratégicos con el uso de tecnología y datos. Previo a eso, trabajé para Ciudadanía Inteligente (https://ciudadaniai.org/) en Chile, donde cofundé y lideré el proyecto de Desarrollando América Latina, una red regional de 16 organizaciones de 12 países que trabajaban abriendo datos para buscar soluciones a problemas sociales. Ahí también cofundé la des-conferencia regional de AbreLatAm abrelatam.org , un espacio para discutir innovar en la apertura de datos y de gobiernos. Tengo una maestría en Development Practice de SIPA (https://www.sipa.columbia.edu/academics/programs/mpa-development-practice) de Columbia University. Nací en Rumania, crecí en Estados Unidos, y dentro de los últimos diez años he trabajado desde Chile y ahora México para toda America Latina."
   },
   {
+    "id": "graciela-guadarrama",
     "name": "Graciela Guadarrama Buena",
     "role": "Lideresa de Diseño & Futuros",
     "email": "graciela@lasobremesa.co",
     "about": "¡Hola! Soy Graciela. Mi experiencia engloba Innovación y Diseño en toda su extensión. Utilizo metodologías de diferentes disciplinas para facilitar procesos de acción y transformación; entre ellas se encuentran la Innovación Social, el Diseño Crítico, Futuros Participativos y el Pensamiento Sistémico. Creo en la narrativa como herramienta crucial para el cambio y disfruto mucho del diseño participativo y de los procesos de co-creación.\nPor mi perfil y mente curiosa he trabajado con diversos grupos y organizaciones tanto del sector público, como privado y sociedad civil. Además, con instituciones internacionales como UNESCO, WFP y EU en temas diversos tanto sociales como ambientales.",
     "twitter": "okanaga86",
     "instagram": "okanaga",
-    "image": "images/people/graciela-guadarrama.jpg"
+    "image": "images/people/graciela-guadarrama.jpg",
+    "readmore": "Soy originaria de México (chilanga). Cuento con una maestría en Strategic Foresight & Innovation de OCAD U en Toronto. Además, soy co-fundadora de Futures Space: The Digital Home for Futurists, una comunidad global de futuristas y pensadores de vanguardia donde aprendemos y nos desafían mutuamente. Entre mis múltiples participaciones en “Futuros”, soy desde 2018 la copresidenta del Futures Festival de la APF, cuya misión es proporcionar una plataforma inclusiva para el trabajo de profesionales en prospectiva. También soy asociada del IPD (Instituto para la Planeación del Desarrollo) con sede en la Ciudad de México - cuyos proyectos se centran en el desarrollo social - donde asisto con investigación, prospectiva y diseño."
   }
 ]
