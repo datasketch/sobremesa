@@ -1,10 +1,12 @@
 {{ define "main" }}
-{{ partial "page-header.html" (dict "title" "Quiénes somos" "description" "Somos un colectivo de personas con diversas experiencias y conocimientos, todas trabajando en distintos sectores para aportar a una sociedad civil en América Latina más fuerte y resiliente." "image" "images/who-section.png")}}
+{{ partial "page-header.html" (dict "title" (T "label_who_we_are") "description" (T "page_who_we_are_desc") "image" "images/who-section.png")}}
 {{ $data := index .Site.Data .Site.Language.Lang }}
 <section class="container px-4 py-16">
   <div class="text-center leading-tight">
-    <p class="font-source-serif-pro text-xl md:text-2xl">Sentadas en la mesa de La Sobremesa está</p>
-    <h2 class="section-title with-stars">El equipo</h2>
+    <p class="font-source-serif-pro text-xl md:text-2xl">
+      {{ T "page_who_we_are_intro_team" }}
+    </p>
+    <h2 class="section-title with-stars">{{ T "label_the_team" }}</h2>
   </div>
 </section>
 <section class="container-md px-4 pb-24">
@@ -18,11 +20,15 @@
   <div class="container">
     <div class="section-row items-center">
       <div class="section-col">
-        <img class="mx-auto w-full md:w-2/3 lg:w-4/5 lg:ml-0" src="{{ "images/join-team-es.svg" | absURL }}" alt="">
+        <img class="mx-auto w-full md:w-2/3 lg:w-4/5 lg:ml-0" src="{{ (print "images/join-team-" .Site.Language.Lang ".svg") | absURL }}" alt="">
       </div>
       <div class="section-col text-white">
-        <p class="text-2xl font-bold">¡Súmate!</p>
-        <p class="mt-4 font-source-serif-pro text-xl">Pronto anunciaremos vacantes disponibles</p>
+        <p class="text-2xl font-bold">
+          {{ T "label_join" }}
+        </p>
+        <p class="mt-4 font-source-serif-pro text-xl">
+          {{ T "page_who_we_are_empty_positions" }}
+        </p>
         <!-- <ul class="mt-4 font-source-serif-pro text-xl">
           <li class="flex items-center space-x-3">
             <img class="w-4" src="{{ "images/yellow-star.svg" | absURL }}" alt="">
@@ -58,10 +64,10 @@
     <div class="relative">
       <img class="absolute -top-10 -left-12 h-36 object-contain md:object-fill" src="{{ "images/fire-opal-footprint.png" | absURL }}" alt="">
       <h2 class="section-title relative text-linen lg:text-7xl">
-        Qué hacemos
+        {{ T "label_what_we_do" }}
       </h2>
     </div>
-    <a href="{{ relref . "que-hacemos" }}" class="site-link-white ml-8 mt-8 mb-0 sm:mb-8 hover:text-chocolate">{{ T "read_more" }}</a>
+    <a href="{{ relref . "que-hacemos" }}" class="site-link-white ml-8 mt-8 mb-0 sm:mb-8 hover:text-chocolate">{{ T "action_read_more" }}</a>
   </div>
 </section>
 {{ range $data.guests }}
