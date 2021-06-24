@@ -1,23 +1,23 @@
 {{ define "main" }}
-{{ partial "page-header.html" (dict "title" "Nuestros espacios" "description" "En La Sobremesa, generamos espacios para hablar de las necesidades y desafios de sociedad civil. Diseñamos y facilitamos conversaciones para escucharnos, analizarnos e inspirarnos." "image" "images/conversation-section.png")}}
+{{ partial "page-header.html" (dict "title" (T "page_spaces_title") "description" (T "page_spaces_desc") "image" "images/conversation-section.png")}}
 <section class="container px-4 py-16">
   <div class="">
     <div class="section-row xl:space-x-24">
       <div class="relative w-full lg:w-1/2 xl:w-1/3">
         <img class="absolute top-0 left-0 h-full object-contain md:object-fill" src="{{ "images/gold-metallic-footprint.png" | absURL }}" alt="">
         <h2 class="section-title leading-extra-tight relative">
-          En nuestros espacios de hoy
+          {{ T "page_spaces_today" }}
         </h2>
       </div>
       <div class="w-full lg:w-1/2 xl:w-2/3 self-center">
         <ul class="section-description list-arrow text-lg lg:text-xl">
-          <li>¿Cómo se aprende dentro de la sociedad civil?</li>
-          <li>¿Cómo y cuándo se colabora dentro de sociedad civil?</li>
-          <li>¿Cómo se ve la innovación?</li>
+          <li>{{ T "page_spaces_q1" }}</li>
+          <li>{{ T "page_spaces_q2" }}</li>
+          <li>{{ T "page_spaces_q3" }}</li>
         </ul>
         <div class="mt-12 h-full flex flex-col">
           <p class="font-semibold text-md tracking-wide lg:text-lg">
-            Suscribete a nuestro newsletter para enterarte y participar en futuros espacios.
+            {{ T "label_subscribe_participate" }}
           </p>
           <form class="my-2" action="/">
             <input class="mr-2 bg-linen text-chocolate px-4 py-1 border border-chocolate placeholder-chocolate" type="email" id="email" name="email" placeholder="e-mail">
@@ -30,13 +30,13 @@
 </section>
 <section class="container px-4 pt-24 pb-16">
   <div class="text-center">
-    <p class="font-beth-ellen text-xl">Lo que hemos aprendido en</p>
+    <p class="font-beth-ellen text-xl">{{ T "page_spaces_learnt_title" }}</p>
     <h2 class="section-title text-gold-metallic lg:-mt-4">
-      Nuestros espacios
+      {{ T "page_spaces_title" }}
     </h2>
   </div>
   <p class="mt-6 text-center text-xl">
-    Te compartimos los aprendizajes de las organizaciones de sociedad civil que participaron en nuestros espacios.
+    {{ T "page_spaces_learnt_desc" }}
   </p>
   <div class="mt-24 space-y-24">
     <div class="flex flex-col">
@@ -118,11 +118,11 @@
     </div>
     <div class="section-col text-center">
       <h2 class="section-title-md leading-extra-tight">
-        ¿Te interesa participar en <span class="text-gold-metallic">futuros espacios</span> y recibir noticias sobre <span class="text-gold-metallic">nuestras conversaciones</span>?
+        {{ T "page_spaces_cta_q" | safeHTML }}
       </h2>
       <div class="mt-12 h-full flex flex-col">
         <p class="font-semibold text-lg tracking-wide lg:text-xl">
-          Suscríbete a nuestro newsletter
+          {{ T "label_subscribe_newsletter" }}
         </p>
         <form class="my-4" action="/">
           <input class="mr-2 bg-linen text-chocolate px-4 py-2 border border-chocolate placeholder-chocolate" type="email" id="email" name="email" placeholder="e-mail">
