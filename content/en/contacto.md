@@ -4,4 +4,5 @@ layout: contacto
 weight: 6
 menu: main
 color: gold-metallic
+url: /en/contact
 ---

@@ -5,6 +5,7 @@ menu:
   main:
     parent: wrapper
 color: gold-metallic
+url: /en/what-do-we-do
 ---
 
 ## What do we work on? #{class="section-title section-col-title text-chocolate"}

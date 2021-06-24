@@ -5,4 +5,5 @@ menu:
   main:
     identifier: wrapper
 color: gold-metallic
+url: /en/about-us
 ---
