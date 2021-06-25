@@ -55,42 +55,57 @@
     <h2 class="section-title text-center">
       {{- T "label_what_do_we_do" -}}
     </h2>
-    <div class="mt-16 grid gap-16 lg:grid-cols-3">
+    <div class="mt-16 grid gap-20 lg:grid-cols-3">
       <div class="max-w-sm mx-auto">
         <img class="mx-auto h-48 object-center object-contain" src="{{ "images/guide-sketch.png" | absURL }}" alt="">
-        <div class="flex flex-row justify-center items-start -ml-10">
-          <img class="h-10 object-center object-contain" src="{{ "images/red-star.svg" | absURL }}" alt="">
-          <h3 class="mt-4 font-source-serif-pro text-4xl text-left">
-            {{ T "page_home_services_first_title" }} <span class="w-10 text-fire-opal">{{ T "page_home_services_first_hl" }}</span>
+        <div class="flex flex-col">
+          <div class="flex flex-row justify-start items-start -ml-10">
+            <img class="h-10 object-center object-contain" src="{{ "images/red-star.svg" | absURL }}" alt="">
+            <h3 class="mt-4 font-source-serif-pro text-3xl text-left">
+              {{ T "page_home_services_first_title" }}
+            </h3>
+          </div>
+          <h3 class="font-source-serif-pro text-3xl text-left text-fire-opal">
+            {{ T "page_home_services_first_hl" }}
           </h3>
         </div>
-        <p class="mt-8 text-lg">
+        <p class="mt-6 text-lg">
           {{- T "page_home_services_first_desc" -}}
         </p>
         <a href="{{ relref . "acompanamiento" }}" class="mt-8 site-link hover:text-fire-opal">{{- T "action_read_about_accompaniment" -}}</a>
       </div>
       <div class="max-w-sm mx-auto">
         <img class="mx-auto h-48 object-center object-contain" src="{{ "images/conversation-sketch.png" | absURL }}" alt="">
-        <div class="flex flex-row justify-start items-start -ml-10">
-          <img class="h-10 object-center object-contain" src="{{ "images/yellow-star.svg" | absURL }}" alt="">
-          <h3 class="mt-4 font-source-serif-pro text-4xl text-left">
-            {{ T "page_home_services_second_title" }} <span class="w-10 text-gold-metallic">{{ T "page_home_services_second_hl" }}</span>
+        <div class="flex flex-col">
+          <div class="flex flex-row justify-start items-start -ml-10">
+            <img class="h-10 object-center object-contain" src="{{ "images/yellow-star.svg" | absURL }}" alt="">
+            <h3 class="mt-4 font-source-serif-pro text-3xl text-left">
+              {{ T "page_home_services_second_title" }}
+            </h3>
+          </div>
+          <h3 class="font-source-serif-pro text-3xl text-left text-gold-metallic">
+            {{ T "page_home_services_second_hl" }}
           </h3>
         </div>
-        <p class="mt-8 text-lg">
+        <p class="mt-6 text-lg">
           {{- T "page_home_services_second_desc" -}}
         </p>
         <a href="{{ relref . "espacios" }}" class="mt-8 site-link hover:text-gold-metallic">{{- T "action_join_spaces" -}}</a>
       </div>
       <div class="max-w-sm mx-auto">
         <img class="mx-auto h-48 object-center object-contain" src="{{ "images/resources-sketch.png" | absURL }}" alt="">
-        <div class="flex flex-row justify-start items-start -ml-10">
-          <img class="h-10 object-center object-contain" src="{{ "images/green-star.svg" | absURL }}" alt="">
-          <h3 class="mt-4 font-source-serif-pro text-4xl text-left">
-            {{ T "page_home_services_third_title" }} <span class="w-10 text-darmouth-green">{{ T "page_home_services_third_hl" }}</span>
+        <div class="flex flex-col">
+          <div class="flex flex-row justify-start items-start -ml-10">
+            <img class="h-10 object-center object-contain" src="{{ "images/green-star.svg" | absURL }}" alt="">
+            <h3 class="mt-4 font-source-serif-pro text-3xl text-left">
+              {{ T "page_home_services_third_title" }}
+            </h3>
+          </div>
+          <h3 class="font-source-serif-pro text-3xl text-left text-darmouth-green">
+            {{ T "page_home_services_third_hl" }}
           </h3>
         </div>
-        <p class="mt-8 text-lg">
+        <p class="mt-6 text-lg">
           {{- T "page_home_services_third_desc" -}}
         </p>
         <a href="{{ relref . "herramientas" }}" class="mt-8 site-link hover:text-darmouth-green">{{ T "action_explore_resources" }}</a>
