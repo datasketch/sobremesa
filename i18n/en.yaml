@@ -16,6 +16,8 @@
   translation: Read more
 - id: action_schedule_call
   translation: Schedule a call
+- id: action_visit_tool
+  translation: Visit the tool
 - id: label_accompaniments
   translation: Accompaniments
 - id: label_clients
@@ -36,10 +38,14 @@
   translation: Want to receive our newsletter?
 - id: label_subscribe_newsletter
   translation: Sign up for our newsletter
+- id: label_subscribe_participate
+  translation: Subscribe to our newsletter to participate in future conversation spaces
 - id: label_the_team
   translation: the team
 - id: label_their_exp
   translation: Their experiences
+- id: label_tools
+  translation: Tools
 - id: label_what_do_we_do
   translation: What do we do?
 - id: label_what_we_do
@@ -185,6 +191,43 @@
   translation: tools
 - id: page_home_services_third_title
   translation: We curate
+- id: page_spaces_cta_q
+  translation: >-
+    Would you like to  participate in <span class="text-gold-metallic">future
+    spaces</span> and receive news about <span class="text-gold-metallic">our
+    conversations</span>?
+- id: page_spaces_desc
+  translation: >-
+    At La Sobremesa, we create spaces where we talk about the needs and
+    challenges facing civil society today. We design and facilitate
+    conversations to listen to one another, analyze trends, and become inspired.
+- id: page_spaces_learnt_desc
+  translation: >-
+    Below, explore learnings from some civil society organizations that have
+    participated in our conversation spaces.
+- id: page_spaces_learnt_title
+  translation: What we’ve learned through
+- id: page_spaces_q1
+  translation: How do we learn within civil society?
+- id: page_spaces_q2
+  translation: When do we collaborate within civil society?
+- id: page_spaces_q3
+  translation: How do we see innovation?
+- id: page_spaces_title
+  translation: Our spaces
+- id: page_spaces_today
+  translation: In today's spaces, we’re discussing
+- id: page_tools_cta_q
+  translation: >-
+    Interested in being part of our future <span
+    class="text-darmouth-green">spaces</span> and stay up to date with the <span
+    class="text-darmouth-green">conversations</span> we have?
+- id: page_tools_desc
+  translation: >-
+    Explore the tools - guides, videos, podcasts, articles, and more - that we
+    use in our accompaniment support and other work.
+- id: page_tools_used
+  translation: Tools we’re using
 - id: page_what_we_do_desc
   translation: >-
     La Sobremesa is a consultancy that facilitates reflection and learning
@@ -199,5 +242,3 @@
   translation: We will be announcing available positions soon.
 - id: page_who_we_are_intro_team
   translation: Sitting at the table of La Sobremesa is
-- id: page_who_we_are_read_more
-  translation: More about me
