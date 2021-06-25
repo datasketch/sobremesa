@@ -114,7 +114,7 @@
 <div class="container px-4 py-16">
   <div class="section-row section-row-reverse items-center">
     <div class="section-col">
-      <img class="mx-auto w-2/3" src="{{ "images/join-us-es.png" | absURL }}" alt="">
+      <img class="mx-auto w-2/3" src="{{ (print "images/join-us-" .Site.Language.Lang ".png") | absURL }}" alt="">
     </div>
     <div class="section-col text-center">
       <h2 class="section-title-md leading-extra-tight">
