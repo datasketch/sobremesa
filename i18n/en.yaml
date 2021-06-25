@@ -232,6 +232,10 @@
     use in our accompaniment support and other work.
 - id: page_tools_used
   translation: Tools we’re using
+- id: page_tools_for_who
+  translation: Who is this for?
+- id: page_tools_desc_label
+  translation: Description
 - id: page_what_we_do_desc
   translation: >-
     La Sobremesa is a consultancy that facilitates reflection and learning

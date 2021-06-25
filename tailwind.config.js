@@ -7,6 +7,7 @@ module.exports = {
   theme: {
     minWidth: {
       '165': '165px',
+      '380': '380px',
     },
     extend: {
       inset: {

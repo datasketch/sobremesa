@@ -245,6 +245,10 @@
     estamos usando en nuestros acompañamientos y demás trabajo.
 - id: page_tools_used
   translation: Las herramientas que hemos usado
+- id: page_tools_for_who
+  translation: ¿Para quién es?
+- id: page_tools_desc_label
+  translation: Descripción
 - id: page_what_we_do_desc
   translation: >-
     La Sobremesa es una consultora que facilita procesos de reflexión y
