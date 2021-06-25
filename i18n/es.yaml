@@ -249,6 +249,8 @@
   translation: ¿Para quién es?
 - id: page_tools_desc_label
   translation: Descripción
+- id: page_tools_close
+  translation: Cerrar
 - id: page_what_we_do_desc
   translation: >-
     La Sobremesa es una consultora que facilita procesos de reflexión y
