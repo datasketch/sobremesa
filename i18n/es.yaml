@@ -1,3 +1,5 @@
+- id: action_close
+  translation: Cerrar
 - id: action_explore_more_tools
   translation: Explora más herramientas
 - id: action_explore_resources
@@ -24,6 +26,8 @@
   translation: Clientes
 - id: label_contact_us
   translation: Contáctanos
+- id: label_desc
+  translation: Descripción
 - id: label_donors
   translation: Donantes
 - id: label_join
@@ -233,7 +237,7 @@
 - id: page_spaces_title
   translation: Nuestros espacios
 - id: page_spaces_today
-  translation: En nuestros espacios de ¡hoy!
+  translation: En nuestros espacios de hoy
 - id: page_tools_cta_q
   translation: >-
     ¿Te interesa ser parte de futuros <span
@@ -243,14 +247,10 @@
   translation: >-
     Explora las herramientas - guías, videos, podcasts, artículos, y más - que
     estamos usando en nuestros acompañamientos y demás trabajo.
-- id: page_tools_used
-  translation: Las herramientas que hemos usado
 - id: page_tools_for_who
   translation: ¿Para quién es?
-- id: page_tools_desc_label
-  translation: Descripción
-- id: page_tools_close
-  translation: Cerrar
+- id: page_tools_used
+  translation: Las herramientas que hemos usado
 - id: page_what_we_do_desc
   translation: >-
     La Sobremesa es una consultora que facilita procesos de reflexión y
