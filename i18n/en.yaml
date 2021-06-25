@@ -165,6 +165,8 @@
   translation: With civil society
 - id: page_home_header_third_row
   translation: For civil society
+- id: page_home_reading_listening
+  translation: What are we reading and listening to?
 - id: page_home_services_first_desc
   translation: >-
     We accompany, and design and facilitate personalized, one-on-one change
@@ -191,6 +193,8 @@
   translation: tools
 - id: page_home_services_third_title
   translation: We curate
+- id: page_home_talk_trend
+  translation: What are we discussing?
 - id: page_spaces_cta_q
   translation: >-
     Would you like to  participate in <span class="text-gold-metallic">future
