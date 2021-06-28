@@ -9,6 +9,10 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="stylesheet" href="{{ $styles.Permalink }}">
+  <!-- Calendly -->
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+  <!-- End calendly -->
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   {{ block "head" . }}{{ end }}
   {{ if .Title }}
@@ -27,10 +31,6 @@
   var ml_account = ml('accounts', '3211705', 'h2j7b7h2w6', 'load');
   </script> -->
   <!-- End MailerLite Universal -->
-  <!-- Calendly -->
-  <!-- <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-  <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/lasobremesa/60min', text: 'Programe una reunión conmigo', color: '#006bff', textColor: '#ffffff', branding: true }); }</script> -->
 </head>
 <body class="font-source-sans-pro bg-linen text-chocolate">
   {{ partial "nav.html" . }}
@@ -38,6 +38,8 @@
     {{ block "main" . }}{{ end }}
   </main>
   {{ partial "footer.html" . }}
+  {{ $default := resources.Get "js/default.js" | js.Build (dict "minify" true)}}
+  <script src="{{ $default.Permalink }}"></script>
   {{ block "js" . }}{{ end }}
 </body>
 </html>
