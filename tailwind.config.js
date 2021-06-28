@@ -5,17 +5,17 @@ module.exports = {
     options: {
       safelist: [
         'bg-tools-sm-es',
-        'bg-tools-lg-es',
+        'md:bg-tools-lg-es',
         'bg-spaces-sm-es',
-        'bg-spaces-lg-es',
+        'md:bg-spaces-lg-es',
         'bg-accompaniment-sm-es',
-        'bg-accompaniment-lg-es',
+        'md:bg-accompaniment-lg-es',
         'bg-tools-sm-en',
-        'bg-tools-lg-en',
+        'md:bg-tools-lg-en',
         'bg-spaces-sm-en',
-        'bg-spaces-lg-en',
+        'md:bg-spaces-lg-en',
         'bg-accompaniment-sm-en',
-        'bg-accompaniment-lg-en'
+        'md:bg-accompaniment-lg-en'
       ]
     }
   },
