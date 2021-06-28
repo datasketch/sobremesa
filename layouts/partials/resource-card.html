@@ -1,11 +1,11 @@
 {{ $border_class := "" }}
 {{ $bg_class := "" }}
 {{ $text_class := "" }}
-{{ if in (slice "Guía" "Libro" "Reporte") .Params.genre }}
+{{ if in (slice "guide" "book" "report") .Params.genre }}
   {{ $border_class = "border-darmouth-green" }}
   {{ $text_class = "text-darmouth-green" }}
   {{ $bg_class := "bg-darmouth-green" }}
-{{ else if in (slice "Sitio web" "Herramienta") .Params.genre }}
+{{ else if in (slice "website" "tool") .Params.genre }}
   {{ $border_class = "border-maximum-green" }}
   {{ $text_class = "text-maximum-green" }}
   {{ $bg_class = "bg-maximum-green" }}
@@ -22,7 +22,7 @@
   <div class="resource-content">
     <div class="resource-body">
       <span class="resource-type {{ $text_class }}">
-        {{ .Params.genre }}
+        {{ T (print "label_" .Params.genre) }}
       </span>
       <h3 class="resource-title">
         {{ .Title }}

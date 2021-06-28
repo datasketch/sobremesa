@@ -70,4 +70,86 @@ collections:
       - label: "Experiencia"
         name: "body"
         widget: "markdown"
+  - name: tools-en
+    label: Tools (English)
+    folder: content/en/herramientas
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        required: true
+      - label: "Type"
+        name: "genre"
+        widget: "select"
+        options:
+          - { label: "Podcast", value: "podcast" }
+          - { label: "Video", value: "video" }
+          - { label: "Website", value: "website" }
+          - { label: "Guide", value: "guide" }
+          - { label: "Book", value: "book" }
+          - { label: "Tool", value: "tool" }
+          - { label: "Report", value: "report" }
+        required: true
+      - label: "URL"
+        name: "resource_url"
+        widget: "string"
+        required: true
+      - label: "Creator"
+        name: "creator"
+        widget: "string"
+        required: true
+      - label: "Target"
+        name: "target"
+        widget: "string"
+        required: true
+      - label: "Draft"
+        name: "draft"
+        widget: "boolean"
+        default: false
+      - label: "Description"
+        name: "body"
+        widget: "markdown"
+  - name: tools-es
+    label: Herramientas (Español)
+    folder: content/es/herramientas
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - label: "Título"
+        name: "title"
+        widget: "string"
+        required: true
+      - label: "Tipo"
+        name: "genre"
+        widget: "select"
+        options:
+          - { label: "Podcast", value: "podcast" }
+          - { label: "Vídeo", value: "video" }
+          - { label: "Sitio web", value: "website" }
+          - { label: "Guía", value: "guide" }
+          - { label: "Libro", value: "book" }
+          - { label: "Herramienta", value: "tool" }
+          - { label: "Reporte", value: "report" }
+        required: true
+      - label: "URL"
+        name: "resource_url"
+        widget: "string"
+        required: true
+      - label: "Creador"
+        name: "creator"
+        widget: "string"
+        required: true
+      - label: "Objetivo"
+        name: "target"
+        widget: "string"
+        required: true
+      - label: "Borrador"
+        name: "draft"
+        widget: "boolean"
+        default: false
+      - label: "Descripción"
+        name: "body"
+        widget: "markdown"
 

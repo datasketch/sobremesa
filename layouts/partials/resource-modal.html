@@ -1,11 +1,11 @@
 {{ $border_class := "" }}
 {{ $bg_class := "" }}
 {{ $text_class := "" }}
-{{ if in (slice "Guía" "Libro" "Reporte") .Params.genre }}
+{{ if in (slice "guide" "book" "report") .Params.genre }}
   {{ $border_class = "border-darmouth-green" }}
   {{ $text_class = "text-darmouth-green" }}
   {{ $bg_class := "bg-darmouth-green" }}
-{{ else if in (slice "Sitio web" "Herramienta") .Params.genre }}
+{{ else if in (slice "website" "tool") .Params.genre }}
   {{ $border_class = "border-maximum-green" }}
   {{ $text_class = "text-maximum-green" }}
   {{ $bg_class = "bg-maximum-green" }}
@@ -23,7 +23,9 @@
           <img class="h-60 w-auto object-contain" src="{{ .Params.clip | absURL }}" alt="">
         </div>
         <div class="lg:text-right">
-          <p class="mt-6 lg:mt-2 resource-type {{ $text_class }}">{{ .Params.genre }}</p>
+          <p class="mt-6 lg:mt-2 resource-type {{ $text_class }}">
+            {{ T (print "label_" .Params.genre) }}
+          </p>
           <a href="{{ .Params.resource_url }}" class="mt-2 font-source-serif-pro text-2xl font-bold text-darmouth-green hover:text-chocolate hover:cursor-pointer" id="resource-name">
             {{ .Title }}
           </a>

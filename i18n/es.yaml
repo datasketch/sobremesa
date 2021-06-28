@@ -22,6 +22,8 @@
   translation: Ir a la herramienta
 - id: label_accompaniments
   translation: Acompañamientos
+- id: label_book
+  translation: Libro
 - id: label_clients
   translation: Clientes
 - id: label_contact_us
@@ -30,6 +32,8 @@
   translation: Descripción
 - id: label_donors
   translation: Donantes
+- id: label_guide
+  translation: Guía
 - id: label_join
   translation: ¡Súmate!
 - id: label_networks
@@ -38,8 +42,12 @@
   translation: Organizaciones
 - id: label_our
   translation: Nuestros
+- id: label_podcast
+  translation: Podcast
 - id: label_receive_newsletter
   translation: ¿Quieres recibir nuestra newsletter?
+- id: label_report
+  translation: Reporte
 - id: label_subscribe_newsletter
   translation: Suscríbete a nuestro newsletter
 - id: label_subscribe_participate
@@ -50,8 +58,14 @@
   translation: el equipo
 - id: label_their_exp
   translation: Sus experiencias
+- id: label_tool
+  translation: Herramienta
 - id: label_tools
   translation: Herramientas
+- id: label_video
+  translation: Vídeo
+- id: label_website
+  translation: Sitio web
 - id: label_what_do_we_do
   translation: ¿Qué hacemos?
 - id: label_what_we_do
