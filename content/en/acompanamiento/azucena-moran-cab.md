@@ -1,0 +1,13 @@
+---
+client: CabildoxLatAm
+name: Azucena Morán
+web: https://tedic.org
+role: Fundadora
+logo: images/logos/cab.svg
+draft: false
+weight: 6
+---
+
+Con CabildoxLatAm, "La Sobremesa **apoyó en el diseño y desarrollo de nuestro taller virtual e interactivo del CabildoxLatAm** - un espacio de participación digital y transnacional para identificar y fortalecer respuestas comunitarias ante la pandemia COVID19."
+
+"Trabajar con La Sobremesa fue una experiencia maravillosa. **Le dieron cabida a la confianza, las risas, las luchas y los lutos a un espacio digital** de participación ciudadana, como CabildoxLatAm."
