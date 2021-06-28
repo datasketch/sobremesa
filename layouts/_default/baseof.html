@@ -1,20 +1,30 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language.Lang }}">
 <head>
+  {{ $title := "" }}
+  {{ if .Title }}
+    {{ $title = print .Title " | " .Site.Title}}
+  {{ else }}
+    {{ $title = .Site.Title }}
+  {{ end }}
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  {{ $styles := resources.Get "styles/tailwind.pcss" | toCSS | postCSS | minify }}
+  <meta name="title" content="{{ $title }}">
+  {{ if .Description }}
+    <meta name="description" content="{{ .Description }}">
+  {{ end }}
+  {{ if eq hugo.Environment "production" }}
+    {{ template "_internal/opengraph.html" . }}
+    {{ template "_internal/twitter_cards.html" . }}
+  {{ end }}
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  {{ $styles := resources.Get "styles/tailwind.pcss" | toCSS | postCSS | minify }}
   <link rel="stylesheet" href="{{ $styles.Permalink }}">
-  {{ if eq hugo.Environment "production" }}
-    {{ if .Site.GoogleAnalytics }}
-      {{ template "_internal/google_analytics_async.html" . }}
-    {{ end }}
-    {{ template "_internal/opengraph.html" . }}
-    {{ template "_internal/twitter_cards.html" . }}
+  {{ if and (eq hugo.Environment "production") .Site.GoogleAnalytics }}
+    {{ template "_internal/google_analytics_async.html" . }}
   {{ end }}
   <!-- Calendly -->
   <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
@@ -22,11 +32,7 @@
   <!-- End calendly -->
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   {{ block "head" . }}{{ end }}
-  {{ if .Title }}
-    <title>{{ .Title }} | {{ .Site.Title }}</title>
-  {{ else }}
-    <title>{{ .Site.Title }}</title>
-  {{ end }}
+  <title>{{ $title }}</title>
   <!-- MailerLite Universal -->
   <!-- <script>
   (function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
