@@ -1,7 +1,23 @@
 module.exports = {
   purge: {
     enabled: process.env.HUGO_ENVIRONMENT === 'production',
-    content: ['./layouts/**/*.html']
+    content: ['./layouts/**/*.html'],
+    options: {
+      safelist: [
+        'bg-tools-sm-es',
+        'bg-tools-lg-es',
+        'bg-spaces-sm-es',
+        'bg-spaces-lg-es',
+        'bg-accompaniment-sm-es',
+        'bg-accompaniment-lg-es',
+        'bg-tools-sm-en',
+        'bg-tools-lg-en',
+        'bg-spaces-sm-en',
+        'bg-spaces-lg-en',
+        'bg-accompaniment-sm-en',
+        'bg-accompaniment-lg-en'
+      ]
+    }
   },
   darkMode: false, // or 'media' or 'class'
   theme: {
