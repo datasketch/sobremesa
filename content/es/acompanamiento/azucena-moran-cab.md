@@ -8,6 +8,6 @@ draft: false
 weight: 6
 ---
 
-With CabildoxLatAm, "La Sobremesa supported the design and facilitation of our week-long virtual, interactive workshop, CabildoxLatAm, a space for transnational, digital participation to identify and strengthen community responses to the COVID19 pandemic."
+Con CabildoxLatAm, "La Sobremesa **apoyó en el diseño y desarrollo de nuestro taller virtual e interactivo del CabildoxLatAm** - un espacio de participación digital y transnacional para identificar y fortalecer respuestas comunitarias ante la pandemia COVID19."
 
-Working with La Sobremesa was a wonderful experience. They created space for trust and laughter,  sharing our struggles and losses, all in a digital space for citizen participation, that is CabildoxLatAm.
+"Trabajar con La Sobremesa fue una experiencia maravillosa. **Le dieron cabida a la confianza, las risas, las luchas y los lutos a un espacio digital** de participación ciudadana, como CabildoxLatAm."
