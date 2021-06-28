@@ -6,6 +6,9 @@ menu:
   main:
     parent: wrapper
 color: gold-metallic
+description: La Sobremesa es una consultora que facilita procesos de reflexión y aprendizaje para sociedad civil en América Latina, dando acompañamientos, facilitando espacios y compartiendo herramientas.
+images:
+  - images/what-we-do-section.png
 ---
 
 ## ¿En qué trabajamos? #{class="section-title section-col-title text-chocolate"}

@@ -9,6 +9,13 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="stylesheet" href="{{ $styles.Permalink }}">
+  {{ if eq hugo.Environment "production" }}
+    {{ if .Site.GoogleAnalytics }}
+      {{ template "_internal/google_analytics_async.html" . }}
+    {{ end }}
+    {{ template "_internal/opengraph.html" . }}
+    {{ template "_internal/twitter_cards.html" . }}
+  {{ end }}
   <!-- Calendly -->
   <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
   <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
