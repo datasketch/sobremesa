@@ -1,11 +1,11 @@
 {{ $border_class := "" }}
 {{ $bg_class := "" }}
 {{ $text_class := "" }}
-{{ if in (slice "Guía" "Libro" "Reporte") .type }}
+{{ if in (slice "Guía" "Libro" "Reporte") .Params.genre }}
   {{ $border_class = "border-darmouth-green" }}
   {{ $text_class = "text-darmouth-green" }}
   {{ $bg_class := "bg-darmouth-green" }}
-{{ else if in (slice "Sitio web" "Herramienta") .type }}
+{{ else if in (slice "Sitio web" "Herramienta") .Params.genre }}
   {{ $border_class = "border-maximum-green" }}
   {{ $text_class = "text-maximum-green" }}
   {{ $bg_class = "bg-maximum-green" }}
@@ -15,34 +15,34 @@
   {{ $bg_class = "bg-pine-green" }}
 {{ end }}
 
-<div class="modal-wrapper" id="{{ .url }}" tabindex="-1" role="dialog" aria-labelledby="resource-name" aria-describedby="resource-answer">
+<div class="modal-wrapper" id="{{ .Params.resource_url }}" tabindex="-1" role="dialog" aria-labelledby="resource-name" aria-describedby="resource-answer">
   <div class="w-full bg-linen m-auto p-4 md:py-8 lg:max-w-5xl lg:pt-16">
     <div class="section-row space-y-0 justify-start items-center lg:items-start">
       <div class="w-full md:w-2/3 lg:w-1/2 lg:pr-20 lg:pl-12">
         <div class="lg:mx-auto flex justify-start lg:justify-end">
-          <img class="h-60 w-auto object-contain" src="{{ .clip | absURL }}" alt="">
+          <img class="h-60 w-auto object-contain" src="{{ .Params.clip | absURL }}" alt="">
         </div>
         <div class="lg:text-right">
-          <p class="mt-6 lg:mt-2 resource-type {{ $text_class }}">{{ .type }}</p>
-          <a href="{{ .url }}" class="mt-2 font-source-serif-pro text-2xl font-bold text-darmouth-green hover:text-chocolate hover:cursor-pointer" id="resource-name">
-            {{ .title }}
+          <p class="mt-6 lg:mt-2 resource-type {{ $text_class }}">{{ .Params.genre }}</p>
+          <a href="{{ .Params.resource_url }}" class="mt-2 font-source-serif-pro text-2xl font-bold text-darmouth-green hover:text-chocolate hover:cursor-pointer" id="resource-name">
+            {{ .Title }}
           </a>
-          <p class="font-bold leading-tight uppercase">{{ .creator }}</p>
+          <p class="font-bold leading-tight uppercase">{{ .Params.creator }}</p>
         </div>
       </div>
       <div class="w-full md:w-2/3 lg:w-1/2 lg:max-w-sm">
         <p class="mt-8 lg:mt-2 font-source-serif-pro text-2xl font-bold" id="resource-target">
           {{ T "page_tools_for_who" }}
         </p>
-        <p class="">{{ .target }}</p>
+        <p class="">{{ .Params.target }}</p>
         <p class="mt-6 font-source-serif-pro text-2xl font-bold">
           {{ T "label_desc" }}
         </p>
-        <p class="" id="resource-answer">{{ .description }}</p>
+        <p class="" id="resource-answer">{{ .Content }}</p>
       </div>
     </div>
     <div class="text-center mt-12">
-      <a class="mr-4 mb-4 border-2 border-chocolate uppercase font-bold p-2 leading-none hover:text-darmouth-green hover:border-darmouth-green" href="{{ .url }}" target="_blank">
+      <a class="mr-4 mb-4 border-2 border-chocolate uppercase font-bold p-2 leading-none hover:text-darmouth-green hover:border-darmouth-green" href="{{ .Params.resource_url }}" target="_blank">
         {{ T "action_visit_tool" }}
       </a>
       <button class="mr-4 mb-4 border-2 border-chocolate uppercase font-bold p-2 leading-tight hover:text-darmouth-green hover:border-darmouth-green">

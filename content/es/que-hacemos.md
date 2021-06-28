@@ -1,6 +1,7 @@
 ---
 title: Qué hacemos
 layout: que-hacemos
+logo: images/logo-what-we-do.png
 menu:
   main:
     parent: wrapper

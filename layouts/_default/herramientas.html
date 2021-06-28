@@ -1,13 +1,12 @@
 {{ define "main" }}
 {{ partial "page-header.html" (dict "title" (T "label_tools") "description" (T "page_tools_desc") "image" "images/resources-section.png")}}
-{{ $data := index .Site.Data .Site.Language.Lang }}
 <section class="px-4 py-16">
   <div class="container-lg">
     <h2 class="font-source-serif-pro text-4xl font-bold text-darmouth-green">
       {{ T "page_tools_used" }}
     </h2>
     <div class="mt-6 flex flex-row flex-wrap justify-start items-center">
-      {{ range $data.resources.all }}
+      {{ range where .Pages "Params.draft" false }}
         {{ partial "resource-card.html" . }}
       {{ end }}
     </div>
@@ -34,7 +33,7 @@
     </div>
   </div>
 </div>
-{{ range $data.resources.all }}
+{{ range where .Pages "Params.draft" false }}
   {{ partial "resource-modal.html" . }}
 {{ end }}
 {{ end }}

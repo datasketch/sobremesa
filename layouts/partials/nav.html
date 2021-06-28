@@ -1,18 +1,8 @@
 <nav class="h-32 py-2 px-4 flex justify-between content-start uppercase font-source-sans-pro font-bold tracking-wide text-sm">
   <div class="h-full flex flex-col justify-center">
-    {{ $currentPage := .Page.Params.layout }}
-    {{ if eq $currentPage "quienes-somos" }}
-      <img class="h-full w-auto" src="{{ "images/logo-who-we-are.png" | absURL }}" alt="">
-    {{ else if eq $currentPage "que-hacemos"}}
-      <img class="h-full w-auto" src="{{ "images/logo-what-we-do.png" | absURL }}" alt="">
-    {{ else if eq $currentPage "herramientas"}}
-      <img class="h-full w-auto" src="{{ "images/logo-tools.png" | absURL }}" alt="">
-    {{ else if eq $currentPage "espacios"}}
-      <img class="h-full w-auto" src="{{ "images/logo-spaces.png" | absURL }}" alt="">
-    {{ else if eq $currentPage "acompanamiento"}}
-      <img class="h-full w-auto" src="{{ "images/logo-acompaniment.png" | absURL }}" alt="">
-    {{ else if eq $currentPage "contacto"}}
-      <img class="h-full w-auto" src="{{ "images/logo-contact.png" | absURL }}" alt="">
+    {{ $logo := .Page.Params.logo }}
+    {{ if $logo }}
+      <img class="h-full w-auto" src="{{ $logo | absURL }}" alt="">
     {{ else }}
       <img class="h-full w-auto" src="{{ "images/logo.png" | absURL }}" alt="">
     {{ end }}

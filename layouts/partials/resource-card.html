@@ -1,11 +1,11 @@
 {{ $border_class := "" }}
 {{ $bg_class := "" }}
 {{ $text_class := "" }}
-{{ if in (slice "Guía" "Libro" "Reporte") .type }}
+{{ if in (slice "Guía" "Libro" "Reporte") .Params.genre }}
   {{ $border_class = "border-darmouth-green" }}
   {{ $text_class = "text-darmouth-green" }}
   {{ $bg_class := "bg-darmouth-green" }}
-{{ else if in (slice "Sitio web" "Herramienta") .type }}
+{{ else if in (slice "Sitio web" "Herramienta") .Params.genre }}
   {{ $border_class = "border-maximum-green" }}
   {{ $text_class = "text-maximum-green" }}
   {{ $bg_class = "bg-maximum-green" }}
@@ -17,24 +17,25 @@
 
 <div class="resource-card {{ $border_class }}">
   <div class="resource-image">
-    <img src="{{ .clip }}" alt="">
+    <img src="{{ .Params.clip }}" alt="">
   </div>
   <div class="resource-content">
     <div class="resource-body">
       <span class="resource-type {{ $text_class }}">
-        {{ .type }}</span>
+        {{ .Params.genre }}
+      </span>
       <h3 class="resource-title">
-        {{ .title }}
+        {{ .Title }}
       </h3>
       <p class="resource-source">
-        {{ .creator }}
+        {{ .Params.creator }}
       </p>
     </div>
     <div class="resource-buttons">
-      <button data-modal="{{ .url }}" class="mr-4 mb-4 px-4 py-2 leading-tight text-white font-bold text-lg hover:bg-chocolate {{ $bg_class }}">
+      <button data-modal="{{ .Params.resource_url }}" class="mr-4 mb-4 px-4 py-2 leading-tight text-white font-bold text-lg hover:bg-chocolate {{ $bg_class }}">
         {{ T "action_read_more" }}
       </button>
-      <a href="{{ .url }}" class="mr-4 mb-4 px-4 py-2 text-white font-bold text-lg hover:bg-chocolate {{ $bg_class }}" target="_blank">
+      <a href="{{ .Params.resource_url }}" class="mr-4 mb-4 px-4 py-2 text-white font-bold text-lg hover:bg-chocolate {{ $bg_class }}" target="_blank">
         {{ T "action_visit_tool" }}
       </a>
     </div>
