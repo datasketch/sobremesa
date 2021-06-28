@@ -1,30 +1,30 @@
 [
   {
-    "image": "",
+    "image": "images/logos/hivos.svg",
     "client": "Hivos",
     "name": "Ana Gabriel Zúñiga Aponte",
     "web": "https://hivos.org/",
     "exp": "Con Hivos América Latina, \"La Sobremesa hizo **una mentoría especializada a nuestras socias** de Open Contracting para garantizar la resiliencia y sostenibilidad de sus organizaciones e iniciativas.\"\n\"La Sobremesa es un **espacio seguro y creativo, que permite dar discusiones abiertas y re-pensarnos** como organizaciones y como ecosistema. La Sobremesa son personas **llenas de empatía y con capacidad de crear soluciones innovadoras y sostenibles para la resiliencia** cívica tan necesaria en América Latina.\"",
-    "role": ""
+    "role": "Gerente de Desarrollo Corporativo"
   },
   {
-    "image": "",
+    "image": "images/logos/dialogos.svg",
     "client": "Diálogos",
     "name": "Walter Corzo",
     "web": "https://dialogos.org.gt",
     "exp": "Con Diálogos de Guatemala, \"La Sobremesa nos acompañó en la **co-creación y definición de una hoja de ruta** para nuestra organización. Como parte de esa asistencia ténica, nos ayudar a definir de mecanismos en Diálogos sobre **cómo anticipamos futuros y aprendemos de ellos.\"**\nRealmente disfrutamos trabajar con La Sobremesa. Gracias a su inspiración y acompañamiento **logramos alcanzar los objetivos y metas que nos propusimos**. Un trabajo como este merece ser reconocido adecuadamente, así que gracias por dedicar tanto tiempo, amor y esfuerzo a nuestro proyecto. **El trabajo con La Sobremesa marca un antes y un después en nuestra historia institucional.**",
-    "role": "Director ejecutivo"
+    "role": "Director Ejecutivo"
   },
   {
-    "image": "",
+    "image": "images/logos/reaccion.svg",
     "client": "reAcción",
     "name": "David Riveros García",
     "web": "https://reaccion.org.py/",
     "exp": "Con reAcción de Paraguay, \"trabajamos con La Sobremesa en el **análisis de futuros posibles** para **priorizar acciones y ajustar nuestro plan de desarrollo institucional.\"**\nSentimos que les importaba el futuro de nuestra organización como si fuera la suya. Tienen una **capacidad de escucha y empatía** que no es común en estos ámbitos. Su prioridad fue **asegurar que nuestra visión alternativa de desarrollo pueda ser realidad.**",
-    "role": "Director ejecutivo"
+    "role": "Director Ejecutivo"
   },
   {
-    "image": "",
+    "image": "images/logos/hivos.svg",
     "client": "Hivos",
     "name": "Conrad Zellmann",
     "web": "https://hivos.org/",
@@ -32,15 +32,15 @@
     "role": "Impact Lead"
   },
   {
-    "image": "",
+    "image": "images/logos/tedic.svg",
     "client": "TEDIC",
     "name": "Maricarmen Sequera",
     "web": "https://tedic.org",
     "exp": "Con TEDIC de Paraguay, \"trabajamos con La Sobremesa para repensar los posibles futuros para ser menos reactivos y más propositivos. Además **nos ayudaron a repensar la organización, desde nuestra misión y teoría de cambio hasta nuestros roles como equipo y forma de trabajar más saludables y sostenibles.\"**\"Trabajar con La Sobremesa fue una experiencia ludica. Accedimos a muchas herramientas para pensar en nuestros futuros. Tiene un gran equipo de profesionales que **nos acompanó en el proceso de reconstruccion de la organización**. Además en tiempos de pandemia, compartieron metodologías que mantuvo seguro al equipo de trabajo.\"",
-    "role": "Directora ejecutiva"
+    "role": "Directora Ejecutiva"
   },
   {
-    "image": "",
+    "image": "images/logos/cab.svg",
     "client": "CabildoxLatAm",
     "name": "Azucena Morán",
     "web": "https://cabildoxlatam.org/",
@@ -48,7 +48,7 @@
     "role": "Fundadora"
   },
   {
-    "image": "",
+    "image": "images/logos/oh.png",
     "client": "Open Heroines",
     "name": "Mor Rubinstein",
     "web": "https://openheroines.org/",

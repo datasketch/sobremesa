@@ -4,8 +4,10 @@
       {{ range .experiences }}
         <div class="swiper-slide">
           <div class="container">
-            <div class="section-row items-center">
-              <div class="section-col lg:w-1/3">Logo</div>
+            <div class="section-row items-center space-x-12">
+              <div class="section-col lg:w-1/3">
+                <img src="{{ .image | absURL }}" alt="">
+              </div>
               <div class="section-col lg:w-2/3">
                 <div class="leading-extra-tight">
                   <h3 class="font-source-serif-pro text-fire-opal text-2xl">
@@ -17,7 +19,10 @@
                 </div>
                 <div class="mt-6 leading-tight">
                   {{ .exp | markdownify }}
-                  <p class="font-bold mt-2">{{ .name }}</p>
+                  <div class="mt-4">
+                    <p class="font-bold">{{ .name }}</p>
+                    <p>{{ .role }} de <a href="{{ .web }}" class="underline" target="_blank">{{ .client }}</a></p>
+                  </div>
                 </div>
               </div>
             </div>
