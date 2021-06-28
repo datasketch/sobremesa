@@ -1,0 +1,73 @@
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: "static/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: accompaniments-en
+    label: Accompaniments (English)
+    folder: content/en/acompanamiento
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - label: "Client"
+        name: "client"
+        widget: "string"
+        required: true
+      - label: "Logo"
+        name: "logo"
+        widget: "image"
+      - label: "Name"
+        name: "name"
+        widget: "string"
+        required: true
+      - label: "Role"
+        name: "role"
+        widget: "string"
+        required: true
+      - label: "Website"
+        name: "web"
+        widget: "string"
+        required: true
+      - label: "Draft"
+        name: "draft"
+        widget: "boolean"
+        default: false
+      - label: "Experience"
+        name: "body"
+        widget: "markdown"
+  - name: accompaniments-es
+    label: Acompañamientos (Español)
+    folder: content/es/acompanamiento
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - label: "Cliente"
+        name: "client"
+        widget: "string"
+        required: true
+      - label: "Logo"
+        name: "logo"
+        widget: "image"
+      - label: "Nombre"
+        name: "name"
+        widget: "string"
+        required: true
+      - label: "Rol"
+        name: "role"
+        widget: "string"
+        required: true
+      - label: "Sitio web"
+        name: "web"
+        widget: "string"
+        required: true
+      - label: "Borrador"
+        name: "draft"
+        widget: "boolean"
+        default: false
+      - label: "Experiencia"
+        name: "body"
+        widget: "markdown"
+
