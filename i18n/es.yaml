@@ -248,6 +248,22 @@
   translation: ¿Cómo y cuándo se colabora dentro de sociedad civil?
 - id: page_spaces_q3
   translation: ¿Cómo se ve la innovación?
+- id: page_spaces_qa
+  translation: ¿Qué tipo de apoyo reciben las organizaciones dentro de la sociedad civil?
+- id: page_spaces_qa_ans
+  translation: >-
+    Como parte de nuestro trabajo con [Open Contracting
+    Partnership](https://www.open-contracting.org/) (desde Agency),
+    entrevistamos a organizaciones de apoyo que dan acompañamientos. Quisimos
+    entender que tipos de apoyo más les beneficiaban a las organizaciones que
+    buscaban mejorar su implementación de contrataciones abiertas.
+- id: page_spaces_qb
+  translation: ¿Qué encontramos?
+- id: page_spaces_qb_ans
+  translation: >-
+    Hay muchas formas de apoyo que se utilizan pero que en realidad no
+    funcionan. Para mejorar las prácticas de acompañamiento, hay que escuchar
+    las voces de las personas que reciben este apoyo.
 - id: page_spaces_title
   translation: Nuestros espacios
 - id: page_spaces_today

@@ -235,6 +235,23 @@
   translation: When do we collaborate within civil society?
 - id: page_spaces_q3
   translation: How do we see innovation?
+- id: page_spaces_qa
+  translation: What type of support do organizations within civil society receive?
+- id: page_spaces_qa_ans
+  translation: >-
+    As part of our work with [Open Contracting
+    Partnership](https://www.open-contracting.org/) (done as part of our work as
+    Agency), we interviewed support organizations that conduct accompaniment
+    support. We wanted to understand what types of support most benefitted
+    organizations that wanted to improve their implementation of open
+    contracting work.
+- id: page_spaces_qb
+  translation: What did we find?
+- id: page_spaces_qb_ans
+  translation: >-
+    There are many kinds of support but, in reality, many don’t work. In order
+    to improve accompaniment practices, we need to listen to the voices of the
+    people who are receiving this support.
 - id: page_spaces_title
   translation: Our spaces
 - id: page_spaces_today
