@@ -19,10 +19,9 @@
           <p class="font-semibold text-md tracking-wide lg:text-lg">
             {{ T "label_subscribe_participate" }}
           </p>
-          <form class="my-2" action="/">
-            <input class="mr-2 bg-linen text-chocolate px-4 py-1 border border-chocolate placeholder-chocolate" type="email" id="email" name="email" placeholder="e-mail">
-            <input class="bg-linen text-chocolate font-bold py-1 px-2 border border-chocolate cursor-pointer hover:bg-chocolate hover:text-linen" type="submit" value="OK">
-          </form>
+          <div class="mt-2 flex">
+            {{ partial "newsletter-form.html" (dict "Plain" false) }}
+          </div>
         </div>
       </div>
     </div>
@@ -126,10 +125,9 @@
         <p class="font-semibold text-lg tracking-wide lg:text-xl">
           {{ T "label_subscribe_newsletter" }}
         </p>
-        <form class="my-4" action="/">
-          <input class="mr-2 bg-linen text-chocolate px-4 py-2 border border-chocolate placeholder-chocolate" type="email" id="email" name="email" placeholder="e-mail">
-          <input class="bg-linen text-chocolate font-bold py-2 px-2 border border-chocolate cursor-pointer hover:bg-chocolate hover:text-linen" type="submit" value="OK">
-        </form>
+        <div class="mt-4">
+          {{ partial "newsletter-form.html" (dict "Plain" false) }}
+        </div>
       </div>
     </div>
   </div>
