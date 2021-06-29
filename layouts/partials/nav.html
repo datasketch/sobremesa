@@ -1,4 +1,4 @@
-<nav class="h-32 py-2 px-4 flex justify-between content-start uppercase font-source-sans-pro font-bold tracking-wide text-sm">
+<header class="h-32 py-2 px-4 flex justify-between items-center lg:items-start uppercase font-source-sans-pro font-bold tracking-wide text-sm relative">
   <div class="h-full flex flex-col justify-center">
     {{ $logo := .Page.Params.logo }}
     {{ if $logo }}
@@ -7,48 +7,61 @@
       <img class="h-full w-auto" src="{{ "images/logo.png" | absURL }}" alt="">
     {{ end }}
   </div>
-  <ul class="lg:flex list-none hidden">
-    {{ range .Site.Menus.main }}
-      <li>
-        {{ if .Children }}
-          <div class="py-4 px-5 min-w-165 dropdown border-2 border-linen text-center cursor-default" href="">
-            <a class="py-0">{{ .Title }}</a>
-            <ul>
-              {{ range .Children }}
-                <li class="my-2">
-                  <a class="hover:text-{{ with .Page.Params.color }}{{ . }}{{ end }}" href="{{ .URL }}">
-                    {{ .Title }}
-                  </a>
-                </li>
-              {{ end }}
-            </ul>
-          </div>
-        {{ else }}
-          <div class="py-4 px-5 border-2 border-linen">
-            <a class="hover:text-{{ with .Page.Params.color }}{{ . }}{{ end }}" href="{{ .URL }}">
-              {{ .Title }}
-            </a>
-          </div>
-        {{ end }}
-      </li>
-    {{ end }}
-  </ul>
-  <ul class="my-2 self-start border-chocolate border-2 lg:flex hidden">
-    {{ $current_lang := .Language }}
-    {{ range $.Site.Home.AllTranslations }}
-      <li class="hover:text-gold-metallic">
-        <a href="{{ .Permalink }}" class="inline-block py-1 px-2 {{ if eq .Language $current_lang }}bg-chocolate text-linen cursor-not-allowed{{ end }}">
-          <span>{{ .Language }}</span>
-        </a>
-      </li>
-    {{ end }}
-  </ul>
-  <div class="h-20 self-start mt-4 mr-4 py-4 px-1 hover:text-gold-metallic lg:hidden block cursor-pointer">
+  <nav class="hidden lg:block">
+    <ul class="flex">
+      {{ range .Site.Menus.main }}
+        <li>
+          {{ if .Children }}
+            <div class="py-4 px-5 min-w-165 dropdown border-2 border-linen text-center cursor-default" href="">
+              <a class="py-0">{{ .Title }}</a>
+              <ul>
+                {{ range .Children }}
+                  <li class="my-2">
+                    <a class="hover:text-{{ with .Page.Params.color }}{{ . }}{{ end }}" href="{{ .URL }}">
+                      {{ .Title }}
+                    </a>
+                  </li>
+                {{ end }}
+              </ul>
+            </div>
+          {{ else }}
+            <div class="py-4 px-5 border-2 border-linen">
+              <a class="hover:text-{{ with .Page.Params.color }}{{ . }}{{ end }}" href="{{ .URL }}">
+                {{ .Title }}
+              </a>
+            </div>
+          {{ end }}
+        </li>
+      {{ end }}
+    </ul>
+  </nav>
+  <nav class="hidden lg:block my-2">
+    {{ partial "lang-menu.html" . }}
+  </nav>
+  <button id="menu-toggle" class="h-12 hover:text-gold-metallic lg:hidden block cursor-pointer">
     <svg xmlns="http://www.w3.org/2000/svg" class="h-full stroke-current icon icon-tabler icon-tabler-menu-2" viewBox="0 0 24 24" stroke-width="1.5">
       <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
       <line x1="4" y1="6" x2="20" y2="6" />
       <line x1="4" y1="12" x2="20" y2="12" />
       <line x1="4" y1="18" x2="20" y2="18" />
     </svg>
-  </div>
-</nav>
+  </button>
+  <nav id="menu" class="hidden bg-linen absolute top-full left-0 p-4 w-full z-20 lg:hidden" style="box-shadow: 0 3px 1px rgba(0, 0, 0, 0.1);">
+    <ul class="flex flex-col items-start uppercase font-bold tracking-wide text-sm space-y-2">
+      {{ range .Site.Menus.main }}
+        {{ if .Children }}
+          {{ range .Children }}
+            <li>
+              <a class="hover:text-chocolate" href="{{.URL}}">{{ .Title }}</a>
+            </li>
+          {{ end }}
+        {{ else }}
+          <li>
+            <a class="hover:text-chocolate" href="{{.URL}}">{{ .Title }}</a>
+          </li>
+        {{ end }}
+      {{ end}}
+      {{ partial "lang-menu.html" . }}
+    </ul>
+  </nav>
+</header>

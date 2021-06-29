@@ -1,0 +1,16 @@
+<ul class="border-chocolate border-2 flex">
+  {{ $current_lang := .Language }}
+  {{ $permalink := "" }}
+  {{ if .IsTranslated }}
+    {{ range .Translations }}
+      {{ $permalink = .Permalink }}
+    {{ end }}
+  {{ end }}
+  {{ range $.Site.Home.AllTranslations }}
+    <li class="hover:text-gold-metallic">
+      <a href="{{ if eq .Language $current_lang }}{{ .Permalink }}{{ else if $permalink }}{{ $permalink }}{{ else }}{{ .Permalink }}{{ end }}" class="inline-block py-1 px-2 {{ if eq .Language $current_lang }}bg-chocolate text-linen cursor-not-allowed{{ end }}">
+        <span>{{ .Language }}</span>
+      </a>
+    </li>
+  {{ end }}
+</ul>
