@@ -8,6 +8,6 @@ draft: false
 weight: 1
 ---
 
-With Hivos América Latina, "La Sobremesa **provided specialized mentoring to our Open Contracting partners** to guarantee the resilience and sustainability of their organizations and initiatives."
+Con Hivos América Latina, "La Sobremesa hizo **una mentoría especializada a nuestras socias** de Open Contracting para garantizar la resiliencia y sostenibilidad de sus organizaciones e iniciativas."
 
-"La Sobremesa is a **safe and create space, which allowed us to discuss openly and examine ourselves** as an organization and an ecosystem. La Sobremesa team are **full of empathy and have the capacity to create innovative and sustainable solutions for the civic resilience** necessary in Latin America."
+"La Sobremesa es un **espacio seguro y creativo, que permite dar discusiones abiertas y re-pensarnos** como organizaciones y como ecosistema. La Sobremesa son personas **llenas de empatía y con capacidad de crear soluciones innovadoras y sostenibles para la resiliencia** cívica tan necesaria en América Latina."
