@@ -1,23 +1,12 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language.Lang }}">
 <head>
-  {{ $title := "" }}
-  {{ if .Title }}
-    {{ $title = print .Title " | " .Site.Title}}
-  {{ else }}
-    {{ $title = .Site.Title }}
-  {{ end }}
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="title" content="{{ $title }}">
-  {{ if .Description }}
-    <meta name="description" content="{{ .Description }}">
-  {{ end }}
-  {{ if eq hugo.Environment "production" }}
-    {{ template "_internal/opengraph.html" . }}
-    {{ template "_internal/twitter_cards.html" . }}
-  {{ end }}
+  {{ partial "google-meta-tags.html" . }}
+  {{ partial "twitter-meta-tags.html" . }}
+  {{ partial "og-meta-tags.html" . }}
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,18 +21,11 @@
   <!-- End calendly -->
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   {{ block "head" . }}{{ end }}
-  <title>{{ $title }}</title>
-  <!-- MailerLite Universal -->
-  <!-- <script>
-  (function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
-  var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
-  f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
-  var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
-  _.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
-  
-  var ml_account = ml('accounts', '3211705', 'h2j7b7h2w6', 'load');
-  </script> -->
-  <!-- End MailerLite Universal -->
+  {{ if .Title }}
+    <title>{{.Title}} | {{ .Site.Title }}</title>
+  {{ else }}
+    <title>{{ .Site.Title }}</title>
+  {{ end }}
 </head>
 <body class="font-source-sans-pro bg-linen text-chocolate">
   {{ partial "nav.html" . }}
