@@ -92,6 +92,10 @@ collections:
           - { label: "Tool", value: "tool" }
           - { label: "Report", value: "report" }
         required: true
+      - label: "Clip"
+        name: "clip"
+        widget: "string"
+        required: true
       - label: "URL"
         name: "resource_url"
         widget: "string"
@@ -132,6 +136,10 @@ collections:
           - { label: "Libro", value: "book" }
           - { label: "Herramienta", value: "tool" }
           - { label: "Reporte", value: "report" }
+        required: true
+      - label: "Clip"
+        name: "clip"
+        widget: "string"
         required: true
       - label: "URL"
         name: "resource_url"
