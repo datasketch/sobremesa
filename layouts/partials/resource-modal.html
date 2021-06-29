@@ -4,7 +4,7 @@
 {{ if in (slice "guide" "book" "report") .Params.genre }}
   {{ $border_class = "border-darmouth-green" }}
   {{ $text_class = "text-darmouth-green" }}
-  {{ $bg_class := "bg-darmouth-green" }}
+  {{ $bg_class = "bg-darmouth-green" }}
 {{ else if in (slice "website" "tool") .Params.genre }}
   {{ $border_class = "border-maximum-green" }}
   {{ $text_class = "text-maximum-green" }}
