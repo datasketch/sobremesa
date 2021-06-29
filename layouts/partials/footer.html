@@ -29,11 +29,7 @@
         <p class="font-semibold text-lg tracking-wide lg:text-xl">
           {{- T "label_receive_newsletter" -}}
         </p>
-        <div class="ml-form-embed" data-account="3211705:h2j7b7h2w6" data-form="4227259:m9a5r7"></div>
-        <form class="my-4" action="/">
-          <input class="mr-2 bg-linen text-chocolate px-4 py-2 border border-linen placeholder-chocolate" type="email" id="email" name="email" placeholder="e-mail">
-          <input class="bg-fire-opal text-chocolate font-bold py-2 px-2 border border-chocolate cursor-pointer hover:bg-chocolate hover:text-linen" type="submit" value="OK">
-        </form>
+        <div class="mt-6">{{ partial "newsletter-form" . }}</div>
       </div>
     </div>
     <div class="w-full md:w-1/2 lg:w-3/12 h-64 lg:h-auto">

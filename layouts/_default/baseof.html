@@ -1,25 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language.Lang }}">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  {{ partial "google-meta-tags.html" . }}
-  {{ partial "twitter-meta-tags.html" . }}
-  {{ partial "og-meta-tags.html" . }}
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  {{ $styles := resources.Get "styles/tailwind.pcss" | toCSS | postCSS | minify }}
-  <link rel="stylesheet" href="{{ $styles.Permalink }}">
-  {{ if and (eq hugo.Environment "production") .Site.GoogleAnalytics }}
-    {{ template "_internal/google_analytics_async.html" . }}
-  {{ end }}
-  <!-- Calendly -->
-  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-  <!-- End calendly -->
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  {{ partial "head.html" . }}
   {{ block "head" . }}{{ end }}
   {{ if .Title }}
     <title>{{.Title}} | {{ .Site.Title }}</title>
