@@ -226,6 +226,8 @@
   translation: Compartimos
 - id: page_home_talk_trend
   translation: ¿De qué estamos hablando?
+- id: page_spaces_card_footer
+  translation: Para más sobre los aprendizajes que tuvimos en este espacio…
 - id: page_spaces_cta_q
   translation: >-
     ¿Te interesa participar en <span class="text-gold-metallic">futuros
