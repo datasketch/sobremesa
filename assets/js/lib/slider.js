@@ -1,6 +1,6 @@
-import SwiperCore, { Navigation, Pagination, Swiper } from 'swiper/core'
+import SwiperCore, { Navigation, Pagination, Swiper, Autoplay } from 'swiper/core'
 
-SwiperCore.use([Navigation, Pagination])
+SwiperCore.use([Navigation, Pagination, Autoplay])
 
 function setupSlider(el, opts = {}) {
   const wrapperEl = document.querySelector(el)
