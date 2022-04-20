@@ -12,7 +12,8 @@
 <section class="container-md px-4 pb-24">
   <div class="space-y-24">
     {{ range $data.team }}
-      {{ partial "team-member.html" . }}
+      {{ $member := dict "image" .image "name" .name "role" .role "about" ($.RenderString .about) "linkedin" .linkedin "instagram" .instagram "twitter" .twitter "readmore" .readmore }}
+      {{ partial "team-member.html" $member }}
     {{ end }}
   </div>
 </section>

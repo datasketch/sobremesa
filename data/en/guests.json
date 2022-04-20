@@ -11,16 +11,6 @@
     "company": "agenciapresentes.org"
   },
   {
-    "id": "carla-bonina",
-    "name": "Carla Bonina",
-    "image": "images/people/carla-bonina.jpg",
-    "tagline": "I see large challenges to solve, alongside financial instability...",
-    "location": "Argentina, based in London, UK.",
-    "about": "I see at least three: large challenges to solve, a regional scenario of growing violence and political and economic instability, and great barriers to achieving  financial sustainability of organizations. I address these challenges by being an advisor to governments, international organizations and start-ups on issues of government and open data, digital entrepreneurship and sustainable social innovation. I am an author, academic, and strategic consultant with more than 15 years of experience.",
-    "twitter": "carlabonina",
-    "company": "surrey.ac.uk/centre-digital-economy "
-  },
-  {
     "id": "alejandra-betanzo",
     "name": "Alejandra Betanzo de la Rosa",
     "image": "images/people/alejandra-betanzo.jpg",
@@ -31,14 +21,23 @@
     "company": "Consultora Independiente"
   },
   {
-    "id": "justine-dupuy",
-    "name": "Justine Dupuy",
-    "image": "images/people/justine-dupuy.jpg",
-    "tagline": "I see that in order to achieve substantial change, alliances are needed...",
-    "location": "French, based in Mexico City, Mexico",
-    "about": "I see that in order to achieve substantial changes, you need more than evidence and research – you alsoneed to build collectives and alliances. Building trust between the various actors of civil society is one of the most important challenges, especially given a political context that is increasingly opposed to dialogue. I work  by building these links and alliances, seeking to include diverse voices. I am a journalist by training, specialized in transparency and fighting corruption.",
-    "twitter": "justinedupuy",
-    "company": "fundar.org.mx"
+    "id": "graciela-guadarrama",
+    "name": "Graciela Guadarrama Baena",
+    "image": "images/people/graciela-guadarrama.jpg",
+    "tagline": "Veo que la narrativa es una herramienta crucial para el cambio...",
+    "location": "Basada en Ciudad de México, México",
+    "about": "Creo en la narrativa como herramienta crucial para el cambio y disfruto mucho del diseño participativo y de los procesos de co-creación. Por mi perfil y mente curiosa he trabajado con diversos grupos y organizaciones tanto del sector público, como privado y sociedad civil. Mi experiencia engloba Innovación y Diseño en toda su extensión. Utilizo metodologías de diferentes disciplinas para facilitar procesos de acción y transformación; entre ellas se encuentran la Innovación Social, el Diseño Crítico, Futuros Participativos y el Pensamiento Sistémico.",
+    "twitter": "okanaga86"
+  },
+  {
+    "id": "adri-peralta",
+    "name": "Adriana Peralta",
+    "image": "images/people/adri-peralta.jpg",
+    "tagline": "I see a challenge given our contexts of violence and corruption.",
+    "location": "Based in Asunción, Paraguay",
+    "about": "I see a challenge with contexts that are often violent and corrupt, like those of Latin America. In order not to lose motivation to do things as well as possible, it helps a lot to surround yourself with people who you align with, who also believe that you can do it, who inspire you, who encourage you, with whom you can have a few beers and relax and laugh a bit. I am an illustrator and graphic designer specialized in sociology. (And yes, I'm the designer behind La Sobremesa!",
+    "twitter": "adriperaltaaa",
+    "company": "Freelance designer"
   },
   {
     "id": "laura-lehman",
@@ -61,16 +60,6 @@
     "company": "hivos.org"
   },
   {
-    "id": "adri-peralta",
-    "name": "Adriana Peralta",
-    "image": "images/people/adri-peralta.jpg",
-    "tagline": "I see a challenge given our contexts of violence and corruption.",
-    "location": "Based in Asunción, Paraguay",
-    "about": "I see a challenge with contexts that are often violent and corrupt, like those of Latin America. In order not to lose motivation to do things as well as possible, it helps a lot to surround yourself with people who you align with, who also believe that you can do it, who inspire you, who encourage you, with whom you can have a few beers and relax and laugh a bit. I am an illustrator and graphic designer specialized in sociology. (And yes, I'm the designer behind La Sobremesa!",
-    "twitter": "adriperaltaaa",
-    "company": "Freelance designer"
-  },
-  {
     "id": "eduborregon",
     "name": "Eduard Martín-Borregón",
     "image": "images/people/eduborregon.jpg",
@@ -81,14 +70,14 @@
     "company": "poderlatam.org"
   },
   {
-    "id": "ana-ruiz",
-    "name": "Ana Joaquina Ruiz Guerra ",
-    "image": "images/people/ana-joaquina-ruiz.jpeg",
-    "tagline": "I see inequality at all levels and the closure of civic space...",
-    "location": "Based in Mexico City, Mexico",
-    "about": "I see inequality at all levels and the closure of civic space. I work on the analysis and making of policies with a gender and intersectionality perspective, as well as initiatives that increase citizen participation. I am a believer that life is transformed with some technique and some politics.",
-    "twitter": "ana_joaca",
-    "company": "Independent consultant"
+    "id": "justine-dupuy",
+    "name": "Justine Dupuy",
+    "image": "images/people/justine-dupuy.jpg",
+    "tagline": "I see that in order to achieve substantial change, alliances are needed...",
+    "location": "French, based in Mexico City, Mexico",
+    "about": "I see that in order to achieve substantial changes, you need more than evidence and research – you alsoneed to build collectives and alliances. Building trust between the various actors of civil society is one of the most important challenges, especially given a political context that is increasingly opposed to dialogue. I work  by building these links and alliances, seeking to include diverse voices. I am a journalist by training, specialized in transparency and fighting corruption.",
+    "twitter": "justinedupuy",
+    "company": "fundar.org.mx"
   },
   {
     "id": "jpmarindiaz",
@@ -99,6 +88,16 @@
     "about": "I see a lack of data technology infrastructure for advocacy from civil society. I work creating accessible and low-cost data science technologies for social organizations. I am a data scientist and founder of Datasketch.",
     "twitter": "jpmarindiaz",
     "company": "datasketch.co"
+  },
+  {
+    "id": "carla-bonina",
+    "name": "Carla Bonina",
+    "image": "images/people/carla-bonina.jpg",
+    "tagline": "I see large challenges to solve, alongside financial instability...",
+    "location": "Argentina, based in London, UK.",
+    "about": "I see at least three: large challenges to solve, a regional scenario of growing violence and political and economic instability, and great barriers to achieving  financial sustainability of organizations. I address these challenges by being an advisor to governments, international organizations and start-ups on issues of government and open data, digital entrepreneurship and sustainable social innovation. I am an author, academic, and strategic consultant with more than 15 years of experience.",
+    "twitter": "carlabonina",
+    "company": "surrey.ac.uk/centre-digital-economy "
   },
   {
     "id": "jorge-florez",

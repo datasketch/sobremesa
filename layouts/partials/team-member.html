@@ -1,4 +1,4 @@
-{{ $has_social_media := or .instagram .twitter }}
+{{ $has_social_media := or .instagram .twitter .linkedin }}
 <div class="section-row items-start">
   <div class="section-col lg:px-12 lg:pt-1">
     <div class="aspect-w-1 aspect-h-1">
@@ -12,9 +12,15 @@
     <p class="font-source-serif-pro font-bold text-xl">
       {{ .role }}
     </p>
-    <div class="mt-6">{{ .about }}</div>
+    <div class="mt-6 md-content">{{ .about }}</div>
     {{ if $has_social_media }}
-      <div class="mt-6 pb-1 inline-flex items-center font-bold text-base uppercase tracking-wide">
+      <div class="mt-6 pb-1 inline-flex items-center font-bold text-base uppercase tracking-wide flex-wrap gap-1">
+        {{ if .linkedin }}
+          <a href="{{ printf "https://www.linkedin.com/in/%s/" .linkedin }}" target="_blank" class="mr-6 flex items-center space-x-2 hover:text-fire-opal">
+            <img src="{{ "images/linkedin.svg" | absURL }}" alt="">
+            <span>{{ .linkedin }}</span>
+          </a>
+        {{ end }}
         {{ if .twitter }}
           <a href="{{ printf "https://twitter.com/%s" .twitter }}" target="_blank" class="mr-6 flex items-center space-x-2 hover:text-fire-opal">
             <img src="{{ "images/twitter.svg" | absURL }}" alt="">
@@ -29,10 +35,12 @@
         {{ end }}
       </div>
     {{ end }}
-    <div class="">
-      <button data-modal="{{ .id }}" class="mt-6 site-link hover:text-fire-opal">
-        {{ T "action_read_more" }}
-      </button>
-    </div>
+    {{ if .readmore }}
+      <div class="">
+        <button data-modal="{{ .id }}" class="mt-6 site-link hover:text-fire-opal">
+          {{ T "action_read_more" }}
+        </button>
+      </div>
+    {{ end }}
   </div>
 </div>
