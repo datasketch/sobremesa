@@ -70,16 +70,6 @@
     "company": "poderlatam.org"
   },
   {
-    "id": "justine-dupuy",
-    "name": "Justine Dupuy",
-    "image": "images/people/justine-dupuy.jpg",
-    "tagline": "I see that in order to achieve substantial change, alliances are needed...",
-    "location": "French, based in Mexico City, Mexico",
-    "about": "I see that in order to achieve substantial changes, you need more than evidence and research – you alsoneed to build collectives and alliances. Building trust between the various actors of civil society is one of the most important challenges, especially given a political context that is increasingly opposed to dialogue. I work  by building these links and alliances, seeking to include diverse voices. I am a journalist by training, specialized in transparency and fighting corruption.",
-    "twitter": "justinedupuy",
-    "company": "fundar.org.mx"
-  },
-  {
     "id": "jpmarindiaz",
     "name": "Juan Pablo Marín Díaz",
     "image": "images/people/jp-marin-diaz.png",
@@ -88,16 +78,6 @@
     "about": "I see a lack of data technology infrastructure for advocacy from civil society. I work creating accessible and low-cost data science technologies for social organizations. I am a data scientist and founder of Datasketch.",
     "twitter": "jpmarindiaz",
     "company": "datasketch.co"
-  },
-  {
-    "id": "carla-bonina",
-    "name": "Carla Bonina",
-    "image": "images/people/carla-bonina.jpg",
-    "tagline": "I see large challenges to solve, alongside financial instability...",
-    "location": "Argentina, based in London, UK.",
-    "about": "I see at least three: large challenges to solve, a regional scenario of growing violence and political and economic instability, and great barriers to achieving  financial sustainability of organizations. I address these challenges by being an advisor to governments, international organizations and start-ups on issues of government and open data, digital entrepreneurship and sustainable social innovation. I am an author, academic, and strategic consultant with more than 15 years of experience.",
-    "twitter": "carlabonina",
-    "company": "surrey.ac.uk/centre-digital-economy "
   },
   {
     "id": "jorge-florez",

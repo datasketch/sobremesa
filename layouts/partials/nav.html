@@ -12,7 +12,7 @@
       {{ range .Site.Menus.main }}
         <li>
           {{ if .Children }}
-            <div class="py-4 px-5 min-w-165 dropdown border-2 border-linen text-center cursor-default" href="">
+            <div class="py-4 px-5 min-w-165 dropdown border-2 border-linen text-center cursor-default">
               <a class="py-0">{{ .Title }}</a>
               <ul>
                 {{ range .Children }}
@@ -26,7 +26,7 @@
             </div>
           {{ else }}
             <div class="py-4 px-5 border-2 border-linen">
-              <a class="hover:text-{{ with .Page.Params.color }}{{ . }}{{ end }}" href="{{ .URL }}">
+              <a class="hover:text-{{ with .Page.Params.color }}{{ . }}{{ end }}" href="{{ or .Page.Params.redirect .URL }}"{{ if .Page.Params.redirect }} target="_blank"{{ end }}>
                 {{ .Title }}
               </a>
             </div>

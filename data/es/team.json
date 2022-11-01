@@ -11,9 +11,24 @@
     "image": "images/people/anca-matioc.jpg"
   },
   {
+    "id": "aniela-stojanowski",
+    "name": "Aniela Stojanowski",
+    "role": "Líder de Comunicación",
+    "about": "¡Hola! Soy Aniela, argentina y comunicadora social. Tengo más de 12 años de experiencia trabajando con organizaciones de la sociedad civil, con un enfoque en la comunicación y coordinación comunitaria. Cuento con experiencia en gestión de equipos, planificación y desarrollo de estrategias, comunicación externa e interna y herramientas de comunicación y marketing digital. Me apasiona acompañar a las organizaciones para visibilizar su incidencia, optimizar su impacto y apoyarlas en cumplir sus objetivos.",
+    "linkedin": "anielastojanowski",
+    "image": "images/people/aniela-stojanowski.jpg"
+  },
+  {
+    "id": "jessica-balovich",
+    "name": "Jessica Balovich",
+    "role": "Jefa de Administración y Operaciones",
+    "about": "¡Hola! Soy Jessica, Jefa de Administración y Operaciones de La Sobremesa. Me encargo de varias tareas de contabilidad y estoy en comunicación con contratistas y organizaciones de muchas partes del mundo. Llevo a cabo la investigación sobre diversos temas, necesarios para apoyar a nuestra organización, y ayudar a implementar cambios en nuestras operaciones a medida que crecemos. Antes de llegar a La Sobremesa, trabajé durante 3 años con una organización sin ánimo de lucro como asistente de operaciones, donde ayudé con el cumplimiento de la normativa de la organización y la gestión de presupuesto. También estuve en contacto con varios contratistas y financiadores de todo el mundo, dando apoyo con pagos y contratos. Tengo una Maestría en Educación, y enseñé durante 12 años.",
+    "image": "images/people/jessica-balovich.jpg"
+  },
+  {
     "id": "beatriz-irarrazaval ",
     "name": "Beatriz Irarrázaval",
-    "role": "Líder de Proyectos",
+    "role": "Consultora",
     "about": "¡Hola! Soy Beatriz, chilena apasionada por contribuir a resolver las problemáticas de nuestra región. Tengo más de 12 años de experiencia en sociedad civil, sector público e investigación. He trabajado en el diseño e implementación de proyectos y programas relacionados a innovación pública, impacto social, educación, democracia y transparencia. Creo profundamente en las soluciones basadas en la evidencia, y en la acción y colaboración entre actores internacionales, regionales y locales. Por ello, me he enfocado en acompañar a organizaciones en sus procesos de reflexión, aprendizaje y evaluación de impacto, como también en el diseño de estrategias y planes institucionales. Antes de La Sobremesa trabajé como directora de sostenibilidad en [Ciudadanía Inteligente](https://ciudadaniai.org/), y como project manager en [ImpactaLatam](https://www.impactalatam.org/), proyecto que unió a 15 org. de la sociedad civil que trabajan en democracia, gobernanza y derechos humanos para co-crear juntas una metodología de evaluación de impacto adecuada a las necesidades y capacidades de estas organizaciones. También he trabajado como investigadora en diversos estudios relacionados a la participación ciudadana en Chile y Latinoamérica, y he realizado asesorías en fortalecimiento institucional y evaluación de impacto en procesos de diálogo en zonas de conflictos. Soy licenciada en Historia en la Universidad Católica de Chile, y tengo estudios de Máster en Políticas Públicas Internacionales (UCL) y Gestión de la Ciencia y la Innovación (U. de Valencia).",
     "linkedin": "beatrizirarrazaval",
     "twitter": "beatriz_irarraz",

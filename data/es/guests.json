@@ -70,16 +70,6 @@
     "company": "poderlatam.org"
   },
   {
-    "id": "justine-dupuy",
-    "name": "Justine Dupuy",
-    "image": "images/people/justine-dupuy.jpg",
-    "tagline": "Veo que para lograr cambios sustanciales se necesitan alianzas.",
-    "location": "Francesa basada en Ciudad de México, México",
-    "about": "Veo que para lograr cambios sustanciales, se necesita más que evidencias e investigaciones sino también construir colectivos y alianzas. Tejer confianza entre los diversos actores de la sociedad civil es uno de los desafíos más importantes, dado ademas un contexto político cada vez mas adverso al dialogo. Trabajo justamente construyendo estos vínculos y alianzas, buscando incluir voces diversas. Soy periodista de formación, especializada en transparencia y combate a la corrupción.",
-    "twitter": "justinedupuy",
-    "company": "fundar.org.mx"
-  },
-  {
     "id": "jpmarindiaz",
     "name": "Juan Pablo Marín Díaz",
     "image": "images/people/jp-marin-diaz.png",
@@ -88,16 +78,6 @@
     "about": "Veo una falta de infraestructura tecnologia de datos para la incidencia desde sociedad civil. Trabajo justamente creando tecnologias de ciencia de datos accesibles y de bajo costo para las organizaciones sociales. Soy cientifico de datos y fundador de Datasketch.",
     "twitter": "jpmarindiaz",
     "company": "datasketch.co"
-  },
-  {
-    "id": "carla-bonina",
-    "name": "Carla Bonina",
-    "image": "images/people/carla-bonina.jpg",
-    "tagline": "Veo grandes desafíos a resolver con una inestabilidad financiera...",
-    "location": "Argentina, basada en Londres, UK.",
-    "about": "Veo al menos tres: grandes problemas para resolver, un escenario regional de creciente violencia e inestabilidad política y económica, y grandes desafíos para lograr la sostenibilidad financiera de las organizaciones. Trato estos desafíos siendo asesora de gobiernos, organismos internacionales y start-ups en temas de gobierno y datos abiertos, emprendimiento digital e innovación social sostenible. Soy autora, académica y consultora estratégica con más de 15 años de experiencia.",
-    "twitter": "carlabonina",
-    "company": "surrey.ac.uk/centre-digital-economy "
   },
   {
     "id": "jorge-florez",
