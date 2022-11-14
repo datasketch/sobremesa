@@ -11,6 +11,7 @@ collections:
     folder: content/en/acompanamiento
     create: true
     slug: "{{slug}}"
+    filter: {field: "menu", value: null}
     fields:
       - label: "Client"
         name: "client"
@@ -43,6 +44,7 @@ collections:
     folder: content/es/acompanamiento
     create: true
     slug: "{{slug}}"
+    filter: {field: "menu", value: null}
     fields:
       - label: "Cliente"
         name: "client"
@@ -75,6 +77,7 @@ collections:
     folder: content/en/herramientas
     create: true
     slug: "{{slug}}"
+    filter: {field: "menu", value: null}
     fields:
       - label: "Title"
         name: "title"
@@ -120,6 +123,7 @@ collections:
     folder: content/es/herramientas
     create: true
     slug: "{{slug}}"
+    filter: {field: "menu", value: null}
     fields:
       - label: "Título"
         name: "title"
