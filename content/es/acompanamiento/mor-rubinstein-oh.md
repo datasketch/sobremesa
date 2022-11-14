@@ -6,6 +6,7 @@ role: Co-fundadora
 logo: uploads/oh.png
 draft: false
 weight: 7
+entry: true
 ---
 
 Con Open Heroines, La Sobremesa **diseñó y facilitó un proceso colaborativo** para investigar nuestra red de Open Heroines de manera **altamente participativa, con un enfoque en dinamicas de poder.**

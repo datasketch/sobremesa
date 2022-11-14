@@ -6,6 +6,7 @@ role: Co-founder
 logo: uploads/oh.png
 draft: false
 weight: 7
+entry: true
 ---
 
 With Open Heroines, La Sobremesa designed and facilitated a collaborative process to investigate our Open Heroines network in a very participative way, with a focus on power dynamics.

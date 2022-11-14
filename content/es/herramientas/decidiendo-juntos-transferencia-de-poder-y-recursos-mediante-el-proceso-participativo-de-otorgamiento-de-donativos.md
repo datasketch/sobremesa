@@ -8,5 +8,6 @@ creator: Grantcraft
 target: "Organizaciones quienes les interesa interrumpir dinámicas de poder y
   #ShiftThePower "
 draft: false
+entry: true
 ---
 En este documento titulado “Decidiendo juntos: Transferencia de poder y recursos mediante el proceso participativo de otorgamiento de donativos”, examinamos por qué y cómo implementan los donantes la asignación participativa de donativos y transfieren el poder a las comunidades que reciben el impacto de sus decisiones de financiamiento. Con ejemplos y reflexiones de un grupo diverso de donantes, exploramos los beneficios, los desafíos y los modelos del enfoque participativo de financiamiento.

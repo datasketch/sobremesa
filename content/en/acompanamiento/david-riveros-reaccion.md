@@ -6,6 +6,7 @@ role: Executive Director
 logo: uploads/reaccion.svg
 draft: false
 weight: 3
+entry: true
 ---
 
 With reAccion from Paraguay, "we worked with La Sobremesa in the analysis of possible futures to prioritize actions and adjust our institutional development plan."

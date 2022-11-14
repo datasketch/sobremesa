@@ -11,7 +11,7 @@ collections:
     folder: content/en/acompanamiento
     create: true
     slug: "{{slug}}"
-    filter: {field: "menu", value: null}
+    filter: {field: "entry", value: true}
     fields:
       - label: "Client"
         name: "client"
@@ -36,6 +36,10 @@ collections:
         name: "draft"
         widget: "boolean"
         default: false
+      - label: "Entry"
+        name: "entry"
+        widget: "hidden"
+        default: true
       - label: "Experience"
         name: "body"
         widget: "markdown"
@@ -44,7 +48,7 @@ collections:
     folder: content/es/acompanamiento
     create: true
     slug: "{{slug}}"
-    filter: {field: "menu", value: null}
+    filter: {field: "entry", value: true}
     fields:
       - label: "Cliente"
         name: "client"
@@ -69,6 +73,10 @@ collections:
         name: "draft"
         widget: "boolean"
         default: false
+      - label: "Entry"
+        name: "entry"
+        widget: "hidden"
+        default: true
       - label: "Experiencia"
         name: "body"
         widget: "markdown"
@@ -77,7 +85,7 @@ collections:
     folder: content/en/herramientas
     create: true
     slug: "{{slug}}"
-    filter: {field: "menu", value: null}
+    filter: {field: "entry", value: true}
     fields:
       - label: "Title"
         name: "title"
@@ -115,6 +123,10 @@ collections:
         name: "draft"
         widget: "boolean"
         default: false
+      - label: "Entry"
+        name: "entry"
+        widget: "hidden"
+        default: true
       - label: "Description"
         name: "body"
         widget: "markdown"
@@ -123,7 +135,7 @@ collections:
     folder: content/es/herramientas
     create: true
     slug: "{{slug}}"
-    filter: {field: "menu", value: null}
+    filter: {field: "entry", value: true}
     fields:
       - label: "Título"
         name: "title"
@@ -161,6 +173,10 @@ collections:
         name: "draft"
         widget: "boolean"
         default: false
+      - label: "Entry"
+        name: "entry"
+        widget: "hidden"
+        default: true
       - label: "Descripción"
         name: "body"
         widget: "markdown"

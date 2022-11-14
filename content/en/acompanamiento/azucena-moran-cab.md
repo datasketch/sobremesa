@@ -6,6 +6,7 @@ role: Fundadora
 logo: uploads/cab.svg
 draft: false
 weight: 6
+entry: true
 ---
 
 With CabildoxLatAm, "La Sobremesa supported the design and facilitation of our week-long virtual, interactive workshop, CabildoxLatAm, a space for transnational, digital participation to identify and strengthen community responses to the COVID19 pandemic."

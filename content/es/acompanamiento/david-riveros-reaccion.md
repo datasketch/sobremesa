@@ -6,6 +6,7 @@ role: Director Ejecutivo
 logo: uploads/reaccion.svg
 draft: false
 weight: 3
+entry: true
 ---
 
 Con reAcción de Paraguay, \"trabajamos con La Sobremesa en el **análisis de futuros posibles** para **priorizar acciones y ajustar nuestro plan de desarrollo institucional.**\"

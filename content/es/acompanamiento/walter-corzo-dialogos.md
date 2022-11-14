@@ -6,6 +6,7 @@ role: Director Ejecutivo
 logo: uploads/dialogos.svg
 draft: false
 weight: 2
+entry: true
 ---
 
 Con Diálogos de Guatemala, "La Sobremesa nos acompañó en la **co-creación y definición de una hoja de ruta** para nuestra organización. Como parte de esa asistencia ténica, nos ayudar a definir de mecanismos en Diálogos sobre **cómo anticipamos futuros y aprendemos de ellos.**"

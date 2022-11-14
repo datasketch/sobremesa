@@ -6,6 +6,7 @@ role: Impact Lead
 logo: uploads/hivos.svg
 draft: false
 weight: 4
+entry: true
 ---
 
 With Hivos Innovation Fund, "we worked with La Sobremesa on a project to explore how collaborations in the area of civic technology for accountability arise, evolve and (sometimes) fail, and what can be learned from these experiences to better support to the community."

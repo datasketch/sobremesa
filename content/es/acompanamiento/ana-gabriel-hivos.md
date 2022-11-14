@@ -6,6 +6,7 @@ role: Business Development Manager
 logo: uploads/hivos.svg
 draft: false
 weight: 1
+entry: true
 ---
 
 Con Hivos América Latina, "La Sobremesa hizo **una mentoría especializada a nuestras socias** de Open Contracting para garantizar la resiliencia y sostenibilidad de sus organizaciones e iniciativas."

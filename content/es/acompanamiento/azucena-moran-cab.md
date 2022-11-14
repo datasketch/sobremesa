@@ -6,6 +6,7 @@ role: Founder
 logo: uploads/cab.svg
 draft: false
 weight: 6
+entry: true
 ---
 
 Con CabildoxLatAm, "La Sobremesa **apoyó en el diseño y desarrollo de nuestro taller virtual e interactivo del CabildoxLatAm** - un espacio de participación digital y transnacional para identificar y fortalecer respuestas comunitarias ante la pandemia COVID19."

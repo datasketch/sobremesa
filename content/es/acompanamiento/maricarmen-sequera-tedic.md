@@ -6,6 +6,7 @@ role: Directora Ejecutiva
 logo: uploads/tedic.svg
 draft: false
 weight: 5
+entry: true
 ---
 
 Con TEDIC de Paraguay, "trabajamos con La Sobremesa para repensar los posibles futuros para ser menos reactivos y más propositivos. Además **nos ayudaron a repensar la organización, desde nuestra misión y teoría de cambio hasta nuestros roles como equipo y forma de trabajar más saludables y sostenibles.**\"
