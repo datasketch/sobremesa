@@ -3,7 +3,7 @@ client: TEDIC
 name: Maricarmen Sequera
 web: https://tedic.org
 role: Executive Director
-logo: images/logos/tedic.svg
+logo: uploads/tedic.svg
 draft: false
 weight: 5
 ---

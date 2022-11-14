@@ -3,7 +3,7 @@ client: Open Heroines
 name: Mor Rubinstein
 web: https://openheroines.org/
 role: Co-founder
-logo: images/logos/oh.png
+logo: uploads/oh.png
 draft: false
 weight: 7
 ---

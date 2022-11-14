@@ -3,7 +3,7 @@ client: CabildoxLatAm
 name: Azucena Morán
 web: https://tedic.org
 role: Founder
-logo: images/logos/cab.svg
+logo: uploads/cab.svg
 draft: false
 weight: 6
 ---

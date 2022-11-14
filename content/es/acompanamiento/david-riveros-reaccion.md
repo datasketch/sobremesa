@@ -3,7 +3,7 @@ client: reAcción
 name: David Riveros García
 web: https://reaccion.org.py/
 role: Director Ejecutivo
-logo: images/logos/reaccion.svg
+logo: uploads/reaccion.svg
 draft: false
 weight: 3
 ---

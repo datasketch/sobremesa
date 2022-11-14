@@ -3,7 +3,7 @@ client: Hivos
 name: Ana Gabriel Zúñiga Aponte
 web: https://hivos.org/
 role: Business Development Manager
-logo: images/logos/hivos.svg
+logo: uploads/hivos.svg
 draft: false
 weight: 1
 ---

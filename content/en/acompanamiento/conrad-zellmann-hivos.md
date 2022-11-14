@@ -3,7 +3,7 @@ client: Hivos
 name: Conrad Zellmann
 web: https://hivos.org/
 role: Impact Lead
-logo: images/logos/hivos.svg
+logo: uploads/hivos.svg
 draft: false
 weight: 4
 ---

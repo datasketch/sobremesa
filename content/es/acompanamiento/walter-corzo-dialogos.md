@@ -3,7 +3,7 @@ client: Diálogos
 name: Walter Corzo
 web: https://dialogos.org.gt
 role: Director Ejecutivo
-logo: images/logos/dialogos.svg
+logo: uploads/dialogos.svg
 draft: false
 weight: 2
 ---
