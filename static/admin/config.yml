@@ -105,8 +105,9 @@ collections:
         required: true
       - label: "Clip"
         name: "clip"
-        widget: "string"
-        required: true
+        widget: "file"
+        media_library:
+          allow_multiple: false
       - label: "URL"
         name: "resource_url"
         widget: "string"
@@ -155,8 +156,9 @@ collections:
         required: true
       - label: "Clip"
         name: "clip"
-        widget: "string"
-        required: true
+        widget: "file"
+        media_library:
+          allow_multiple: false
       - label: "URL"
         name: "resource_url"
         widget: "string"
