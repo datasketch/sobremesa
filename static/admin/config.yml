@@ -7,7 +7,7 @@ public_folder: "/uploads"
 
 collections:
   - name: accompaniments-en
-    label: Accompaniments (English)
+    label: Experiences (English)
     folder: content/en/acompanamiento
     create: true
     slug: "{{slug}}"
@@ -39,7 +39,7 @@ collections:
         name: "body"
         widget: "markdown"
   - name: accompaniments-es
-    label: Acompañamientos (Español)
+    label: Experiencias (Español)
     folder: content/es/acompanamiento
     create: true
     slug: "{{slug}}"
