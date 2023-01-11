@@ -171,6 +171,9 @@ collections:
         name: "target"
         widget: "string"
         required: true
+      - label: "Fecha de actualización"
+        name: "lastmod"
+        widget: "datetime"
       - label: "Borrador"
         name: "draft"
         widget: "boolean"

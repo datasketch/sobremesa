@@ -6,7 +6,7 @@
       {{ T "page_tools_used" }}
     </h2>
     <div class="mt-6 grid gap-8 md:grid-cols-2 xl:grid-cols-3">
-      {{ range where .Pages "Params.draft" false }}
+      {{ range .Pages.ByLastmod.Reverse }}
         {{ partial "resource-card.html" . }}
       {{ end }}
     </div>

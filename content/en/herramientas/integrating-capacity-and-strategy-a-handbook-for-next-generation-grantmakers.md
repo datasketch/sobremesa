@@ -9,5 +9,6 @@ target: Líderes quienes quieren fortalecer su capacidad internos, con estos tip
   de ex-donantes
 draft: false
 entry: true
+lastmod: 2022-01-01T05:00:00.000Z
 ---
 "Las herramientas de este manual no están diseñadas necesariamente para los muchos gurús talentosos de la eficacia organizacional (OE) del mundo, aunque creemos que el manual será una contribución positiva a la caja de herramientas de OE existente. Son herramientas amigables, rápidas, económicas y específicas para ayudar a cualquier persona, independientemente de su experiencia previa en OE, a iniciar la conversación de capacidad, descargar y organizar información valiosa que ya existe, iniciar evaluaciones y planificación de capacidad básica y señalar problemas clave de capacidad estratégica y efectividad. y tendencias dentro de una organización sin fines de lucro."
