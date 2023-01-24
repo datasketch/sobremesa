@@ -6,7 +6,7 @@ resource_url: http://www.rebeccathomas.com/blog/2017/09/14/six-steps-for-sustain
 creator: Rebecca Thomas
 target: Líderes y lideresas que quieren tomar el control de la sostenibilidad de
   su organización
-lastmod: 2023-01-12T12:42:43.775Z
+lastmod: 2023-01-24T15:45:41.594Z
 draft: false
 entry: true
 ---
