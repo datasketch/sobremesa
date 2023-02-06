@@ -5,7 +5,7 @@ clip: /uploads/inverted-pyramid-water-of-systems-change-1-2048x1260.jpg
 resource_url: https://www.fsg.org/resource/water_of_systems_change/
 creator: John Kania, Mark Kramer, Peter Senge
 target: Organizaciones interesadas en generar un "cambio sistémico", en
-  particular las que trabajan para promover la equidad.
+  particular, las que trabajan para promover la equidad.
 lastmod: 2023-02-06T14:51:45.218Z
 draft: false
 entry: true
