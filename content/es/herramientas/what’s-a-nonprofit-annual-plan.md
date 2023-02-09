@@ -9,8 +9,4 @@ lastmod: 2023-02-09T18:54:10.788Z
 draft: false
 entry: true
 ---
-<!--StartFragment-->
-
-Entrevista a Jennifer Flowers donde encontrarás varios consejos y tácticas para elaborar un Plan Anual, como cual es la diferencia entre un Estrategia Organizacional y un Plan Anual, cuanto tiempo deberias dedicar a crear y luego revisar tu Plan Anual, que información necesitas para crear tu Plan Anual, entre otras cosas.
-
-<!--EndFragment-->
+Entrevista a Jennifer Flowers donde encontrarás varios consejos y tácticas para elaborar un Plan Anual, como cuál es la diferencia entre un Estrategia Organizacional y un Plan Anual; cuánto tiempo deberías dedicar a crear y luego revisar tu Plan Anual; qué información necesitas para crear tu Plan Anual, entre otras cosas.
