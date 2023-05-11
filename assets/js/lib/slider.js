@@ -24,7 +24,7 @@ function setupSlider(el, opts = {}) {
     ...opts
   }
 
-  const swiper = new Swiper(swiperEl, config)
+  const swiper = new Swiper(swiperEl, {...config})
   return swiper
 }
 

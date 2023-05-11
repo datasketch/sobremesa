@@ -6,7 +6,7 @@
       <div class="flex flex-col space-y-2 sm:flex-row sm:space-x-2 sm:space-y-0 sm:justify-center">
         <input type="email" class="bg-linen text-chocolate px-4 py-2 placeholder-chocolate {{ if not .Plain }}border border-chocolate{{ end }}" data-inputmask="" name="fields[email]" placeholder="Email" autocomplete="email">
         <div class="ml-button-horizontal primary">
-          <button type="submit" class="text-chocolate font-bold py-2 px-2 border border-chocolate cursor-pointer hover:bg-chocolate hover:text-linen">¡Suscríbete!</button>
+          <button type="submit" class="text-chocolate font-bold py-2 px-2 border border-chocolate cursor-pointer hover:bg-chocolate hover:text-linen">{{ T "action_subscribe" }}</button>
           <button disabled="disabled" style="display:none" type="button" class="loading"> <div class="ml-form-embedSubmitLoad"></div> <span class="sr-only">Loading...</span> </button>
         </div>
       </div>

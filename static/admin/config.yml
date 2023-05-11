@@ -102,6 +102,24 @@ collections:
           - { label: "Book", value: "book" }
           - { label: "Tool", value: "tool" }
           - { label: "Report", value: "report" }
+          - { label: "Blog post", value: "blogpost" }
+          - { label: "Methodology", value: "methodology" }
+          - { label: "Template", value: "template" }
+          - { label: "Repository", value: "repository" }
+        required: true
+      - label: "Thematics"
+        name: "topic"
+        widget: "select"
+        options:
+          - { label: "Sustainability", value: "sustainability" }
+          - { label: "Governance", value: "governance" }
+          - { label: "Administration", value: "administration" }
+          - { label: "Leadership", value: "leadership" }
+          - { label: "Team", value: "team" }
+          - { label: "Design", value: "design" }
+          - { label: "Monitoring and evaluation", value: "monitoring" }
+          - { label: "Annual Plan", value: "plan" }
+          - { label: "Organizational strategy", value: "strategy" }
         required: true
       - label: "Clip"
         name: "clip"
@@ -153,6 +171,24 @@ collections:
           - { label: "Libro", value: "book" }
           - { label: "Herramienta", value: "tool" }
           - { label: "Reporte", value: "report" }
+          - { label: "Blog post", value: "blogpost" }
+          - { label: "Metodología", value: "methodology" }
+          - { label: "Plantilla", value: "template" }
+          - { label: "Repositorio", value: "repository" }
+        required: true
+      - label: "Temáticas"
+        name: "topic"
+        widget: "select"
+        options:
+          - { label: "Sostenibilidad", value: "sustainability" }
+          - { label: "Gobernanza", value: "governance" }
+          - { label: "Administración", value: "administration" }
+          - { label: "Liderazgo", value: "leadership" }
+          - { label: "Equipo", value: "team" }
+          - { label: "Diseño", value: "design" }
+          - { label: "Monitoreo y evaluación", value: "monitoring" }
+          - { label: "Plan Anual", value: "plan" }
+          - { label: "Estrategia organizacional", value: "strategy" }
         required: true
       - label: "Clip"
         name: "clip"

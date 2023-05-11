@@ -183,7 +183,7 @@
 - id: page_home_about_third_row
   translation: Necesitamos un espacio para crecer y transformarnos.
 - id: page_home_accompaniment_title
-  translation: ¿Con quiénes estamos trabajando?
+  translation: CON QUIÉNES HEMOS TRABAJADO
 - id: page_home_discuss_first_q
   translation: ¿Cómo se aprende dentro de la sociedad civil?
 - id: page_home_discuss_second_q
@@ -299,3 +299,5 @@
   translation: Sentadas en la mesa de La Sobremesa está
 - id: page_who_we_are_read_more
   translation: Más sobre mí
+- id: action_subscribe
+  translation: ¡Suscríbete!

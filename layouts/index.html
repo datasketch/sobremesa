@@ -113,6 +113,29 @@
     </div>
   </div>
 </section>
+<section class="px-4 pb-16">
+  <div class="container-md pt-8 md:pt-16">
+    <div class="home-banner bg-top pt-40 {{ print "bg-accompaniment-sm-" .Site.Language.Lang " " "md:bg-accompaniment-lg-" .Site.Language.Lang }}">
+      <h2 class="section-title leading-extra-tight text-center text-fire-opal">
+        {{- T "page_home_accompaniment_title" -}}
+      </h2>
+    </div>
+    <div class="py-12 flex flex-wrap justify-center items-center">
+      <img class="logo-md" src="{{ "images/logos/codeforall.png" | absURL }}" alt="">
+      <img class="logo-md" src="{{ "images/logos/reaccion.svg" | absURL }}" alt="">
+      <img class="logo-sm" src="{{ "images/logos/ctin.png" | absURL }}" alt="">
+      <img class="logo-md" src="{{ "images/logos/open-data-charter.png" | absURL }}" alt="">
+      <img class="logo-sm" src="{{ "images/logos/dialogos.svg" | absURL }}" alt="">
+      <img class="logo-lg" src="{{ "images/logos/global-integrity.png" | absURL }}" alt="">
+      {{/*  <img class="logo-md" src="{{ "images/logos/world-pulse.png" | absURL }}" alt="">  */}}
+    </div>
+    <div class="text-center">
+      <a href="{{ relref . "acompanamiento" }}" class="site-link text-chocolate hover:text-fire-opal">
+        {{- T "action_read_about_accompaniment_support" -}}
+      </a>
+    </div>
+  </div>
+</section>
 <section class="px-8 pb-16 md:px-4 md:py-16 bg-darmouth-green">
   <div class="container w-full lg:w-10/12">
     <div class="section-row md:space-y-0 md:flex-row">
@@ -222,29 +245,6 @@
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-<section class="px-4 pb-16">
-  <div class="container-md pt-8 md:pt-16">
-    <div class="home-banner bg-top pt-40 {{ print "bg-accompaniment-sm-" .Site.Language.Lang " " "md:bg-accompaniment-lg-" .Site.Language.Lang }}">
-      <h2 class="section-title leading-extra-tight text-center text-fire-opal">
-        {{- T "page_home_accompaniment_title" -}}
-      </h2>
-    </div>
-    <div class="py-12 flex flex-wrap justify-center items-center">
-      <img class="logo-md" src="{{ "images/logos/codeforall.png" | absURL }}" alt="">
-      <img class="logo-md" src="{{ "images/logos/reaccion.svg" | absURL }}" alt="">
-      <img class="logo-sm" src="{{ "images/logos/ctin.png" | absURL }}" alt="">
-      <img class="logo-md" src="{{ "images/logos/open-data-charter.png" | absURL }}" alt="">
-      <img class="logo-sm" src="{{ "images/logos/dialogos.svg" | absURL }}" alt="">
-      <img class="logo-lg" src="{{ "images/logos/global-integrity.png" | absURL }}" alt="">
-      <img class="logo-md" src="{{ "images/logos/world-pulse.png" | absURL }}" alt="">
-    </div>
-    <div class="text-center">
-      <a href="{{ relref . "acompanamiento" }}" class="site-link text-chocolate hover:text-fire-opal">
-        {{- T "action_read_about_accompaniment_support" -}}
-      </a>
     </div>
   </div>
 </section>

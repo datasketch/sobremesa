@@ -170,7 +170,7 @@
 - id: page_home_about_third_row
   translation: We need a space to grow and transform.
 - id: page_home_accompaniment_title
-  translation: Who have we worked with?
+  translation: WHO WE'VE WORKED WITH
 - id: page_home_discuss_first_q
   translation: 'How does learning happen within civil society? '
 - id: page_home_discuss_second_q
@@ -287,3 +287,5 @@
   translation: Sitting at the table of La Sobremesa is
 - id: page_who_we_are_read_more
   translation: More about me
+- id: action_subscribe
+  translation: Subscribe
