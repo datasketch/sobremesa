@@ -289,3 +289,29 @@
   translation: More about me
 - id: action_subscribe
   translation: Subscribe
+- id: label_blogpost
+  translation: Blog post
+- id: label_methodology
+  translation: Methodology
+- id: label_template
+  translation: Template
+- id: label_repository
+  translation: Repository
+- id: label_sustainability
+  translation: Sustainability
+- id: label_governance
+  translation: Governance
+- id: label_administration
+  translation: Administration
+- id: label_leadership
+  translation: Leadership
+- id: label_team
+  translation: Team
+- id: label_design
+  translation: Design
+- id: label_monitoring
+  translation: Monitoring and evaluation
+- id: label_plan
+  translation: Annual Plan
+- id: label_strategy
+  translation: Organizational strategy

@@ -9,6 +9,22 @@
   {{ $border_class = "border-maximum-green" }}
   {{ $text_class = "text-maximum-green" }}
   {{ $bg_class = "bg-maximum-green" }}
+{{ else if in (slice "blogpost") .Params.genre }}
+  {{ $border_class = "border-fern-green" }}
+  {{ $text_class = "text-fern-green" }}
+  {{ $bg_class = "bg-fern-green" }}
+{{ else if in (slice "methodology") .Params.genre }}
+  {{ $border_class = "border-office-green" }}
+  {{ $text_class = "text-office-green" }}
+  {{ $bg_class = "bg-office-green" }}
+{{ else if in (slice "template") .Params.genre }}
+  {{ $border_class = "border-office-green-2" }}
+  {{ $text_class = "text-office-green-2" }}
+  {{ $bg_class = "bg-office-green-2" }}
+{{ else if in (slice "repository") .Params.genre }}
+  {{ $border_class = "border-pakistan-green" }}
+  {{ $text_class = "text-pakistan-green" }}
+  {{ $bg_class = "bg-pakistan-green" }}
 {{ else }}
   {{ $border_class = "border-pine-green" }}
   {{ $text_class = "text-pine-green" }}

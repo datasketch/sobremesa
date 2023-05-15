@@ -42,6 +42,10 @@ module.exports = {
         'blue': '#0036f6',
         'maximum-green': "#618D3F",
         'pine-green': '#007266',
+        'fern-green': '#497B56',
+        'office-green': '#1D7F32',
+        'office-green-2': '#1B7302',
+        'pakistan-green': '#154001'
       },
       fontFamily: {
         'beth-ellen': ['"Beth Ellen"', 'cursive'],

@@ -301,3 +301,29 @@
   translation: Más sobre mí
 - id: action_subscribe
   translation: ¡Suscríbete!
+- id: label_blogpost
+  translation: Blog post
+- id: label_methodology
+  translation: Metodología
+- id: label_template
+  translation: Plantilla
+- id: label_repository
+  translation: Repositorio
+- id: label_sustainability
+  translation: Sostenibilidad
+- id: label_governance
+  translation: Gobernanza
+- id: label_administration
+  translation: Administración
+- id: label_leadership
+  translation: Liderazgo
+- id: label_team
+  translation: Equipo
+- id: label_design
+  translation: Diseño
+- id: label_monitoring
+  translation: Monitoreo y evaluación
+- id: label_plan
+  translation: Plan Anual
+- id: label_strategy
+  translation: Estrategia organizacional

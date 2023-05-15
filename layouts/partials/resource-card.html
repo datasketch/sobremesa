@@ -9,6 +9,22 @@
   {{ $border_class = "border-maximum-green" }}
   {{ $text_class = "text-maximum-green" }}
   {{ $bg_class = "bg-maximum-green" }}
+{{ else if in (slice "blogpost") .Params.genre }}
+  {{ $border_class = "border-fern-green" }}
+  {{ $text_class = "text-fern-green" }}
+  {{ $bg_class = "bg-fern-green" }}
+{{ else if in (slice "methodology") .Params.genre }}
+  {{ $border_class = "border-office-green" }}
+  {{ $text_class = "text-office-green" }}
+  {{ $bg_class = "bg-office-green" }}
+{{ else if in (slice "template") .Params.genre }}
+  {{ $border_class = "border-office-green-2" }}
+  {{ $text_class = "text-office-green-2" }}
+  {{ $bg_class = "bg-office-green-2" }}
+{{ else if in (slice "repository") .Params.genre }}
+  {{ $border_class = "border-pakistan-green" }}
+  {{ $text_class = "text-pakistan-green" }}
+  {{ $bg_class = "bg-pakistan-green" }}
 {{ else }}
   {{ $border_class = "border-pine-green" }}
   {{ $text_class = "text-pine-green" }}
@@ -21,9 +37,19 @@
   </div>
   <div class="resource-content">
     <div class="resource-body">
-      <span class="resource-type {{ $text_class }}">
-        {{ T (print "label_" .Params.genre) }}
-      </span>
+      <div class="flex items-center gap-x-2 resource-type {{ $text_class }}">
+        <span>
+          {{ T (print "label_" .Params.genre) }}
+        </span>
+        {{ if .Params.topic }}
+          <span>
+            -
+          </span>
+          <span>
+            {{ T (print "label_" .Params.topic) }}
+          </span>
+        {{ end }}
+      </div>
       <h3 class="resource-title">
         {{ .Title }}
       </h3>
