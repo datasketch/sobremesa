@@ -57,7 +57,9 @@
           {{ end }}
         {{ else }}
           <li>
-            <a class="hover:text-chocolate" href="{{.URL}}">{{ .Title }}</a>
+            <a class="hover:text-chocolate" href="{{ or .Page.Params.redirect .URL }}"{{ if .Page.Params.redirect }} target="_blank"{{ end }}>
+              {{ .Title }}
+            </a>
           </li>
         {{ end }}
       {{ end}}
