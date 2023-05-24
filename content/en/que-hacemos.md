@@ -5,6 +5,7 @@ logo: images/logo-what-we-do.png
 menu:
   main:
     parent: wrapper
+weight: 2
 color: gold-metallic
 url: /en/what-do-we-do
 description: La Sobremesa is a consultancy that facilitates reflection and learning processes for civil society in Latin America. We provide accompaniment, facilitate spaces and share tools.
