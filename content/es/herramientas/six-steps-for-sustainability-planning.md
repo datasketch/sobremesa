@@ -1,7 +1,8 @@
 ---
 title: Six Steps for Sustainability Planning
 genre: tool
-clip: /uploads/6-pasos-para-un-plan-de-sostenibilidad-1-.png
+topic: sustainability
+clip: /uploads/6-pasos-para-un-plan-de-sostenibilidad-8-.png
 resource_url: http://www.rebeccathomas.com/blog/2017/09/14/six-steps-for-sustainability.html
 creator: Rebecca Thomas
 target: Líderes y lideresas que quieren tomar el control de la sostenibilidad de
