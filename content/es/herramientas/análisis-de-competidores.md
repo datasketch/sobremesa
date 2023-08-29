@@ -7,7 +7,7 @@ resource_url: https://docs.google.com/spreadsheets/d/1XmBt_qvcQfpkFbSF_hGl6MGdu0
 creator: La Sobremesa
 target: Para equipos que se quieren inspirar en las organizaciones parecidas a ellas.
 lastmod: 2023-08-29T16:55:35.567Z
-draft: false
+draft: true
 entry: true
 ---
 <!--StartFragment-->
