@@ -6,7 +6,7 @@ clip: /uploads/3.png
 resource_url: https://docs.google.com/spreadsheets/d/1e-_GDl8FvZMuD3ng-Vk6aainNKbT88ZOHrCnwOsr_8M/edit#gid=1778666083
 creator: La Sobremesa
 target: For teams that want to be inspired by organizations similar to themselves.
-draft: false
+draft: true
 entry: true
 ---
 <!--StartFragment-->
