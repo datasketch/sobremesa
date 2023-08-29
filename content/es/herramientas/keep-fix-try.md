@@ -2,7 +2,7 @@
 title: Keep, Fix, Try
 genre: tool
 topic: strategy
-clip: /uploads/nueva-herramienta.png
+clip: /uploads/nueva-herramienta-twitter-post-.png
 resource_url: https://docs.google.com/document/d/1_rKx6ZvcKCNcp9ZcwCaOoZMXnNGdlIUrHPNz0VwygCA/edit
 creator: La Sobremesa
 target: Para aquellas organizaciones que quieran facilitar momentos de
