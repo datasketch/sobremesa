@@ -8,7 +8,7 @@ creator: La Sobremesa
 target: Organizaciones que quieren reflexionar sobre sus proyectos de una forma
   ágil, con impacto.
 lastmod: 2023-08-29T16:33:30.259Z
-draft: false
+draft: true
 entry: true
 ---
 <!--StartFragment-->
