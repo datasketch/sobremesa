@@ -13,6 +13,6 @@ entry: true
 ---
 <!--StartFragment-->
 
-Creamos esta herramienta de La Sobremesa luego de muchas interacciones con organizaciones que querían entender mejor cuándo sï y cuándo no tomar un nuevo proyecto e invertir su tiempo y energía en él. Este rankeo te permite conocer cuál de tus proyectos ha sido el más estratégico en el pasado. Para ello, debes hacerte las preguntas correctas. Esta herramienta sistematiza algunas de esas preguntas básicas, tales como: ¿cómo se alinea a su misión?; ¿cuál ha tenido mayor impacto? y ¿cuál ha aportado mayor financiamiento?, entre otras variables. El ejercicio de responder estas preguntas con tu equipo te brindará aprendizajes valiosos para tomar decisiones sobre futuros proyectos.
+Creamos esta herramienta de La Sobremesa luego de muchas interacciones con organizaciones que querían entender mejor cuándo sí y cuándo no tomar un nuevo proyecto e invertir su tiempo y energía en él. Este rankeo te permite conocer cuál de tus proyectos ha sido el más estratégico en el pasado. Para ello, debes hacerte las preguntas correctas. Esta herramienta sistematiza algunas de esas preguntas básicas, tales como: ¿cómo se alinea a su misión?; ¿cuál ha tenido mayor impacto? y ¿cuál ha aportado mayor financiamiento?, entre otras variables. El ejercicio de responder estas preguntas con tu equipo te brindará aprendizajes valiosos para tomar decisiones sobre futuros proyectos.
 
 <!--EndFragment-->
