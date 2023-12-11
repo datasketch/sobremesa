@@ -8,7 +8,7 @@ creator: Open Society Foundation
 target: Personas que están asumiendo la Dirección Ejecutiva y pasando por un
   proceso de transición al nuevo cargo.
 lastmod: 2023-12-06T21:55:03.127Z
-draft: false
+draft: true
 entry: true
 ---
 <!--StartFragment-->
