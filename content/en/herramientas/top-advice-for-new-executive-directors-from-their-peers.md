@@ -7,7 +7,7 @@ resource_url: https://www.opensocietyfoundations.org/uploads/31d2bc8b-bf92-4457-
 creator: Open Society Foundation
 target: '" Individuals who are assuming the Executive Director role and
   undergoing a transition process into the new position."'
-draft: false
+draft: true
 entry: true
 ---
 <!--StartFragment-->
