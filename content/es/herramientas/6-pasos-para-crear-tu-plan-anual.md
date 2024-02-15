@@ -16,6 +16,8 @@ entry: true
 
 Un Plan Anual te permite transformar tus ideas y deseos del futuro, junto con tus proyectos ya financiados, en líneas de acción claras con tareas concretas y plazos realistas. Para ello, desarrollamos 3 etapas que constan de 6 pasos:
 
+
+
 * Etapa 1: Preparar. Esta es la primera etapa de la construcción de un Plan Anual, en donde (Paso 1) Reflexionamos sobre cómo nos fue el año pasado, (Paso 2) Analizamos el contexto, y (Paso 3) Envisionamos este año.
 
 
