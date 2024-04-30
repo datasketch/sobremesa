@@ -7,7 +7,7 @@ resource_url: https://docs.google.com/spreadsheets/d/1Wnqx7-CuC-5s0rVNitA_dYU5vL
 creator: La Sobremesa
 target: Organizations that want to explore where the donors are, who can finance
   their projects and teams.
-draft: true
+draft: false
 entry: true
 ---
 <!--StartFragment-->
