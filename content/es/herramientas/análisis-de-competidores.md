@@ -3,7 +3,7 @@ title: Análisis de Competidores
 genre: tool
 topic: sustainability
 clip: /uploads/3.png
-resource_url: https://docs.google.com/spreadsheets/d/1XmBt_qvcQfpkFbSF_hGl6MGdu0dllnvM2zapbeQIYXc/edit#gid=699781713
+resource_url: https://docs.google.com/spreadsheets/d/1XmBt_qvcQfpkFbSF_hGl6MGdu0dllnvM2zapbeQIYXc/edit#gid=589235514
 creator: La Sobremesa
 target: Para equipos que se quieren inspirar en las organizaciones parecidas a ellas.
 lastmod: 2023-08-29T16:55:35.567Z
