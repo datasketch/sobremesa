@@ -3,7 +3,7 @@ title: Ranking de Proyectos
 genre: tool
 topic: monitoring
 clip: /uploads/2.png
-resource_url: https://docs.google.com/spreadsheets/d/1MQWsexq3vOBadlpTzvFJAVsUavAclgQR4o0yXgQnx2Y/edit#gid=0
+resource_url: https://docs.google.com/spreadsheets/d/191DzNVMVziyYg90mD7xuFX-ScRYes7grMYbmCAcsaQ8/edit#gid=0
 creator: La Sobremesa
 target: Organizaciones que quieren reflexionar sobre sus proyectos de una forma
   ágil, con impacto.
