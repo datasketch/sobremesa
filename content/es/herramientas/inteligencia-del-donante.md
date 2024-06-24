@@ -3,7 +3,7 @@ title: Inteligencia del Donante
 genre: tool
 topic: sustainability
 clip: /uploads/4.png
-resource_url: https://docs.google.com/spreadsheets/d/150DdYx-OoTgcUkyxEXgHV35fxx97FG_VaPumXy3k_MY/edit#gid=612572132
+resource_url: https://docs.google.com/spreadsheets/d/150DdYx-OoTgcUkyxEXgHV35fxx97FG_VaPumXy3k_MY/edit#gid=1731208060
 creator: La Sobremesa
 target: Organizaciones que quieren explorar dónde están los donantes que puedan
   financiar sus proyectos y equipos.
