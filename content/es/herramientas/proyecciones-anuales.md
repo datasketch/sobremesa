@@ -3,7 +3,7 @@ title: Proyecciones Anuales
 genre: tool
 topic: sustainability
 clip: /uploads/nueva-herramienta-la-sobemesa-4-.png
-resource_url: https://docs.google.com/spreadsheets/d/1WHDzvUbT5UtciHm5nGC4rERY9-f4pOXBfMvyZEDjgIM/edit#gid=0
+resource_url: https://docs.google.com/spreadsheets/d/1WHDzvUbT5UtciHm5nGC4rERY9-f4pOXBfMvyZEDjgIM/edit#gid=1001896263
 creator: La Sobremesa
 target: "Organizaciones de sociedad civil que quieren ser más resilientes
   financieramente. "
