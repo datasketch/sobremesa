@@ -3,7 +3,7 @@ title: Project Ranking
 genre: tool
 topic: monitoring
 clip: /uploads/2.png
-resource_url: https://docs.google.com/spreadsheets/d/1Y0O-AVRMyTTiawMmA5_9T9YT5lLb7WcMDEyqNaDVjN8/edit#gid=0
+resource_url: https://docs.google.com/spreadsheets/d/1Y0O-AVRMyTTiawMmA5_9T9YT5lLb7WcMDEyqNaDVjN8/edit#gid=1605088789
 creator: La Sobremesa
 target: Organizations that want to reflect on their projects in an agile,
   impactful way.
