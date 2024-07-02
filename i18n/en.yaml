@@ -172,9 +172,9 @@
 - id: page_home_accompaniment_title
   translation: WHO WE'VE WORKED WITH
 - id: page_home_discuss_first_q
-  translation: 'How does learning happen within civil society? '
+  translation: Financial Sustainability Course
 - id: page_home_discuss_second_q
-  translation: When and how do we collaborate within civil society?
+  translation: Conversation on the Challenges of Civil Society
 - id: page_home_discuss_third_q
   translation: What does innovation mean within civil society? How do we innovate?
 - id: page_home_header_first_row
@@ -195,18 +195,14 @@
   translation: We
 - id: page_home_services_second_desc
   translation: >-
-    We create trust-filled conversation spaces for organizations that are facing
-    the same challenges, and together we co-create solutions by civil society
-    for civil society.
+    We create learning spaces tailored to individuals and organizations within civil society, encompassing a variety of thematic courses and interviews with leaders who share their experiences with us.
 - id: page_home_services_second_hl
   translation: spaces
 - id: page_home_services_second_title
   translation: We facilitate
 - id: page_home_services_third_desc
   translation: >-
-    We create and select materials that will guide and inspire you in your work
-    and your organization: podcasts, toolkits, videos, articles, guides and
-    more.
+    Based on our intensive support, we create our own tools that we make available to all organizations for their work. Additionally, we share tools from other experts that we find useful.
 - id: page_home_services_third_hl
   translation: tools
 - id: page_home_services_third_title

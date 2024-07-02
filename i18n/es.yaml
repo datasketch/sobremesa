@@ -185,9 +185,9 @@
 - id: page_home_accompaniment_title
   translation: CON QUIÉNES HEMOS TRABAJADO
 - id: page_home_discuss_first_q
-  translation: ¿Cómo se aprende dentro de la sociedad civil?
+  translation: Curso de Sostenibilidad Financiera
 - id: page_home_discuss_second_q
-  translation: ¿Cuándo y cómo colaboramos dentro de sociedad civil?
+  translation: Conversación sobre los Desafíos de la Sociedad Civil
 - id: page_home_discuss_third_q
   translation: ¿Qué significa innovación para sociedad civil? ¿Cómo innovamos?
 - id: page_home_header_first_row
@@ -208,18 +208,14 @@
   translation: Damos
 - id: page_home_services_second_desc
   translation: >-
-    Creamos espacios de confianza para hablar entre organizaciones que están
-    enfrentando los mismos desafíos y co-crear soluciones de sociedad civil para
-    sociedad civil.
+    Creamos espacios de aprendizaje dirigidos a personas y organizaciones de la sociedad civil, incluyendo una variedad de cursos temáticos y entrevistas con líderes que nos comparten sus experiencias.
 - id: page_home_services_second_hl
   translation: espacios
 - id: page_home_services_second_title
   translation: Facilitamos
 - id: page_home_services_third_desc
   translation: >-
-    Creamos y seleccionamos una batería de materiales que te van a guiar e
-    inspirar en tu trabajo y a tu organización: Podcast, toolkits, videos,
-    artículos, guías y más.
+    Con base en nuestros acompañamientos intensivos, creamos nuestras propias herramientas que ponemos a disposición de todas las organizaciones para su trabajo. También, compartimos herramientas de otros expertos que consideramos útiles. 
 - id: page_home_services_third_hl
   translation: herramientas
 - id: page_home_services_third_title

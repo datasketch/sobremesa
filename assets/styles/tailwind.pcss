@@ -107,15 +107,23 @@
     @apply text-xl lg:text-2xl font-source-serif-pro font-semibold;
   }
   .with-arrow {
-    @apply pb-16;
+    @apply relative pb-16;
   }
   .with-arrow-red {
+    @apply relative pb-5;
+  }
+  .with-arrow-fire-opal {
     @apply relative pb-5;
   }
   .with-arrow:after {
     @apply absolute left-0 bottom-0 w-full bg-contain bg-no-repeat h-10;
     content: '';
     background-image: url("data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjUxNy4zMzMiIGhlaWdodD0iMTEyIiB2aWV3Qm94PSIwIDAgMzg4IDg0Ij48cGF0aCBkPSJNMzA3LjYgMTMuNmMtMi4xIDItMiA0LjcuMiA2LjYuOS44IDcuNCA0LjggMTQuNCA4LjkgNyA0IDEyLjYgNy41IDEyLjQgNy43LS4yLjItOC42LS4yLTE4LjctLjgtMzctMi4xLTc0LjctMy0xMzEuOS0zLTc0LjEgMC0xNTEuNiAyLjYtMTU0LjcgNS4yLS43LjYtMS4zIDIuMS0xLjMgMy4zIDAgNC41IDEuNSA0LjggMjIuMiAzLjYgNzcuOC00LjMgMjA2LjMtNCAyNzguNy43bDEwLjQuNy0xMC4yIDYuOGMtNS42IDMuNy0xMC40IDcuNC0xMC43IDguMi0uOSAyLjIgMS41IDUuNSA0IDUuNSAxLjMgMCA5LjItNC41IDE3LjYtMTAgOC41LTUuNSAxNS45LTEwIDE2LjQtMTAgMiAwIDUuNi00LjggNS42LTcuMyAwLTIuOS02LjUtNy40LTIyLTE1LjItOC41LTQuMy0yOC4zLTEyLjUtMzAuMS0xMi41LS40IDAtMS41LjctMi4zIDEuNnoiLz48L3N2Zz4=");
+  }
+  .with-arrow-fire-opal:after {
+    @apply absolute left-0 bottom-0 w-full bg-contain bg-no-repeat h-5;
+    content: '';
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjUxNy4zMzMiIGhlaWdodD0iMTEyIiB2aWV3Qm94PSIwIDAgMzg4IDg0IiBmaWxsPSIjZWE1NzQ1Ij48cGF0aCBkPSJNMzA3LjYgMTMuNmMtMi4xIDItMiA0LjcuMiA2LjYuOS44IDcuNCA0LjggMTQuNCA4LjkgNyA0IDEyLjYgNy41IDEyLjQgNy43LS4yLjItOC42LS4yLTE4LjctLjgtMzctMi4xLTc0LjctMy0xMzEuOS0zLTc0LjEgMC0xNTEuNiAyLjYtMTU0LjcgNS4yLS43LjYtMS4zIDIuMS0xLjMgMy4zIDAgNC41IDEuNSA0LjggMjIuMiAzLjYgNzcuOC00LjMgMjA2LjMtNCAyNzguNy43bDEwLjQuNy0xMC4yIDYuOGMtNS42IDMuNy0xMC40IDcuNC0xMC43IDguMi0uOSAyLjIgMS41IDUuNSA0IDUuNSAxLjMgMCA5LjItNC41IDE3LjYtMTAgOC41LTUuNSAxNS45LTEwIDE2LjQtMTAgMiAwIDUuNi00LjggNS42LTcuMyAwLTIuOS02LjUtNy40LTIyLTE1LjItOC41LTQuMy0yOC4zLTEyLjUtMzAuMS0xMi41LS40IDAtMS41LjctMi4zIDEuNnoiLz48L3N2Zz4=");
   }
   .with-arrow-red:after {
     @apply absolute left-0 bottom-0 w-48 bg-contain bg-no-repeat h-5;
@@ -175,6 +183,9 @@
   }
   .logo-sm {
     @apply h-24 m-4 md:m-8;
+  }
+  .logo-customer {
+    @apply m-4 md:m-8;
   }
   .accordion-header {
     @apply relative w-full py-2 border-b-2 border-chocolate font-bold text-left text-2xl;
