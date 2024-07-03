@@ -47,14 +47,11 @@
 </section>
 <section class="container px-4 py-24">
   <div class="text-center leading-tight">
-    <p class="font-source-serif-pro text-xl md:text-2xl">
-      Según el desafío que enfrenta sociedad civil,
-    </p>
     <h2 class="section-title with-stars">
-      Nos apoyan y aconsejan
+      {{ T "page_who_we_are_we_work_with" }}
     </h2>
   </div>
-  <div class="mt-24 grid gap-12 sm:grid-cols-2 lg:grid-cols-3">
+  <div class="mt-24 grid gap-12 sm:grid-cols-2 lg:grid-cols-3 items-start">
     {{ range $data.guests }}
       {{ partial "guest-card.html" . }}
     {{ end }}

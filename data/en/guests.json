@@ -8,17 +8,19 @@
     "about": "I see organizations with long-term strategy challenges, as well as internal communication problems, especially in regional institutions. Another challenge is the lack of funding for LGBT + organizations, also seeing the challenges that it implies for some organizations to constitute themselves as AS or CSOs. I am a communicator and project leader in communication campaigns and have worked on the ground for 12 years, as a journalist and as an artist.",
     "twitter": "milenapafundi",
     "instagram": "milenapafundi",
-    "company": "agenciapresentes.org"
+    "company": "agenciapresentes.org",
+    "projects": "Hivos, PODER, FAU-LAC"
   },
   {
-    "id": "alejandra-betanzo",
-    "name": "Alejandra Betanzo de la Rosa",
-    "image": "images/people/alejandra-betanzo.jpg",
-    "tagline": "I see challenges in institutions and in their leadership...",
-    "location": "Based in Mexico City, Mexico",
-    "about": "I see challenges in  institutions and their leadership, which translate into too much work that threatens people's emotional health. I accompany organizations to co-construct explicit agreements that allow them to distribute power and work in a more self-managing way, in addition to generating collaborative dynamics, conflict transformation, emotion regulation and self-care. I am a consultant on Nonviolent Communication, Restorative Justice and narrative practices.",
-    "twitter": "abetanzo",
-    "company": "Consultora Independiente"
+    "id": "laura-lehman",
+    "name": "Laura Lehman",
+    "image": "images/people/laura-lehman.jpeg",
+    "tagline": "I see inequalities that limit resources available to the most marginalized...",
+    "location": "Based in Washington D.C.",
+    "about": "I see inequalities within the system that limit funding and resources for the groups closest to the problems. What if locally led civil society organizations had everything they needed to carry out their visions for a more democratic, inclusive and equitable society? I work in learning and evaluation for funders and organizations that participate in the promotion and construction of social and economic justice. I have been a community organizer, teacher, and researcher.",
+    "twitter": "LauraALehman",
+    "company": "integracollaborative.com",
+    "projects": "Oxfam México, TOR, IRIS, Hivos"
   },
   {
     "id": "graciela-guadarrama",
@@ -27,37 +29,57 @@
     "tagline": "I see narrative as a crucial tool for change...",
     "location": "Based in Mexico City, Mexico",
     "about": "I believe in narrative as a crucial tool for change and I really enjoy participatory design and co-creation processes. Because of my profile and curious mind, I have worked with various groups and organizations from both the public and private sectors and civil society. My experience encompasses Innovation and Design in all its extension. I use methodologies from different disciplines to facilitate action and transformation processes; among them are Social Innovation, Critical Design, Participatory Futures and Systemic Thinking.",
-    "twitter": "okanaga86"
+    "twitter": "okanaga86",
+    "projects": "INDELA, WINGS, Dialogos, reAcción"
+  },
+  {
+    "id": "alejandra-betanzo",
+    "name": "Alejandra Betanzo de la Rosa",
+    "image": "images/people/alejandra-betanzo.jpg",
+    "tagline": "I see challenges in institutions and in their leadership...",
+    "location": "Based in Mexico City, Mexico",
+    "about": "I see challenges in institutions and their leadership, which translate into too much work that threatens people's emotional health. I accompany organizations to co-construct explicit agreements that allow them to distribute power and work in a more self-managing way, in addition to generating collaborative dynamics, conflict transformation, emotion regulation and self-care. I am a consultant on Nonviolent Communication, Restorative Justice and narrative practices.",
+    "twitter": "abetanzo",
+    "projects": "TEDIC"
+  },
+  {
+    "id": "lucia-villafane",
+    "name": "Lucia Villafañe",
+    "image": "images/people/lucia-villafane.jpg",
+    "tagline": "I see a challenge when NGOs try to link their work with organizations dedicated to resource mobilization and technical support...",
+    "location": "Argentina based in Mexico City, Mexico",
+    "about": "I see in NGOs the potential to address the challenges they face through their situated knowledge and experiences. They continually demonstrate their ability to effect change by influencing a wide range of relevant issues affecting the region. However, this presents a challenge when it comes to linking their work with international organizations, government agencies, and institutions involved in resource mobilization and technical support. In this sense, it is necessary to review dominant dynamics and promote greater flexibility in cooperation spaces to foster recognition of situated knowledge and the values that guide and define the work of organized civil society.",
+    "projects": "ILSB"
+  },
+  {
+    "id": "virginie-martin-onraet",
+    "name": "Virginie Martin Onraet",
+    "image": "images/people/virginie-martin-onraet.jpg",
+    "tagline": "I see a lack of understanding that affects the vulnerable groups in the region...",
+    "location": "Based in Mexico City, Mexico",
+    "about": "The Latin American society has normalized violence to a point where we coexist daily with tangible and intangible acts of discrimination and exclusion. The manifestations of these violences affect vulnerable groups in the region in different ways, and the lack of understanding of these differences hinders the possibility of creating inclusive prevention systems with a gender and inclusion perspective.",
+    "company": "mxpersonas.org",
+    "projects": "Alianza Campo Justo"
+  },
+  {
+    "id": "ana-calderon",
+    "name": "Ana Calderón",
+    "image": "images/people/ana-calderon.jpg",
+    "tagline": "I see a significant challenge in generating and strengthening individual and collective tools...",
+    "location": "Based in Mexico City, Mexico",
+    "about": "I see a significant challenge in generating and strengthening individual and collective tools that allow us to manage limited resources, whether material or immaterial, such as time, as well as in the recognition, articulation, and maintenance of relationships in which we can expand the impact of our actions. I conduct mapping of actors, dynamics, language, and structures.",
+    "company": "intersecta.org",
+    "projects": "Alianza Campo Justo"
   },
   {
     "id": "adri-peralta",
     "name": "Adriana Peralta",
     "image": "images/people/adri-peralta.jpg",
-    "tagline": "I see a challenge given our contexts of violence and corruption.",
+    "tagline": "I see a challenge given our contexts of violence and corruption...",
     "location": "Based in Asunción, Paraguay",
-    "about": "I see a challenge with contexts that are often violent and corrupt, like those of Latin America. In order not to lose motivation to do things as well as possible, it helps a lot to surround yourself with people who you align with, who also believe that you can do it, who inspire you, who encourage you, with whom you can have a few beers and relax and laugh a bit. I am an illustrator and graphic designer specialized in sociology. (And yes, I'm the designer behind La Sobremesa!",
+    "about": "I see a challenge with contexts that are often violent and corrupt, like those of Latin America. In order not to lose motivation to do things as well as possible, it helps a lot to surround yourself with people who you align with, who also believe that you can do it, who inspire you, who encourage you, with whom you can have a few beers and relax and laugh a bit. I am an illustrator and graphic designer specialized in sociology. (And yes, I'm the designer behind La Sobremesa!)",
     "twitter": "adriperaltaaa",
-    "company": "Freelance designer"
-  },
-  {
-    "id": "laura-lehman",
-    "name": "Laura Lehman",
-    "image": "images/people/laura-lehman.jpeg",
-    "tagline": "I see inequalities that limit resources available to the most marginalized.",
-    "location": "Based in Washington D.C.",
-    "about": "I see inequalities within the system that limit funding and resources for the groups closest to the problems. What if locally led civil society organizations had everything they needed to carry out their visions for a more democratic, inclusive and equitable society? I work in learning and evaluation for funders and organizations that participate in the promotion and construction of social and economic justice. I have been a community organizer, teacher, and researcher.",
-    "twitter": "LauraALehman",
-    "company": "https://www.innonet.org/"
-  },
-  {
-    "id": "eduborregon",
-    "name": "Eduard Martín-Borregón",
-    "image": "images/people/eduborregon.jpg",
-    "tagline": "I see our civil society and have two big questions...",
-    "location": "Catalan, based in Mexico City, Mexico",
-    "about": "I see Latin American civil society and I have two big questions for it: How can the impact of our work be measured and increased? How are can we generate opportunities within the sector to retain and attract new talent? Any project that I design always starts from a problem to which we can contribute based on what we know how to do well. The sum of the parts is always greater than the parts themselves. I am a data journalist, mixing data, narrative and technology.",
-    "twitter": "emartinborregon",
-    "company": "poderlatam.org"
+    "projects": "Diseño gráfico"
   },
   {
     "id": "jpmarindiaz",
@@ -67,16 +89,16 @@
     "location": "Based in Bogotá, Colombia",
     "about": "I see a lack of data technology infrastructure for advocacy from civil society. I work creating accessible and low-cost data science technologies for social organizations. I am a data scientist and founder of Datasketch.",
     "twitter": "jpmarindiaz",
-    "company": "datasketch.co"
+    "company": "datasketch.co",
+    "projects": "Sitio web"
   },
   {
-    "id": "jorge-florez",
-    "name": "Jorge Flórez",
-    "image": "images/people/jorge-florez.jpeg",
-    "tagline": "I see challenges in articulating the impact we hope to make...",
-    "location": "Based in Bogotá, Colombia",
-    "about": "I see challenges in clearly articulating the impact that we expect to achieve at the organizational and project level, including defining processes and tools to track progress on this goal, and using this evidence to improve and effectively communicate our work. I address this challenge through team conversations and use of methodologies that respond to the specific needs of these groups, their goals, and their resources. I am a facilitator of social change strategies.",
-    "twitter": "j_florezh",
-    "company": "globalintegrity.org"
+    "id": "nadia-chanquia",
+    "name": "Nadia Chanquia",
+    "image": "images/people/nadia-chanquia.jpg",
+    "tagline": " I see a challenge in amplifying diverse voices and establishing basic agreements...",
+    "location": "Based in Buenos Aires City, Argentina",
+    "about": "Latin American society constantly lives within an interconnected cycle of challenges. Disbelief in governments, institutions, and democratic agreements, once deemed fundamental, engenders in society a sense of stagnation or mere survival, leaving individuals uncertain of their position amidst the divide. The paramount challenge lies in amplifying diverse voices and uniting them to forge basic agreements that propel the fulfillment of rights in the region",
+    "projects": "Comunicaciones"
   }
 ]
