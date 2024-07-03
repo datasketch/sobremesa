@@ -323,3 +323,7 @@
   translation: Plan Anual
 - id: label_strategy
   translation: Estrategia organizacional
+- id: label_testimonies
+  translation: Testimonios
+- id: label_all
+  translation: Todos

@@ -311,3 +311,7 @@
   translation: Annual Plan
 - id: label_strategy
   translation: Organizational strategy
+- id: label_testimonies
+  translation: Testimonies
+- id: label_all
+  translation: All

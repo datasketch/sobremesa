@@ -3,16 +3,15 @@ const tabsContent = document.getElementById('tabs-content')
 
 const images = Array.from(tabsContent.querySelectorAll('img'))
 
-let last = tabsTrigger.querySelector('button')
+let last = tabsTrigger.querySelector('.tab-trigger--active')
 
 tabsTrigger.addEventListener('click', function(e) {
     if (!e.target.matches('button')) return
     const button = e.target
     
-    last.classList.remove('text-fire-opal', 'with-arrow-fire-opal')
-    last.classList.add('text-chocolate')
-    button.classList.add('text-fire-opal', 'with-arrow-fire-opal')
-    button.classList.remove('text-chocolate')
+    last.classList.toggle('tab-trigger--active')
+    button.classList.toggle('tab-trigger--active')
+    
     last = button
     
     const {filter} = button.dataset

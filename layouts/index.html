@@ -121,10 +121,10 @@
       </h2>
     </div>
     <div class="flex items-start justify-center space-x-14 mt-14" id="tabs-triggers">
-      <button class="font-martin text-4xl text-fire-opal uppercase with-arrow-fire-opal" data-filter="*">Todos</button>
-      <button class="font-martin text-4xl text-chocolate uppercase" data-filter="organizaciones">Organizaciones</button>
-      <button class="font-martin text-4xl text-chocolate uppercase" data-filter="redes">Redes</button>
-      <button class="font-martin text-4xl text-chocolate uppercase" data-filter="donantes">Donantes</button>
+      <button class="tab-trigger tab-trigger--active" data-filter="*">{{ T "label_all" }}</button>
+      <button class="tab-trigger" data-filter="organizaciones">{{ T "label_orgs" }}</button>
+      <button class="tab-trigger" data-filter="redes">{{ T "label_networks" }}</button>
+      <button class="tab-trigger" data-filter="donantes">{{ T "label_donors" }}</button>
     </div>
     <div class="py-12 flex flex-wrap justify-center items-center" id="tabs-content">
       <img class="logo-customer" src="{{ "images/customers/alianza-campo-justo.png" | absURL }}" alt="" data-category="redes">
@@ -161,7 +161,7 @@
     </div>
     <div class="flex items-center justify-center">
       <h2 class="section-title text-fire-opal">
-        Testimonios
+        {{ T "label_testimonies" }}
       </h2>
       <span class="font-beth-ellen text-xl relative z-10 -ml-8">{{ T "label_with" }} La Sobremesa</span>
     </div>
