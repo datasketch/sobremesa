@@ -1,44 +1,30 @@
 [
     {
-        "company": "",
-        "text": "",
-        "contact": "",
-        "role": "",
-        "logo": ""
+        "company": "Dialogos",
+        "text": "El trabajo con La Sobremesa marca un antes y un después en nuestra historia institucional. Nos acompañaron en la co-creación y definición de una hoja de ruta para nuestra organización. Como parte de esa asistencia técnica, nos ayudó a definir mecanismos en Diálogos sobre cómo anticipamos futuros y aprendemos de ellos. Realmente disfrutamos trabajar con La Sobremesa. Gracias a su inspiración y acompañamiento logramos alcanzar los objetivos y metas que nos propusimos. Un trabajo como este merece ser reconocido adecuadamente, así que gracias por dedicar tanto tiempo, amor y esfuerzo a nuestro proyecto.",
+        "contact": "Walter Corzo",
+        "role": "Director ejecutivo de [dialogos.org.gt](https://dialogos.org.gt/)",
+        "logo": "/images/logos/dialogos.svg"
     },
     {
-        "company": "",
-        "text": "",
-        "contact": "",
-        "role": "",
-        "logo": ""
+        "company": "Hivos",
+        "text": "Fue una experiencia maravillosa trabajar con Anca y La Sobremesa, llena de aprendizaje. Trabajamos con ellas en un proyecto para explorar cómo surgen, evolucionan y (a veces) fallan las colaboraciones en el área de tecnología cívica para la rendición de cuentas. Entre las muchas grandes cualidades que aportan a este trabajo, una de las más impresionantes es su capacidad para crear espacios de confianza, conversaciones honestas, cálidas (y divertidas) que profundizan mucho más de lo habitual y aportan ideas críticas para los próximos pasos!",
+        "contact": "Conrad Zellman",
+        "role": "Impact Lead en [hivos.org](https://hivos.org/)",
+        "logo": "/images/logos/hivos.svg"
     },
     {
-        "company": "",
-        "text": "",
-        "contact": "",
-        "role": "",
-        "logo": ""
+        "company": "reAcción",
+        "text": "Cuando trabajamos con La Sobremesa en el análisis de Futuros posibles para priorizar acciones y ajustar nuestro plan de desarrollo institucional, sentimos que les importaba el futuro de nuestra organización como si fuera la suya. Tienen una capacidad de escucha y empatía que no es común en estos ámbitos. Su prioridad fue asegurar que nuestra visión alternativa de desarrollo pueda ser realidad.",
+        "contact": "David Riveros García",
+        "role": "Director ejecutivo de [reAccion.org.py](https://reaccion.org.py/)",
+        "logo": "/images/logos/reaccion.svg"
     },
     {
-        "company": "",
-        "text": "",
-        "contact": "",
-        "role": "",
-        "logo": ""
-    },
-    {
-        "company": "",
-        "text": "",
-        "contact": "",
-        "role": "",
-        "logo": ""
-    },
-    {
-        "company": "",
-        "text": "",
-        "contact": "",
-        "role": "",
-        "logo": ""
+        "company": "Oxfam México",
+        "text": "Fue un placer trabajar con Anca y el equipo. El proceso fue como un viaje, que inicia desde la definición del destino y lo que se quiere lograr con el proceso; la planeación y preparación de todos los elementos importantes para las conversaciones que vamos a embarcar; la navegación y exploración de las ideas, ambiciones y miedos del equipo; hasta el aterrizaje de las reflexiones a propuestas concretas y manejables. La Sobremesa no es sólo una consultora, es una \"thought partner\" y guía.",
+        "contact": "Estefania Hechenberger",
+        "role": "Gerente de Programa de Trabajo y Bienestar [oxfammexico.org](https://www.oxfammexico.org/)",
+        "logo": "/images/logos/oxfam-mexico.png"
     }
 ]

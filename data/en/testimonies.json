@@ -1,44 +1,30 @@
 [
     {
-        "company": "",
-        "text": "",
-        "contact": "",
-        "role": "",
-        "logo": ""
+        "company": "Diálogos",
+        "text": "Working with La Sobremesa marks a turning point in our institutional history. They accompanied us in co-creating and defining a roadmap for our organization. As part of that technical assistance, they helped us define mechanisms in Dialogos on how we anticipate futures and learn from them. We truly enjoyed working with La Sobremesa. Thanks to their inspiration and support, we were able to achieve the objectives and goals we set for ourselves. A work like this deserves to be properly recognized, so thank you for dedicating so much time, love, and effort to our project.",
+        "contact": "Walter Corzo",
+        "role": "Executive Director of [dialogos.org.gt](https://dialogos.org.gt/)",
+        "logo": "/images/logos/dialogos.svg"
     },
     {
-        "company": "",
-        "text": "",
-        "contact": "",
-        "role": "",
-        "logo": ""
+        "company": "Hivos",
+        "text": "It was a wonderful experience working with Anca and La Sobremesa, full of learning. We collaborated with them on a project to explore how collaborations in the field of civic technology for accountability emerge, evolve, and sometimes fail. Among the many great qualities they bring to this work, one of the most impressive is their ability to create spaces of trust, honest, warm (and fun) conversations that delve much deeper than usual and provide critical insights for the next steps!",
+        "contact": "Conrad Zellman",
+        "role": "Impact Lead at [hivos.org](https://hivos.org/)",
+        "logo": "/images/logos/hivos.svg"
     },
     {
-        "company": "",
-        "text": "",
-        "contact": "",
-        "role": "",
-        "logo": ""
+        "company": "reAcción",
+        "text": "When working with La Sobremesa in creating possible Futures to prioritize actions and adjust our institutional development plan, we felt that they cared about the future of our organization as if it were their own. They have a capacity to listen and empathize that is not common in these fields (of consultants). Their priority was to ensure that our alternative development vision could become a reality.",
+        "contact": "David Riveros García",
+        "role": "Executive Director of [reAccion.org.py](https://reaccion.org.py/)",
+        "logo": "/images/logos/reaccion.svg"
     },
     {
-        "company": "",
-        "text": "",
-        "contact": "",
-        "role": "",
-        "logo": ""
-    },
-    {
-        "company": "",
-        "text": "",
-        "contact": "",
-        "role": "",
-        "logo": ""
-    },
-    {
-        "company": "",
-        "text": "",
-        "contact": "",
-        "role": "",
-        "logo": ""
+        "company": "Oxfam México",
+        "text": "It was a pleasure to work with Anca and the team. The process was like a journey, starting from defining the destination and what we aim to achieve with the process; planning and preparing all the important elements for the conversations we are about to embark on; navigating and exploring the ideas, ambitions, and fears of the team; until landing the reflections into concrete and manageable proposals. La Sobremesa is not just a consultant, they are a \"thought partner\" and guide.",
+        "contact": "Estefania Hechenberger",
+        "role": "Program Manager for Work and Well-being [oxfammexico.org](https://www.oxfammexico.org/)",
+        "logo": "/images/logos/oxfam-mexico.png"
     }
 ]

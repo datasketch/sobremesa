@@ -1,4 +1,6 @@
 {{ define "main" }}
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
 <section class="px-4 pb-16 pt-0">
   <div class="container-lg md:w-full">
     <div class="section-row">
@@ -13,7 +15,7 @@
               {{- T "page_home_header_third_row" -}}
             </span>
           </h1>
-          <img class="h-20 mt-4 object-left object-contain" src="{{ "images/arrow-down.svg" | absURL }}" alt="">
+          <img class="h-20 mt-4 object-left object-contain" src='{{ "images/arrow-down.svg" | absURL }}' alt="">
         </div>
       </div>
       <div class="section-col">
@@ -115,7 +117,7 @@
 </section>
 <section class="px-4 pb-16">
   <div class="pt-8 md:pt-16" id="tabs-container">
-    <div class="home-banner bg-top pt-40 {{ print "bg-accompaniment-sm-" .Site.Language.Lang " " "md:bg-accompaniment-lg-" .Site.Language.Lang }}">
+    <div class='home-banner bg-top pt-40 {{ print "bg-accompaniment-sm-" .Site.Language.Lang " " "md:bg-accompaniment-lg-" .Site.Language.Lang }}'>
       <h2 class="section-title leading-extra-tight text-center text-fire-opal">
         {{- T "page_home_accompaniment_title" -}}
       </h2>
@@ -165,7 +167,40 @@
       </h2>
       <span class="font-beth-ellen text-xl relative z-10 -ml-8">{{ T "label_with" }} La Sobremesa</span>
     </div>
-    <div class="text-center">
+    <div class="container">
+      <div class="slider-wrapper mt-14">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            {{ range $data.testimonies }}
+              <div class="swiper-slide">
+                <div class="container">
+                  <div class="section-row items-center lg:space-x-12">
+                    <div class="section-col lg:w-1/3">
+                      <img src="{{ .logo | absURL }}" alt="">
+                    </div>
+                    <div class="section-col lg:w-2/3">
+                      <div class="leading-extra-tight">
+                      </div>
+                      <p class="leading-tight">
+                        {{ .text }}
+                      </p>
+                      <div class="mt-6">
+                        <p class="font-bold">{{ .contact }}</p>
+                        <p class="text-opacity-60 text-chocolate">{{ .role | markdownify }}</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            {{ end }}
+          </div>
+        </div>
+        <div class="slider-prev"></div>
+        <div class="slider-next"></div>
+        <div class="slider-pagination"></div>
+      </div>
+    </div>
+    <div class="text-center mt-14">
       <a href="{{ relref . "acompanamiento" }}" class="site-link text-chocolate hover:text-fire-opal">
         {{- T "action_read_about_accompaniment_support" -}}
       </a>
@@ -276,6 +311,11 @@
     </div>
   </div>
 </section>
+{{ end }}
+
+{{ define "head" }}
+  {{ $swiper := resources.Get "styles/swiper.css" | postCSS | fingerprint }}
+  <link rel="stylesheet" href="{{ $swiper.Permalink }}">
 {{ end }}
 
 

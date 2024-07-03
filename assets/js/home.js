@@ -1,3 +1,5 @@
+import { setupSlider } from './lib/slider'
+
 const tabsTrigger = document.getElementById('tabs-triggers')
 const tabsContent = document.getElementById('tabs-content')
 
@@ -19,4 +21,10 @@ tabsTrigger.addEventListener('click', function(e) {
     images.forEach(image => {
         image.classList.toggle('hidden', filter === '*' ? false : image.dataset.category !== filter)
     })
+})
+
+setupSlider('.slider-wrapper', {
+  autoplay: {
+    delay: 5000
+  }
 })
