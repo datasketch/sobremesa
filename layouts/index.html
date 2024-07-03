@@ -314,7 +314,7 @@
 {{ end }}
 
 {{ define "head" }}
-  {{ $swiper := resources.Get "styles/swiper.css" | postCSS | fingerprint }}
+  {{ $swiper := resources.Get "styles/swiper.pcss" | postCSS | fingerprint }}
   <link rel="stylesheet" href="{{ $swiper.Permalink }}">
 {{ end }}
 
