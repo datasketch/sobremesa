@@ -37,6 +37,36 @@
     font-family: "Beth Ellen";
     src: url("/fonts/BethEllen-Regular.ttf");
   }
+  @font-face {
+    font-family: "Open Sans";
+    src: url("/fonts/OpenSans-Light.ttf");
+    font-weight: 300;
+  }
+  @font-face {
+    font-family: "Open Sans";
+    src: url("/fonts/OpenSans-Regular.ttf");
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: "Open Sans";
+    src: url("/fonts/OpenSans-SemiBold.ttf");
+    font-weight: 600;
+  }
+  @font-face {
+    font-family: "Open Sans";
+    src: url("/fonts/OpenSans-ExtraBold.ttf");
+    font-weight: 700;
+  }
+  @font-face {
+    font-family: "Ramona";
+    src: url("/fonts/Ramona-Light.ttf");
+    font-weight: 300;
+  }
+  @font-face {
+    font-family: "Ramona";
+    src: url("/fonts/Ramona-Bold.ttf");
+    font-weight: 700;
+  }
 }
 
 @layer components {
@@ -57,6 +87,9 @@
   }
   .container-sm {
     @apply w-full mx-auto md:w-6/12;
+  }
+  .courses-container {
+    @apply max-w-screen-xl px-6 mx-auto w-full;
   }
   .site-link,
   .site-link-white {

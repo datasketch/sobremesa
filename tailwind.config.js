@@ -51,7 +51,9 @@ module.exports = {
         'beth-ellen': ['"Beth Ellen"', 'cursive'],
         martin: ['MARTIN', 'sans-serif'],
         'source-sans-pro': ['"Source Sans Pro"', 'sans-serif'],
-        'source-serif-pro': ['"Source Serif Pro"', 'serif']
+        'source-serif-pro': ['"Source Serif Pro"', 'serif'],
+        'open-sans': ['"Open Sans"', 'sans-serif'],
+        ramona: ['Ramona', 'sans-serif'],
       },
       backgroundImage: {
         'tools-sm-es': "url('/images/tools-sm-es.svg')",

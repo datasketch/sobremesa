@@ -1,0 +1,91 @@
+{{ define "header" }}
+<header class="sticky top-0 z-10" style="background-color: #C5EB46;">
+  <div class="courses-container py-6">
+    <nav class="flex items-center justify-between">
+      <div>
+        <button>Menú</button>
+      </div>
+      <div class="flex items-center gap-x-6">
+        <div class="hidden lg:flex items-center gap-x-2">
+          <span class="text-sm font-semibold">Diseñado y facilitado por</span>
+          <img class="flex-shrink-0 w-32" src='{{ "images/la-sobremesa.svg" | absURL }}' alt="">
+        </div>
+        <img class="hidden flex-shrink-0 w-32 md:block" src='{{ "images/cursos/sostenibilidad-financiera.svg" | absURL }}' alt="">
+        <a href="" class="inline-block uppercase font-semibold text-white px-4 py-2 tracking-wide rounded-full text-sm lg:text-lg" style="background-color: #00763F;">
+          Inscribirme
+        </a>
+      </div>
+    </nav>
+  </div>
+</header>
+{{ end }}
+
+
+{{ define "main" }}
+  <div style="background-color: #F2F0E6;">
+    <div class="courses-container py-16">
+      <div class="flex items-center gap-x-4">
+        <img class="w-3/5 flex-shrink-0" src='{{ "images/cursos/sostenibilidad-financiera-header.svg" | absURL }}' alt="">
+        <img class="w-12 mt-8 md:w-24 md:mt-20 lg:w-32 lg:mt-28" src='{{ "images/cursos/arrow-curve-down.svg" | absURL }}' alt="">
+      </div>
+      <div class="flex items-center mt-6">
+        <div class="hidden md:block md:w-1/2">
+          <div class="flex items-center gap-x-2">
+            <span class="lg:text-xl font-semibold">Diseñado y facilitado por</span>
+            <img class="flex-shrink-0 w-28 lg:w-36" src='{{ "images/logo.png" | absURL }}' alt="">
+          </div>
+        </div>
+        <div class="w-full md:w-1/2">
+          <p class="lg:text-2xl max-w-lg">
+            Un curso virtual, donde crearás tu propio Plan de Sostenibilidad Financiera para tu organización de sociedad civil.
+          </p>
+        </div>
+      </div>
+    </div>
+    <section class="courses-container py-16">
+      <img class="max-w-64 md:max-w-lg mx-auto" src='{{ "images/cursos/misc.svg" | absURL }}' alt="">
+      <div class="font-ramona space-y-4 mt-8 md:mt-12 text-lg md:text-xl md:space-y-8 lg:space-y-12 lg:text-3xl">
+          <p>Desde la equipa de La Sobremesa, estamos emocionadas de compartir <span class="font-bold">este curso diseñado especialmente para ti</span>, para líderes de sociedad civil que están haciendo todo lo necesario para que su organización sobreviva y sobresalga.</p>
+          <p>Sabemos lo importante que es invertir en la sostenibilidad de tu organización y equipo - y lo difícil que es encontrar la manera y el momento para hacerlo.</p>
+          <p><span class="font-bold">Por eso, creamos este Curso de Sostenibilidad Financiera, donde, durante 9 semanas, participarás en 5 módulos virtuales junto a otras líderes como tú.</span>  Vas a poder crear un Plan Multianual de Sostenibilidad para tu organización, facilitado en vivo por Anca Matioc, directora de La Sobremesa, con la participación de otras expertas en temas de sostenibilidad para la sociedad civil de la región.</p>
+      </div>
+      <div class="max-w-4xl mx-auto rounded-3xl overflow-hidden mt-12 md:mt-16">
+        <div class="aspect-w-16 aspect-h-9">
+          <iframe src="https://www.youtube.com/embed/Oxgf7vXwjOI?si=12GpkLCk6uWmyQxz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div style="background-color: #414042;">
+    <div class="courses-container py-16 relative" style="color: #F2F0E6;">
+      <h2 class="text-5xl font-ramona font-bold">
+        ¿Qué incluye este curso?
+      </h2>
+      <div class="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+        <div style="background-color: #00763F;" class="rounded-3xl p-4">
+          <p class="font-ramona text-2xl">Durante 9 semanas, participarás en 5 módulos virtuales facilitados en vivo por Zoom.</p>
+          <p class="mt-6">En este proceso, podrás trazar una meta a largo plazo, definir las diversas estrategias que vas a explorar para lograrla y, luego, priorizar estas estrategias según la inversión que signifique y las proyecciones que esperas.</p>
+        </div>
+        <div>
+          <img src="" alt="">
+          <p class="font-bold text-xl">5 módulos virtuales de 2 hs cada uno</p>
+          <p class="mt-6">Son cinco módulos que se realizarán durante 9 semanas. Cada módulo constará de: (1) un taller de 2 horas en vivo, (2) plantillas prácticas (3) una tarea que deberás realizar con tu organización.</p>
+          <p class="mt-6">Los talleres serán facilitados en vivo por Anca Matioc, <span class="underline font-bold" style="color: #C5EB46;">con la participación de otras 3 expertas.</span></p>
+        </div>
+        <div>
+          <img src="" alt="">
+          <p class="font-bold text-xl">1 sesión personalizada con <span class="underline">Anca Matioc</span></p>
+          <p class="mt-6">Donde durante 1 hora recibirás retroalimentación - preguntas, recomendaciones e ideas - sobre cómo mejorar el Plan de Sostenibilidad Financiera que creaste durante el Curso.</p>
+        </div>
+        <div>
+          <img src="" alt="">
+          <p class="font-bold text-xl">5 plantillas descargables</p>
+          <p class="mt-6">Para usar y llenar con tu equipo: (1) Ranking de Proyectos, (2) Análisis de Competidores, (3) Inteligencia de Donantes, (4) Escenarios de Costos e Ingresos, y (5) Plan de Acción</p>
+        </div>
+      </div>
+      <div class="max-w-xs ml-auto mt-12 lg:mt-0 lg:absolute lg:bottom-16 lg:right-0">
+        <p class="font-ramona text-2xl">Podrán asistir 2 personas por organización para sacar mejor provecho de los aprendizajes.</p>
+      </div>
+    </div>
+  </div>
+{{ end }}
