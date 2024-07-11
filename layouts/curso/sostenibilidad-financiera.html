@@ -3,7 +3,14 @@
   <div class="courses-container py-6">
     <nav class="flex items-center justify-between">
       <div>
-        <button>Menú</button>
+        <button id="btn" class="flex items-center gap-x-2">
+          <img
+            class="h-2"
+            src='{{ "/images/cursos/chevron-down.svg" | absURL }}'
+            alt="chevron down"
+          />
+          <p>Menú</p>
+        </button>
       </div>
       <div class="flex items-center gap-x-6">
         <div class="hidden lg:flex items-center gap-x-2">
@@ -31,7 +38,7 @@
   </div>
 </header>
 {{ end }} {{ define "main" }}
-<div class="bg-alabaster">
+<div id="into-al-curso" class="bg-alabaster">
   <div class="courses-container py-16">
     <div class="flex items-center gap-x-4">
       <img
@@ -363,7 +370,7 @@
     </div>
   </div>
 </div>
-<div class="py-16 bg-onyx text-white">
+<div id="para-quien-es" class="py-16 bg-onyx text-white">
   <div class="courses-container">
     <h2 class="text-4xl md:text-5xl font-ramona font-bold">¿Para quién es?</h2>
     <div
@@ -710,7 +717,7 @@
     </div>
   </div>
 </div>
-<div class="bg-alabaster py-16">
+<div id="cuanto-cuesta-el-curso" class="bg-alabaster py-16">
   <div class="courses-container">
     <h2
       class="font-ramona text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold"
@@ -927,7 +934,7 @@
         </div>
       </div>
     </div>
-    <div class="mt-12 lg:mt-16">
+    <div id="que-voy-a-aprender-en-el-curso" class="mt-12 lg:mt-16">
       <h2
         class="font-ramona text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold"
       >
@@ -1472,7 +1479,7 @@
         </div>
       </div>
     </div>
-    <div class="mt-16 lg:mt-20">
+    <div id="como-me-inscribo" class="mt-16 lg:mt-20">
       <h2
         class="font-ramona text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold"
       >
@@ -1597,7 +1604,7 @@
         </div>
       </div>
     </div>
-    <div class="mt-12 lg:mt-16">
+    <div id="testimonios" class="mt-12 lg:mt-16">
       <div class="text-center max-w-screen-sm mx-auto">
         <h2 class="font-ramona text-3xl lg:text-4xl font-bold">
           Esto es lo que las personas con las que trabajamos dicen:
@@ -1861,7 +1868,7 @@
     </div>
   </div>
 </div>
-<div class="py-12 md:py-16 xl:py-20 bg-alabaster">
+<div id="quien-es-la-sobremesa" class="py-12 md:py-16 xl:py-20 bg-alabaster">
   <div class="courses-container">
     <h2
       class="font-ramona text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold"
@@ -1920,9 +1927,14 @@
             para generar más y mejor impacto.
           </p>
           <p class="mt-4">
-            <span class="font-bold underline">Tania Altamirano</span> es
-            filósofa y trabaja con instituciones académicas, gubernamentales y
-            de la sociedad civil, desarrollando contenidos educativos,
+            <a
+              href="https://www.linkedin.com/in/tania-haide-espinoza-altamirano-2383a2150/"
+              target="_blank"
+              class="font-bold underline"
+              >Tania Altamirano</a
+            >
+            es filósofa y trabaja con instituciones académicas, gubernamentales
+            y de la sociedad civil, desarrollando contenidos educativos,
             investigando y facilitando procesos de aprendizaje para promover el
             cambio social.
           </p>
@@ -2048,7 +2060,7 @@
     </div>
   </div>
 </div>
-<div class="py-12 lg:py-16 xl:py-20 bg-alabaster">
+<div id="preguntas-frecuentes" class="py-12 lg:py-16 xl:py-20 bg-alabaster">
   <div class="courses-container">
     <h2
       class="font-ramona text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold"
@@ -2087,8 +2099,11 @@
           <div class="panel">
             <p>
               Es muy sencillo! Primero tienes que
-              <span class="font-bold underline"
-                >registrar tu postulación aquí</span
+              <a
+                href="https://form.typeform.com/to/FV2GB6kj"
+                target="_blank"
+                class="font-bold underline"
+                >registrar tu postulación aquí</a
               >, después, la equipa de La Sobremesa revisará tus respuestas y,
               en función de esto, definirá cuál es el grupo más adecuado para ti
               (recuerda que en cada grupo habrá como máximo 10 organizaciones).
@@ -2097,9 +2112,12 @@
               del cual podrás realizar el pago y te proporcionaremos un
               comprobante si fuera necesario.
             </p>
-            <p class="mt-4 font-bold underline">
+            <button
+              data-id="como-me-inscribo"
+              class="faq mt-4 font-bold underline"
+            >
               Te explicamos cómo inscribirte, paso a paso.
-            </p>
+            </button>
           </div>
         </div>
         <div>
@@ -2129,10 +2147,10 @@
               adecuado para organizaciones de todos los tamaños, desde pequeñas
               hasta grandes.
             </p>
-            <p class="mt-4 font-bold underline">
+            <button data-id="para-quien-es" class="faq mt-4 font-bold underline">
               Si aún no estás segura de que este Curso sea para tí, visita esta
               sección.
-            </p>
+            </button>
           </div>
         </div>
         <div>
@@ -2145,10 +2163,13 @@
               Sostenibilidad, una práctica crucial para su estabilidad y
               diversificación de ingresos.
             </p>
-            <p class="mt-4 font-bold underline">
+            <button
+              data-id="cuanto-cuesta-el-curso"
+              class="faq mt-4 font-bold underline"
+            >
               Descubre todos los detalles sobre el costo del Curso y qué
               significa esta inversión para tu organización.
-            </p>
+            </button>
           </div>
         </div>
         <div>
@@ -2157,7 +2178,14 @@
           </button>
           <div class="panel">
             <p>
-              Cada uno de los 5 módulos está conformado por tres instancias:
+              Cada uno de los
+              <button
+                data-id="que-voy-a-aprender-en-el-curso"
+                class="faq font-bold underline"
+              >
+                5 módulos
+              </button>
+              está conformado por tres instancias:
             </p>
             <ul class="mt-4 space-y-4">
               <li>
@@ -2208,7 +2236,12 @@
               Al completar el curso, habrás creado un Plan de Sostenibilidad
               Financiera sólido y adaptado a las necesidades de tu organización.
               Además, te compartiremos
-              <span class="font-bold underline">plantillas exclusivas</span>
+              <button
+                data-id="que-voy-a-aprender-en-el-curso"
+                class="faq font-bold underline"
+              >
+                plantillas exclusivas
+              </button>
               diseñadas por La Sobremesa como: “Guía para la creación de un Plan
               de Sostenibilidad”, “Plan de sostenibilidad (narrativa)”, “Ranking
               de Proyectos”, “Plan de Acción”, “Análisis de Competidores”,
@@ -2226,7 +2259,7 @@
           <div class="panel">
             <p>
               <a
-                class="underline"
+                class="underline font-bold"
                 href="https://www.linkedin.com/in/ancamatioc/"
                 target="_blank"
                 >Anca Matioc</a
@@ -2235,13 +2268,13 @@
               acompañando a diversas organizaciones. En cuatro de los cinco
               talleres, contaremos con otra experta co-facilitando junto a Anca.
               En el segundo taller, participará
-              <a class="underline" href="https://x.com/haydeepg" target="_blank"
+              <a class="underline font-bold" href="https://x.com/haydeepg" target="_blank"
                 >Haydée Perez</a
               >, ex-directora ejecutiva de Fundar y actual consultora para
               organizaciones de sociedad civil en México y Centroamérica. En el
               tercer taller, estará
               <a
-                class="underline"
+                class="underline font-bold"
                 href="https://www.linkedin.com/in/paula-spieler-1549b316b/?originalSubdomain=br"
                 target="_blank"
                 >Paula Spieler</a
@@ -2249,7 +2282,7 @@
               organizaciones de sociedad civil en Brasil. En el cuarto taller,
               nos acompañará
               <a
-                class="underline"
+                class="underline font-bold"
                 href="https://www.linkedin.com/in/anagabrielzaponte/"
                 target="_blank"
                 >Ana Gabriel Zuñiga Aponte</a
@@ -2267,12 +2300,14 @@
           <div class="panel">
             <p>
               Cada organización puede inscribir a un máximo de
-              <span class="font-bold underline">2 personas</span>, quienes deben
-              estar a cargo o involucradas en la sostenibilidad financiera de su
-              organización. Es crucial que las mismas dos personas asistan a
-              todas las sesiones para asegurar la continuidad y coherencia en el
-              aprendizaje. Si es necesario cambiar a alguno de los
-              participantes, se deberá consultar previamente con La Sobremesa.
+              <button data-id="para-quien-es" class="faq font-bold underline">
+                2 personas</button
+              >, quienes deben estar a cargo o involucradas en la sostenibilidad
+              financiera de su organización. Es crucial que las mismas dos
+              personas asistan a todas las sesiones para asegurar la continuidad
+              y coherencia en el aprendizaje. Si es necesario cambiar a alguno
+              de los participantes, se deberá consultar previamente con La
+              Sobremesa.
             </p>
           </div>
         </div>
@@ -2284,9 +2319,9 @@
           <div class="panel">
             <p>
               Tenemos espacio para un
-              <span class="font-bold underline"
-                >máximo de 40 organizaciones</span
-              >
+              <button data-id="para-quien-es" class="faq font-bold underline"></button>
+                máximo de 40 organizaciones
+              </button>
               en esta primera generación del curso. Conformaremos grupos de 10
               organizaciones (con un total de 4 grupos como máximo).
             </p>
@@ -2397,7 +2432,7 @@
     </div>
   </div>
 </div>
-<div class="pb-12 lg:pb-16 xl:pb-20 bg-alabaster">
+<div id="contactanos" class="pb-12 lg:pb-16 xl:pb-20 bg-alabaster">
   <div class="courses-container">
     <h2
       class="font-ramona text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold"
@@ -2493,6 +2528,46 @@
     </div>
   </div>
 </div>
+<div
+  id="navigation"
+  class="fixed top-20 lg:top-24 -left-full w-full h-full duration-300 z-50"
+>
+  <div class="max-w-lg w-full h-full bg-pear py-8 px-20">
+    <ul class="font-bold space-y-8">
+      <li>
+        <button data-id="into-al-curso">Intro al Curso</button>
+      </li>
+      <li>
+        <button data-id="para-quien-es">¿Para quién es?</button>
+      </li>
+      <li>
+        <button data-id="que-voy-a-aprender-en-el-curso">
+          ¿Qué voy a aprender en el curso?
+        </button>
+      </li>
+      <li>
+        <button data-id="cuanto-cuesta-el-curso">
+          ¿Cuánto cuesta el curso?
+        </button>
+      </li>
+      <li>
+        <button data-id="como-me-inscribo">¿Cómo me inscribo?</button>
+      </li>
+      <li>
+        <button data-id="testimonios">Testimonios</button>
+      </li>
+      <li>
+        <button data-id="quien-es-la-sobremesa">¿Quién es La Sobremesa?</button>
+      </li>
+      <li>
+        <button data-id="preguntas-frecuentes">Preguntas Frecuentes</button>
+      </li>
+      <li>
+        <button data-id="contacto">Contacto</button>
+      </li>
+    </ul>
+  </div>
+</div>
 {{ end }} {{ define "js" }}
 <script>
   var acc = document.getElementsByClassName("accordion");
@@ -2519,5 +2594,60 @@
       });
     });
   });
+
+  const navigation = document.getElementById("navigation");
+  const header = document.querySelector("header");
+
+  navigation.addEventListener("click", (e) => {
+    const button = e.target.closest("button");
+    if (!button) return;
+    const id = button.getAttribute("data-id");
+    const sectionEl = document.getElementById(id);
+    if (!sectionEl) return;
+    const coords = sectionEl.getBoundingClientRect();
+    window.scrollTo({
+      left: coords.left + window.pageXOffset,
+      top:
+        coords.top + window.pageYOffset - header.getBoundingClientRect().height,
+      behavior: "smooth",
+    });
+    navigation.classList.add("-left-full");
+    navigation.classList.remove("left-0");
+  });
+
+  const btn = document.getElementById("btn");
+
+  btn.addEventListener("click", (e) => {
+    btnEl = e.target.closest("button");
+    if (!btnEl) return;
+    if (navigation.classList.contains("-left-full")) {
+      navigation.classList.remove("-left-full");
+      navigation.classList.add("left-0");
+    } else {
+      navigation.classList.add("-left-full");
+      navigation.classList.remove("left-0");
+    }
+  });
+
+  window.addEventListener("scroll", () => {
+    navigation.classList.add("-left-full");
+    navigation.classList.remove("left-0");
+  });
+
+  const faqBtns = document.querySelectorAll('.faq')
+  faqBtns.forEach(button => button.addEventListener('click', (e) => {
+    const button = e.target.closest("button");
+    if (!button) return;
+    const id = button.getAttribute("data-id");
+    const sectionEl = document.getElementById(id);
+    if (!sectionEl) return;
+    const coords = sectionEl.getBoundingClientRect();
+    window.scrollTo({
+      left: coords.left + window.pageXOffset,
+      top:
+        coords.top + window.pageYOffset - header.getBoundingClientRect().height,
+      behavior: "smooth",
+    });
+  }))
 </script>
 {{ end }}

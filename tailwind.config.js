@@ -16,6 +16,8 @@ module.exports = {
         "md:bg-spaces-lg-en",
         "bg-accompaniment-sm-en",
         "md:bg-accompaniment-lg-en",
+        "-left-full",
+        "left-0",
       ],
     },
   },
