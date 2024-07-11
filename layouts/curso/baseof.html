@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language.Lang }}">
   <head>
-    {{ partial "head.html" . }} {{ block "head" . }}{{ end }} {{ if .Title }}
+    {{ partial "head.html" . }}
+     {{ block "head" . }}{{ end }} {{ if .Title }}
     <title>{{.Title}} | {{ .Site.Title }}</title>
     {{ else }}
     <title>{{ .Site.Title }}</title>

@@ -5,9 +5,14 @@
 {{ partial "twitter-meta-tags.html" . }}
 {{ partial "og-meta-tags.html" . }}
 
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+{{ if eq .RelPermalink "/cursos/sostenibilidad-financiera/" }}
+  <link rel="icon" type="image/png" sizes="32x32" href="/Favicon-LSM-32PX.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/Favicon-LSM-16PX.png">
+{{ else }}
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+{{ end }}
 
 {{ $styles := resources.Get "styles/tailwind.pcss" | toCSS | postCSS | minify }}
 <link rel="stylesheet" href="{{ $styles.Permalink }}">
