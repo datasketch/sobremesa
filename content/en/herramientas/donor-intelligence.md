@@ -2,7 +2,7 @@
 title: Donor Intelligence
 genre: tool
 topic: sustainability
-clip: /uploads/4.png
+clip: /uploads/donor-intelligence.png
 resource_url: https://docs.google.com/spreadsheets/d/1Wnqx7-CuC-5s0rVNitA_dYU5vLXttM5md1bANGvmj8c/edit#gid=653417535
 creator: La Sobremesa
 target: Organizations that want to explore where the donors are, who can finance
