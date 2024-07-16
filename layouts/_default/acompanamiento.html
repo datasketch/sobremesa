@@ -1,11 +1,13 @@
 {{ define "main" }}
-{{ partial "page-header.html" (dict "title" (T "label_accompaniments") "description" (T "page_accompaniment_desc") "image" "images/services-section.png")}}
+{{ partial "page-header.html" (dict "title" (T "label_accompaniments") "description" (T "page_accompaniment_desc")
+"image" "images/services-section.png")}}
 {{ $data := index .Site.Data .Site.Language.Lang }}
 <section class="container px-4 py-16">
-  <div class="section-row items-center">
+  <div class="section-row">
     <div class="section-col">
       <div class="section-col-inner">
-        <img src="{{ (print "images/what-do-we-offer-" .Site.Language.Lang ".svg") | absURL }}" alt="" class="w-2/3 mx-auto md:ml-0 md:mr-auto md:w-4/5">
+        <img src="{{ (print " images/what-do-we-offer-" .Site.Language.Lang ".svg" ) | absURL }}" alt=""
+          class="w-2/3 mx-auto md:ml-0 md:mr-auto md:w-4/5">
       </div>
     </div>
     <div class="section-col">
@@ -14,13 +16,13 @@
           {{ T "page_accompaniment_offer" }}
         </p>
       </div>
+      <div class="max-w-4xl ml-auto mt-24">
+        {{ partial "accordion.html" . }}
+      </div>
     </div>
   </div>
-  <div class="max-w-4xl ml-auto mt-24">
-    {{ partial "accordion.html" . }}
-  </div>
 </section>
-<section class="container px-4 py-16">
+<!-- <section class="container px-4 py-16">
   <div class="flex items-center justify-center">
     <span class="font-beth-ellen text-xl relative z-10">{{ T "label_our" }}</span>
     <h2 class="section-title text-fire-opal -ml-8">
@@ -75,8 +77,94 @@
       <img class="logo-sm" src="{{ "images/logos/iri.png" | absURL }}" alt="">
     </div>
   </div>
+</section> -->
+<section class="container px-4 py-16 border-t-2 border-chocolate">
+  <div class="flex flex-row gap-5 items-center">
+    <img class="w-14 h-14" src="/images/green-star.svg" alt="green-star">
+    <h3 class="accordion-subtitle">
+      {{ T "page_accompaniment_first_service" | safeHTML }}
+    </h3>
+  </div>
+  <div class="flex flex-row gap-6 mt-14">
+    <div class="w-1/4">
+      <img src="/images/resources-sketch.png" alt="resources-sketch">
+    </div>
+    <div class="w-3/4">
+      <p class="uppercase text-2xl font-normal font-martin">
+        {{ T "page_accompaniment_organizations" | safeHTML }}
+      </p>
+      <div class="flex flex-row gap-4 mt-8">
+        <div>
+          <img src="/images/logos/logo-small-dialogos.svg" alt="logo-dialogos">
+        </div>
+        <div>
+          <img src="/images/logos/logo-small-oxfam.svg" alt="logo-oxfam-mexico">
+        </div>
+        <div>
+          <img src="/images/logos/logo-small-tedic.svg" alt="logo-tedic">
+        </div>
+        <div>
+          <img src="/images/logos/logo-small-iris.svg" alt="logo-iris">
+        </div>
+        <div>
+          <img src="/images/logos/logo-small-codeforall.svg" alt="logo-codeforall">
+        </div>
+        <div>
+          <img src="/images/logos/logo-small-odc.svg" alt="logo-odc">
+        </div>
+        <div>
+          <img src="/images/logos/logo-small-globalintegrity.svg" alt="logo-global-integrity">
+        </div>
+        <div>
+          <img src="/images/logos/logo-small-fau.svg" alt="logo-fau">
+        </div>
+      </div>
+      <div class="text-xl font-source-sans-pro font-normal mt-14">
+        <li>
+          {{ T "page_accompaniment_description" | safeHTML }}
+        </li>
+        <li>
+          {{ T "page_accompaniment_description_i1" | safeHTML }}
+        </li>
+      </div>
+      <div class="relative mt-14">
+        <div>
+          <img src="/images/quotes.svg" alt="quotes">
+        </div>
+        <div class="absolute z-10 left-7 top-5">
+          <p class="font-source-serif-pro text-0'xl">
+            {{ T "page_accompaniment_testimony_define_your_impact" | safeHTML }}
+          </p>
+          <div class="mt-7 flex flex-col gap-2">
+            <div>
+              <p class="text-lg font-source-sans-pro font-bold">
+                {{ T "page_accompaniment_person_testimony_define_your_impact" | safeHTML }}
+              </p>
+            </div>
+            <div>
+              <p class="text-lg font-source-sans-pro font-normal text-chocolate opacity-60">
+                {{ T "page_accompaniment_person_position_testimony_define_your_impact" | safeHTML }}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="mt-7 flex flex-col gap-2">
+        <div>
+          <p class="text-lg font-source-sans-pro font-bold">
+            {{ T "page_accompaniment_person_testimony_define_your_impact" | safeHTML }}
+          </p>
+        </div>
+        <div>
+          <p class="text-lg font-source-sans-pro font-normal">
+            {{ T "page_accompaniment_person_position_testimony_define_your_impact" | safeHTML }}
+          </p>
+        </div>
+      </div> -->
+    </div>
+  </div>
 </section>
-<section class="container px-4 py-16">
+<section class="container px-4 py-16 mt-14 opa">
   <div class="flex items-center justify-center">
     <h2 class="section-title text-fire-opal">
       {{ T "label_their_exp" }}
@@ -86,11 +174,14 @@
   <div class="mt-12">
     {{ partial "experiences-slider.html" . }}
   </div>
+  </div>
+  </div>
 </section>
 <div class="container px-4 py-16">
   <div class="section-row section-row-reverse items-center">
     <div class="section-col">
-      <img class="mx-auto w-full md:w-2/3" src="{{ (print "images/waiting-" .Site.Language.Lang ".png") | absURL }}" alt="">
+      <img class="mx-auto w-full md:w-2/3" src="{{ (print " images/waiting-" .Site.Language.Lang ".png" ) | absURL }}"
+        alt="">
     </div>
     <div class="section-col text-center">
       <h2 class="section-title-md text-4xl leading-extra-tight lg:text-5xl">
@@ -107,13 +198,14 @@
     </div>
   </div>
 </div>
+
 {{ end }}
 
 {{ define "head" }}
-  <link rel="stylesheet" href="https://unpkg.com/swiper@6.7.0/swiper-bundle.min.css">
+<link rel="stylesheet" href="https://unpkg.com/swiper@6.7.0/swiper-bundle.min.css">
 {{ end }}
 
 {{ define "js" }}
-  {{ $services := resources.Get "js/services.js" | js.Build (dict "minify" true)}}
-  <script src="{{ $services.Permalink }}"></script>
+{{ $services := resources.Get "js/services.js" | js.Build (dict "minify" true)}}
+<script src="{{ $services.Permalink }}"></script>
 {{ end }}

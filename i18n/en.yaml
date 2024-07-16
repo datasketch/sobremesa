@@ -89,7 +89,7 @@
     If you are looking for personalized support, we can design and facilitate a
     process of reflection, learning and transformation tailored to you.
 - id: page_accompaniment_fifth_service
-  translation: To <span class="text-fire-opal">(un)learn</span> practices as a donor
+  translation: To create your organization or network
 - id: page_accompaniment_fifth_service_i1
   translation: >-
     Serving as **learning partners** for your foundation, in your programs and
@@ -98,8 +98,25 @@
   translation: >-
     Accompanying your evaluation processes and **incorporating learnings** into
     your practices
+- id: page_accompaniment_sixth_service
+  translation: >-
+    To drive transformation within your team
+- id: page_accompaniment_seventh_service
+  translation: >-
+    To understand and strengthen your ecosystem
+- id: page_accompaniment_description
+  translation: >-
+     We support you in creating or rethinking your <span class="text-fire-opal font font-bold">Mission, Vision, and Theory of Change</span>
+- id: page_accompaniment_description_i1
+  translation: >-
+    We support you in redefining your multi-year <span class="text-fire-opal font font-bold">Institutional Strategies</span>
+- id: page_accompaniment_testimony_define_your_impact
+  translation: >-
+    When working with La Sobremesa in creating possible Futures to prioritize actions and adjust our institutional development plan, we felt that they cared about the future of our organization as if it were their own. They have a capacity to listen and empathize that is not common in these fields (of consultants). Their priority was to ensure that our alternative development vision could become a reality.
+- id: page_accompaniment_person_position_testimony_define_your_impact
+  translation: Executive Director of <a class="border-b-2" href="reAccion.org.py">reAccion.org.py</a>
 - id: page_accompaniment_first_service
-  translation: For a <span class="text-fire-opal">resilient, strong</span> organization
+  translation: To define your impact
 - id: page_accompaniment_first_service_i1
   translation: Supporting organizational or leadership **transitions**
 - id: page_accompaniment_first_service_i2
@@ -109,7 +126,7 @@
 - id: page_accompaniment_first_service_i4
   translation: Integrating **design processes** into your work, programs and projects
 - id: page_accompaniment_fourth_service
-  translation: For the <span class="text-fire-opal">redesign</span> of a network
+  translation: To put your learnings into practice
 - id: page_accompaniment_fourth_service_i1
   translation: >-
     Creating **learning processes** within the network that are open, horizontal
@@ -124,7 +141,7 @@
     needs and challenges. While each accompaniment is different, many fall into
     the categories below. We hope they can serve to inspire you!
 - id: page_accompaniment_second_service
-  translation: For a <span class="text-fire-opal">healthy team</span> dynamic
+  translation: To achieve your objectives
 - id: page_accompaniment_second_service_i1
   translation: Designing and facilitating **retreats**
 - id: page_accompaniment_second_service_i2
@@ -134,7 +151,7 @@
 - id: page_accompaniment_second_service_i4
   translation: Facilitating workshops and supporting **non-violent communication**
 - id: page_accompaniment_third_service
-  translation: For a <span class="text-fire-opal">sustainable</span> organization
+  translation: To diversify your funding
 - id: page_accompaniment_third_service_i1
   translation: Rethinking and implementing a **financial plan**
 - id: page_accompaniment_third_service_i2
