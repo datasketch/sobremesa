@@ -58,6 +58,8 @@
   translation: el equipo
 - id: label_their_exp
   translation: Sus experiencias
+- id: label_testimonies
+  translation: Testimonios
 - id: label_tool
   translation: Herramienta
 - id: label_tools
@@ -115,6 +117,54 @@
 - id: page_accompaniment_description_i1
   translation: >-
     Te acompañamos a redefinir tus <span class="text-fire-opal font font-bold">Estrategias Institucionales</span> multianuales
+- id: page_accompaniment_description_i2
+  translation: >-
+    Lideramos procesos de planeación, como la creación de un <span class="text-fire-opal font font-bold">Plan Anual (POA)</span>
+- id: page_accompaniment_description_i3
+  translation: >-
+    Te ayudamos en <span class="text-fire-opal font font-bold">diseñar tus Proyectos</span> para que tengan el impacto deseado
+- id: page_accompaniment_description_i4
+  translation: >-
+    Para desarrollar estrategias fuertes, usamos metodologías como <span class="text-fire-opal font font-bold">Diseño de Futuros, Cambios de Sistemas y Diseño centrado en las Personas</span>
+- id: page_accompaniment_description_i5
+  translation: >-
+    Facilitamos los <span class="text-fire-opal font font-bold">Retiros Anuales</span> con tu equipo, virtuales o presenciales
+- id: page_accompaniment_description_i6
+  translation: >-
+    Te guiamos en crear un <span class="text-fire-opal font font-bold">Plan de Sostenibilidad Financiera</span> multianual
+- id: page_accompaniment_description_i7
+  translation: >-
+    Como parte del Plan de Sostenibilidad, te ayudamos a generar un proceso de <span class="text-fire-opal font font-bold">Inteligencia de Donantes</span> e inspirarte con un <span class="text-fire-opal font font-bold">Análisis de Competidores</span>
+- id: page_accompaniment_description_i8
+  translation: >-
+    Te apoyamos a crear procesos de <span class="text-fire-opal font font-bold">Monitoreo, Evaluación, y Aprendizaje (MEL)</span> pensando en tus necesidades, no solo las de los donantes
+- id: page_accompaniment_description_i9
+  translation: >-
+    Lideramos <span class="text-fire-opal font font-bold">procesos de aprendizaje colectivos y participativos</span> para reflexionar sobre las lecciones aprendidas y aplicarlas en el futuro
+- id: page_accompaniment_description_i10
+  translation: >-
+    Te brindamos apoyo en el <span class="text-fire-opal font font-bold">diseño de tu organización o red</span>, ya sea desde sus inicios o en el momento en que decidas realizar un rediseño
+- id: page_accompaniment_description_i11
+  translation: >-
+    Como parte del diseño, te ayudamos a pensar en <span class="text-fire-opal font font-bold">sus valores, gobernanza, procesos de toma de decisiones y definir tu impacto</span>
+- id: page_accompaniment_description_i12
+  translation: >-
+    Apoyamos a las directoras y sus equipos durante las <span class="text-fire-opal font font-bold">transiciones de liderazgo</span>
+- id: page_accompaniment_description_i13
+  translation: >-
+    Acompañamos a <span class="text-fire-opal font font-bold">fortalecer nuevas líderes</span> en el ecosistema
+- id: page_accompaniment_description_i14
+  translation: >-
+    Facilitamos espacios y discusiones para crear <span class="text-fire-opal font font-bold">procesos, prácticas y una cultura sana en la organización</span>
+- id: page_accompaniment_description_i15
+  translation: >-
+    Facilitamos <span class="text-fire-opal font font-bold">eventos y espacios de comunidad</span> para conocerse mejor como ecosistema y crear vínculos y colaboraciones nuevas
+- id: page_accompaniment_description_i16
+  translation: >-
+    Elaboramos <span class="text-fire-opal font font-bold">investigaciones y mapeos de ecosistemas</span> para que puedas comprender mejor tu entorno y así desarrollar estrategias más efectivas y potentes
+- id: page_accompaniment_description_i17
+  translation: >-
+    Realizamos <span class="text-fire-opal font font-bold">estudios de factibilidad</span> para ayudar a los donantes a evaluar si existe realmente la necesidad y las condiciones adecuadas para implementar un nuevo programa o intervención
 - id: page_accompaniment_testimony_define_your_impact
   translation: >-
     Cuando trabajamos con La Sobremesa en el análisis de Futuros posibles para priorizar acciones y ajustar nuestro plan de desarrollo institucional, sentimos que les importaba el futuro de nuestra organización como si fuera la suya. Tienen una capacidad de escucha y empatía que no es común en estos ámbitos. Su prioridad fue asegurar que nuestra visión alternativa de desarrollo pueda ser realidad.
@@ -122,6 +172,48 @@
   translation: David Riveros García
 - id: page_accompaniment_person_position_testimony_define_your_impact
   translation: Director ejecutivo de <a class="border-b-2" href="reAccion.org.py">reAccion.org.py</a>
+- id: page_accompaniment_testimony_reach_your_goals
+  translation: >-
+    Fue un placer trabajar con Anca y el equipo. El proceso fue como un viaje, que inicia desde la definición del destino y lo que se quiere lograr con el proceso; la planeación y preparación de todos los elementos importantes para las conversaciones que vamos a embarcar; la navegación y exploración de las ideas, ambiciones y miedos del equipo; hasta el aterrizaje de las reflexiones a propuestas concretas y manejables. La Sobremesa no es sólo una consultora, es una "thought partner" y guía.
+- id: page_accompaniment_person_testimony_reach_your_goals
+  translation: Estefania Hechenberger
+- id: page_accompaniment_person_position_testimony_reach_your_goals
+  translation: Gerente de Programa de Trabajo y Bienestar <a class="border-b-2" href="http://www.oxfammexico.org">http://www.oxfammexico.org</a>
+- id: page_accompaniment_testimony_diversify_your_financing
+  translation: >-
+    La Sobremesa nos brindó una asesoría completa sobre la sostenibilidad de nuestra organización. La misma incluyó desde presentaciones y talleres hasta varias conversaciones en profundidad, revisión y elaboración conjunta de documentos. Fue y sigue siendo una EXCELENTE experiencia. Las conversaciones fueron todas pertinentes, aprendimos mucho y vimos muchos aspectos novedosos del tema. Muy importante destacar la flexibilidad de toda la consultoría (y consultoras) para adaptarse a nuestras necesidades y tiempos, ¡así como el acompañiento constante!
+- id: page_accompaniment_person_testimony_diversify_your_financing
+  translation: Colombina Schaeffer
+- id: page_accompaniment_person_position_testimony_diversify_your_financing
+  translation: Subdirectora <a class="border-b-2" href="https://ciudadaniai.org/">https://ciudadaniai.org/</a>
+- id: page_accompaniment_testimony_practice_your_learning
+  translation: >-
+    Trabajar con La Sobremesa fue muy buena experiencia ya que nos desafiaron a pensar realmente en el significado de impacto y en cómo podemos, no solo medirlo internamente, sino dar cuenta de ello. El equipo de La Sobremesa nos acompañó en estas reflexiones con una metodología muy clara y con algunas excelentes facilitadoras. ¡Gracias colegas!.
+- id: page_accompaniment_person_testimony_practice_your_learning
+  translation: Fernanda Hopenhaym
+- id: page_accompaniment_person_position_testimony_practice_your_learning
+  translation: Co-Directora Ejecutiva <a class="border-b-2" href="poderlatam.org">poderlatam.org</a>
+- id: page_accompaniment_testimony_organization_or_network
+  translation: >-
+    La labor de acompañamiento de la Sobremesa durante nuestra Fase de Diseño fue muy integral, completa, armoniosa, reflexiva y generó un ambiente de confianza e integración. Fueron espacios donde se detonaron debates y se tomaron acuerdos de manera colectiva y respetuosa, también cada espacio iba entrelazado y siempre se sintió la continuidad en cada uno de ellos.
+- id: page_accompaniment_person_testimony_organization_or_network
+  translation: Margarita Nemecio
+- id: page_accompaniment_person_position_testimony_organization_or_network
+  translation: <a class="border-b-2" href="https://twitter.com/RAgricolas">https://twitter.com/RAgricolas</a>
+- id: page_accompaniment_testimony_transformation_in_your_team
+  translation: >-
+    El trabajo con La Sobremesa marca un antes y un después en nuestra historia institucional. Nos acompañaron en la co-creación y definición de una hoja de ruta para nuestra organización. Como parte de esa asistencia técnica, nos ayudó a definir mecanismos en Diálogos sobre cómo anticipamos futuros y aprendemos de ellos. Realmente disfrutamos trabajar con La Sobremesa. Gracias a su inspiración y acompañamiento logramos alcanzar los objetivos y metas que nos propusimos. Un trabajo como este merece ser reconocido adecuadamente, así que gracias por dedicar tanto tiempo, amor y esfuerzo a nuestro proyecto.
+- id: page_accompaniment_person_testimony_transformation_in_your_team
+  translation: Walter Corzo
+- id: page_accompaniment_person_position_testimony_transformation_in_your_team
+  translation: Director Ejecutivo de <a class="border-b-2" href="Dialogos.org.gt">Dialogos.org.gt</a>
+- id: page_accompaniment_testimony_strengthen_your_ecosystem
+  translation: >-
+    Trabajamos con La Sobremesa en un proyecto para explorar cómo surgen, evolucionan y (a veces) fallan las colaboraciones en el área de tecnología cívica para la rendición de cuentas, y qué se puede aprender de estas experiencias para mejor apoyar a la comunidad. Como en nuestro trabajo anterior con Anca y el equipo, fue una experiencia maravillosa, llena de aprendizaje. Entre las muchas grandes cualidades que aportan a este trabajo, una de las más impresionantes es su capacidad para crear espacios de confianza, conversaciones honestas, cálidas (y divertidas) que profundizan mucho más de lo habitual y aportan ideas críticas para los próximos pasos!
+- id: page_accompaniment_person_testimony_strengthen_your_ecosystem
+  translation: Conrad Zellman
+- id: page_accompaniment_person_position_testimony_strengthen_your_ecosystem
+  translation: Líder en Impacto en <a class="border-b-2" href="Hivos.org">Hivos.org</a>
 - id: page_accompaniment_first_service
   translation: >-
     Para definir tu impacto
