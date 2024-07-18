@@ -26,6 +26,7 @@
   </div>
 </header>
 {{ end }}
+
 {{ define "main" }}
 <div id="into-al-curso" class="bg-alabaster">
   <div class="courses-container py-16">
@@ -148,8 +149,8 @@
             de los aprendizajes.
           </p>
         </div>
-        <div class="absolute w-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-          <img class="transform scale-110 md:scale-100 lg:scale-110 xl:scale-100 xl:-translate-x-12" src='{{ "/images/cursos/globe-white.svg" | absURL }}'
+        <div class="absolute w-full md:h-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+          <img class="transform scale-110 md:scale-125" src='{{ "/images/cursos/globe-white.svg" | absURL }}'
             alt="globe white" />
         </div>
       </div>
@@ -316,7 +317,12 @@
           financiadores, cambiando de dirección con cada nuevo donante o nueva
           estrategia que aparece?
         </p>
-        <div class="mt-6 text-onyx font-semibold md:font-bold relative">
+        <div class="md:hidden mt-6 text-onyx font-semibold md:font-bold relative">
+          <p class="relative z-10 text-center bg-lavender-pink">
+            Es hora de romper ese patrón y retomar el control.
+          </p>
+        </div>
+        <div class="hidden md:block mt-6 text-onyx font-semibold md:font-bold relative">
           <p class="relative z-10 text-center">
             Es hora de romper ese patrón y retomar el control.
           </p>
@@ -343,8 +349,8 @@
       <div class="text-center">
         <h3 class="text-2xl lg:text-3xl relative">
           <span class="relative z-10">Este curso es para ti si:</span>
-          <div class="absolute w-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-            <img class="transform scale-110 md:scale-100 lg:scale-110 xl:scale-100 xl:-translate-x-12" src='{{ "/images/cursos/globe-pink.svg" | absURL }}'
+          <div class="absolute w-full md:w-auto top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+            <img class="transform scale-110 md:scale-100" src='{{ "/images/cursos/globe-pink.svg" | absURL }}'
               alt="globe pink" />
           </div>
         </h3>
@@ -1125,8 +1131,8 @@
                 <span class="text-dark-spring-green">9 de cada 10 organizaciones</span>
                 no tienen un Plan de Sostenibilidad Financiera a largo plazo.
               </p>
-              <div class="absolute w-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                <img class="transform scale-110 md:scale-100 lg:scale-110 xl:scale-100 xl:-translate-x-12"
+              <div class="absolute w-full top-1/2 left-1/2 transform -translate-x-1/2 md:-translate-x-80 -translate-y-1/2">
+                <img class="transform scale-110 md:scale-100"
                   src='{{ "/images/cursos/globe-black.svg" | absURL }}' alt="globe black" />
               </div>
             </div>
@@ -2035,7 +2041,8 @@
     </ul>
   </div>
 </div>
-{{ end }} 
+{{ end }}
+
 {{ define "js" }}
 <script>
   var acc = document.getElementsByClassName("accordion");
