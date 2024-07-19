@@ -9,7 +9,7 @@
   <div class="section-row">
     <div class="section-col">
       <div class="section-col-inner">
-        <img src="{{ (print " images/what-do-we-offer-" .Site.Language.Lang ".svg" ) | absURL }}" alt=""
+        <img src="{{ (print "images/what-do-we-offer-" .Site.Language.Lang ".svg" ) | absURL }}" alt=""
           class="w-2/3 mx-auto md:ml-0 md:mr-auto md:w-4/5">
       </div>
     </div>
@@ -20,7 +20,43 @@
         </p>
       </div>
       <div class="max-w-4xl ml-auto mt-24">
-        {{ partial "accordion.html" . }}
+        <div class="accordion flex flex-col gap-2">
+          <div class="accordion-item">
+            <button class="accordion-header">
+              {{ T "page_accompaniment_first_service" | safeHTML }}
+            </button>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">
+              {{ T "page_accompaniment_second_service" | safeHTML }}
+            </button>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">
+              {{ T "page_accompaniment_third_service" | safeHTML }}
+            </button>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">
+              {{ T "page_accompaniment_fourth_service" | safeHTML }}
+            </button>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">
+              {{ T "page_accompaniment_fifth_service" | safeHTML }}
+            </button>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">
+              {{ T "page_accompaniment_sixth_service" | safeHTML }}
+            </button>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">
+              {{ T "page_accompaniment_seventh_service" | safeHTML }}
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   </div>
