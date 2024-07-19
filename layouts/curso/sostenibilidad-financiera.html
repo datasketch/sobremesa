@@ -1149,7 +1149,7 @@
       </div>
     </div>
     <div class="mt-16 lg:mt-20">
-      <div class="max-w-screen-md mx-auto relative overflow-x-hidden">
+      <div class="max-w-screen-md mx-auto relative overflow-x-hidden lg:overflow-x-visible">
         <div class="overflow-hidden relative" style="border-top-left-radius: 100px; border-top-right-radius: 100px">
           <div class="h-80 overflow-hidden">
             <img class="w-full h-full object-cover" src='{{ "/images/cursos/postulate.jpg" | absURL }}'
@@ -1258,7 +1258,7 @@
       </div>
       <div id="testimonios"></div>
     </div>
-    <div class="mt-12 lg:mt-16">
+    <div class="mt-14 lg:mt-16">
       <div class="text-center max-w-screen-sm mx-auto">
         <h2 class="font-ramona text-3xl lg:text-3xl font-bold">
           Esto es lo que las personas con las que trabajamos dicen:
@@ -2045,13 +2045,12 @@
 
 {{ define "js" }}
 <script>
-  var acc = document.getElementsByClassName("accordion");
-  var i;
+  const acc = document.getElementsByClassName("accordion");
 
-  for (i = 0; i < acc.length; i++) {
+  for (let i = 0; i < acc.length; i++) {
     acc[i].addEventListener("click", function () {
       this.classList.toggle("active");
-      var panel = this.nextElementSibling;
+      const panel = this.nextElementSibling;
       if (panel.style.display === "block") {
         panel.style.display = "none";
       } else {
