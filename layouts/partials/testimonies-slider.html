@@ -1,7 +1,7 @@
 <div class="slider-wrapper slider-wrapper-acompanamiento">
   <div class="swiper-container">
     <div class="swiper-wrapper">
-      {{ range where .Pages "Params.draft" false }}
+      {{ range where .Pages "Params.category" "testimonios" }}
         <div class="swiper-slide">
           <div class="container">
             <div class="section-row items-center lg:space-x-12">
