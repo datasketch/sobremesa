@@ -3,6 +3,7 @@ languageCode = "es"
 title = "La Sobremesa"
 defaultContentLanguage = "es"
 taxonomies = []
+image = "/images/card_CursoSostenibilidad.png"
 
 [languages]
   [languages.es]
