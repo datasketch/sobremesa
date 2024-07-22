@@ -4,6 +4,9 @@ title = "La Sobremesa"
 defaultContentLanguage = "es"
 taxonomies = []
 
+[params]
+  image = "https://lasobremesa.co/images/card_CursoSostenibilidad.png"
+
 [languages]
   [languages.es]
     contentDir = "content/es"
