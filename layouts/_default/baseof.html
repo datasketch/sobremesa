@@ -8,6 +8,22 @@
   {{ else }}
     <title>{{ .Site.Title }}</title>
   {{ end }}
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:title" content="{{ .Title | default .Site.Params.defaultTitle }}">
+  <meta property="og:description" content="{{ .Params.description | default .Site.Params.defaultDescription }}">
+  <meta property="og:image" content="{{ .Params.image | default .Site.Params.defaultImage }}">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="{{ .Permalink }}">
+  <meta property="twitter:title" content="{{ .Title | default .Site.Params.defaultTitle }}">
+  <meta property="twitter:description" content="{{ .Params.description | default .Site.Params.defaultDescription }}">
+  <meta property="twitter:image" content="{{ .Params.image | default .Site.Params.defaultImage }}">
+  <meta property="twitter:site" content="{{ .Site.Params.twitterHandle }}">
+  
 </head>
 <body class="font-source-sans-pro bg-linen text-chocolate">
   {{ partial "nav.html" . }}
