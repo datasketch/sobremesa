@@ -5,6 +5,12 @@
      {{ block "head" . }}{{ end }} {{ if .Title }}
     <title>{{.Title}} | {{ .Site.Title }}</title>
     <!-- Open Graph / Facebook -->
+
+<head>
+  {{ partial "head.html" . }}
+  {{ block "head" . }}{{ end }} {{ if .Title }}
+  <title>{{.Title}} | {{ .Site.Title }}</title>
+  <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ .Permalink }}">
   <meta property="og:title" content="{{ .Title | default .Site.Params.defaultTitle }}">
