@@ -1,85 +1,79 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language.Lang }}">
-
-<head>
-  {{ partial "head.html" . }}
-  {{ block "head" . }}{{ end }} {{ if .Title }}
-  <title>{{.Title}} | {{ .Site.Title }}</title>
-  <!-- Open Graph / Facebook -->
+  <head>
+    {{ partial "head.html" . }}
+     {{ block "head" . }}{{ end }} {{ if .Title }}
+    <title>{{.Title}} | {{ .Site.Title }}</title>
+    <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ .Permalink }}">
   <meta property="og:title" content="{{ .Title | default .Site.Params.defaultTitle }}">
   <meta property="og:description" content="{{ .Params.description | default .Site.Params.defaultDescription }}">
-  <meta property="og:image" content="{{ .Params.image | default .Site.Params.defaultImage }}">
+  <meta property="og:image" content="{{ .Params.image | default .Site.Params.image }}">
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="{{ .Permalink }}">
   <meta property="twitter:title" content="{{ .Title | default .Site.Params.defaultTitle }}">
   <meta property="twitter:description" content="{{ .Params.description | default .Site.Params.defaultDescription }}">
-  <meta property="twitter:image" content="{{ .Params.image | default .Site.Params.defaultImage }}">
+  <meta property="twitter:image" content="{{ .Params.image | default .Site.Params.image }}">
   <meta property="twitter:site" content="{{ .Site.Params.twitterHandle }}">
-  {{ else }}
-  <title>{{ .Site.Title }}</title>
-  {{ end }}
-  <style>
-    .accordion {
-      position: relative;
-      background-color: rgba(0, 0, 0, 0.2);
-      color: #444;
-      cursor: pointer;
-      padding: 24px 40px;
-      width: 100%;
-      text-align: left;
-      border: none;
-      outline: none;
-      transition: 0.4s;
-      border-radius: 50px;
-      font-weight: bold;
-      font-size: 18px;
-    }
-
-    .panel {
-      margin-top: 8px;
-      padding: 24px 40px;
-      background-color: white;
-      display: none;
-      overflow: hidden;
-      border-radius: 50px;
-    }
-
-    .accordion:after {
-      content: "";
-      background-image: url("/images/cursos/chevron-down.svg");
-      background-size: contain;
-      background-repeat: no-repeat;
-      width: 20px;
-      height: 12px;
-      position: absolute;
-      top: 50%;
-      right: 30px;
-      transform: translateY(-50%);
-    }
-
-    .active:after {
-      content: "";
-      background-image: url("/images/cursos/chevron-down.svg");
-      background-size: contain;
-      background-repeat: no-repeat;
-      width: 20px;
-      height: 12px;
-      position: absolute;
-      top: 50%;
-      right: 30px;
-      transform: translateY(-10px) rotate(180deg);
-    }
-  </style>
-</head>
-
-<body class="font-open-sans text-onyx lg:text-lg overflow-x-hidden">
-  {{ block "header" . }}{{ end }}
-  <main>{{ block "main" . }}{{ end }}</main>
-  {{ block "js" . }}{{ end }}
-</body>
-
+    {{ else }}
+    <title>{{ .Site.Title }}</title>
+    {{ end }}
+    <style>
+      .accordion {
+        position: relative;
+        background-color: rgba(0, 0, 0, 0.2);
+        color: #444;
+        cursor: pointer;
+        padding: 24px 40px;
+        width: 100%;
+        text-align: left;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+        border-radius: 50px;
+        font-weight: bold;
+        font-size: 18px;
+      }
+      .panel {
+        margin-top: 8px;
+        padding: 24px 40px;
+        background-color: white;
+        display: none;
+        overflow: hidden;
+        border-radius: 50px;
+      }
+      .accordion:after {
+        content: "";
+        background-image: url("/images/cursos/chevron-down.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 20px;
+        height: 12px;
+        position: absolute;
+        top: 50%;
+        right: 30px;
+        transform: translateY(-50%);
+      }
+      .active:after {
+        content: "";
+        background-image: url("/images/cursos/chevron-down.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 20px;
+        height: 12px;
+        position: absolute;
+        top: 50%;
+        right: 30px;
+        transform: translateY(-10px) rotate(180deg);
+      }
+    </style>
+  </head>
+  <body class="font-open-sans text-onyx lg:text-lg overflow-x-hidden">
+    {{ block "header" . }}{{ end }}
+    <main>{{ block "main" . }}{{ end }}</main>
+    {{ block "js" . }}{{ end }}
+  </body>
 </html>
