@@ -13,12 +13,12 @@
   <meta property="og:image" content="{{ .Params.image | default .Site.Params.image }}">
 
   <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="{{ .Permalink }}">
-  <meta property="twitter:title" content="{{ .Title | default .Site.Params.defaultTitle }}">
-  <meta property="twitter:description" content="{{ .Params.description | default .Site.Params.defaultDescription }}">
-  <meta property="twitter:image" content="{{ .Params.image | default .Site.Params.image }}">
-  <meta property="twitter:site" content="{{ .Site.Params.twitterHandle }}">
+  <meta name="twitter:card" content="summary_large_image"></meta>
+  <meta name="twitter:url" content="{{ .Permalink }}"></meta>
+  <meta name="twitter:title" content="{{ .Title | default .Site.Params.defaultTitle }}"></meta>
+  <meta name="twitter:description" content="{{ .Params.description | default .Site.Params.defaultDescription }}"></meta>
+  <meta name="twitter:image:src" content="{{ .Params.image | default .Site.Params.image }}"></meta>
+  <meta name="twitter:site" content="{{ .Site.Params.twitterHandle }}"></meta>
   {{ else }}
   <title>{{ .Site.Title }}</title>
   {{ end }}

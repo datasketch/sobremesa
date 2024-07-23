@@ -21,38 +21,31 @@
       </div>
       <div class="max-w-4xl ml-auto mt-14">
         <div class="flex flex-col gap-2">
-          <a class="buttom-accompaniment"
-            href="#para-alcanzar-tus-objetivos">
+          <a class="buttom-accompaniment" href="#para-alcanzar-tus-objetivos">
             {{ T "page_accompaniment_first_service" | safeHTML }}
             <img src="/images/arrow-right.svg" alt="arrow-right">
           </a>
-          <a class="buttom-accompaniment"
-            href="#para-alcanzar-tus-objetivos">
+          <a class="buttom-accompaniment" href="#para-alcanzar-tus-objetivos">
             {{ T "page_accompaniment_second_service" | safeHTML }}
             <img src="/images/arrow-right.svg" alt="arrow-right">
           </a>
-          <a class="buttom-accompaniment"
-            href="#para-diversificar-tu-financiamiento">
+          <a class="buttom-accompaniment" href="#para-diversificar-tu-financiamiento">
             {{ T "page_accompaniment_third_service" | safeHTML }}
             <img src="/images/arrow-right.svg" alt="arrow-right">
           </a>
-          <a class="buttom-accompaniment"
-            href="#para-poner-en-practica-tus-aprendizajes">
+          <a class="buttom-accompaniment" href="#para-poner-en-practica-tus-aprendizajes">
             {{ T "page_accompaniment_fourth_service" | safeHTML }}
             <img src="/images/arrow-right.svg" alt="arrow-right">
           </a>
-          <a class="buttom-accompaniment"
-            href="#para-crear-tu-organizacion-o-red">
+          <a class="buttom-accompaniment" href="#para-crear-tu-organizacion-o-red">
             {{ T "page_accompaniment_fifth_service" | safeHTML }}
             <img src="/images/arrow-right.svg" alt="arrow-right">
           </a>
-          <a class="buttom-accompaniment"
-            href="#para-impulsar-una-transformacion-en-tu-equipo">
+          <a class="buttom-accompaniment" href="#para-impulsar-una-transformacion-en-tu-equipo">
             {{ T "page_accompaniment_sixth_service" | safeHTML }}
             <img src="/images/arrow-right.svg" alt="arrow-right">
           </a>
-          <a class="buttom-accompaniment"
-            href="#para-entender-y-fortalecer-tu-ecosistema">
+          <a class="buttom-accompaniment" href="#para-entender-y-fortalecer-tu-ecosistema">
             {{ T "page_accompaniment_seventh_service" | safeHTML }}
             <img src="/images/arrow-right.svg" alt="arrow-right">
           </a>
@@ -63,7 +56,7 @@
 </section>
 
 <!-- SECCIÓN EXPERIENCIAS -->
-<section class="container px-4 py-16 mt-14 opa">
+<!-- <section class="container px-4 py-16 mt-14 opa">
   <div class="flex items-center justify-center">
     <h2 class="section-title text-fire-opal">
       {{ T "label_their_exp" }}
@@ -73,9 +66,7 @@
   <div class="mt-12">
     {{ partial "experiences-slider.html" . }}
   </div>
-  </div>
-  </div>
-</section>
+</section> -->
 
 <!-- SECCIÓN TESTIMONIOS -->
 <section class="container px-4 py-16 mt-14 opa">
@@ -86,7 +77,21 @@
     <span class="font-beth-ellen text-xl relative z-10 -ml-8">{{ T "label_with" }} La Sobremesa</span>
   </div>
   <div class="mt-12">
-    {{ partial "testimonies-slider.html" . }}
+    <div class="slider-wrapper slider-wrapper-acompanamiento">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          {{ range .Pages }}
+            {{ if eq .Params.category "Testimonio" }}
+              {{ partial "testimonies-slider.html" . }}
+            {{ else if eq .Params.category "Experiencias" }}
+              {{ partial "experiences-slider.html" . }}
+            {{ end }}
+          {{ end }}
+        </div>
+      </div>
+      <div class="slider-prev"></div>
+      <div class="slider-next"></div>
+      <div class="slider-pagination"></div>
   </div>
   </div>
   </div>
