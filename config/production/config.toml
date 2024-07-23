@@ -6,6 +6,7 @@ taxonomies = []
 
 [params]
   image = "https://lasobremesa.co/images/card_CursoSostenibilidad.png"
+  twitterHandle = "@LaSobremesa_co"
 
 [languages]
   [languages.es]
