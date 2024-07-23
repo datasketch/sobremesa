@@ -17,7 +17,7 @@
   <meta property="twitter:url" content="{{ .Permalink }}">
   <meta property="twitter:title" content="{{ .Title | default .Site.Params.defaultTitle }}">
   <meta property="twitter:description" content="{{ .Params.description | default .Site.Params.defaultDescription }}">
-  <meta property="twitter:image" content="{{ .Params.image | default .Site.Params.image }}">
+  <meta property="twitter:image:src" content="{{ .Params.image | default .Site.Params.image }}">
   <meta property="twitter:site" content="{{ .Site.Params.twitterHandle }}">
   {{ else }}
   <title>{{ .Site.Title }}</title>
