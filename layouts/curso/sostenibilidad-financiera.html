@@ -290,22 +290,18 @@
       <div class="lg:w-1/2 xl:w-7/12">
         <div class="relative">
           <div class="md:absolute md:-top-14 md:left-1/2 md:transform md:-translate-x-1/2 w-full max-w-md mx-auto z-10">
-            <div class="flex justify-between bg-dark-spring-green rounded-3xl py-8 px-5 md:px-10">
-              <div>
-                <p class="leading-tight font-bold">
-                  Grupos de máximo <br />
-                  10 organizaciones
-                </p>
-              </div>
-              <div class="md:hidden lg:block bg-white self-stretch minh-full" style="width: 1px">
+            <div class="flex flex-col justify-between bg-dark-spring-green rounded-3xl py-8 px-5 md:px-10 md:flex-row md:space-y-0 space-y-4">
+              <p class="leading-tight font-bold">
+                Grupos de máximo <br />
+                10 organizaciones
+              </p>
+              <div class="bg-white w-full md:w-px h-px md:h-auto">
                 &nbsp;
               </div>
-              <div>
-                <p class="leading-tight font-bold">
-                  2 representantes <br />
-                  por organización
-                </p>
-              </div>
+              <p class="leading-tight font-bold">
+                2 representantes <br />
+                por organización
+              </p>
             </div>
           </div>
           <div class="mt-4 lg:mt-0">
@@ -559,7 +555,7 @@
       <br />
       organización?
     </h2>
-    <div class="mt-12 lg:mt-14 flex flex-col gap-y-8 md:flex-row md:gap-x-12 items-center">
+    <div class="mt-8 flex flex-col gap-y-8 md:flex-row md:gap-x-12 items-center">
       <div class="md:w-8/12">
         <p class="font-ramona text-lg lg:text-xl">
           En La Sobremesa, valoramos profundamente el compromiso de las
@@ -1258,9 +1254,8 @@
           </p>
         </div>
       </div>
-      <div class="hidden lg:block h-9" id="testimonios"></div>
     </div>
-    <div class="mt-14 lg:mt-16">
+    <div class="mt-14 lg:mt-16" id="testimonios">
       <div class="text-center max-w-screen-sm mx-auto">
         <h2 class="font-ramona text-3xl lg:text-4xl font-bold">
           Esto es lo que las personas con las que trabajamos dicen:
@@ -1581,7 +1576,7 @@
     <div class="mt-16 lg:mt-20 relative">
       <div class="max-w-4xl mx-auto">
         <a href="#testimonios"
-          class="text-onyx text-lg lg:text-2xl cursor-pointer bg-pear py-8 px-12 flex items-center justify-between"
+          class="text-onyx text-base lg:text-2xl cursor-pointer bg-pear py-8 px-12 flex items-center justify-between"
           style="border-radius: 999px">
           <p class="lg:w-2/3">
             <b>Escucha las experiencias en las voces</b> de las
@@ -2007,8 +2002,8 @@
   </div>
 </div>
 <div id="navigation" class="fixed top-20 lg:top-24 -left-full w-full h-full duration-300 z-50">
-  <div class="max-w-lg w-full h-full bg-pear py-8 px-16">
-    <ul class="font-bold space-y-8">
+  <div class="max-w-lg w-full h-full bg-pear pb-8 px-16">
+    <ul class="font-bold space-y-4">
       <li>
         <button data-id="into-al-curso">Intro al Curso</button>
       </li>
@@ -2039,6 +2034,29 @@
     </ul>
   </div>
 </div>
+{{ end }}
+
+{{ define "head" }}
+<meta name="description" content="Un curso virtual, donde crearás tu propio Plan de Sostenibilidad Financiera para tu organización de sociedad civil.">
+
+<!-- Google / Search Engine Tags -->
+<meta itemprop="name" content="Curso de sostenibilidad financiera | La Sobremesa">
+<meta itemprop="description" content="Un curso virtual, donde crearás tu propio Plan de Sostenibilidad Financiera para tu organización de sociedad civil.">
+<meta itemprop="image" content="https://lasobremesa.co/images/card_CursoSostenibilidad.png">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:title" content="Curso de sostenibilidad financiera | La Sobremesa" />
+<meta property="og:image" content="https://lasobremesa.co/images/card_CursoSostenibilidad.png" />
+<meta property="og:description" content="Un curso virtual, donde crearás tu propio Plan de Sostenibilidad Financiera para tu organización de sociedad civil." />
+<meta property="og:url" content="{{ .Permalink }}" />
+
+  <!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:url" content="{{ .Permalink }}" />
+<meta name="twitter:title" content="Curso de sostenibilidad financiera | La Sobremesa" />
+<meta name="twitter:description" content="Un curso virtual, donde crearás tu propio Plan de Sostenibilidad Financiera para tu organización de sociedad civil." />
+<meta name="twitter:image:src" content="https://lasobremesa.co/images/card_CursoSostenibilidad.png" />
+<meta name="twitter:site" content="@LaSobremesa_co" />
 {{ end }}
 
 {{ define "js" }}
