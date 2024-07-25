@@ -1,151 +1,62 @@
 {{ define "main" }}
-{{ partial "page-header.html" (dict "title" (T "page_spaces_title") "description" (T "page_spaces_desc") "image" "images/conversation-section.png")}}
-<!-- <section class="container px-4 py-16">
-  <div class="">
-    <div class="section-row xl:space-x-24">
-      <div class="pr-16 relative w-full lg:w-1/2 xl:w-1/3">
-        <img class="absolute top-0 left-0 h-full object-contain md:object-fill" src="{{ "images/gold-metallic-footprint.png" | absURL }}" alt="">
-        <h2 class="section-title leading-extra-tight relative">
-          {{ T "page_spaces_today" }}
-        </h2>
-      </div>
-      <div class="w-full lg:w-1/2 xl:w-2/3 self-center">
-        <ul class="section-description list-arrow text-lg lg:text-xl">
-          <li>{{ T "page_spaces_q1" }}</li>
-          <li>{{ T "page_spaces_q2" }}</li>
-          <li>{{ T "page_spaces_q3" }}</li>
-        </ul>
-        <div class="mt-12 h-full flex flex-col">
-          <p class="font-semibold text-md tracking-wide lg:text-lg">
-            {{ T "label_subscribe_participate" }}
-          </p>
-          <div class="mt-2 flex">
-            {{ partial "newsletter-form.html" (dict "Plain" false) }}
-          </div>
-        </div>
+{{ partial "page-header.html" (dict "title" (T "page_spaces_title") "description" (T "page_spaces_desc") "image"
+"images/conversation-section.png")}}
+<!-- SECCIÓN APRENDIENDO -->
+<div class="flex items-center justify-center px-4">
+  <h2 class="section-title text-fire-opal">
+    {{ T "page_spaces_learning" }}
+  </h2>
+  <span class="font-beth-ellen text-xl relative z-10 -ml-8">{{ T "label_with" }} La Sobremesa</span>
+</div>
+<section class="bg-alabaster pt-10 px-10 pb-4 lg:pl-28 lg:pr-24 lg:pt-36 lg:pb-32 mt-14">
+  <div>
+    <img class="lg:w-3/5 flex-shrink-0" src='{{ "images/cursos/sostenibilidad-financiera-header.svg" | absURL }}' alt="" />
+  </div>
+  <div class="flex flex-col lg:flex-row items-center mt-7 lg:mt-14 lg:pl-6">
+    <div class="md:w-1/2">
+      <div class="flex items-center lg:gap-x-2">
+        <span class="lg:text-2xl font-semibold lg:font-normal">Diseñado y facilitado por</span>
+        <img class="flex-shrink-0 w-28 lg:w-36" src='{{ "images/logo.png" | absURL }}' alt="" />
       </div>
     </div>
+    <div class="hidden lg:block w-full md:w-1/2">
+      <p class="lg:text-2xl font-normal max-w-lg">
+        Un curso virtual, donde crearás tu propio Plan de Sostenibilidad
+        Financiera para tu organización de sociedad civil.
+      </p>
+    </div>
   </div>
-</section> -->
-<!-- <section class="container px-4 pt-24 pb-16">
-  <div class="text-center">
-    <p class="font-beth-ellen text-xl">{{ T "page_spaces_learnt_title" }}</p>
-    <h2 class="section-title text-gold-metallic lg:-mt-4">
-      {{ T "page_spaces_title" }}
-    </h2>
-  </div>
-  <p class="mt-6 text-center text-xl">
-    {{ T "page_spaces_learnt_desc" }}
+</section>
+<div class="bg-pear p-10 lg:hidden w-full md:w-1/2">
+  <p class="font-semibold">
+    Un curso virtual, donde crearás tu propio Plan de Sostenibilidad
+    Financiera para tu organización de sociedad civil.
   </p>
-  <div class="mt-24 space-y-24">
-    <div class="flex flex-col">
-      <div class="flex flex-wrap pb-6 space-y-6 lg:space-y-0 lg:items-start lg:justify-between">
-        <div class="w-full lg:w-1/2 lg:max-w-lg">
-          <h3 class="font-source-serif-pro text-2xl leading-tight">
-            {{ T "page_spaces_qa" }}
-          </h3>
-          <p class="mt-6 md-content">
-            {{ T "page_spaces_qa_ans" | markdownify }}
-          </p>
-        </div>
-        <div class="w-full lg:w-1/2 lg:max-w-md">
-          <p class="font-source-serif-pro text-2xl leading-tight text-gold-metallic">
-            {{ T "page_spaces_qb" }}
-          </p>
-          <p class="mt-6">
-            {{ T "page_spaces_qb_ans" }}
-          </p>
-        </div>
-      </div>
-      <div class="bg-gold-metallic p-6 md:px-12">
-        <div class="flex flex-col lg:flex-row lg:items-center">
-          <div class="w-full lg:w-2/5">
-            <p class="font-source-serif-pro text-lg font-bold leading-tight lg:text-center">
-              {{ T "page_spaces_card_footer" }}
-            </p>
-          </div>
-          <div class="w-full lg:w-3/5">
-            <div class="flex flex-col items-start mt-4 md:flex-row md:justify-between lg:mt-0 lg:justify-end lg:space-x-12">
-              <a href="https://docs.google.com/document/d/1q2D__OmTi2lwNJcIHef5coq-fOFZ-bHTIp1QiB8dbis/edit" class="site-link-white hover:text-chocolate" target="_blank">Full Report</a>
-              <a href="https://docs.google.com/presentation/d/1uRidmBzqRk0LEg2Uh_9-RJg8cCeUf7EA3A_4KpJsWQQ/edit#slide=id.p" class="site-link-white hover:text-chocolate" target="_blank">Slides</a>
-              <a href="https://docs.google.com/spreadsheets/d/1SVrzcc5zfvwaZZQupGow9oQoyL1CuiCoOoq47rInv0E/edit#gid=1115331350" class="site-link-white hover:text-chocolate" target="_blank">Mapeo</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="flex flex-col">
-      <div class="flex flex-wrap pb-6 space-y-6 lg:space-y-0 lg:items-center lg:justify-between">
-        <div class="w-full lg:w-1/2 lg:max-w-lg">
-          <h3 class="font-source-serif-pro text-2xl leading-tight">
-            ¿Cómo se ve el futuro de la filantropía en América Latina?
-          </h3>
-          <p class="mt-6">
-            Como parte de nuestro apoyo a la coalición de donantes y actores filantrópicos de <a href="https://wingsweb.org/" class="font-bold cursor-pointer hover:text-gold-metallic underline">WINGS</a> facilitamos una serie de tres talleres en línea sobre qué factores -o que "tendencias"- pueden influir en el futuro la filantropía en América Latina.
-          </p>
-        </div>
-        <div class="w-full lg:w-1/2 lg:max-w-md">
-          <p class="font-source-serif-pro text-2xl leading-tight text-gold-metallic">
-            ¿Qué encontramos?
-          </p>
-          <p class="mt-6">
-            Hay tendencias muy positivas que nos dan esperanza como "trust based philanthropy" (filantropía basada en confianza)  y "mutual aid networks" (redes de apoyo mutuo), pero por otro lado hay tentendicas que nos preocupan, como el cierre del espacio cívico, limitaciones fiscales e incluso nuevos actores con distintos valores a la filantropía.
-          </p>
-        </div>
-      </div>
-      <div class="bg-gold-metallic p-6 md:px-12">
-        <div class="flex flex-col lg:flex-row lg:items-center">
-          <div class="w-full lg:w-2/5">
-            <p class="font-source-serif-pro text-lg font-bold leading-tight lg:text-center">
-              Lee más sobre los potenciales futuros que creamos en este espacio...
-            </p>
-          </div>
-          <div class="w-full lg:w-3/5">
-            <div class="flex flex-col items-start mt-4 md:flex-row md:justify-between lg:mt-0 lg:justify-end lg:space-x-12">
-              <a href="" class="site-link-white hover:text-chocolate">Full report</a>
-              <a href="" class="site-link-white hover:text-chocolate">Blog post</a>
-              <a href="" class="site-link-white hover:text-chocolate">Podcast</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
+</div>
 
 <!-- SECCIÓN CONVERSACIONES -->
- <section class="container px-4">
-  <div class="flex flex-row justify-items-center items-center">
-    <div class="w-2/5 pt-10">
-      <div class="flex items-center justify-start">
-        <h2 class="section-title text-fire-opal">
+<section class="container lg:relative px-4">
+  <div class="flex flex-col-reverse lg:flex-row lg:justify-between lg:items-center">
+    <div class="lg:w-2/5 lg:pt-10">
+      <div class="flex items-center justify-center lg:justify-start px-4">
+        <h2 class="section-title text-6xl text-fire-opal">
           {{ T "page_spaces_conversations" }}
         </h2>
         <span class="font-beth-ellen text-xl relative z-10 -ml-8">{{ T "label_with" }} La Sobremesa</span>
       </div>
-      <div class="mt-12 font-source-serif-pro text-2xl font-semibold">
+      <div class="mt-12 font-source-serif-pro text-base lg:text-2xl font-semibold">
         {{ T "page_spaces_conversations_description" }}
       </div>
     </div>
-    <div class="w-3/5 relative">
-      <div class="w-full">
-        <img src="/images/image-bubble-blue.svg" alt="image-bubble-blue">
-      </div>
-      <div class="text-white font-source-serif-pro text-5xl font-semibold absolute top-64 left-72 ml-0">
-        <div class="relative left-72 top-4">
-          <img src="/images/icon-red-asterisk.svg" alt="icon-red-asterisk">
-        </div>
-        <div>
-          {{ T "page_spaces_conversations_challenges" }}
-        </div>
-      </div>
+    <div class=" lg:w-3/5 relative lg:-mr-28">
+      <img src="/images/blue-bubble-spaces-es.svg" alt="blue-bubble-spaces-es">
     </div>
   </div>
-  <div class="mt-10">
-    <p class="font-source-sans-pro text-3xl font-bold text-fire-opal">
+  <div>
+    <p class="font-source-sans-pro mt-5 lg:mt-0 text-2xl lg:text-3xl font-bold text-fire-opal">
       {{ T "page_spaces_conversations_playlist" }}
     </p>
-    <div class="flex flex-row gap-11 mt-10">
+    <div class="flex flex-col lg:flex-row gap-11 mt-10">
       <div>
         <img src="/images/image-video-yt.svg" alt="image-video-yt">
       </div>
@@ -166,12 +77,12 @@
     </div>
   </div>
 
- </section>
+</section>
 
 <div class="container px-4 py-16">
   <div class="section-row section-row-reverse items-center">
     <div class="section-col">
-      <img class="mx-auto w-2/3" src="{{ (print "images/join-us-" .Site.Language.Lang ".png") | absURL }}" alt="">
+      <img class="mx-auto w-2/3" src="{{ (print "images/join-us-" .Site.Language.Lang ".png" ) | absURL }}" alt="">
     </div>
     <div class="section-col text-center">
       <h2 class="section-title-md leading-extra-tight">

@@ -258,6 +258,13 @@
   translation: Our spaces
 - id: page_spaces_today
   translation: In today's spaces, we’re discussing
+- id: page_spaces_learning
+  translation: APRENDIENDO
+- id: page_spaces_conversations
+  translation: CONVERSACIONES
+- id: page_spaces_conversations_description
+  translation: >-
+    Inspirational conversations and debates that explore key topics for civil society in Latin America from various perspectives.
 - id: page_tools_cta_q
   translation: >-
     Interested in being part of our future <span

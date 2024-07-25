@@ -270,11 +270,13 @@
   translation: Espacios de Aprendizaje
 - id: page_spaces_today
   translation: En nuestros espacios de ¡hoy!
+- id: page_spaces_learning
+  translation: APRENDIENDO
 - id: page_spaces_conversations
   translation: CONVERSACIONES
 - id: page_spaces_conversations_description
   translation: >-
-    Conversaciones y debates inspiradores que exploran temas clave para la sociedad civil en América Latina desde distintas perspectivas.//Inspirational conversations and debates that explore key topics for civil society in Latin America from various perspectives.
+    Conversaciones y debates inspiradores que exploran temas clave para la sociedad civil en América Latina desde distintas perspectivas.
 - id: page_spaces_conversations_challenges
   translation: Los 3 grandes desafíos de la sociedad civil en América Latina
 - id: page_spaces_conversations_playlist
