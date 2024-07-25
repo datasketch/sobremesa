@@ -3,7 +3,7 @@ client: Oxfam México
 name: Estefania Hechenberger
 web: http://www.oxfammexico.org
 role: Gerente de Programa de Trabajo y Bienestar
-logo: 
+logo: uploads/logo-oxfam-mexico.svg
 draft: false
 weight: 1
 entry: true

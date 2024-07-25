@@ -3,7 +3,7 @@ client: Japiqay
 name: Gabriela Flores
 web: www.japiqay.org
 role: Executive Director
-logo: 
+logo: uploads/logo-japigay.svg
 draft: false
 weight: 1
 entry: true

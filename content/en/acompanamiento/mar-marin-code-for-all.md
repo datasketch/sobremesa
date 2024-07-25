@@ -3,7 +3,7 @@ client: Code For All
 name: Mar Marín
 web: https://codeforall.org/
 role: Code For All Communications Leader
-logo: 
+logo: uploads/cfall-logo-black-2-.png
 draft: false
 weight: 1
 entry: true

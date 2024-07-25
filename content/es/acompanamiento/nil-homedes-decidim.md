@@ -3,7 +3,7 @@ client: Decidim
 name: Nil Homedes
 web: https://decidim.org/
 role: Presidente
-logo: 
+logo: uploads/logo-decidim.svg
 draft: false
 weight: 1
 entry: true

@@ -3,7 +3,7 @@ client: Iri
 name: Amanda Zink
 web: https://www.iri.org/
 role: Directora de Programa
-logo: 
+logo: uploads/logo-iri.svg
 draft: false
 weight: 1
 entry: true

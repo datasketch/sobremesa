@@ -3,7 +3,7 @@ client: Poder
 name: Fernanda Hopenhaym
 web: https://poderlatam.org/
 role: Co-Directora Ejecutiva
-logo: 
+logo: uploads/logo-poder.svg
 draft: false
 weight: 3
 entry: true

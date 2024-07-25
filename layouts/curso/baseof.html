@@ -2,23 +2,10 @@
 <html lang="{{ .Site.Language.Lang }}">
 
 <head>
-  {{ partial "head.html" . }}
-  {{ block "head" . }}{{ end }} {{ if .Title }}
+  {{ partial "head-curso.html" . }}
+  {{ block "head" . }}{{ end }}
+  {{ if .Title }}
   <title>{{.Title}} | {{ .Site.Title }}</title>
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ .Permalink }}">
-  <meta property="og:title" content="{{ .Title | default .Site.Params.defaultTitle }}">
-  <meta property="og:description" content="{{ .Params.description | default .Site.Params.defaultDescription }}">
-  <meta property="og:image" content="{{ .Params.image | default .Site.Params.image }}">
-
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image"></meta>
-  <meta name="twitter:url" content="{{ .Permalink }}"></meta>
-  <meta name="twitter:title" content="{{ .Title | default .Site.Params.defaultTitle }}"></meta>
-  <meta name="twitter:description" content="{{ .Params.description | default .Site.Params.defaultDescription }}"></meta>
-  <meta name="twitter:image:src" content="{{ .Params.image | default .Site.Params.image }}"></meta>
-  <meta name="twitter:site" content="{{ .Site.Params.twitterHandle }}"></meta>
   {{ else }}
   <title>{{ .Site.Title }}</title>
   {{ end }}

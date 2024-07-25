@@ -3,7 +3,7 @@ client: Oxfam México
 name: Estefania Hechenberger
 web: http://www.oxfammexico.org
 role: Labour and Welfare Program Manager
-logo: 
+logo: uploads/logo-oxfam-mexico.svg
 draft: false
 weight: 1
 entry: true

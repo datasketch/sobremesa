@@ -3,7 +3,7 @@ client: reAcción
 name: Daniel Riveros García
 web: https://reaccion.org.py/
 role: Executive Director of https://reaccion.org.py/
-logo: 
+logo: uploads/reaccion.svg
 draft: false
 weight: 1
 entry: true
