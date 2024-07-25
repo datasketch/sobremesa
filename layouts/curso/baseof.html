@@ -1,65 +1,72 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language.Lang }}">
-  <head>
-    {{ partial "head.html" . }}
-     {{ block "head" . }}{{ end }} {{ if .Title }}
-    <title>{{.Title}} | {{ .Site.Title }}</title>
-    {{ else }}
-    <title>{{ .Site.Title }}</title>
-    {{ end }}
-    <style>
-      .accordion {
-        position: relative;
-        background-color: rgba(0, 0, 0, 0.2);
-        color: #444;
-        cursor: pointer;
-        padding: 24px 40px;
-        width: 100%;
-        text-align: left;
-        border: none;
-        outline: none;
-        transition: 0.4s;
-        border-radius: 50px;
-        font-weight: bold;
-        font-size: 18px;
-      }
-      .panel {
-        margin-top: 8px;
-        padding: 24px 40px;
-        background-color: white;
-        display: none;
-        overflow: hidden;
-        border-radius: 50px;
-      }
-      .accordion:after {
-        content: "";
-        background-image: url("/images/cursos/chevron-down.svg");
-        background-size: contain;
-        background-repeat: no-repeat;
-        width: 20px;
-        height: 12px;
-        position: absolute;
-        top: 50%;
-        right: 30px;
-        transform: translateY(-50%);
-      }
-      .active:after {
-        content: "";
-        background-image: url("/images/cursos/chevron-down.svg");
-        background-size: contain;
-        background-repeat: no-repeat;
-        width: 20px;
-        height: 12px;
-        position: absolute;
-        top: 50%;
-        right: 30px;
-        transform: translateY(-10px) rotate(180deg);
-      }
-    </style>
-  </head>
-  <body class="font-open-sans text-onyx lg:text-lg overflow-x-hidden">
-    {{ block "header" . }}{{ end }}
-    <main>{{ block "main" . }}{{ end }}</main>
-    {{ block "js" . }}{{ end }}
-  </body>
+
+<head>
+  {{ partial "head-curso.html" . }}
+  {{ block "head" . }}{{ end }}
+  {{ if .Title }}
+  <title>{{.Title}} | {{ .Site.Title }}</title>
+  {{ else }}
+  <title>{{ .Site.Title }}</title>
+  {{ end }}
+  <style>
+    .accordion {
+      position: relative;
+      background-color: rgba(0, 0, 0, 0.2);
+      color: #444;
+      cursor: pointer;
+      padding: 24px 40px;
+      width: 100%;
+      text-align: left;
+      border: none;
+      outline: none;
+      transition: 0.4s;
+      border-radius: 50px;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .panel {
+      margin-top: 8px;
+      padding: 24px 40px;
+      background-color: white;
+      display: none;
+      overflow: hidden;
+      border-radius: 50px;
+    }
+
+    .accordion:after {
+      content: "";
+      background-image: url("/images/cursos/chevron-down.svg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 20px;
+      height: 12px;
+      position: absolute;
+      top: 50%;
+      right: 30px;
+      transform: translateY(-50%);
+    }
+
+    .active:after {
+      content: "";
+      background-image: url("/images/cursos/chevron-down.svg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 20px;
+      height: 12px;
+      position: absolute;
+      top: 50%;
+      right: 30px;
+      transform: translateY(-10px) rotate(180deg);
+    }
+  </style>
+</head>
+
+<body class="font-open-sans text-onyx lg:text-lg overflow-x-hidden">
+  {{ block "header" . }}{{ end }}
+  <main>{{ block "main" . }}{{ end }}</main>
+  {{ block "js" . }}{{ end }}
+</body>
+
 </html>
