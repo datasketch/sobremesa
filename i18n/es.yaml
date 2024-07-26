@@ -377,9 +377,20 @@
     funcionan. Para mejorar las prácticas de acompañamiento, hay que escuchar
     las voces de las personas que reciben este apoyo.
 - id: page_spaces_title
-  translation: Nuestros espacios
+  translation: Espacios de Aprendizaje
 - id: page_spaces_today
   translation: En nuestros espacios de ¡hoy!
+- id: page_spaces_learning
+  translation: APRENDIENDO
+- id: page_spaces_conversations
+  translation: CONVERSACIONES
+- id: page_spaces_conversations_description
+  translation: >-
+    Conversaciones y debates inspiradores que exploran temas clave para la sociedad civil en América Latina desde distintas perspectivas.
+- id: page_spaces_conversations_challenges
+  translation: Los 3 grandes desafíos de la sociedad civil en América Latina
+- id: page_spaces_conversations_playlist
+  translation: Nombre lista de reproducción
 - id: page_tools_cta_q
   translation: >-
     ¿Te interesa ser parte de futuros <span
