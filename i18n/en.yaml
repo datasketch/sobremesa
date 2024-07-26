@@ -375,6 +375,15 @@
   translation: Who is this for?
 - id: page_tools_used
   translation: Tools we’re using
+- id: page_tools_used_description
+  translation: >-
+    Herramientas generadas por La Sobremesa y construidas a partir de años de experiencia en el acompañamiento y fortalecimiento a organizaciones, redes y donantes de sociedad civil.
+- id: page_tools_recommended
+  translation: >-
+    Otras herramientas recomendadas
+- id: page_tools_recommended_description
+  translation: >-
+    Herramientas inspiradoras de autores y fuentes latinoamericanas y globales. Artículos, guías, reportes y podcasts, entre otras, que permiten conocer perspectivas diversas y complementan la propuesta de La Sobremesa.
 - id: page_what_we_do_desc
   translation: >-
     La Sobremesa is a consultancy that facilitates reflection and learning
