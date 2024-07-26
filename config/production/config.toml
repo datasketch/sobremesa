@@ -1,8 +1,12 @@
-baseURL = "https://www.lasobremesa.co/"
+baseURL = "/"
 languageCode = "es"
 title = "La Sobremesa"
 defaultContentLanguage = "es"
 taxonomies = []
+
+[params]
+  image = "https://lasobremesa.co/images/card_CursoSostenibilidad.png"
+  twitterHandle = "@LaSobremesa_co"
 
 [languages]
   [languages.es]
