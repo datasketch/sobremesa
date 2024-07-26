@@ -7,6 +7,7 @@ logo: uploads/hivos.svg
 draft: false
 weight: 4
 entry: true
+category: Experiencias
 ---
 
 Con Hivos Innovation Fund, "trabajamos con La Sobremesa en un proyecto para explorar **cómo surgen, evolucionan y (a veces) fallan las colaboraciones en el área de tecnología cívica** para la rendición de cuentas, y qué se puede **aprender de estas experiencias para mejor apoyar a la comunidad.**"

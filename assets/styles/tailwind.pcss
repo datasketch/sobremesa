@@ -125,7 +125,7 @@
     @apply w-full lg:w-1/2;
   }
   .section-col-inner {
-    @apply h-full flex flex-col;
+    @apply flex flex-col;
   }
   .section-title {
     @apply uppercase text-7xl font-martin leading-extra-tight lg:text-8xl relative;
@@ -209,16 +209,19 @@
   .logo-sm {
     @apply h-24 m-4 md:m-8;
   }
+  .buttom-accompaniment {
+    @apply text-chocolate font-source-sans-pro text-lg md:text-xl lg:text-2xl font-bold border border-chocolate py-3 md:py-6 px-5 flex flex-row justify-between items-center hover:bg-gold-metallic;
+  }
   .accordion-header {
-    @apply relative w-full py-2 border-b-2 border-chocolate font-bold text-left text-2xl;
+    @apply relative w-full p-5 border-2 border-chocolate font-bold text-left text-2xl;
+  }
+  .accordion-subtitle {
+    @apply uppercase text-4xl font-normal font-martin
   }
   .accordion-item .accordion-header:after {
-    @apply absolute top-1/2 right-0 transform -translate-y-1/2 w-6 h-6 bg-center bg-contain bg-no-repeat;
+    @apply absolute top-1/2 right-4 transform -translate-y-1/2 w-6 h-6 bg-center bg-contain bg-no-repeat;
     content: "";
-    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMCIgaGVpZ2h0PSIzMCI+PGNpcmNsZSBjeD0iMTUiIGN5PSIxNSIgcj0iMTUiIGZpbGw9IiNlYTU3NDUiLz48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNmZmY0ZTciIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIzIiBkPSJNMTUgOHYxNE04IDE1aDE0Ii8+PC9zdmc+");
-  }
-  .accordion-item.is-open .accordion-header:after {
-    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMCIgaGVpZ2h0PSIzMCI+PGNpcmNsZSBjeD0iMTUiIGN5PSIxNSIgcj0iMTUiIGZpbGw9IiNlYTU3NDUiLz48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNmZmY0ZTciIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIzIiBkPSJNOCAxNWgxNCIvPjwvc3ZnPg==");
+    background-image: url("/images/arrow-right.svg");
   }
   .accordion-item .accordion-content {
     @apply py-12 hidden;
@@ -273,7 +276,7 @@
     @apply opacity-30 cursor-not-allowed;
   }
   .slider-pagination {
-    @apply flex items-center justify-center space-x-2 mt-12;
+    @apply flex items-center justify-center space-x-2 mt-6 lg:mt-12;
   }
   .slider-pagination .swiper-pagination-bullet {
     @apply bg-transparent border border-fire-opal opacity-100;

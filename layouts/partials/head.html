@@ -6,12 +6,12 @@
 {{ partial "og-meta-tags.html" . }}
 
 {{ if eq .RelPermalink "/cursos/sostenibilidad-financiera/" }}
-  <link rel="icon" type="image/png" sizes="32x32" href="/Favicon-LSM-32PX.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/Favicon-LSM-16PX.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/Favicon-LSM-32PX.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/Favicon-LSM-16PX.png">
 {{ else }}
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 {{ end }}
 
 {{ $styles := resources.Get "styles/tailwind.pcss" | toCSS | postCSS | minify }}
@@ -30,11 +30,14 @@
 
 <!-- MailerLite Universal -->
 <script>
-  (function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
-  var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
-  f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
-  var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
-  _.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+  (function (m, a, i, l, e, r) {
+    m['MailerLiteObject'] = e; function f() {
+      var c = { a: arguments, q: [] }; var r = this.push(c); return "number" != typeof r ? r : f.bind(c.q);
+    }
+    f.q = f.q || []; m[e] = m[e] || f.bind(f.q); m[e].q = m[e].q || f.q; r = a.createElement(i);
+    var _ = a.getElementsByTagName(i)[0]; r.async = 1; r.src = l + '?v' + (~~(new Date().getTime() / 1000000));
+    _.parentNode.insertBefore(r, _);
+  })(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
 
   var ml_account = ml('accounts', '3211705', 'h2j7b7h2w6', 'load');
 </script>
@@ -44,7 +47,7 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-840H9SJ0LF"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+  function gtag() { dataLayer.push(arguments); }
   gtag('js', new Date());
 
   gtag('config', 'G-840H9SJ0LF');

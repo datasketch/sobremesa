@@ -56,6 +56,8 @@
   translation: the team
 - id: label_their_exp
   translation: Their experiences
+- id: label_testimonies
+  translation: Testimonies
 - id: label_tool
   translation: Tool
 - id: label_tools
@@ -89,7 +91,7 @@
     If you are looking for personalized support, we can design and facilitate a
     process of reflection, learning and transformation tailored to you.
 - id: page_accompaniment_fifth_service
-  translation: To <span class="text-fire-opal">(un)learn</span> practices as a donor
+  translation: To create your organization or network
 - id: page_accompaniment_fifth_service_i1
   translation: >-
     Serving as **learning partners** for your foundation, in your programs and
@@ -98,8 +100,103 @@
   translation: >-
     Accompanying your evaluation processes and **incorporating learnings** into
     your practices
+- id: page_accompaniment_sixth_service
+  translation: >-
+    To drive transformation within your team
+- id: page_accompaniment_seventh_service
+  translation: >-
+    To understand and strengthen your ecosystem
+- id: page_accompaniment_description
+  translation: >-
+     We support you in creating or rethinking your <span class="text-fire-opal font font-bold">Mission, Vision, and Theory of Change</span>
+- id: page_accompaniment_description_i1
+  translation: >-
+    We support you in redefining your multi-year <span class="text-fire-opal font font-bold">Institutional Strategies</span>
+- id: page_accompaniment_description_i2
+  translation: >-
+     We lead planning processes, such as the creation of an <span class="text-fire-opal font font-bold">Annual Plan (POA)</span>
+- id: page_accompaniment_description_i3
+  translation: >-
+    We assist you in <span class="text-fire-opal font font-bold">designing your projects</span> to achieve the desired impact
+- id: page_accompaniment_description_i4
+  translation: >-
+    To develop strong strategies, we utilize methodologies such as <span class="text-fire-opal font font-bold">Future Design, Systems Change, and Human-Centered Design</span>
+- id: page_accompaniment_description_i5
+  translation: >-
+    We facilitate your <span class="text-fire-opal font font-bold">Annual Retreats</span> with your team, whether virtual or in-person
+- id: page_accompaniment_description_i6
+  translation: >-
+    We guide you in creating a multi-year <span class="text-fire-opal font font-bold">Financial Sustainability Plan</span>
+- id: page_accompaniment_description_i7
+  translation: >-
+    As part of the Sustainability Plan, we assist you in developing a <span class="text-fire-opal font font-bold">Donor Intelligence</span> process and inspire you with a <span class="text-fire-opal font font-bold">Competitor Analysis</span>
+- id: page_accompaniment_description_i8
+  translation: >-
+    We support you in creating <span class="text-fire-opal font font-bold">Monitoring, Evaluation, and Learning (MEL)</span> processes tailored to your needs, not just those of the donors
+- id: page_accompaniment_description_i9
+  translation: >-
+    We lead collective and <span class="text-fire-opal font font-bold">participatory learning processes</span> to reflect on lessons learned and then apply them in the future
+- id: page_accompaniment_description_i10
+  translation: >-
+    We support you in <span class="text-fire-opal font font-bold">designing your organization or network</span>, from the beginning or when you are ready for a redesign
+- id: page_accompaniment_description_i11
+  translation: >-
+    As part of the design process, we assist you in considering <span class="text-fire-opal font font-bold">your values, governance, decision-making processes, and defining your impact</span>
+- id: page_accompaniment_description_i12
+  translation: >-
+    We support directors and their teams during <span class="text-fire-opal font font-bold">leadership transitions</span>
+- id: page_accompaniment_description_i13
+  translation: >-
+    We accompany the s<span class="text-fire-opal font font-bold">trengthening of new leaders</span> in the ecosystem
+- id: page_accompaniment_description_i14
+  translation: >-
+    We facilitate spaces and discussions to create <span class="text-fire-opal font font-bold">processes, practices, and a healthy culture within the organization</span>
+- id: page_accompaniment_description_i15
+  translation: >-
+    We facilitate <span class="text-fire-opal font font-bold">community events and spaces</span> to better understand each other as an ecosystem, fostering new connections and collaborations
+- id: page_accompaniment_description_i16
+  translation: >-
+    We create <span class="text-fire-opal font font-bold">research and ecosystem mappings</span> so that you can better understand your surroundings in order to create more powerful strategies
+- id: page_accompaniment_description_i17
+  translation: >-
+    Conducting <span class="text-fire-opal font font-bold">feasibility studies</span> to assist donors in determining if there is indeed a need and suitable conditions for a new program or intervention
+- id: page_accompaniment_testimony_define_your_impact
+  translation: >-
+    When working with La Sobremesa in creating possible Futures to prioritize actions and adjust our institutional development plan, we felt that they cared about the future of our organization as if it were their own. They have a capacity to listen and empathize that is not common in these fields (of consultants). Their priority was to ensure that our alternative development vision could become a reality.
+- id: page_accompaniment_person_position_testimony_define_your_impact
+  translation: Executive Director of <a class="border-b-2" href="reAccion.org.py">reAccion.org.py</a>
+- id: page_accompaniment_testimony_reach_your_goals
+  translation: >-
+    It was a pleasure working with Anca and the team. The process was like a journey, starting from defining the destination and what we want to achieve with the process; planning and preparing all the important elements for the conversations we are going to embark on; navigating and exploring the ideas, ambitions, and fears of the team; to landing reflections on concrete and manageable proposals. La Sobremesa is not just a consultancy, it is a 'thought partner' and guide.
+- id: page_accompaniment_person_position_testimony_reach_your_goals
+  translation: Labour and Welfare Program Manager <a class="border-b-2" href="reAccion.org.py">http://www.oxfammexico.org</a>
+- id: page_accompaniment_testimony_diversify_your_financing
+  translation: >-
+    La Sobremesa provided us with a holistic consultancy on the sustainability of our organization. It ranged from presentations and workshops to several in-depth conversations, joint document development, and recommendations. It was an EXCELLENT experience. The conversations were all relevant, we learned a lot and saw many new aspects of the topic. Very important to highlight the flexibility of the entire consultancy (and consultants) to adapt to our needs and times, as well as the constant accompaniment!
+- id: page_accompaniment_person_position_testimony_diversify_your_financing
+  translation: Deputy Director <a class="border-b-2" href="reAccion.org.py">https://ciudadaniai.org/</a>
+- id: page_accompaniment_testimony_practice your learning
+  translation: >-
+    Working with La Sobremesa was a very good experience as they challenged us to truly think about the meaning of impact and how we can not only measure it internally but also account for it. The La Sobremesa team accompanied us in these reflections with a very clear methodology and some excellent facilitators. Thanks, colleagues!
+- id: page_accompaniment_person_position_testimony_practice_your_learning
+  translation: Co-Executive Director <a class="border-b-2" href="poderlatam.org">poderlatam.org</a>
+- id: page_accompaniment_testimony_organization_or_network
+  translation: >-
+    La Sobremesa's accompaniment work during our Design Phase was very comprehensive, complete, harmonious, reflective, and generated an atmosphere of trust and integration. They were spaces where debates were triggered and agreements were reached collectively and respectfully; also, each space was interconnected, and the continuity was always felt in each of them.
+- id: page_accompaniment_person_position_testimony_organization_or_network
+  translation: <a class="border-b-2" href="https://twitter.com/RAgricolas">https://twitter.com/RAgricolas</a>
+- id: page_accompaniment_testimony_transformation_in_your_team
+  translation: >-
+    Working with La Sobremesa marks a turning point in our institutional history. They accompanied us in co-creating and defining a roadmap for our organization. As part of that technical assistance, they helped us define mechanisms in Dialogos on how we anticipate futures and learn from them. We truly enjoyed working with La Sobremesa. Thanks to their inspiration and support, we were able to achieve the objectives and goals we set for ourselves. A work like this deserves to be properly recognized, so thank you for dedicating so much time, love, and effort to our project.
+- id: page_accompaniment_person_position_testimony_transformation_in_your_team
+  translation: Executive Director of <a class="border-b-2" href="Dialogos.org.gt">Dialogos.org.gt</a>
+- id: page_accompaniment_testimony_strengthen_your_ecosystem
+  translation: >-
+    We are working with La Sobremesa on a project to explore how collaborations in the area of ​​civic technology for accountability emerge, evolve and (sometimes) fail, and what can be learned from these experiences to better support to the community. As in our previous work with Anca and the team, it was a wonderful experience, full of learning. Among the many great qualities they bring to this job, one of the most impressive is their ability to create spaces of trust, honest, warm (and fun) conversations that go much deeper than usual and provide critical ideas for next steps!
+- id: page_accompaniment_person_position_testimony_strengthen_your_ecosystem
+  translation: Impact Lead in <a class="border-b-2" href="Hivos.org">Hivos.org</a>
 - id: page_accompaniment_first_service
-  translation: For a <span class="text-fire-opal">resilient, strong</span> organization
+  translation: To define your impact
 - id: page_accompaniment_first_service_i1
   translation: Supporting organizational or leadership **transitions**
 - id: page_accompaniment_first_service_i2
@@ -109,7 +206,7 @@
 - id: page_accompaniment_first_service_i4
   translation: Integrating **design processes** into your work, programs and projects
 - id: page_accompaniment_fourth_service
-  translation: For the <span class="text-fire-opal">redesign</span> of a network
+  translation: To put your learnings into practice
 - id: page_accompaniment_fourth_service_i1
   translation: >-
     Creating **learning processes** within the network that are open, horizontal
@@ -124,7 +221,7 @@
     needs and challenges. While each accompaniment is different, many fall into
     the categories below. We hope they can serve to inspire you!
 - id: page_accompaniment_second_service
-  translation: For a <span class="text-fire-opal">healthy team</span> dynamic
+  translation: To achieve your objectives
 - id: page_accompaniment_second_service_i1
   translation: Designing and facilitating **retreats**
 - id: page_accompaniment_second_service_i2
@@ -134,7 +231,7 @@
 - id: page_accompaniment_second_service_i4
   translation: Facilitating workshops and supporting **non-violent communication**
 - id: page_accompaniment_third_service
-  translation: For a <span class="text-fire-opal">sustainable</span> organization
+  translation: To diversify your funding
 - id: page_accompaniment_third_service_i1
   translation: Rethinking and implementing a **financial plan**
 - id: page_accompaniment_third_service_i2
