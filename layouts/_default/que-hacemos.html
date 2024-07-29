@@ -2,12 +2,9 @@
 {{ partial "page-header.html" (dict "title" (T "label_what_we_do") "description" (T "page_what_we_do_desc") "image" "images/what-we-do-section.png")}}
 <section class="px-4 py-16">
   <div class="container sm:w-10/12 px-4 py-8">
-    <div class="section-col lg:w-2/3 what-we-do-content">
-      {{ .Content }}
+    <div class="what-we-do-content">
+      {{ .Content | safeHTML }}
     </div>
-  </div>
-  <div class="text-center mt-16">
-    <img class="mx-auto w-full sm:w-4/5 md:w-2/3 lg:w-2/5" src="{{ (print "images/how-we-work-" .Site.Language.Lang ".png") | absURL }}" alt="">
   </div>
 </section>
 <section class="px-4 py-10 bg-darmouth-green">

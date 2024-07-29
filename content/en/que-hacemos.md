@@ -26,6 +26,10 @@ Given this pressure that civil society has to deal with - from donors, colleague
 
 In many Latin American countries, a "sobremesa" is the moment after a meal in which we deepen our conversation, often over dessert, coffee or a drink of choice. It is an open space full of important conversations. The moment can be relaxed or provoke intense discussions – but it’s always a collective space, full of trust.
 
+<div class="text-center mt-16 fw">
+    <img class="mx-auto w-full sm:w-4/5 md:w-2/3 lg:w-2/5" src="/images/how-we-work-en.png" alt="">
+</div>
+
 ## How do we work? #{class="mt-16 section-title section-col-title text-chocolate"}
 
 > We are a group of designers and facilitators of processes. We work together with civil society organizations to better understand the roots of their challenges, generate ideas, and experiment with solutions.
