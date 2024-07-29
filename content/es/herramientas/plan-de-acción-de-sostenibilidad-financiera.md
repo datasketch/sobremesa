@@ -8,7 +8,7 @@ creator: La Sobremesa
 target: Organizaciones que necesitan poner en práctica su Plan de Sostenibilidad
   Financiera
 lastmod: 2024-06-24T13:22:55.829Z
-draft: true
+draft: false
 entry: true
 ---
 <!--StartFragment-->

@@ -7,6 +7,7 @@ logo: uploads/hivos.svg
 draft: false
 weight: 1
 entry: true
+category: Experiencias
 ---
 
 With Hivos América Latina, "La Sobremesa **provided specialized mentoring to our Open Contracting partners** to guarantee the resilience and sustainability of their organizations and initiatives."

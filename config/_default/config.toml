@@ -13,3 +13,6 @@ taxonomies = []
     contentDir = "content/en"
     languageName = "English"
     weight = 2
+
+[markup.goldmark.renderer]
+  unsafe= true

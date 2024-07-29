@@ -7,6 +7,7 @@ logo: uploads/dialogos.svg
 draft: false
 weight: 2
 entry: true
+category: Experiencias
 ---
 
 With Dialogos de Guatemala, "La Sobremesa accompanied us in the **co-creation and definition of a roadmap** for our organization. As part of this technical assistance, La Sobremesa helped us define mechanisms around how we **anticipate futures and learn from them.**\"
