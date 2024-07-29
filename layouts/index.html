@@ -136,7 +136,7 @@
       <img class="logo-customer" src="{{ "images/customers/ctin.png" | absURL }}" alt="" data-category="organizaciones">
       <img class="logo-customer" src="{{ "images/customers/codeforall.png" | absURL }}" alt="" data-category="redes">
       <img class="logo-customer" src="{{ "images/customers/codeando-mexico.png" | absURL }}" alt="" data-category="organizaciones">
-      <img class="logo-customer" src="{{ "images/customers/decidim.png" | absURL }}" alt="" data-category="organizaciones"> <!-- ADD -->
+      <img class="logo-customer" src="{{ "images/customers/decidim.svg" | absURL }}" alt="" data-category="organizaciones"> <!-- ADD -->
       <img class="logo-customer" src="{{ "images/customers/dialogos.png" | absURL }}" alt="" data-category="organizaciones">
       <img class="logo-customer" src="{{ "images/customers/fau.png" | absURL }}" alt="" data-category="donantes">
       <img class="logo-customer" src="{{ "images/customers/fundar.png" | absURL }}" alt="" data-category="organizaciones">
@@ -144,7 +144,7 @@
       <img class="logo-customer" src="{{ "images/customers/hiperderecho.png" | absURL }}" alt="" data-category="organizaciones">
       <img class="logo-customer" src="{{ "images/customers/hivos.png" | absURL }}" alt="" data-category="donantes">
       <img class="logo-customer" src="{{ "images/customers/indela.png" | absURL }}" alt="" data-category="donantes">
-      <img class="logo-customer" src="{{ "images/customers/ilsb.png" | absURL }}" alt="" data-category="organizaciones">
+      <img class="logo-customer" src="{{ "images/customers/ilsb.svg" | absURL }}" alt="" data-category="organizaciones">
       <img class="logo-customer" src="{{ "images/customers/ifip.png" | absURL }}" alt="" data-category="donantes">
       <img class="logo-customer" src="{{ "images/customers/iri.png" | absURL }}" alt="" data-category="donantes">
       <img class="logo-customer" src="{{ "images/customers/iris.png" | absURL }}" alt="" data-category="donantes"> <!-- ADD -->
@@ -158,7 +158,7 @@
       <img class="logo-customer" src="{{ "images/customers/poder.png" | absURL }}" alt="" data-category="organizaciones">
       <img class="logo-customer" src="{{ "images/customers/reaccion.png" | absURL }}" alt="" data-category="organizaciones">
       <img class="logo-customer" src="{{ "images/customers/tedic.png" | absURL }}" alt="" data-category="organizaciones">
-      <img class="logo-customer" src="{{ "images/customers/tor.png" | absURL }}" alt="" data-category="">
+      <img class="logo-customer" src="{{ "images/customers/tor.png" | absURL }}" alt="" data-category="organizaciones">
       <img class="logo-customer" src="{{ "images/customers/wings.png" | absURL }}" alt="" data-category="donantes">
     </div>
     <div class="flex items-center justify-center">
@@ -172,29 +172,39 @@
         <div class="swiper-container">
           <div class="swiper-wrapper">
             {{ range $data.testimonies }}
-              {{ partial "testimonies-slider.html" . }}
-            {{ end }}
-              <!-- <div class="swiper-slide">
-                <div class="container">
-                  <div class="section-row items-center lg:space-x-12">
-                    <div class="section-col lg:w-1/3">
-                      <img src="{{ .logo | absURL }}" alt="">
+            <div class="swiper-slide slider-wrapper-acompanamiento">
+              <div class="container">
+                <div class="section-row items-center lg:space-x-12">
+                  <div class="section-col lg:w-1/3">
+                    <img src="{{ .logo | absURL }}" alt="">
+                  </div>
+                  <div class="section-col lg:w-2/3">
+                    <div class="leading-extra-tight">
+                      <h3 class="font-source-serif-pro text-fire-opal text-2xl">
+                        {{ .company }}
+                      </h3>
                     </div>
-                    <div class="section-col lg:w-2/3">
-                      <div class="leading-extra-tight">
-                      </div>
-                      <p class="leading-tight">
-                        {{ .text }}
+                    <div class="mt-6 leading-tight space-y-4">
+                      {{ .text }}
+                    </div>
+                    <div class="mt-4">
+                      <p class="font-bold">{{ .contact }}</p>
+                      <p>
+                        {{ if findRE `\[.*?\]\(.*?\)` .role }}
+                          {{ $roleText := replaceRE `\[(.*?)\]\(.*?\)` `$1` .role }}
+                          {{ $roleURLs := findRE `\((.*?)\)` .role }}
+                          {{ $roleURL := index $roleURLs 0 | replaceRE `[()]` "" }}
+                          <a class="text-chocolate opacity-60" target="_blank" href="{{ $roleURL }}">{{ $roleText }}</a>
+                        {{ else }}
+                          {{ .role }}
+                        {{ end }}
                       </p>
-                      <div class="mt-6">
-                        <p class="font-bold">{{ .contact }}</p>
-                        <p class="text-opacity-60 text-chocolate">{{ .role | markdownify }}</p>
-                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            {{ end }} -->
+            </div>
+            {{ end }}
           </div>
         </div>
         <div class="slider-prev"></div>
@@ -317,6 +327,7 @@
 
 {{ define "head" }}
   {{ $swiper := resources.Get "styles/swiper.pcss" | postCSS | fingerprint }}
+  <link rel="stylesheet" href="https://unpkg.com/swiper@6.7.0/swiper-bundle.min.css">
   <link rel="stylesheet" href="{{ $swiper.Permalink }}">
 {{ end }}
 
@@ -324,4 +335,6 @@
 {{ define "js" }}
   {{ $home := resources.Get "js/home.js" | js.Build (dict "minify" true)}}
   <script src="{{ $home.Permalink }}"></script>
+  {{ $services := resources.Get "js/services.js" | js.Build (dict "minify" true)}}
+<script src="{{ $services.Permalink }}"></script>
 {{ end }}
