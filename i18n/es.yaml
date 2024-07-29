@@ -402,6 +402,10 @@
     estamos usando en nuestros acompañamientos y demás trabajo.
 - id: page_tools_for_who
   translation: ¿Para quién es?
+- id: created_by
+  translation: Creada por
+- id: share_by
+  translation: Compartir por
 - id: page_tools_used
   translation: Herramientas de La Sobremesa
 - id: page_tools_used_description

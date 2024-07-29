@@ -31,16 +31,16 @@
 {{ $bg_class = "bg-pine-green" }}
 {{ end }}
 
-<div 
+<div
   class="item flex flex-col justify-between {{ $border_class }}"
   data-title="{{ .Title | lower }}"
   data-topic="{{ .Params.topic }}"
   data-language="{{ .Params.language }}"
   data-target="{{ .Params.target }}"
 >
-  <div class="flex flex-col lg:flex-row gap-5">
-    <div class="w-2/5 resource-image">
-      <img class="w-28 h-28" src="{{ .Params.clip }}" alt="">
+  <div class="flex flex-col lg:flex-row gap-3">
+    <div class="w-2/5">
+      <img class="w-32 h-28" src="{{ .Params.clip }}" alt="">
     </div>
     <div class="w-3/5 flex flex-col justify-between gap-10">
       <div>
@@ -54,7 +54,7 @@
         </span>
         {{ if .Params.topic }}
         <span>
-          -
+          |
         </span>
         <span>
           {{ T (print "label_" .Params.topic) }}

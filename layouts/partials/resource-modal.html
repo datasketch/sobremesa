@@ -2,43 +2,44 @@
 {{ $bg_class := "" }}
 {{ $text_class := "" }}
 {{ if in (slice "guide" "book" "report") .Params.genre }}
-  {{ $border_class = "border-darmouth-green" }}
-  {{ $text_class = "text-darmouth-green" }}
-  {{ $bg_class = "bg-darmouth-green" }}
+{{ $border_class = "border-darmouth-green" }}
+{{ $text_class = "text-darmouth-green" }}
+{{ $bg_class = "bg-darmouth-green" }}
 {{ else if in (slice "website" "tool") .Params.genre }}
-  {{ $border_class = "border-maximum-green" }}
-  {{ $text_class = "text-maximum-green" }}
-  {{ $bg_class = "bg-maximum-green" }}
+{{ $border_class = "border-maximum-green" }}
+{{ $text_class = "text-maximum-green" }}
+{{ $bg_class = "bg-maximum-green" }}
 {{ else if in (slice "blogpost") .Params.genre }}
-  {{ $border_class = "border-fern-green" }}
-  {{ $text_class = "text-fern-green" }}
-  {{ $bg_class = "bg-fern-green" }}
+{{ $border_class = "border-fern-green" }}
+{{ $text_class = "text-fern-green" }}
+{{ $bg_class = "bg-fern-green" }}
 {{ else if in (slice "methodology") .Params.genre }}
-  {{ $border_class = "border-office-green" }}
-  {{ $text_class = "text-office-green" }}
-  {{ $bg_class = "bg-office-green" }}
+{{ $border_class = "border-office-green" }}
+{{ $text_class = "text-office-green" }}
+{{ $bg_class = "bg-office-green" }}
 {{ else if in (slice "template") .Params.genre }}
-  {{ $border_class = "border-office-green-2" }}
-  {{ $text_class = "text-office-green-2" }}
-  {{ $bg_class = "bg-office-green-2" }}
+{{ $border_class = "border-office-green-2" }}
+{{ $text_class = "text-office-green-2" }}
+{{ $bg_class = "bg-office-green-2" }}
 {{ else if in (slice "repository") .Params.genre }}
-  {{ $border_class = "border-pakistan-green" }}
-  {{ $text_class = "text-pakistan-green" }}
-  {{ $bg_class = "bg-pakistan-green" }}
+{{ $border_class = "border-pakistan-green" }}
+{{ $text_class = "text-pakistan-green" }}
+{{ $bg_class = "bg-pakistan-green" }}
 {{ else }}
-  {{ $border_class = "border-pine-green" }}
-  {{ $text_class = "text-pine-green" }}
-  {{ $bg_class = "bg-pine-green" }}
+{{ $border_class = "border-pine-green" }}
+{{ $text_class = "text-pine-green" }}
+{{ $bg_class = "bg-pine-green" }}
 {{ end }}
 
-<div class="modal-wrapper" id="{{ .Params.resource_url }}" tabindex="-1" role="dialog" aria-labelledby="resource-name" aria-describedby="resource-answer">
+<div class="modal-wrapper" id="{{ .Params.resource_url }}" tabindex="-1" role="dialog" aria-labelledby="resource-name"
+  aria-describedby="resource-answer">
   <div class="w-full bg-linen m-auto p-4 md:py-8 lg:max-w-5xl lg:pt-16">
     <div class="section-row space-y-0 justify-start items-center lg:items-start">
       <div class="w-full md:w-2/3 lg:w-1/2 lg:pr-20 lg:pl-12">
         <div class="lg:mx-auto flex justify-start lg:justify-end">
           <img class="h-60 w-auto object-contain" src="{{ .Params.clip | absURL }}" alt="">
         </div>
-        <div class="lg:text-right">
+        <!-- <div class="lg:text-right">
           <p class="mt-6 lg:mt-2 resource-type {{ $text_class }}">
             {{ T (print "label_" .Params.genre) }}
           </p>
@@ -46,9 +47,9 @@
             {{ .Title }}
           </a>
           <p class="font-bold leading-tight uppercase">{{ .Params.creator }}</p>
-        </div>
+        </div> -->
       </div>
-      <div class="w-full md:w-2/3 lg:w-1/2 lg:max-w-sm">
+      <!-- <div class="w-full md:w-2/3 lg:w-1/2 lg:max-w-sm">
         <p class="mt-8 lg:mt-2 font-source-serif-pro text-2xl font-bold" id="resource-target">
           {{ T "page_tools_for_who" }}
         </p>
@@ -57,15 +58,72 @@
           {{ T "label_desc" }}
         </p>
         <p class="" id="resource-answer">{{ .Content }}</p>
+      </div> -->
+      <div class="w-full md:w-2/3 lg:w-1/2 lg:max-w-sm">
+        <a href="{{ .Params.resource_url }}"
+          class="mt-2 font-source-serif-pro text-2xl font-bold text-darmouth-green hover:text-chocolate hover:cursor-pointer"
+          id="resource-name">
+          {{ .Title }}
+          <div class="flex items-center gap-x-2 resource-type {{ $text_class }}">
+            <span class="font-source-sans-pro text-base font-bold">
+              {{ T (print "label_" .Params.genre) }}
+            </span>
+            {{ if .Params.topic }}
+            <span class="font-source-sans-pro text-base font-bold">
+              |
+            </span>
+            <span class="font-source-sans-pro text-base font-bold">
+              {{ T (print "label_" .Params.topic) }}
+            </span>
+            {{ end }}
+          </div>
+        </a>
+        <p class="mt-12" id="resource-answer">{{ .Content }}</p>
+        <p class="mt-5">{{ T "created_by" }}:</p>
       </div>
     </div>
-    <div class="text-center mt-12">
-      <a class="mr-4 mb-4 border-2 border-chocolate uppercase font-bold p-2 leading-none hover:text-darmouth-green hover:border-darmouth-green" href="{{ .Params.resource_url }}" target="_blank">
+    <div class="text-center mt-12 flex flex-row justify-center items-center">
+      <button
+        class="mr-4 mb-4 border-2 border-chocolate uppercase font-bold p-2 leading-tight hover:text-darmouth-green hover:border-darmouth-green">
+        <!-- {{ T "action_close" }} -->
+      </button>
+      <!-- <a class="mr-4 mb-4 border-2 bg-chocolate uppercase font-bold p-2 leading-none text-white">
+        {{ T "share_by" }}
+      </a> -->
+      <div>
+        <button class="mr-4 mb-4 border-2 bg-chocolate uppercase font-bold p-2 leading-none text-white" id="share-button">Compartir</button>
+        <div id="share-tooltip" class="p-5 text-chocolate block" style="display: none;">
+          <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" target="_blank">Facebook</a>
+          <a href="https://twitter.com/intent/tweet?url={{ .Permalink }}" target="_blank">Twitter</a>
+          <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}" target="_blank">LinkedIn</a>
+          <a href="mailto:?subject={{ .Title }}&body={{ .Permalink }}">Email</a>
+        </div>
+      </div>
+
+      <a class="mr-4 mb-4 border-2 bg-darmouth-green uppercase font-bold p-2 leading-none text-white border-darmouth-green"
+        href="{{ .Params.resource_url }}" target="_blank">
         {{ T "action_visit_tool" }}
       </a>
-      <button class="mr-4 mb-4 border-2 border-chocolate uppercase font-bold p-2 leading-tight hover:text-darmouth-green hover:border-darmouth-green">
-        {{ T "action_close" }}
-      </button>
     </div>
   </div>
 </div>
+
+{{ define "js" }}
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const shareButton = document.getElementById('share-button');
+    const shareTooltip = document.getElementById('share-tooltip');
+
+    shareButton.addEventListener('click', function (event) {
+      event.stopPropagation();
+      shareTooltip.style.display = shareTooltip.style.display === 'block' ? 'none' : 'block';
+    });
+
+    document.addEventListener('click', function (event) {
+      if (!shareButton.contains(event.target) && !shareTooltip.contains(event.target)) {
+        shareTooltip.style.display = 'none';
+      }
+    });
+  });
+</script>
+{{ end }}

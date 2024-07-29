@@ -373,6 +373,10 @@
     use in our accompaniment support and other work.
 - id: page_tools_for_who
   translation: Who is this for?
+- id: created_by
+  translation: Created by
+- id: share_by
+  translation: Compartir por
 - id: page_tools_used
   translation: Tools we’re using
 - id: page_tools_used_description

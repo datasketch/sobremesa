@@ -2,13 +2,15 @@
 {{ partial "page-header.html" (dict "title" (T "label_tools") "description" (T "page_tools_desc") "image"
 "images/resources-section.png")}}
 <section class="px-4 py-16">
+  <!-- SECCIÓN FILTROS -->
   <div id="filters" class="container-lg flex flex-row gap-2">
-    <div class="w-4/6">
-      <input class="w-full py-4 px-3 border border-chocolate text-base font-source-sans-pro font-semibold" type="text" id="searchInput" placeholder="Palabra clave" />
+    <div class="w-1/2">
+      <input class="w-full py-4 px-3 border border-chocolate text-base font-source-sans-pro font-semibold" type="text"
+        id="searchInput" placeholder="Palabra clave" />
     </div>
-
-    <div class="w-2/6">
-      <select class="py-4 px-3 border border-chocolate text-base font-source-sans-pro font-semibold" id="topicSelect">
+    <div class="w-1/2 flex flex-col lg:flex-row gap-2">
+      <select class="w-56 py-4 px-3 border border-chocolate text-base font-source-sans-pro font-semibold"
+        id="topicSelect">
         <option value="">Tema</option>
         <option value="mision">Misión</option>
         <option value="vision">Visión</option>
@@ -25,12 +27,14 @@
         <option value="nuevosLiderazgos">Nuevos liderazgos</option>
         <option value="equipoSano">Equipo sano</option>
       </select>
-      <select class="py-4 px-3 border border-chocolate text-base font-source-sans-pro font-semibold" id="languageSelect">
+      <select class="w-56 py-4 px-3 border border-chocolate text-base font-source-sans-pro font-semibold"
+        id="languageSelect">
         <option value="">Idioma</option>
         <option value="es">Español</option>
         <option value="en">Inglés</option>
       </select>
-      <select class="py-4 px-3 border border-chocolate text-base font-source-sans-pro font-semibold" id="forWhoSelect">
+      <select class="w-56 py-4 px-3 border border-chocolate text-base font-source-sans-pro font-semibold"
+        id="forWhoSelect">
         <option value="">Para quién</option>
         <option value="organizaciones">Organizaciones</option>
         <option value="lideres">Líderes</option>
@@ -39,7 +43,10 @@
       </select>
     </div>
   </div>
+
+  <!-- CARDS -->
   <div class="container-lg mt-20">
+    {{ range .Paginator.Pages }}
     <div class="flex flex-col lg:flex-row justify-between">
       <div class="w-1/3">
         <h2 class="font-source-serif-pro text-4xl font-bold text-darmouth-green">
@@ -55,11 +62,8 @@
       {{ partial "resource-card.html" . }}
       {{ end }}
     </div>
-  </div>
-
-  <!-- Paginación -->
-  <div id="pagination" class="">
-    1
+    {{ end }}
+    {{partial "pagination" .}}
   </div>
 
   <div class="container-lg mt-20">
@@ -83,7 +87,7 @@
 <div class="container px-4 py-16">
   <div class="section-row section-row-reverse items-center">
     <div class="section-col">
-      <img class="mx-auto w-2/3" src="{{ (print "images/join-us-" .Site.Language.Lang ".png" ) | absURL }}" alt="">
+      <img class="mx-auto w-2/3" src="{{ (print " images/join-us-" .Site.Language.Lang ".png" ) | absURL }}" alt="">
     </div>
     <div class="section-col text-center">
       <h2 class="section-title-md leading-extra-tight">
