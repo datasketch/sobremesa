@@ -96,7 +96,6 @@
           <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" target="_blank">Facebook</a>
           <a href="https://twitter.com/intent/tweet?url={{ .Permalink }}" target="_blank">Twitter</a>
           <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}" target="_blank">LinkedIn</a>
-          <a href="mailto:?subject={{ .Title }}&body={{ .Permalink }}">Email</a>
         </div>
       </div>
 
@@ -116,7 +115,7 @@
 
     shareButton.addEventListener('click', function (event) {
       event.stopPropagation();
-      shareTooltip.style.display = shareTooltip.style.display === 'block' ? 'none' : 'block';
+      shareTooltip.style.display = shareTooltip.style.display === 'block' ? 'hidden' : 'block';
     });
 
     document.addEventListener('click', function (event) {

@@ -1,21 +1,71 @@
-{{ $pag := $.Paginator }}
+{{ $pag := $.Paginator 8 }}
 {{ if gt $pag.TotalPages 1 }}
-<nav aria-label="Page navigation">
-  <ul class="pagination">
+<nav aria-label="Page navigation" class="mt-20">
+  <ul class="flex flex-row gap-6 justify-center items-center">
     {{ if $pag.HasPrev }}
-    <li class="page-item"><a href="{{ $pag.Prev.URL }}" rel="prev" class="page-link">&laquo; Prev</a></li>
-    {{ end }}
-    {{ range $pag.Pagers }}
-    {{ if eq . $pag }}
-    <li class="page-item active"><a href="{{ .URL }}" class="page-link">{{ .PageNumber }}</a></li>
+    <li class="text-chocolate text-xl font-bold">
+      <a href="{{ $pag.Prev.URL }}" rel="prev" class="page-link">
+        <img src="/images/arrow-left-green.svg" alt="arrow-left-green">
+      </a>
+    </li>
     {{ else }}
-    <li class="page-item"><a href="{{ .URL }}" class="page-link">{{ .PageNumber }}</a></li>
+    <li class="text-chocolate text-xl font-bold disabled">
+      <span class="page-link">
+        <img src="/images/arrow-left-green.svg" alt="arrow-left-green">
+      </span>
+    </li>
     {{ end }}
+
+    {{ range $pag.Pagers }}
+    <li
+      class="text-xl font-bold {{ if eq . $pag }}text-chocolate border border-chocolate py-2 px-3{{ else }}text-chocolate{{ end }}">
+      <a href="{{ .URL }}" class="page-link">{{ .PageNumber }}</a>
+    </li>
     {{ end }}
 
     {{ if $pag.HasNext }}
-    <li class="page-item"><a href="{{ $pag.Next.URL }}" rel="next" class="page-link">Next &raquo;</a></li>
+    <li class="text-chocolate text-xl font-bold">
+      <a href="{{ $pag.Next.URL }}" rel="next" class="page-link">
+        <img src="/images/arrow-right-green.svg" alt="arrow-right-green">
+      </a>
+    </li>
+    {{ else }}
+    <li class="text-chocolate text-xl font-bold disabled">
+      <span class="page-link">
+        <img src="/images/arrow-right-green.svg" alt="arrow-right-green">
+      </span>
+    </li>
     {{ end }}
   </ul>
 </nav>
 {{ end }}
+
+
+
+
+<!-- {{ $pag := $.Paginator 8 }}
+{{ if gt $pag.TotalPages 1 }}
+<nav aria-label="Page navigation" class="mt-20">
+  <ul class="flex flex-row gap-6 justify-center items-center">
+    <li class="text-chocolate text-xl font- {{ if not $pag.HasPrev }}disabled{{ end }}">
+      <a href="{{ if $pag.HasPrev }}{{ $pag.Prev.URL }}{{ else }}#{{ end }}" rel="prev" class="page-link">
+        <img src="/images/arrow-left-green.svg" alt="arrow-left-green">
+      </a>
+    </li>
+
+    {{ range $pag.Pagers }}
+    {{ if eq . $pag }}
+    <li class="text-chocolate border border-chocolate py-2 px-3 text-xl font-bold active"><a href="{{ .URL }}" class="page-link">{{ .PageNumber }}</a></li>
+    {{ else }}
+    <li class="text-chocolate text-xl font-bold"><a href="{{ .URL }}" class="page-link">{{ .PageNumber }}</a></li>
+    {{ end }}
+    {{ end }}
+
+    <li class="text-chocolate text-xl font-bold {{ if not $pag.HasNext }}disabled{{ end }}">
+      <a href="{{ if $pag.HasNext }}{{ $pag.Next.URL }}{{ else }}#{{ end }}" rel="next" class="page-link">
+        <img src="/images/arrow-right-green.svg" alt="arrow-right-green">
+      </a>
+    </li>
+  </ul>
+</nav>
+{{ end }} -->

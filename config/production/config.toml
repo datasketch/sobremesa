@@ -4,7 +4,7 @@ title = "La Sobremesa"
 defaultContentLanguage = "es"
 taxonomies = []
 
-paginate = 4
+paginate = 8
 
 [params]
   image = "https://lasobremesa.co/images/card_CursoSostenibilidad.png"
