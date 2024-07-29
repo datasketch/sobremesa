@@ -5,7 +5,7 @@ defaultContentLanguage = "es"
 taxonomies = []
 
 [params]
-  image = "https://lasobremesa.co/images/card_CursoSostenibilidad.png"
+  image = "https://lasobremesa.co/images/Card_V2_CursoSostenibilidad-04.png"
   twitterHandle = "@LaSobremesa_co"
 
 [languages]
