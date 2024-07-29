@@ -2,7 +2,7 @@
 title: Keep, Fix, Try
 genre: tool
 topic: strategy
-clip: /uploads/1.png
+clip: /uploads/keep-fix-try.png
 resource_url: https://docs.google.com/document/d/1dgHl2IMdK3IQw8akzppJBhI_WMtnrkrvKwDJY_0PJm8/edit
 creator: La Sobremesa
 target: For nonprofit organizations seeking to facilitate learning moments with

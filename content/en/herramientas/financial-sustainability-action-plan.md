@@ -7,7 +7,7 @@ resource_url: https://docs.google.com/spreadsheets/d/1Os4KUvxfE7I1LY05zOZIBavkgG
 creator: La Sobremesa
 target: Organizations that need to put their Financial Sustainability Plan into
   practice
-draft: true
+draft: false
 entry: true
 ---
 <!--StartFragment-->

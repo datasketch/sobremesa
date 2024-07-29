@@ -41,4 +41,4 @@ En varios países de América Latina, una "sobremesa" es el momento después de 
 - **Abordamos abierta y honestamente las dinámicas de poder** presentes en nuestras relaciones y en el sistema, trabajando para transformarlas hacia una mayor equidad.
 - **Mantenemos a las personas en el centro de nuestro trabajo**, porque creemos que son las expertas de sus realidades y experiencias, y les facilitamos el espacio para reflexionar, evolucionar y aprender.
 - **Creemos que los procesos de reflexión y aprendizaje** son tan importantes como los resultados finales. Por eso, el "cómo" acompañamos es igual de relevante que el producto final.
-- **Facilitamos procesos personalizados que se adaptan a ti**, a tus necesidades y desafíos específicos, motivándote a explorar y crecer más allá de tu zona de confort
+- **Facilitamos procesos personalizados que se adaptan a ti**, a tus necesidades y desafíos específicos, motivándote a explorar y crecer más allá de tu zona de confort.
