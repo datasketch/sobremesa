@@ -165,9 +165,22 @@
     const closeModalButtons = document.querySelectorAll('.close-modal');
     const modalWrappers = document.querySelectorAll('.modal-wrapper');
 
-    shareButtons.forEach((button, i) => button.addEventListener('click', () => {
+    /* shareButtons.forEach((button, i) => button.addEventListener('click', () => {
       shareTooltips[i].classList.toggle('hidden')
-    }))
+    })) */
+    shareButtons.forEach((button, i) => button.addEventListener('click', () => {
+      const tooltip = shareTooltips[i];
+      tooltip.classList.toggle('hidden');
+      if (!tooltip.classList.contains('hidden')) {
+        tooltip.style.display = 'flex';
+        tooltip.style.flexDirection = 'row';
+        tooltip.style.gap = '0.5rem';  // equivalente a gap-2 en Tailwind CSS
+      } else {
+        tooltip.style.display = '';
+        tooltip.style.flexDirection = '';
+        tooltip.style.gap = '';
+      }
+    }));
 
     closeModalButtons.forEach((button, i) => button.addEventListener('click', () => {
       modalWrappers[i].classList.toggle('is-open')

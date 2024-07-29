@@ -85,10 +85,16 @@
     <div class="text-center mt-12 flex flex-row justify-center items-center">
       <div class="relative">
         <div class="share-button cursor-pointer mr-4 mb-4 border-2 bg-chocolate uppercase font-bold p-2 leading-none text-white">Compartir</div>
-        <div class="share-tooltip p-5 text-chocolate hidden absolute bg-white shadow-sm -top-20 left-1/2 transform -translate-x-1/2 flex items-center justify-between gap-x-4">
-          <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" target="_blank">Facebook</a>
-          <a href="https://twitter.com/intent/tweet?url={{ .Permalink }}" target="_blank">Twitter</a>
-          <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}" target="_blank">LinkedIn</a>
+        <div class="share-tooltip p-5 text-chocolate absolute bg-white shadow-sm -top-20 left-1/2 transform -translate-x-1/2 hidden flex-row items-center justify-between gap-x-4">
+            <a class="w-6 h-6" href="" target="_blank">
+              <img class="w-6 h-6" src='{{ "/images/icon-linkedin.png" | absURL }}' alt="icon-linkedin" />
+            </a>
+            <a class="w-6 h-6" href="" target="_blank">
+              <img class="w-6 h-6" src='{{ "/images/icon-twitter.png" | absURL }}' alt="icon-twitter">
+            </a>
+            <a class="w-6 h-6" href="" target="_blank">
+              <img class="w-6 h-6" src='{{ "/images/icon-enlace.png" | absURL }}' alt="icon-enlace">
+            </a>
         </div>
       </div>
 
@@ -99,8 +105,7 @@
     </div>
     <div class="absolute top-4 right-4">
       <button class="close-modal">
-        {{/*  <img src="" alt="">  */}}
-        X
+        <img class="h-6" src='{{ "/images/icon-close.png" | absURL }}' alt="icon-close">
       </button>
     </div>
   </div>
