@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{ partial "page-header.html" (dict "title" (T "label_who_we_are") "description" (T "page_who_we_are_desc") "image" "images/who-section.png")}}
 {{ $data := index .Site.Data .Site.Language.Lang }}
-<section class="container px-4 py-16">
+<section class="container px-4 py-8 md:py-16">
   <div class="text-center leading-tight">
     <p class="font-source-serif-pro text-xl md:text-2xl">
       {{ T "page_who_we_are_intro_team" }}
@@ -9,25 +9,25 @@
     <h2 class="section-title with-stars">{{ T "label_the_team" }}</h2>
   </div>
 </section>
-<section class="container-md px-4 pb-24">
-  <div class="space-y-24">
+<section class="container px-4 pt-8 md:pt-0 pb-24">
+  <div class="grid grid-cols-1 gap-12 lg:grid-cols-2 md:gap-14">
     {{ range $data.team }}
       {{ $member := dict "image" .image "name" .name "role" .role "about" ($.RenderString .about) "linkedin" .linkedin "instagram" .instagram "twitter" .twitter "readmore" .readmore }}
       {{ partial "team-member.html" $member }}
     {{ end }}
   </div>
 </section>
-<section class="px-4 py-24 bg-fire-opal">
+<section class="mt-10 px-4 py-12 md:py-24 bg-fire-opal">
   <div class="container">
     <div class="section-row items-center">
       <div class="section-col">
         <img class="mx-auto w-full md:w-2/3 lg:w-4/5 lg:ml-0" src="{{ (print "images/join-team-" .Site.Language.Lang ".svg") | absURL }}" alt="">
       </div>
       <div class="section-col text-white">
-        <p class="text-2xl font-bold">
+        <p class="text-xl md:text-2xl font-bold">
           {{ T "label_join" }}
         </p>
-        <p class="mt-4 font-source-serif-pro text-xl">
+        <p class="mt-4 font-source-serif-pro text-lg md:text-xl">
           {{ T "page_who_we_are_empty_positions" }}
         </p>
         <!-- <ul class="mt-4 font-source-serif-pro text-xl">
@@ -47,14 +47,11 @@
 </section>
 <section class="container px-4 py-24">
   <div class="text-center leading-tight">
-    <p class="font-source-serif-pro text-xl md:text-2xl">
-      Según el desafío que enfrenta sociedad civil,
-    </p>
     <h2 class="section-title with-stars">
-      Nos apoyan y aconsejan
+      {{ T "page_who_we_are_we_work_with" }}
     </h2>
   </div>
-  <div class="mt-24 grid gap-12 sm:grid-cols-2 lg:grid-cols-3">
+  <div class="mt-24 grid gap-6 md:gap-12 sm:grid-cols-2 lg:grid-cols-3 items-start">
     {{ range $data.guests }}
       {{ partial "guest-card.html" . }}
     {{ end }}

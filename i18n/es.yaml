@@ -45,7 +45,7 @@
 - id: label_podcast
   translation: Podcast
 - id: label_receive_newsletter
-  translation: ¿Quieres recibir nuestra newsletter?
+  translation: ¿Quieres conocer las novedades? Subscríbete a nuestro blog
 - id: label_report
   translation: Reporte
 - id: label_subscribe_newsletter
@@ -55,7 +55,7 @@
     Suscribete a nuestro newsletter para enterarte y participar en futuros
     espacios
 - id: label_the_team
-  translation: el equipo
+  translation: la equipa
 - id: label_their_exp
   translation: Sus experiencias
 - id: label_testimonies
@@ -325,7 +325,7 @@
   translation: Facilitamos
 - id: page_home_services_third_desc
   translation: >-
-    Con base en nuestros acompañamientos intensivos, creamos nuestras propias herramientas que ponemos a disposición de todas las organizaciones para su trabajo. También, compartimos herramientas de otros expertos que consideramos útiles. 
+    Con base en nuestros acompañamientos intensivos, creamos nuestras propias herramientas que ponemos a disposición de todas las organizaciones para su trabajo. También, compartimos herramientas de otros expertos que consideramos útiles.
 - id: page_home_services_third_hl
   translation: herramientas
 - id: page_home_services_third_title
@@ -412,12 +412,14 @@
     sociedad civil en América Latina más fuerte y resiliente.
 - id: page_who_we_are_empty_positions
   translation: Sigue nuestras redes sociales para mantenerte al día y conocer nuevas convocatorias
+- id: page_who_we_are_we_work_with
+  translation: Trabajamos con
 - id: page_who_we_are_intro_team
   translation: Sentadas en la mesa de La Sobremesa está
 - id: page_who_we_are_read_more
   translation: Más sobre mí
 - id: action_subscribe
-  translation: ¡Suscríbete!
+  translation: Subscríbete a nuestro blog
 - id: label_blogpost
   translation: Blog post
 - id: label_methodology
@@ -444,6 +446,10 @@
   translation: Plan Anual
 - id: label_strategy
   translation: Estrategia organizacional
+- id: label_guest_modal_challenges
+  translation: ¿Qué desafíos ves en la sociedad civil latinoamericana?
+- id: label_guest_modal_projects
+  translation: ¿En qué proyectos nos ha apoyado?
 - id: label_testimonies
   translation: Testimonios
 - id: label_all
