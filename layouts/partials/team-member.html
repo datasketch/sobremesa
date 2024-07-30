@@ -1,14 +1,14 @@
-<div class="section-row bg-white" style="max-height: 360px;">
+<div class="section-row bg-white h-full lg:h-96">
   <div class="section-col">
     <img class="object-cover object-top h-full w-full" src="{{ .image | absURL }}" alt="">
     <!-- <div class="h-full">
     </div> -->
   </div>
-  <div class="section-col p-5">
-    <h3 class="text-fire-opal font-source-serif-pro font-bold text-3xl">
+  <div class="section-col p-5 flex flex-col justify-between">
+    <h3 class="text-fire-opal font-source-serif-pro font-bold text-2xl lg:text-3xl">
       {{ .name }}
     </h3>
-    <p class="font-source-serif-pro font-bold text-xl">
+    <p class="font-source-serif-pro font-bold text-lg lg:text-xl">
       {{ .role }}
     </p>
     <div class="mt-6 md-content line-clamp-6">{{ .about }}</div>
