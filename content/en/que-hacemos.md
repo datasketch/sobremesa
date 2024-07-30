@@ -22,6 +22,10 @@ Given this pressure that civil society has to deal with - from donors, colleague
 
 **To do this, we create learning spaces, identify tools for transformation and provide direct support** for organizations and civil society leaders in Latin America, so that they can generate the impact they seek in innovative, healthy and unique ways.
 
+**Our Vision: At La Sobremesa, we envision a strong, resilient, and innovative civil society** where leaders, organizations, and networks have everything they need to focus on creating a positive impact in Latin America.
+
+**Our Mission: To achieve this, we facilitate spaces for learning, provide transformational tools, and offer personalized accompaniments** to civil society organizations and leaders in Latin America, enabling them to generate the impact they seek in innovative, healthy, and personalized ways.
+
 ![](/images/why-la-sobremesa-en.svg)
 
 In many Latin American countries, a "sobremesa" is the moment after a meal in which we deepen our conversation, often over dessert, coffee or a drink of choice. It is an open space full of important conversations. The moment can be relaxed or provoke intense discussions – but it’s always a collective space, full of trust.
