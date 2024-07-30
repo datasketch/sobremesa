@@ -336,5 +336,5 @@
   {{ $home := resources.Get "js/home.js" | js.Build (dict "minify" true)}}
   <script src="{{ $home.Permalink }}"></script>
   {{ $services := resources.Get "js/services.js" | js.Build (dict "minify" true)}}
-<script src="{{ $services.Permalink }}"></script>
+  <script src="{{ $services.Permalink }}"></script>
 {{ end }}

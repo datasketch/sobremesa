@@ -175,7 +175,7 @@
     La Sobremesa provided us with a holistic consultancy on the sustainability of our organization. It ranged from presentations and workshops to several in-depth conversations, joint document development, and recommendations. It was an EXCELLENT experience. The conversations were all relevant, we learned a lot and saw many new aspects of the topic. Very important to highlight the flexibility of the entire consultancy (and consultants) to adapt to our needs and times, as well as the constant accompaniment!
 - id: page_accompaniment_person_position_testimony_diversify_your_financing
   translation: Deputy Director <a class="border-b-2" href="reAccion.org.py">https://ciudadaniai.org/</a>
-- id: page_accompaniment_testimony_practice your learning
+- id: page_accompaniment_testimony_practice_your_learning
   translation: >-
     Working with La Sobremesa was a very good experience as they challenged us to truly think about the meaning of impact and how we can not only measure it internally but also account for it. The La Sobremesa team accompanied us in these reflections with a very clear methodology and some excellent facilitators. Thanks, colleagues!
 - id: page_accompaniment_person_position_testimony_practice_your_learning
@@ -420,7 +420,7 @@
 - id: label_guest_modal_challenges
   translation: What challenges do you see in Latin American civil society?
 - id: label_guest_modal_projects
-  translation: ¿En qué proyectos nos ha apoyado?
+  translation: In which projects have you supported us?
 - id: label_testimonies
   translation: Testimonies
 - id: label_all

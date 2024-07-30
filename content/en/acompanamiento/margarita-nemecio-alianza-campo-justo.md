@@ -3,7 +3,7 @@ client: Alianza Campo Justo
 name: Margarita Nemecio
 web: https://twitter.com/RAgricolas
 role:
-logo:
+logo: uploads/logo-small-alianza-campo-justo.svg
 draft: false
 weight: 3
 entry: true
