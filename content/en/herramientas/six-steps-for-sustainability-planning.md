@@ -8,6 +8,7 @@ target: Lideres y lideresas que quieren tomar control de la sostenibilidad de su
   organización
 draft: false
 entry: true
+section: Herramientas de La Sobremesa
 ---
 <!--StartFragment-->
 

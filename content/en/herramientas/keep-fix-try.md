@@ -9,6 +9,7 @@ target: For nonprofit organizations seeking to facilitate learning moments with
   their teams.
 draft: false
 entry: true
+section: Herramientas de La Sobremesa
 ---
 <!--StartFragment-->
 

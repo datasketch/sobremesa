@@ -9,6 +9,7 @@ target: Civil society organizations that need to plan and manage transitional
   leadership changes.
 draft: false
 entry: true
+section: Otras herramientas recomendadas
 ---
 <!--StartFragment-->
 

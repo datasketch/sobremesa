@@ -9,6 +9,7 @@ target: Organizations that want to reflect on their projects in an agile,
   impactful way.
 draft: false
 entry: true
+section: Herramientas de La Sobremesa
 ---
 <!--StartFragment-->
 

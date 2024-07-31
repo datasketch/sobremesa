@@ -8,6 +8,7 @@ creator: La Sobremesa
 target: For teams that want to be inspired by organizations similar to themselves.
 draft: false
 entry: true
+section: Herramientas de La Sobremesa
 ---
 <!--StartFragment-->
 

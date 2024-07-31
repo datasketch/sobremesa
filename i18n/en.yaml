@@ -45,7 +45,7 @@
 - id: label_podcast
   translation: Podcast
 - id: label_receive_newsletter
-  translation: Want to receive our newsletter?
+  translation: Do you want to stay updated? Subscribe to our blog
 - id: label_report
   translation: Report
 - id: label_subscribe_newsletter
@@ -175,7 +175,7 @@
     La Sobremesa provided us with a holistic consultancy on the sustainability of our organization. It ranged from presentations and workshops to several in-depth conversations, joint document development, and recommendations. It was an EXCELLENT experience. The conversations were all relevant, we learned a lot and saw many new aspects of the topic. Very important to highlight the flexibility of the entire consultancy (and consultants) to adapt to our needs and times, as well as the constant accompaniment!
 - id: page_accompaniment_person_position_testimony_diversify_your_financing
   translation: Deputy Director <a class="border-b-2" href="reAccion.org.py">https://ciudadaniai.org/</a>
-- id: page_accompaniment_testimony_practice your learning
+- id: page_accompaniment_testimony_practice_your_learning
   translation: >-
     Working with La Sobremesa was a very good experience as they challenged us to truly think about the meaning of impact and how we can not only measure it internally but also account for it. The La Sobremesa team accompanied us in these reflections with a very clear methodology and some excellent facilitators. Thanks, colleagues!
 - id: page_accompaniment_person_position_testimony_practice_your_learning
@@ -269,9 +269,9 @@
 - id: page_home_accompaniment_title
   translation: WHO WE'VE WORKED WITH
 - id: page_home_discuss_first_q
-  translation: 'How does learning happen within civil society? '
+  translation: Financial Sustainability Course
 - id: page_home_discuss_second_q
-  translation: When and how do we collaborate within civil society?
+  translation: Conversation on the Challenges of Civil Society
 - id: page_home_discuss_third_q
   translation: What does innovation mean within civil society? How do we innovate?
 - id: page_home_header_first_row
@@ -292,18 +292,14 @@
   translation: We
 - id: page_home_services_second_desc
   translation: >-
-    We create trust-filled conversation spaces for organizations that are facing
-    the same challenges, and together we co-create solutions by civil society
-    for civil society.
+    We create learning spaces tailored to individuals and organizations within civil society, encompassing a variety of thematic courses and interviews with leaders who share their experiences with us.
 - id: page_home_services_second_hl
   translation: spaces
 - id: page_home_services_second_title
   translation: We facilitate
 - id: page_home_services_third_desc
   translation: >-
-    We create and select materials that will guide and inspire you in your work
-    and your organization: podcasts, toolkits, videos, articles, guides and
-    more.
+    Based on our intensive support, we create our own tools that we make available to all organizations for their work. Additionally, we share tools from other experts that we find useful.
 - id: page_home_services_third_hl
   translation: tools
 - id: page_home_services_third_title
@@ -400,6 +396,8 @@
     organizations in Latin America in becoming stronger and more resilient.
 - id: page_who_we_are_empty_positions
   translation: Follow our social networks to stay up to date with any opportunities to work with the Sobremesa team
+- id: page_who_we_are_we_work_with
+  translation: Folks we have worked with
 - id: page_who_we_are_intro_team
   translation: Sitting at the table of La Sobremesa is
 - id: page_who_we_are_read_more
@@ -432,3 +430,11 @@
   translation: Annual Plan
 - id: label_strategy
   translation: Organizational strategy
+- id: label_guest_modal_challenges
+  translation: What challenges do you see in Latin American civil society?
+- id: label_guest_modal_projects
+  translation: In which projects have you supported us?
+- id: label_testimonies
+  translation: Testimonies
+- id: label_all
+  translation: All

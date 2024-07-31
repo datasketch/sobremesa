@@ -11,28 +11,39 @@
     "image": "images/people/anca-matioc.jpg"
   },
   {
+    "id": "tania-altamirano",
+    "name": "Tania Altamirano",
+    "role": "Design and Facilitation Assistant",
+    "about": "Hi, I am Tania, I am a philosopher, I have a master's degree in philosophy of culture, and I am currently a doctoral candidate in philosophy at UNAM.  I have extensive experience in the development of educational content, research, and facilitation of learning processes. At La Sobremesa, I work hand in hand with Anca in the design, facilitation, systematization and analysis of the accompaniments that are co-designed and facilitated for the organizations, networks and donors with which we collaborate. As a workshop facilitator, I have had the opportunity to work with academic and governmental institutions, generating spaces for reflection and dialogue on issues of interculturality, human rights, justice, and feminisms. My passion for fostering active/critical participation and dialogue has driven me to continue my trajectory within the processes of collective construction with civil society organizations. I firmly believe in the transformative power of critical education and dialogue to promote more empathetic and just societies. Therefore, I am excited to contribute to institutional strengthening and social change in the Latin American civil society ecosystem.",
+    "linkedin": "tania-haide-espinoza-altamirano-2383a2150",
+    "twitter": "TaniaEAltamira1",
+    "image": "images/people/tania-altamirano.jpg"
+  },
+  {
     "id": "aniela-stojanowski",
     "name": "Aniela Stojanowski",
     "role": "Communication leader",
     "about": "Hi! I'm Aniela, an Argentinean motivated and inspired by social communication. I trained as a community communicator and graduated in organizational consulting at the University of Buenos Aires (UBA). I have more than 12 years of experience working with civil society organizations, with a focus on community communication and coordination. I have experience in team management, planning and strategy development, external and internal communication and digital marketing and communication tools. I am passionate about accompanying organizations to tell their story, make their advocacy work visible, optimize their impact and support them in achieving their goals. Before joining La Sobremesa, I worked as communications coordinator at Asuntos del Sur, an organization dedicated to human rights and with direct impact on democracies in Latin America. Currently, I am a member of the Board of Directors of this NGO. I also teach digital marketing at the Universidad del Valle de México and I am an external communications collaborator for civil society organizations.",
     "linkedin": "anielastojanowski",
+    "twitter": "abstoja",
     "image": "images/people/aniela-stojanowski.jpg"
-  },
-  {
-    "id": "jessica-balovich",
-    "name": "Jessica Balovich",
-    "role": "Head of Admin and Operations",
-    "about": "Hello! I am Jessica, Head of Admin and Operations at La Sobremesa. I handle various bookkeeping tasks and am in communication with contractors and organizations from many parts of the  world. I conduct research on various topics needed to help support our organization, and help implement changes in our operations as we grow. Before coming to La Sobremesa, I worked for 3 years with a non-profit organization as an Operations Assistant, where I helped with organizational compliance and grant management. I was also in contact with various contractors and funders world wide, giving support with payments and contracts. I have a Master's Degree in Education, and taught for 12 years.",
-    "image": "images/people/jessica-balovich.jpg"
   },
   {
     "id": "ana-zuniga",
     "name": "Ana Gabriel Zúñiga Aponte",
-    "role": "Consultant",
+    "role": "Project-based consultant",
     "about": "Hi! I'm Ana Gabriel. I have more than ten years of experience working in impact areas as participative democracy, open data and civic engagement. I'm passionate about collaborative spaces and open formats and genuinely believe in their power to transform our realities. I have collaborated with different stakeholders such as journalists, LGTBIQ+ activists, feminists, environmental defenders, indigenous peoples, refugees and migrants, civil society organizations, academia and government. I served as Deputy Minister of Citizen Dialogue of the Republic of Costa Rica from 2014 to 2018, responsible for three agendas: first, citizen dialogue for the attention of conflicts and co-creation of public policies with several stakeholders; second, the implementation of the open government agenda; and, third, the intercultural dialogue with indigenous peoples that allowed the co-creation of a General Mechanism for Indigenous Consultation. After that life changing experience, I became part of the Hivos LATAM team as Program Development Manager in the area of Civic Rights in the Digital Age, co-designing and implementing regional programs in open data, civic space and gender equality. Currently I'm an international consultant in strategic planification; designing & facilitation of improbable dialogues and co-creation processes; and, policy advisor in open data with gender perspective. I'm based in Costa Rica and believe in tropicalizing my work, methodologies, and style.",
     "linkedin": "anagabrielzaponte",
     "twitter": "agza05",
     "instagram": "unapechoamarilla",
     "image": "images/people/ana-zuniga.jpg"
+  },
+  {
+    "id": "helen-saadoun",
+    "name": "Helene Saadoun",
+    "role": "Project-based consultant",
+    "about": "Hello! I'm Helene Saadoun. I am French-Uruguayan, but I am based in Mexico City. I am a lawyer with a master's degree in International Criminal Law from the University of Sussex in England, with over 8 years of experience working on gender issues, human rights, public policies, and capacity building. Before La Sobremesa, I worked at the United Nations, where I supported capacity-building processes for state governments on gender and human rights issues, and I was a consultant at Namati, where I assisted in strategic planning processes with a network of organizations in Latin America. What I am most passionate about in my work is gathering information, conducting research, and diagnosing issues to create strategies, processes, and tools that promote the strengthening and sustainability of organizations and institutions. Currently, I work as a consultant in Mexico and regionally on incorporating gender perspective and human rights into public policies, strategic planning, capacity building, and conducting research on businesses and human rights.",
+    "linkedin": "helene-saadoun-407524212",
+    "image": "images/people/helen-saadoun.jpeg"
   }
 ]

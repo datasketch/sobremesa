@@ -9,6 +9,7 @@ target: Organizations that need to put their Financial Sustainability Plan into
   practice
 draft: false
 entry: true
+section: Herramientas de La Sobremesa
 ---
 <!--StartFragment-->
 

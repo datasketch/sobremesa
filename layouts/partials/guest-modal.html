@@ -16,15 +16,19 @@
         </div>
       </div>
       <div class="w-full md:w-2/3 lg:w-1/2 lg:max-w-sm">
-        <h2 class="font-source-serif-pro text-xl leading-tight">
-          ¿Qué desafíos ves en la sociedad civil latinoamericana?
-        </h2>
+        <h3 class="font-source-serif-pro text-xl leading-tight">
+          {{ T "label_guest_modal_challenges" }}
+        </h3>
         <p class="mt-6" id="guest-answer">{{ .about }}</p>
+        <h3 class="font-source-serif-pro text-xl leading-tight mt-10">
+          {{ T "label_guest_modal_projects" }}
+        </h3>
+        <p class="mt-6" id="guest-answer">{{ .projects }}</p>
       </div>
     </div>
     <div class="text-center mt-12">
       <button class="border-2 border-chocolate uppercase font-bold p-2 leading-none">
-        Cerrar
+        {{ T "action_close" }}
       </button>
     </div>
   </div>

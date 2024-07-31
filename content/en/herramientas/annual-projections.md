@@ -8,6 +8,7 @@ creator: La Sobremesa
 target: Civil society organizations that want to be more financially resilient.
 draft: false
 entry: true
+section: Herramientas de La Sobremesa
 ---
 <!--StartFragment-->
 

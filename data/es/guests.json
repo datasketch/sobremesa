@@ -5,20 +5,22 @@
     "image": "images/people/milena-pafundi.jpg",
     "tagline": "Veo organizaciones con desafios de estrategias a largo plazo...",
     "location": "Argentina basada en Ciudad de México, México",
-    "about": "Veo organizaciones con desafios de estrategias a mas largo plazo, además de problemas de comunicacion interna especialmente en instituciones regionales. Otro desafío es la base de fondos para organizaciones LGBT+ también el ver los retos que implica para algunas organizaciones constituirse como AS o OSC. Soy comunicadora y líder de proyectos en campañas de comunicación. También trabajo en territorio desde hace 12 años, como periodista y como artivista.",
+    "about": "Veo organizaciones con desafíos de estrategias a más largo plazo, además de problemas de comunicación interna especialmente en instituciones regionales. Otro desafío es la base de fondos para organizaciones LGBT+ también el ver los retos que implica para algunas organizaciones constituirse como AS o OSC. Soy comunicadora y líder de proyectos en campañas de comunicación. También trabajo en territorio desde hace 12 años, como periodista y como artivista.",
     "twitter": "milenapafundi",
     "instagram": "milenapafundi",
-    "company": "agenciapresentes.org"
+    "company": "agenciapresentes.org",
+    "projects": "Hivos, PODER, FAU-LAC"
   },
   {
-    "id": "alejandra-betanzo",
-    "name": "Alejandra Betanzo de la Rosa",
-    "image": "images/people/alejandra-betanzo.jpg",
-    "tagline": "Veo desafios en las instituciones y sus liderazgos...",
-    "location": "Basada en Ciudad de México, México",
-    "about": "Veo desafios en las institucionales y sus liderazgos, que se traducen en la sobre carga de trabajo que impone desafios a la salud emocional de las personas. Acompaño a las organizaciones para co-constuir acuerdos explícitos que les permitan distribuir el poder para trabajar de manera más auto-gestiva, además de generar dinámicas colaborativas, transformación de conflictos, regulación de emociones y auto-cuidado. Soy consultora de la Comunicación No Violenta, la Justicia Restaurativa y las prácticas narrativas.",
-    "twitter": "abetanzo",
-    "company": "Consultora Independiente"
+    "id": "laura-lehman",
+    "name": "Laura Lehman",
+    "image": "images/people/laura-lehman.jpeg",
+    "tagline": "Veo desigualdades que limitan recursos para los más marginalizados...",
+    "location": "Basada en Washington D.C.",
+    "about": "Veo desigualdades dentro del sistema que limitan el financiamiento y los recursos para los grupos más cercanos a los problemas. ¿Qué pasaría si las organizaciones de la sociedad civil lideradas localmente tuvieran todo lo que necesitan para llevar a cabo sus visiones de una sociedad más democrática, inclusiva y equitativa? Trabajo en aprendizaje y evaluación para financiadores y organizaciones que participan en la promoción y la construcción de la justicia social y económica. He sido organizadora comunitaria, maestra e investigadora.",
+    "twitter": "LauraALehman",
+    "company": "integracollaborative.com",
+    "projects": "Oxfam México, TOR, IRIS, Hivos"
   },
   {
     "id": "graciela-guadarrama",
@@ -27,56 +29,76 @@
     "tagline": "Veo que la narrativa es una herramienta crucial para el cambio...",
     "location": "Basada en Ciudad de México, México",
     "about": "Creo en la narrativa como herramienta crucial para el cambio y disfruto mucho del diseño participativo y de los procesos de co-creación. Por mi perfil y mente curiosa he trabajado con diversos grupos y organizaciones tanto del sector público, como privado y sociedad civil. Mi experiencia engloba Innovación y Diseño en toda su extensión. Utilizo metodologías de diferentes disciplinas para facilitar procesos de acción y transformación; entre ellas se encuentran la Innovación Social, el Diseño Crítico, Futuros Participativos y el Pensamiento Sistémico.",
-    "twitter": "okanaga86"
+    "twitter": "okanaga86",
+    "projects": "INDELA, WINGS, Dialogos, reAcción"
+  },
+  {
+    "id": "alejandra-betanzo",
+    "name": "Alejandra Betanzo de la Rosa",
+    "image": "images/people/alejandra-betanzo.jpg",
+    "tagline": "Veo desafios en las instituciones y sus liderazgos...",
+    "location": "Basada en Ciudad de México, México",
+    "about": "Veo desafíos en las institucionales y sus liderazgos, que se traducen en la sobrecarga de trabajo que impone desafíos a la salud emocional de las personas. Acompaño a las organizaciones para co-construir acuerdos explícitos que les permitan distribuir el poder para trabajar de manera más auto-gestiva, además de generar dinámicas colaborativas, transformación de conflictos, regulación de emociones y auto-cuidado. Soy consultora de la Comunicación No Violenta, la Justicia Restaurativa y las prácticas narrativas.",
+    "twitter": "abetanzo",
+    "projects": "TEDIC"
+  },
+  {
+    "id": "lucia-villafane",
+    "name": "Lucia Villafañe",
+    "image": "images/people/lucia-villafane.jpg",
+    "tagline": "Veo un desafío a la hora de que las ONGs vinculen su trabajo con organismos dedicados a la movilización de recursos y apoyo técnico...",
+    "location": "Argentina basada en Ciudad de México, México",
+    "about": "Veo en las OSC el potencial de resolver los problemas que enfrentan desde sus saberes y experiencias situadas; éstas demuestran permanentemente su capacidad para generar cambios desde su incidencia en una amplia gama de temas relevantes que afectan a la región. Esto a su vez se presenta como un desafío a la hora de vincular su trabajo con organismos internacionales, gubernamentales e instituciones vinculadas a la movilización de recursos y apoyo técnico. En este sentido, es necesario revisar las dinámicas dominantes y promover una mayor flexibilidad en los espacios de cooperación para promover el reconocimiento de los saberes situados y los valores que guían y definen el trabajo de la sociedad civil organizada.",
+    "projects": "ILSB"
+  },
+  {
+    "id": "virginie-martin-onraet",
+    "name": "Virginie Martin Onraet",
+    "image": "images/people/virginie-martin-onraet.jpg",
+    "tagline": "Veo falta de entendimiento que afecta a los grupos vulnerabilizaddos de la región...",
+    "location": "Basada en Ciudad de México, México",
+    "about": "La sociedad latinoamericana ha normalizado las violencias a un punto en el cual convivimos de manera cotidiana con actos tangibles e intangibles de discriminación y de exclusión. Las manifestaciones de estas violencias afectan de manera diferenciada a los grupos vulnerabilizados de la región y la falta de entendimiento de estas diferencias afecta la posibilidad de crear sistemas de prevención incluyentes con perspectiva de género e inclusión.",
+    "company": "mxpersonas.org",
+    "projects": "Alianza Campo Justo"
+  },
+  {
+    "id": "ana-calderon",
+    "name": "Ana Calderón",
+    "image": "images/people/ana-calderon.jpg",
+    "tagline": "Veo un reto importante en generar y fortalecer herramientas individuales y colectivas...",
+    "location": "Basada en Ciudad de México, México",
+    "about": "Veo un reto importante en generar y fortalecer herramientas individuales y colectivas que nos permitan gestionar recursos limitados, ya sea materiales e inmateriales como el tiempo, así como en el reconocimiento, articulación y sostenimiento de relaciones en las que podamos ampliar el impacto de nuestras acciones. Realizo mapeo de actores, dinámicas, lenguaje y estructuras.",
+    "company": "intersecta.org",
+    "projects": "Alianza Campo Justo"
   },
   {
     "id": "adri-peralta",
     "name": "Adriana Peralta",
     "image": "images/people/adri-peralta.jpg",
-    "tagline": "Veo un desafío con nuestros contextos de violencia y corrupción.",
+    "tagline": "Veo un desafío con nuestros contextos de violencia y corrupción...",
     "location": "Basada en Asunción, Paraguay",
     "about": "Veo un desafío con nuestros contextos que muchas veces son violentos y corruptas como las de América Latina. Para no perder la motivación en hacer las cosas lo mejor posible ayuda mucho rodearse de personas que estiren para el mismo lado, que también crean en que se puede, que te inspiren, que te alienten, con quienes puedas tomarte unas cervecitas y relajar y reir un poco. Soy ilustradora y diseñadora gráfica especilizada en sociología. (Y si, soy la diseñadora detrás de La Sobremesa!)",
     "twitter": "adriperaltaaa",
-    "company": "Diseñadora freelance"
-  },
-  {
-    "id": "laura-lehman",
-    "name": "Laura Lehman",
-    "image": "images/people/laura-lehman.jpeg",
-    "tagline": "Veo desigualdades que limitan recursos para los más marginalizados.",
-    "location": "Basada en Washington D.C.",
-    "about": "Veo desigualdades dentro del sistema que limitan el financiamiento y los recursos para los grupos más cercanos a los problemas. ¿Qué pasaría si las organizaciones de la sociedad civil lideradas localmente tuvieran todo lo que necesitan para llevar a cabo sus visiones de una sociedad más democrática, inclusiva y equitativa? Trabajo en aprendizaje y evaluación para financiadores y organizaciones que participan en la promoción y la construcción de la justicia social y económica. He sido organizadora comunitaria, maestra e investigadora.",
-    "twitter": "LauraALehman",
-    "company": "https://www.innonet.org/"
-  },
-  {
-    "id": "eduborregon",
-    "name": "Eduard Martín-Borregón",
-    "image": "images/people/eduborregon.jpg",
-    "tagline": "Veo nuestra sociedad civil y le tengo dos grandes preguntas...",
-    "location": "Catalán basado en Ciudad de México, México",
-    "about": "Veo una sociedad civil latinoamericana y le tengo dos grandes preguntas: - ¿Cómo se puede medir e incrementar el impacto de nuestro trabajo? - ¿Cómo se generan oportunidades dentro del sector para mantener y atraer nuevo talento? Cualquier proyecto que diseño siempre parte a partir de una problematica sobre la cual podemos aportar desde lo que sabemos hacer bien.  La suma de las partes es siempre más grande que las partes en si. Soy periodista de datos, mezclando datos, narrativa y tecnologia.",
-    "twitter": "emartinborregon",
-    "company": "poderlatam.org"
+    "projects": "Graphic Design"
   },
   {
     "id": "jpmarindiaz",
     "name": "Juan Pablo Marín Díaz",
     "image": "images/people/jp-marin-diaz.png",
-    "tagline": "Veo una falta de infraestructura tecnologica de datos.",
+    "tagline": "Veo una falta de infraestructura tecnologica de datos...",
     "location": "Basado en Bogotá, Colombia",
-    "about": "Veo una falta de infraestructura tecnologia de datos para la incidencia desde sociedad civil. Trabajo justamente creando tecnologias de ciencia de datos accesibles y de bajo costo para las organizaciones sociales. Soy cientifico de datos y fundador de Datasketch.",
+    "about": "Veo una falta de infraestructura tecnologíca de datos para la incidencia desde sociedad civil. Trabajo justamente creando tecnologias de ciencia de datos accesibles y de bajo costo para las organizaciones sociales. Soy cientifico de datos y fundador de Datasketch.",
     "twitter": "jpmarindiaz",
-    "company": "datasketch.co"
+    "company": "datasketch.co",
+    "projects": "Website"
   },
   {
-    "id": "jorge-florez",
-    "name": "Jorge Flórez",
-    "image": "images/people/jorge-florez.jpeg",
-    "tagline": "Veo desafios al articular el impacto que esperamos lograr.",
-    "location": "Basado en Bogotá, Colombia",
-    "about": "Veo desafios al articular claramente el impacto que se espera alcanzar a nivel organizacional y de proyectos, incluyendo definir procesos y herramientas para hacer seguimiento al avance en esta meta, usar esta evidencia para mejorar y para comunicar efectivamente nuestro trabajo. Trato el desafio a través de conversaciones en equipos y uso de metodologías que respondan a las necesidades específicas de dichos grupos, sus metas y sus recursos. Soy facilitador de estrategias de cambio social.",
-    "twitter": "j_florezh",
-    "company": "globalintegrity.org"
+    "id": "nadia-chanquia",
+    "name": "Nadia Chanquia",
+    "image": "images/people/nadia-chanquia.jpg",
+    "tagline": "Veo un desafío en potencir las voces diversas y crear acuerdos básicos...",
+    "location": "Basada en Ciudad de Buenos Aires, Argentina",
+    "about": "La sociedad latinoamericana vive constantemente en un ciclo de desafíos interconectados entre sí. Descreimiento en los gobiernos, instituciones y consensos democráticos, que se creían básicos, generan en la sociedad un sentimiento de estancamiento o supervivencia, en donde no se sabe si se está de un lado u otro de la brecha. El mayor desafío, entonces, sería potenciar las voces diversas y unificarlas para crear acuerdos básicos que impulsen el cumplimiento de los derechos en la región.",
+    "projects": "Comms"
   }
 ]

@@ -1,4 +1,6 @@
 {{ define "main" }}
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
 <section class="px-4 pb-16 pt-0">
   <div class="container-lg md:w-full">
     <div class="section-row">
@@ -13,7 +15,7 @@
               {{- T "page_home_header_third_row" -}}
             </span>
           </h1>
-          <img class="h-20 mt-4 object-left object-contain" src="{{ "images/arrow-down.svg" | absURL }}" alt="">
+          <img class="h-20 mt-4 object-left object-contain" src='{{ "images/arrow-down.svg" | absURL }}' alt="">
         </div>
       </div>
       <div class="section-col">
@@ -50,7 +52,7 @@
     </div>
   </div>
 </section>
-<section class="px-4 pt-16 pb-32">
+<section class="px-4 pt-8 lg:pt-16 lg:pb-32">
   <div class="container">
     <h2 class="section-title text-center">
       {{- T "label_what_do_we_do" -}}
@@ -59,7 +61,7 @@
       <div class="max-w-sm mx-auto">
         <img class="mx-auto h-48 object-center object-contain" src="{{ "images/guide-sketch.png" | absURL }}" alt="">
         <div class="flex flex-col">
-          <div class="flex flex-row justify-start items-start -ml-10">
+          <div class="flex flex-row justify-start items-start lg:-ml-10">
             <img class="h-10 object-center object-contain" src="{{ "images/red-star.svg" | absURL }}" alt="">
             <h3 class="mt-4 font-source-serif-pro text-3xl text-left">
               {{ T "page_home_services_first_title" }}
@@ -69,7 +71,7 @@
             {{ T "page_home_services_first_hl" }}
           </h3>
         </div>
-        <p class="mt-6 text-lg">
+        <p class="mt-6 text-base lg:text-lg">
           {{- T "page_home_services_first_desc" -}}
         </p>
         <a href="{{ relref . "acompanamiento" }}" class="mt-8 site-link hover:text-fire-opal">{{- T "action_read_about_accompaniment" -}}</a>
@@ -77,7 +79,7 @@
       <div class="max-w-sm mx-auto">
         <img class="mx-auto h-48 object-center object-contain" src="{{ "images/conversation-sketch.png" | absURL }}" alt="">
         <div class="flex flex-col">
-          <div class="flex flex-row justify-start items-start -ml-10">
+          <div class="flex flex-row justify-start items-start lg:-ml-10">
             <img class="h-10 object-center object-contain" src="{{ "images/yellow-star.svg" | absURL }}" alt="">
             <h3 class="mt-4 font-source-serif-pro text-3xl text-left">
               {{ T "page_home_services_second_title" }}
@@ -87,7 +89,7 @@
             {{ T "page_home_services_second_hl" }}
           </h3>
         </div>
-        <p class="mt-6 text-lg">
+        <p class="mt-6 text-base lg:text-lg">
           {{- T "page_home_services_second_desc" -}}
         </p>
         <a href="{{ relref . "espacios" }}" class="mt-8 site-link hover:text-gold-metallic">{{- T "action_join_spaces" -}}</a>
@@ -95,7 +97,7 @@
       <div class="max-w-sm mx-auto">
         <img class="mx-auto h-48 object-center object-contain" src="{{ "images/resources-sketch.png" | absURL }}" alt="">
         <div class="flex flex-col">
-          <div class="flex flex-row justify-start items-start -ml-10">
+          <div class="flex flex-row justify-start items-start lg:-ml-10">
             <img class="h-10 object-center object-contain" src="{{ "images/green-star.svg" | absURL }}" alt="">
             <h3 class="mt-4 font-source-serif-pro text-3xl text-left">
               {{ T "page_home_services_third_title" }}
@@ -105,7 +107,7 @@
             {{ T "page_home_services_third_hl" }}
           </h3>
         </div>
-        <p class="mt-6 text-lg">
+        <p class="mt-6 text-base lg:text-lg">
           {{- T "page_home_services_third_desc" -}}
         </p>
         <a href="{{ relref . "herramientas" }}" class="mt-8 site-link hover:text-darmouth-green">{{ T "action_explore_resources" }}</a>
@@ -114,38 +116,104 @@
   </div>
 </section>
 <section class="px-4 pb-16">
-  <div class="container-md pt-8 md:pt-16">
-    <div class="home-banner bg-top pt-40 {{ print "bg-accompaniment-sm-" .Site.Language.Lang " " "md:bg-accompaniment-lg-" .Site.Language.Lang }}">
-      <h2 class="section-title leading-extra-tight text-center text-fire-opal">
+  <div class="pt-8 md:pt-16" id="tabs-container">
+    <div class='home-banner bg-top lg:pt-40 {{ print "bg-accompaniment-sm-" .Site.Language.Lang " " "md:bg-accompaniment-lg-" .Site.Language.Lang }}'>
+      <h2 class="mt-16 lg:mt-0 section-title leading-extra-tight text-center text-fire-opal">
         {{- T "page_home_accompaniment_title" -}}
       </h2>
     </div>
-    <div class="py-12 flex flex-wrap justify-center items-center">
-      <img class="logo-md" src="{{ "images/logos/codeforall.png" | absURL }}" alt="">
-      <img class="logo-md" src="{{ "images/logos/reaccion.svg" | absURL }}" alt="">
-      <img class="logo-sm" src="{{ "images/logos/ctin.png" | absURL }}" alt="">
-      <img class="logo-md" src="{{ "images/logos/open-data-charter.png" | absURL }}" alt="">
-      <img class="logo-sm" src="{{ "images/logos/dialogos.svg" | absURL }}" alt="">
-      <img class="logo-lg" src="{{ "images/logos/global-integrity.png" | absURL }}" alt="">
-      <img class="logo-md" src="{{ "images/logos/hiperderecho.svg" | absURL }}" alt="">
-      <img class="logo-sm" src="{{ "images/logos/poder.svg" | absURL }}" alt="">
-      <img class="logo-sm" src="{{ "images/logos/tedic.svg" | absURL }}" alt="">
-      <img class="logo-md" src="{{ "images/logos/fundar.png" | absURL }}" alt="">
-      <img class="logo-md" src="{{ "images/logos/codeando-mexico.png" | absURL }}" alt="">
-      <img class="logo-md" src="{{ "images/logos/ciudadania-inteligente.png" | absURL }}" alt="">
-      <img class="logo-md" src="{{ "images/logos/japiqay.png" | absURL }}" alt="">
-      <img class="h-40" src="{{ "images/logos/oxfam-mexico.png" | absURL }}" alt="">
-      <img class="logo-md" src="{{ "images/logos/cab.svg" | absURL }}" alt="">
-      <img class="logo-sm" src="{{ "images/logos/oh.png" | absURL }}" alt="">
-      <img class="logo-sm" src="{{ "images/logos/alianza-campo-justo.png" | absURL }}" alt="">
-      <img class="logo-md" src="{{ "images/logos/hivos.svg" | absURL }}" alt="">
-      <img class="logo-lg" src="{{ "images/logos/indela.svg" | absURL }}" alt="">
-      <img class="logo-sm" src="{{ "images/logos/wings.png" | absURL }}" alt="">
-      <img class="logo-sm" src="{{ "images/logos/arropa.png" | absURL }}" alt="">
-      <img class="logo-md" src="{{ "images/logos/ifip.jpg" | absURL }}" alt="">
-      <img class="logo-sm" src="{{ "images/logos/iri.png" | absURL }}" alt="">
+    <div class="flex flex-col lg:flex-row lg:items-start items-center justify-center lg:space-x-14 mt-14" id="tabs-triggers">
+      <button class="tab-trigger tab-trigger--active" data-filter="*">{{ T "label_all" }}</button>
+      <button class="tab-trigger" data-filter="organizaciones">{{ T "label_orgs" }}</button>
+      <button class="tab-trigger" data-filter="redes">{{ T "label_networks" }}</button>
+      <button class="tab-trigger" data-filter="donantes">{{ T "label_donors" }}</button>
     </div>
-    <div class="text-center">
+    <div class="py-12 flex flex-wrap justify-center items-center" id="tabs-content">
+      <img class="logo-customer" src="{{ "images/customers/alianza-campo-justo.png" | absURL }}" alt="" data-category="redes">
+      <img class="logo-customer" src="{{ "images/customers/arropa.png" | absURL }}" alt="" data-category="donantes">
+      <img class="logo-customer" src="{{ "images/customers/cab.png" | absURL }}" alt="" data-category="redes">
+      <img class="logo-customer" src="{{ "images/customers/ciudadania-inteligente.png" | absURL }}" alt="" data-category="organizaciones">
+      <img class="logo-customer" src="{{ "images/customers/ctin.png" | absURL }}" alt="" data-category="organizaciones">
+      <img class="logo-customer" src="{{ "images/customers/codeforall.png" | absURL }}" alt="" data-category="redes">
+      <img class="logo-customer" src="{{ "images/customers/codeando-mexico.png" | absURL }}" alt="" data-category="organizaciones">
+      <img class="logo-customer" src="{{ "images/customers/decidim.svg" | absURL }}" alt="" data-category="organizaciones"> <!-- ADD -->
+      <img class="logo-customer" src="{{ "images/customers/dialogos.png" | absURL }}" alt="" data-category="organizaciones">
+      <img class="logo-customer" src="{{ "images/customers/fau.png" | absURL }}" alt="" data-category="donantes">
+      <img class="logo-customer" src="{{ "images/customers/fundar.png" | absURL }}" alt="" data-category="organizaciones">
+      <img class="logo-customer" src="{{ "images/customers/global-integrity.png" | absURL }}" alt="" data-category="organizaciones">
+      <img class="logo-customer" src="{{ "images/customers/hiperderecho.png" | absURL }}" alt="" data-category="organizaciones">
+      <img class="logo-customer" src="{{ "images/customers/hivos.png" | absURL }}" alt="" data-category="donantes">
+      <img class="logo-customer" src="{{ "images/customers/indela.png" | absURL }}" alt="" data-category="donantes">
+      <img class="logo-customer" src="{{ "images/customers/ilsb.svg" | absURL }}" alt="" data-category="organizaciones">
+      <img class="logo-customer" src="{{ "images/customers/ifip.png" | absURL }}" alt="" data-category="donantes">
+      <img class="logo-customer" src="{{ "images/customers/iri.png" | absURL }}" alt="" data-category="donantes">
+      <img class="logo-customer" src="{{ "images/customers/iris.png" | absURL }}" alt="" data-category="donantes"> <!-- ADD -->
+      <img class="logo-customer" src="{{ "images/customers/japiqay.png" | absURL }}" alt="" data-category="organizaciones">
+      <img class="logo-customer" src="{{ "images/customers/ndi.png" | absURL }}" alt="" data-category="donantes">
+      <img class="logo-customer" src="{{ "images/customers/nodo-sur.png" | absURL }}" alt="" data-category="organizaciones">
+      <img class="logo-customer" src="{{ "images/customers/ocp.png" | absURL }}" alt="" data-category="redes">
+      <img class="logo-customer" src="{{ "images/customers/open-data-charter.png" | absURL }}" alt="" data-category="redes">
+      <img class="logo-customer" src="{{ "images/customers/oh.png" | absURL }}" alt="" data-category="redes">
+      <img class="logo-customer" src="{{ "images/customers/oxfam-mexico.png" | absURL }}" alt="" data-category="organizaciones">
+      <img class="logo-customer" src="{{ "images/customers/poder.png" | absURL }}" alt="" data-category="organizaciones">
+      <img class="logo-customer" src="{{ "images/customers/reaccion.png" | absURL }}" alt="" data-category="organizaciones">
+      <img class="logo-customer" src="{{ "images/customers/tedic.png" | absURL }}" alt="" data-category="organizaciones">
+      <img class="logo-customer" src="{{ "images/customers/tor.png" | absURL }}" alt="" data-category="organizaciones">
+      <img class="logo-customer" src="{{ "images/customers/wings.png" | absURL }}" alt="" data-category="donantes">
+    </div>
+    <div class="flex items-center justify-center">
+      <h2 class="section-title text-fire-opal">
+        {{ T "label_testimonies" }}
+      </h2>
+      <span class="font-beth-ellen text-xl relative z-10 -ml-8">{{ T "label_with" }} La Sobremesa</span>
+    </div>
+    <div class="container">
+      <div class="slider-wrapper mt-14">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            {{ range $data.testimonies }}
+            <div class="swiper-slide slider-wrapper-acompanamiento">
+              <div class="container">
+                <div class="section-row items-center lg:space-x-12">
+                  <div class="section-col lg:w-1/3">
+                    <img src="{{ .logo | absURL }}" alt="">
+                  </div>
+                  <div class="section-col lg:w-2/3">
+                    <div class="leading-extra-tight">
+                      <h3 class="font-source-serif-pro text-fire-opal text-2xl">
+                        {{ .company }}
+                      </h3>
+                    </div>
+                    <div class="mt-6 leading-tight space-y-4">
+                      {{ .text }}
+                    </div>
+                    <div class="mt-4">
+                      <p class="font-bold">{{ .contact }}</p>
+                      <p>
+                        {{ if findRE `\[.*?\]\(.*?\)` .role }}
+                        {{ $roleText := replaceRE `\[([^\]]+)\]\([^\)]+\)` `$1` .role }}
+                        {{ $roleURLs := findRE `\((.*?)\)` .role }}
+                        {{ $roleURL := index $roleURLs 0 | replaceRE `[()]` "" }}
+                        {{ $finalText := replaceRE `\[(.*?)\]\((.*?)\)` `<a class="text-chocolate opacity-60 font-semibold underline underline-offset-4" target="_blank" href="$2">$1</a>` .role }}
+                        {{ $finalText | safeHTML }}
+                        {{ else }}
+                        {{ .role }}
+                        {{ end }}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+        <div class="slider-prev"></div>
+        <div class="slider-next"></div>
+        <div class="slider-pagination"></div>
+      </div>
+    </div>
+    <div class="text-center mt-14">
       <a href="{{ relref . "acompanamiento" }}" class="site-link text-chocolate hover:text-fire-opal">
         {{- T "action_read_about_accompaniment_support" -}}
       </a>
@@ -156,7 +224,7 @@
   <div class="container w-full lg:w-10/12">
     <div class="section-row md:space-y-0 md:flex-row">
       <div class="section-col md:py-0 md:px-4 md:w-1/2">
-        <div class="section-col-inner home-banner {{ print "bg-tools-sm-" .Site.Language.Lang " " "md:bg-tools-lg-" .Site.Language.Lang }}">
+        <div class='section-col-inner home-banner {{ print "bg-tools-sm-" .Site.Language.Lang " " "md:bg-tools-lg-" .Site.Language.Lang }}'>
           <h2 class="section-title leading-extra-tight text-linen relative">
             {{ T "page_home_reading_listening" }}
           </h2>
@@ -169,7 +237,7 @@
               <div class="numbered-item">1</div>
               <div>
                 <p class="text-xl font-source-serif-pro font-bold leading-none">
-                  Podcast de Amored vs Daring Leadership
+                  Cómo crear un Plan de Sostenibilidad
                 </p>
                 <a href="{{ relref . "herramientas" }}" class="site-link mt-2 hover:text-gold-metallic">{{ T "action_read_more" }}</a>
               </div>
@@ -178,7 +246,7 @@
               <div class="numbered-item">2</div>
               <div>
                 <p class="text-xl font-source-serif-pro font-bold leading-none">
-                  Guía de reinventando organizaciones
+                  Análisis de Competidores
                 </p>
                 <a href="{{ relref . "herramientas" }}" class="site-link mt-2 hover:text-gold-metallic">{{ T "action_read_more" }}</a>
               </div>
@@ -187,7 +255,7 @@
               <div class="numbered-item">3</div>
               <div>
                 <p class="text-xl font-source-serif-pro font-bold leading-none">
-                  Video de TOC DIY Toolkit
+                  Inteligencia del Donante
                 </p>
                 <a href="{{ relref . "herramientas" }}" class="site-link mt-2 hover:text-gold-metallic">{{ T "action_read_more" }}</a>
             </li>
@@ -195,7 +263,7 @@
               <div class="numbered-item">4</div>
               <div>
                 <p class="text-xl font-source-serif-pro font-bold leading-none">
-                  Reporte de Decidiendo Juntos
+                  Ejercicio para rankear tus proyectos
                 </p>
                 <a href="{{ relref . "herramientas" }}" class="site-link mt-2 hover:text-gold-metallic">{{ T "action_read_more" }}</a>
             </li>
@@ -203,7 +271,7 @@
               <div class="numbered-item">5</div>
               <div>
                 <p class="text-xl font-source-serif-pro font-bold leading-none">
-                  Podcast de Facilitating breakthrough
+                  6 pasos para crear tu Plan Anual
                 </p>
                 <a href="{{ relref . "herramientas" }}" class="site-link mt-2 hover:text-gold-metallic">{{ T "action_read_more" }}</a>
             </li>
@@ -226,7 +294,7 @@
           </h2>
         </div>
       </div>
-      <div class="section-col py-0 md:py-24 px-4 md:w-1/2">
+      <div class="section-col py-0 md:py-24 lg:py-48 px-4 md:w-1/2">
         <div class="section-col-inner justify-center">
           <ul class="space-y-12 xl:w-4/5">
             <li class="flex space-x-6 items-center">
@@ -247,16 +315,8 @@
                 <a href="" class="site-link mt-2 hover:text-linen hidden">{{ T "action_read_more" }}</a>
               </div>
             </li>
-            <li class="flex space-x-6 items-center">
-              <div class="numbered-item">3</div>
-              <div>
-                <p class="text-xl font-source-serif-pro font-bold leading-none">
-                  {{- T "page_home_discuss_third_q" -}}
-                </p>
-                <a href="" class="site-link mt-2 hover:text-linen hidden">{{ T "action_read_more" }}</a>
-            </li>
           </ul>
-          <div class="mt-16 text-center">
+          <div class="mt-32 text-center">
             <a href="{{ relref . "espacios" }}" class="site-link text-white hover:text-chocolate">{{- T "action_join_future_spaces" -}}</a>
           </div>
         </div>
@@ -264,4 +324,18 @@
     </div>
   </div>
 </section>
+{{ end }}
+
+{{ define "head" }}
+  {{ $swiper := resources.Get "styles/swiper.pcss" | postCSS | fingerprint }}
+  <link rel="stylesheet" href="https://unpkg.com/swiper@6.7.0/swiper-bundle.min.css">
+  <link rel="stylesheet" href="{{ $swiper.Permalink }}">
+{{ end }}
+
+
+{{ define "js" }}
+  {{ $home := resources.Get "js/home.js" | js.Build (dict "minify" true)}}
+  <script src="{{ $home.Permalink }}"></script>
+  {{ $services := resources.Get "js/services.js" | js.Build (dict "minify" true)}}
+  <script src="{{ $services.Permalink }}"></script>
 {{ end }}

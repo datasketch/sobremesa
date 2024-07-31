@@ -9,6 +9,7 @@ target: '" Individuals who are assuming the Executive Director role and
   undergoing a transition process into the new position."'
 draft: false
 entry: true
+section: Otras herramientas recomendadas
 ---
 <!--StartFragment-->
 

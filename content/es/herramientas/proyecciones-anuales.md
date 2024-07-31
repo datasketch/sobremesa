@@ -10,6 +10,7 @@ target: "Organizaciones de sociedad civil que quieren ser más resilientes
 lastmod: 2024-05-23T17:12:51.216Z
 draft: false
 entry: true
+section: Herramientas de La Sobremesa
 ---
 <!--StartFragment-->
 

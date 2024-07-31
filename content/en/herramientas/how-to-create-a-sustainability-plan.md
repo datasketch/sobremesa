@@ -10,6 +10,7 @@ target: For civil society organizations, particularly in the field of civic
   primarily, the decrease in donors.
 draft: false
 entry: true
+section: Herramientas de La Sobremesa
 ---
 <!--StartFragment-->
 

@@ -9,6 +9,7 @@ target: Organizaciones interesadas en generar un "cambio sistémico", en
 lastmod: 2023-02-06T14:51:45.218Z
 draft: false
 entry: true
+section: Herramientas de La Sobremesa
 ---
 <!--StartFragment-->
 

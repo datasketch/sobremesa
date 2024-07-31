@@ -68,18 +68,18 @@
       <div class="swiper-container">
         <div class="swiper-wrapper">
           {{ range .Pages }}
-            {{ if eq .Params.category "Experiencias" }}
-              {{ partial "experiences-slider.html" . }}
-              {{ else }}
+          {{ if eq .Params.category "Experiencias" }}
+          {{ partial "experiences-slider.html" . }}
+          {{ else }}
 
-            {{ end }}
+          {{ end }}
           {{ end }}
         </div>
       </div>
       <div class="slider-prev"></div>
       <div class="slider-next"></div>
       <div class="slider-pagination"></div>
-  </div>
+    </div>
   </div>
   </div>
 </section>
@@ -96,7 +96,15 @@
     <div class="slider-wrapper slider-wrapper-acompanamiento">
       <div class="swiper-container">
         <div class="swiper-wrapper">
-          {{ range .Pages }}
+          {{ $order := slice "Oxfam México" "IRI" "Decidim" "Alianza Campo Justo" "Code for All" "PODER" "reAcción" "Japiqay" }}
+          {{ $pages := .Pages }}
+          {{ $sortedPages := slice }}
+          {{ range $index, $client := $order }}
+            {{ range where $pages "Params.client" $client }}
+              {{ $sortedPages = $sortedPages | append . }}
+            {{ end }}
+          {{ end }}
+          {{ range $sortedPages }}
             {{ if eq .Params.category "Testimonio" }}
               {{ partial "testimonies-slider.html" . }}
               {{ else }}
@@ -116,7 +124,8 @@
 <!-- SECCIÓN DE TIPOS DE ACOMPAÑAMIENTOS -->
 <div class="flex flex-col">
   <!-- PARA DEFINIR TU IMPACTO -->
-  <section id="para-definir-tu-impacto" class="container lg:container-lg px-4 py-8 lg:py-16 border-t-2 border-chocolate">
+  <section id="para-definir-tu-impacto"
+    class="container lg:container-lg px-4 py-8 lg:py-16 border-t-2 border-chocolate">
     <div class="flex flex-row gap-5 items-center">
       <img class="w-14 h-14" src="/images/green-star.svg" alt="green-star">
       <h3 class="accordion-subtitle text-3xl lg:text-4xl">
@@ -166,10 +175,10 @@
           </li>
         </div>
         <div class="relative mt-7 lg:mt-14">
-          <div>
+          <div class="absolute">
             <img src="/images/quotes.svg" alt="quotes">
           </div>
-          <div class="relative z-10 left-7 -top-7 w-80 md:w-full">
+          <div class="relative ml-7 pt-4 w-80 md:w-full">
             <p class="font-source-serif-pro text-base lg:text-xl">
               {{ T "page_accompaniment_testimony_define_your_impact" | safeHTML }}
             </p>
@@ -242,10 +251,10 @@
           </li>
         </div>
         <div class="relative mt-14">
-          <div>
+          <div class="absolute">
             <img src="/images/quotes.svg" alt="quotes">
           </div>
-          <div class="relative z-10 left-7 -top-7 w-80 md:w-full">
+          <div class="relative ml-7 pt-4 w-80 md:w-full">
             <p class="font-source-serif-pro text-base lg:text-xl">
               {{ T "page_accompaniment_testimony_reach_your_goals" | safeHTML }}
             </p>
@@ -271,7 +280,8 @@
   </section>
 
   <!-- PARA DIVERSIFICAR TU FINANCIAMIENTO -->
-  <section id="para-diversificar-tu-financiamiento" class="container lg:container-lg px-4 py-8 lg:py-16 border-t-2 border-chocolate">
+  <section id="para-diversificar-tu-financiamiento"
+    class="container lg:container-lg px-4 py-8 lg:py-16 border-t-2 border-chocolate">
     <div class="flex flex-row gap-5 items-center">
       <img class="w-14 h-14" src="/images/green-star.svg" alt="green-star">
       <h3 class="accordion-subtitle text-3xl lg:text-4xl">
@@ -303,6 +313,9 @@
             <img src="/images/logos/logo-small-ciudadania-inteligente.svg" alt="logo-ciudadania-inteligente">
           </div>
           <div>
+            <img src="/images/logos/logo-small-civictech.svg" alt="logo-civictech">
+          </div>
+          <div>
             <img src="/images/logos/logo-small-iri.svg" alt="logo-iri">
           </div>
           <div>
@@ -318,10 +331,10 @@
           </li>
         </div>
         <div class="relative mt-7 lg:mt-14">
-          <div>
+          <div class="absolute">
             <img src="/images/quotes.svg" alt="quotes">
           </div>
-          <div class="relative z-10 left-7 -top-7 w-80 md:w-full">
+          <div class="relative ml-7 pt-4 w-80 md:w-full">
             <p class="font-source-serif-pro text-base lg:text-xl">
               {{ T "page_accompaniment_testimony_diversify_your_financing" | safeHTML }}
             </p>
@@ -344,7 +357,8 @@
   </section>
 
   <!-- PARA PONER EN PRÁCTICA TUS APRENDIZAJES -->
-  <section id="para-poner-en-practica-tus-aprendizajes" class="container px-4 py-8 lg:py-16 border-t-2 border-chocolate">
+  <section id="para-poner-en-practica-tus-aprendizajes"
+    class="container px-4 py-8 lg:py-16 border-t-2 border-chocolate">
     <div class="flex flex-row gap-5 items-center">
       <img class="w-14 h-14" src="/images/green-star.svg" alt="green-star">
       <h3 class="accordion-subtitle text-3xl lg:text-4xl">
@@ -382,10 +396,10 @@
           </li>
         </div>
         <div class="relative mt-14">
-          <div>
+          <div class="absolute">
             <img src="/images/quotes.svg" alt="quotes">
           </div>
-          <div class="relative z-10 left-7 -top-7 w-80 md:w-full">
+          <div class="relative ml-7 pt-4 w-80 md:w-full">
             <p class="font-source-serif-pro text-base lg:text-xl">
               {{ T "page_accompaniment_testimony_practice_your_learning" | safeHTML }}
             </p>
@@ -450,10 +464,10 @@
           </li>
         </div>
         <div class="relative mt-7 lg:mt-14">
-          <div>
+          <div class="absolute">
             <img src="/images/quotes.svg" alt="quotes">
           </div>
-          <div class="relative z-10 left-7 -top-7 w-80 md:w-full">
+          <div class="relative ml-7 pt-4 w-80 md:w-full">
             <p class="font-source-serif-pro text-base lg:text-xl">
               {{ T "page_accompaniment_testimony_organization_or_network" | safeHTML }}
             </p>
@@ -476,7 +490,8 @@
   </section>
 
   <!-- PARA IMPULSAR UNA TRANSFORMACIÓN EN TU EQUIPO -->
-  <section id="para-impulsar-una-transformacion-en-tu-equipo" class="container px-4 py-8 lg:py-16 border-t-2 border-chocolate">
+  <section id="para-impulsar-una-transformacion-en-tu-equipo"
+    class="container px-4 py-8 lg:py-16 border-t-2 border-chocolate">
     <div class="flex flex-row gap-5 items-center">
       <img class="w-14 h-14" src="/images/green-star.svg" alt="green-star">
       <h3 class="accordion-subtitle text-3xl lg:text-4xl">
@@ -514,10 +529,10 @@
           </li>
         </div>
         <div class="relative mt-14">
-          <div>
+          <div class="absolute">
             <img src="/images/quotes.svg" alt="quotes">
           </div>
-          <div class="relative z-10 left-7 -top-7 w-80 md:w-full">
+          <div class="relative ml-7 pt-4 w-80 md:w-full">
             <p class="font-source-serif-pro text-base lg:text-xl">
               {{ T "page_accompaniment_testimony_transformation_in_your_team" | safeHTML }}
             </p>
@@ -543,7 +558,8 @@
   </section>
 
   <!-- PARA ENTENDER Y FORTALECER TU ECOSISTEMA -->
-  <section id="para-entender-y-fortalecer-tu-ecosistema" class="container lg:container-lg px-4 py-8 lg:py-16 border-t-2 border-chocolate">
+  <section id="para-entender-y-fortalecer-tu-ecosistema"
+    class="container lg:container-lg px-4 py-8 lg:py-16 border-t-2 border-chocolate">
     <div class="flex flex-row gap-5 items-center">
       <img class="w-14 h-14" src="/images/green-star.svg" alt="green-star">
       <h3 class="accordion-subtitle text-3xl lg:text-4xl">
@@ -593,10 +609,10 @@
           </li>
         </div>
         <div class="relative mt-7 lg:mt-14">
-          <div>
+          <div class="absolute">
             <img src="/images/quotes.svg" alt="quotes">
           </div>
-          <div class="relative z-10 left-7 -top-7 w-80 md:w-full">
+          <div class="relative ml-7 pt-4 w-80 md:w-full">
             <p class="font-source-serif-pro text-base lg:text-xl">
               {{ T "page_accompaniment_testimony_strengthen_your_ecosystem" | safeHTML }}
             </p>
@@ -644,10 +660,12 @@
 {{ end }}
 
 {{ define "head" }}
-<link rel="stylesheet" href="https://unpkg.com/swiper@6.7.0/swiper-bundle.min.css">
+  {{ $swiper := resources.Get "styles/swiper.pcss" | postCSS | fingerprint }}
+  <link rel="stylesheet" href="https://unpkg.com/swiper@6.7.0/swiper-bundle.min.css">
+  <link rel="stylesheet" href="{{ $swiper.Permalink }}">
 {{ end }}
 
 {{ define "js" }}
-{{ $services := resources.Get "js/services.js" | js.Build (dict "minify" true)}}
-<script src="{{ $services.Permalink }}"></script>
+  {{ $services := resources.Get "js/services.js" | js.Build (dict "minify" true)}}
+  <script src="{{ $services.Permalink }}"></script>
 {{ end }}

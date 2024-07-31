@@ -1,46 +1,47 @@
-{{ $has_social_media := or .instagram .twitter .linkedin }}
-<div class="section-row items-start">
-  <div class="section-col lg:px-12 lg:pt-1">
-    <div class="aspect-w-1 aspect-h-1">
-      <img class="object-cover object-top" src="{{ .image | absURL }}" alt="">
-    </div>
-  </div>
+<div class="section-row bg-white h-full lg:h-96">
   <div class="section-col">
-    <h3 class="text-fire-opal font-source-serif-pro font-bold text-3xl">
+    <img class="object-cover object-top h-full w-full" src="{{ .image | absURL }}" alt="">
+    <!-- <div class="h-full">
+    </div> -->
+  </div>
+  <div class="section-col p-5 flex flex-col justify-between">
+    <h3 class="text-fire-opal font-source-serif-pro font-bold text-2xl lg:text-3xl">
       {{ .name }}
     </h3>
-    <p class="font-source-serif-pro font-bold text-xl">
+    <p class="font-source-serif-pro font-bold text-lg lg:text-xl">
       {{ .role }}
     </p>
-    <div class="mt-6 md-content">{{ .about }}</div>
-    {{ if $has_social_media }}
-      <div class="mt-6 pb-1 inline-flex items-center font-bold text-base uppercase tracking-wide flex-wrap gap-1">
+    <div class="mt-6 md-content line-clamp-6">{{ .about }}</div>
+    <div class="mt-6 flex justify-between items-center">
+      <div class="flex items-center font-bold text-base uppercase tracking-wide flex-wrap gap-2.5">
         {{ if .linkedin }}
-          <a href="{{ printf "https://www.linkedin.com/in/%s/" .linkedin }}" target="_blank" class="mr-6 flex items-center space-x-2 hover:text-fire-opal">
+          <a href="{{ printf "https://www.linkedin.com/in/%s/" .linkedin }}" target="_blank" class="hover:text-fire-opal">
             <img src="{{ "images/linkedin.svg" | absURL }}" alt="">
-            <span>{{ .linkedin }}</span>
           </a>
         {{ end }}
         {{ if .twitter }}
-          <a href="{{ printf "https://twitter.com/%s" .twitter }}" target="_blank" class="mr-6 flex items-center space-x-2 hover:text-fire-opal">
-            <img src="{{ "images/twitter.svg" | absURL }}" alt="">
-            <span>{{ .twitter }}</span>
+          <a href="{{ printf "https://twitter.com/%s" .twitter }}" target="_blank" class="hover:text-fire-opal">
+            <img src="{{ "images/x-twitter-icon.svg" | absURL }}" alt="">
           </a>
         {{ end }}
         {{ if .instagram }}
-          <a href="{{ printf "https://instagram.com/%s" .instagram }}" target="_blank" class="flex items-center space-x-2 hover:text-fire-opal">
+          <a href="{{ printf "https://instagram.com/%s" .instagram }}" target="_blank" class="hover:text-fire-opal">
             <img src="{{ "images/instagram.svg" | absURL }}" alt="">
-            <span>{{ .instagram }}</span>
           </a>
         {{ end }}
       </div>
-    {{ end }}
-    {{ if .readmore }}
+      <div>
+        <button data-modal="{{ .id }}" class="site-link hover:text-fire-opal">
+          {{ T "action_read_more" }}
+        </button>
+      </div>
+    </div>
+    <!-- {{ if .readmore }}
       <div class="">
         <button data-modal="{{ .id }}" class="mt-6 site-link hover:text-fire-opal">
           {{ T "action_read_more" }}
         </button>
       </div>
-    {{ end }}
+    {{ end }} -->
   </div>
 </div>

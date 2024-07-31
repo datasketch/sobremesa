@@ -9,6 +9,7 @@ target: Organizations that want to explore where the donors are, who can finance
   their projects and teams.
 draft: false
 entry: true
+section: Herramientas de La Sobremesa
 ---
 <!--StartFragment-->
 

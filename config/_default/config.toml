@@ -15,3 +15,6 @@ paginate = 8
     contentDir = "content/en"
     languageName = "English"
     weight = 2
+
+[markup.goldmark.renderer]
+  unsafe= true
