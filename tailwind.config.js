@@ -18,6 +18,8 @@ module.exports = {
         "md:bg-accompaniment-lg-en",
         "-left-full",
         "left-0",
+        "modal-wrapper",
+        "is-open",
       ],
     },
   },
@@ -87,8 +89,8 @@ module.exports = {
     extend: {},
   },
   plugins: [
-    require('@tailwindcss/aspect-ratio'),
-    require('@tailwindcss/line-clamp')
+    require("@tailwindcss/aspect-ratio"),
+    require("@tailwindcss/line-clamp"),
   ],
   corePlugins: {
     container: false,
