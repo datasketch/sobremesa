@@ -77,6 +77,6 @@
 {{ end }}
 
 {{ define "js" }}
-  {{ $do := resources.Get "js/do.js" | js.Build (dict "minify" true)}}
+  {{ $do := resources.Get "js/do.js" | js.Build (dict "minify" false)}}
   <script src="{{ $do.Permalink }}"></script>
 {{ end }}

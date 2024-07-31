@@ -52,7 +52,7 @@
     </div>
   </div>
 </section>
-<section class="px-4 pt-16 pb-32">
+<section class="px-4 pt-8 lg:pt-16 lg:pb-32">
   <div class="container">
     <h2 class="section-title text-center">
       {{- T "label_what_do_we_do" -}}
@@ -61,7 +61,7 @@
       <div class="max-w-sm mx-auto">
         <img class="mx-auto h-48 object-center object-contain" src="{{ "images/guide-sketch.png" | absURL }}" alt="">
         <div class="flex flex-col">
-          <div class="flex flex-row justify-start items-start -ml-10">
+          <div class="flex flex-row justify-start items-start lg:-ml-10">
             <img class="h-10 object-center object-contain" src="{{ "images/red-star.svg" | absURL }}" alt="">
             <h3 class="mt-4 font-source-serif-pro text-3xl text-left">
               {{ T "page_home_services_first_title" }}
@@ -71,7 +71,7 @@
             {{ T "page_home_services_first_hl" }}
           </h3>
         </div>
-        <p class="mt-6 text-lg">
+        <p class="mt-6 text-base lg:text-lg">
           {{- T "page_home_services_first_desc" -}}
         </p>
         <a href="{{ relref . "acompanamiento" }}" class="mt-8 site-link hover:text-fire-opal">{{- T "action_read_about_accompaniment" -}}</a>
@@ -79,7 +79,7 @@
       <div class="max-w-sm mx-auto">
         <img class="mx-auto h-48 object-center object-contain" src="{{ "images/conversation-sketch.png" | absURL }}" alt="">
         <div class="flex flex-col">
-          <div class="flex flex-row justify-start items-start -ml-10">
+          <div class="flex flex-row justify-start items-start lg:-ml-10">
             <img class="h-10 object-center object-contain" src="{{ "images/yellow-star.svg" | absURL }}" alt="">
             <h3 class="mt-4 font-source-serif-pro text-3xl text-left">
               {{ T "page_home_services_second_title" }}
@@ -89,7 +89,7 @@
             {{ T "page_home_services_second_hl" }}
           </h3>
         </div>
-        <p class="mt-6 text-lg">
+        <p class="mt-6 text-base lg:text-lg">
           {{- T "page_home_services_second_desc" -}}
         </p>
         <a href="{{ relref . "espacios" }}" class="mt-8 site-link hover:text-gold-metallic">{{- T "action_join_spaces" -}}</a>
@@ -97,7 +97,7 @@
       <div class="max-w-sm mx-auto">
         <img class="mx-auto h-48 object-center object-contain" src="{{ "images/resources-sketch.png" | absURL }}" alt="">
         <div class="flex flex-col">
-          <div class="flex flex-row justify-start items-start -ml-10">
+          <div class="flex flex-row justify-start items-start lg:-ml-10">
             <img class="h-10 object-center object-contain" src="{{ "images/green-star.svg" | absURL }}" alt="">
             <h3 class="mt-4 font-source-serif-pro text-3xl text-left">
               {{ T "page_home_services_third_title" }}
@@ -107,7 +107,7 @@
             {{ T "page_home_services_third_hl" }}
           </h3>
         </div>
-        <p class="mt-6 text-lg">
+        <p class="mt-6 text-base lg:text-lg">
           {{- T "page_home_services_third_desc" -}}
         </p>
         <a href="{{ relref . "herramientas" }}" class="mt-8 site-link hover:text-darmouth-green">{{ T "action_explore_resources" }}</a>
@@ -117,12 +117,12 @@
 </section>
 <section class="px-4 pb-16">
   <div class="pt-8 md:pt-16" id="tabs-container">
-    <div class='home-banner bg-top pt-40 {{ print "bg-accompaniment-sm-" .Site.Language.Lang " " "md:bg-accompaniment-lg-" .Site.Language.Lang }}'>
-      <h2 class="section-title leading-extra-tight text-center text-fire-opal">
+    <div class='home-banner bg-top lg:pt-40 {{ print "bg-accompaniment-sm-" .Site.Language.Lang " " "md:bg-accompaniment-lg-" .Site.Language.Lang }}'>
+      <h2 class="mt-16 lg:mt-0 section-title leading-extra-tight text-center text-fire-opal">
         {{- T "page_home_accompaniment_title" -}}
       </h2>
     </div>
-    <div class="flex items-start justify-center space-x-14 mt-14" id="tabs-triggers">
+    <div class="flex flex-col lg:flex-row lg:items-start items-center justify-center lg:space-x-14 mt-14" id="tabs-triggers">
       <button class="tab-trigger tab-trigger--active" data-filter="*">{{ T "label_all" }}</button>
       <button class="tab-trigger" data-filter="organizaciones">{{ T "label_orgs" }}</button>
       <button class="tab-trigger" data-filter="redes">{{ T "label_networks" }}</button>
