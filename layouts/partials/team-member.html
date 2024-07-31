@@ -30,14 +30,18 @@
           </a>
         {{ end }}
       </div>
-      <button class="site-link">{{ T "action_read_more" }}</button>
+      <div>
+        <button data-modal="{{ .id }}" class="site-link hover:text-fire-opal">
+          {{ T "action_read_more" }}
+        </button>
+      </div>
     </div>
-    {{ if .readmore }}
+    <!-- {{ if .readmore }}
       <div class="">
         <button data-modal="{{ .id }}" class="mt-6 site-link hover:text-fire-opal">
           {{ T "action_read_more" }}
         </button>
       </div>
-    {{ end }}
+    {{ end }} -->
   </div>
 </div>

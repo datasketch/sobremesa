@@ -191,12 +191,13 @@
                       <p class="font-bold">{{ .contact }}</p>
                       <p>
                         {{ if findRE `\[.*?\]\(.*?\)` .role }}
-                          {{ $roleText := replaceRE `\[(.*?)\]\(.*?\)` `$1` .role }}
-                          {{ $roleURLs := findRE `\((.*?)\)` .role }}
-                          {{ $roleURL := index $roleURLs 0 | replaceRE `[()]` "" }}
-                          <a class="text-chocolate opacity-60" target="_blank" href="{{ $roleURL }}">{{ $roleText }}</a>
+                        {{ $roleText := replaceRE `\[([^\]]+)\]\([^\)]+\)` `$1` .role }}
+                        {{ $roleURLs := findRE `\((.*?)\)` .role }}
+                        {{ $roleURL := index $roleURLs 0 | replaceRE `[()]` "" }}
+                        {{ $finalText := replaceRE `\[(.*?)\]\((.*?)\)` `<a class="text-chocolate opacity-60 font-semibold underline underline-offset-4" target="_blank" href="$2">$1</a>` .role }}
+                        {{ $finalText | safeHTML }}
                         {{ else }}
-                          {{ .role }}
+                        {{ .role }}
                         {{ end }}
                       </p>
                     </div>

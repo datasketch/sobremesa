@@ -1,8 +1,9 @@
 {{ $has_social_media := or .instagram .twitter }}
-<div class="modal-wrapper" id="{{ .id }}" tabindex="-1" role="dialog" aria-labelledby="team-name" aria-describedby="team-answer">
-  <div class="w-full bg-linen m-auto p-4 md:py-8 lg:max-w-5xl lg:pt-16">
+<div class="modal-wrapper" id="{{ .id }}" tabindex="-1" role="dialog" aria-labelledby="team-name"
+  aria-describedby="team-answer">
+  <div class="w-full bg-linen m-auto p-4 md:p-8 lg:max-w-5xl lg:pt-16">
     <div class="section-row items-center lg:items-start">
-      <div class="w-full md:w-2/3 lg:w-1/2 lg:pr-20">
+      <div class="w-full md:w-2/3 lg:w-1/3 lg:pr-20">
         <div class="mx-auto lg:w-56 lg:mr-0">
           <div class="aspect-w-1 aspect-h-1">
             <img class="object-cover object-left-top" src="{{ .image | absURL }}" alt="">
@@ -14,28 +15,40 @@
           </p>
           <p class="font-source-serif-pro font-normal">{{ .role }}</p>
           {{ if $has_social_media }}
-            <div class="mt-2 pb-1 inline-flex items-center font-bold text-base uppercase tracking-wide">
-              {{ if .twitter }}
-                <a href="{{ printf "https://twitter.com/%s" .twitter }}" target="_blank" class="mr-6 flex items-center space-x-2 hover:text-fire-opal">
-                  <img src="{{ "images/twitter.svg" | absURL }}" alt="">
-                  <span>{{ .twitter }}</span>
-                </a>
-              {{ end }}
-              {{ if .instagram }}
-                <a href="{{ printf "https://instagram.com/%s" .instagram }}" target="_blank" class="flex items-center space-x-2 hover:text-fire-opal">
-                  <img src="{{ "images/instagram.svg" | absURL }}" alt="">
-                  <span>{{ .instagram }}</span>
-                </a>
-              {{ end }}
-            </div>
+          <div class="mt-2 pb-1 inline-flex items-center font-bold text-base uppercase tracking-wide">
+            {{ if .twitter }}
+            <a href="{{ printf "https://twitter.com/%s" .twitter }}" target="_blank"
+              class="mr-6 flex items-center space-x-2 hover:text-fire-opal">
+              <img src="{{ "images/x-twitter-icon.svg" | absURL }}" alt="">
+              <span>{{ .twitter }}</span>
+            </a>
+            {{ end }}
+            {{ if .instagram }}
+            <a href="{{ printf "https://instagram.com/%s" .instagram }}" target="_blank"
+              class="flex items-center space-x-2 hover:text-fire-opal">
+              <img src="{{ "images/instagram.svg" | absURL }}" alt="">
+              <span>{{ .instagram }}</span>
+            </a>
+            {{ end }}
+          </div>
           {{ end }}
         </div>
       </div>
-      <div class="w-full md:w-2/3 lg:w-1/2 lg:max-w-sm">
+      <div class="w-full md:w-2/3 lg:w-2/3">
         <h2 class="font-source-serif-pro font-bold text-2xl leading-tight">
           {{T "page_who_we_are_read_more"}}
         </h2>
-        <p class="mt-6" id="team-answer">{{ .readmore }}</p>
+        <p class="mt-6" id="team-answer">
+          {{ if findRE `\[.*?\]\(.*?\)` .about }}
+          {{ $aboutText := replaceRE `\[([^\]]+)\]\([^\)]+\)` `$1` .about }}
+          {{ $aboutURLs := findRE `\((.*?)\)` .about }}
+          {{ $aboutURL := index $aboutURLs 0 | replaceRE `[()]` "" }}
+          {{ $finalText := replaceRE `\[(.*?)\]\((.*?)\)` `<a class="text-chocolate font-semibold underline underline-offset-4" target="_blank" href="$2">$1</a>` .about }}
+          {{ $finalText | safeHTML }}
+          {{ else }}
+          {{ .about }}
+          {{ end }}
+        </p>
       </div>
     </div>
     <div class="text-center mt-12">

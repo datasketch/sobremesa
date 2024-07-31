@@ -12,7 +12,7 @@
 <section class="container px-4 pt-8 md:pt-0 pb-24">
   <div class="grid grid-cols-1 gap-12 lg:grid-cols-2 md:gap-14">
     {{ range $data.team }}
-      {{ $member := dict "image" .image "name" .name "role" .role "about" ($.RenderString .about) "linkedin" .linkedin "instagram" .instagram "twitter" .twitter "readmore" .readmore }}
+      {{ $member := dict "id" .id "image" .image "name" .name "role" .role "about" ($.RenderString .about) "linkedin" .linkedin "instagram" .instagram "twitter" .twitter "readmore" .readmore }}
       {{ partial "team-member.html" $member }}
     {{ end }}
   </div>
