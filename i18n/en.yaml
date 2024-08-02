@@ -304,6 +304,16 @@
   translation: tools
 - id: page_home_services_third_title
   translation: We curate
+- id: page_home_first_tool
+  translation: How to Create a Sustainability Plan
+- id: page_home_second_tool
+  translation: Competitor Analysis
+- id: page_home_third_tool
+  translation: Donor Intelligence
+- id: page_home_fourth_tool
+  translation: Project Ranking
+- id: page_home_fifth_tool
+  translation:  6 Steps to Create Your Annual Plan
 - id: page_home_talk_trend
   translation: What are we discussing?
 - id: page_spaces_card_footer
@@ -348,7 +358,7 @@
     to improve accompaniment practices, we need to listen to the voices of the
     people who are receiving this support.
 - id: page_spaces_title
-  translation: Our spaces
+  translation: Learning Spaces
 - id: page_spaces_today
   translation: In today's spaces, we’re discussing
 - id: page_spaces_learning

@@ -8,9 +8,9 @@
   </h2>
   <span class="font-beth-ellen text-xl relative z-10 -ml-8">{{ T "label_with" }} La Sobremesa</span>
 </div>
-<section class="bg-alabaster pt-10 px-10 pb-4 lg:pl-28 lg:pr-24 lg:pt-36 lg:pb-32 mt-14">
-  <div>
-    <img class="lg:w-3/5 flex-shrink-0" src='{{ "images/cursos/sostenibilidad-financiera-header.svg" | absURL }}' alt="" />
+<a href='{{ absURL "/cursos/sostenibilidad-financiera" }}' class="bg-alabaster pt-10 px-10 pb-4 lg:pl-28 lg:pr-24 lg:pt-36 lg:pb-32 mt-14 flex w-full flex flex-col">
+  <div class="lg:w-3/5 w-full flex-shrink-0">
+    <img src='{{ "images/cursos/sostenibilidad-financiera-header.svg" | absURL }}' alt="" />
   </div>
   <div class="flex flex-col lg:flex-row items-center mt-7 lg:mt-14 lg:pl-6">
     <div class="md:w-1/2">
@@ -26,7 +26,7 @@
       </p>
     </div>
   </div>
-</section>
+</a>
 <div class="bg-pear p-10 lg:hidden w-full md:w-1/2">
   <p class="font-semibold">
     Un curso virtual, donde crearás tu propio Plan de Sostenibilidad
@@ -52,7 +52,7 @@
       <img src="/images/blue-bubble-spaces-es.svg" alt="blue-bubble-spaces-es">
     </div>
   </div>
-  <div>
+  <!-- <div>
     <p class="font-source-sans-pro mt-5 lg:mt-0 text-2xl lg:text-3xl font-bold text-fire-opal">
       {{ T "page_spaces_conversations_playlist" }}
     </p>
@@ -75,11 +75,10 @@
         <img class="w-14" src="/images/arrow-left.svg" alt="arrow-left">
       </div>
     </div>
-  </div>
-
+  </div> -->
 </section>
 
-<div class="container px-4 py-16">
+<div class="container px-4 py-4">
   <div class="section-row section-row-reverse items-center">
     <div class="section-col">
       <img class="mx-auto w-2/3" src="{{ (print "images/join-us-" .Site.Language.Lang ".png" ) | absURL }}" alt="">

@@ -36,11 +36,11 @@ In many Latin American countries, a "sobremesa" is the moment after a meal in wh
 
 ## How do we work? #{class="mt-16 section-title section-col-title text-chocolate"}
 
-> We are a group of designers and facilitators of processes. We work together with civil society organizations to better understand the roots of their challenges, generate ideas, and experiment with solutions.
+> We are a team of designers and facilitators of change processes, supporting civil society organizations to more deeply understand their challenges and co-create effective ideas and solutions.
 
-- We want a healthy and resilient civil society with trust at all levels - between donors and the organizations they support, between members of networks and coalitions, and between people on a team.
-- We lead with empathy, with the openness and vulnerability required to generate the necessary trust, and are inspired by feminist values ​​and practices.
-- We openly and honestly discuss the power dynamics at play in our relationships, in order to transform them.
-- We keep people at the center of our conversations and believe that everyone can benefit from time to think and rethink.
-- We believe that reflection and learning processes are just as important as final products.
-- We facilitate processes that adapt to you, your context and your challenges, while pushing you out of your comfort zone.
+- **We work towards a healthy and resilient civil society**, built on trust and collaboration at all levels: between donors and organizations, network and their members, and within organizations themselves.
+- **We facilitate with empathy, honesty, and vulnerability** to build trust with our partners, a practice rooted in feminist values and practices.
+- **We openly and honestly address the power dynamics** present in our relationships and the system, working to transform them towards greater equity.
+- **We keep people at the center of our work** because we believe they are the experts of their own realities and experiences. We provide them with the space to reflect, evolve, and learn.
+- **We believe that the processes of reflection and learning** are just as important as the final results. For us, the "how" we provide support is just as significant as the “what” or the final product.
+- **We facilitate personalized processes that adapt to you**, your specific needs, and challenges, motivating you to explore and grow beyond your comfort zone.

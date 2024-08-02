@@ -330,6 +330,16 @@
   translation: herramientas
 - id: page_home_services_third_title
   translation: Compartimos
+- id: page_home_first_tool
+  translation: Cómo crear un Plan de Sostenibilidad
+- id: page_home_second_tool
+  translation: Análisis de Competidores
+- id: page_home_third_tool
+  translation: Inteligencia del Donante
+- id: page_home_fourth_tool
+  translation: Ejercicio para rankear tus proyectos
+- id: page_home_fifth_tool
+  translation:  6 pasos para crear tu Plan Anual
 - id: page_home_talk_trend
   translation: ¿De qué estamos hablando?
 - id: page_spaces_card_footer
