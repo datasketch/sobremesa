@@ -4,6 +4,8 @@ title = "La Sobremesa"
 defaultContentLanguage = "es"
 taxonomies = []
 
+paginate = 8
+
 [languages]
   [languages.es]
     contentDir = "content/es"

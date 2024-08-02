@@ -10,6 +10,7 @@ target: Organizaciones que necesitan poner en práctica su Plan de Sostenibilida
 lastmod: 2024-06-24T13:22:55.829Z
 draft: false
 entry: true
+section: Herramientas de La Sobremesa
 ---
 <!--StartFragment-->
 

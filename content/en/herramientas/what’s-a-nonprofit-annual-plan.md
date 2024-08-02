@@ -7,6 +7,7 @@ creator: Pinky Vincent, NonProfitPro
 target: Líderes de organizaciones que quieran crear un Plan Anual.
 draft: false
 entry: true
+section: Otras herramientas recomendadas
 ---
 <!--StartFragment-->
 

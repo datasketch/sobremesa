@@ -10,5 +10,6 @@ target: Líderes y lideresas que quieren tomar el control de la sostenibilidad d
 lastmod: 2023-01-24T15:45:41.594Z
 draft: false
 entry: true
+section: Herramientas de La Sobremesa
 ---
 Un buen Plan de Sostenibilidad traza una ruta realista hacia la salud fiscal. En este artículo, encontrarás los 6 componentes de análisis a tomar en cuenta para realizar un plan estratégico de sostenibilidad: (1) Contexto estratégico; (2) Análisis de situación financiera; (3) Objetivos de sostenibilidad; (4) Proyecciones financieras; (5) Indicadores; y (6) Pitch.

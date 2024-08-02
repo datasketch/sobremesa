@@ -10,6 +10,7 @@ target: Organizaciones que quieren reflexionar sobre sus proyectos de una forma
 lastmod: 2023-08-29T16:33:30.259Z
 draft: false
 entry: true
+section: Herramientas de La Sobremesa
 ---
 <!--StartFragment-->
 

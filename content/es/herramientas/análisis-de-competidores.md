@@ -9,6 +9,7 @@ target: Para equipos que se quieren inspirar en las organizaciones parecidas a e
 lastmod: 2023-08-29T16:55:35.567Z
 draft: false
 entry: true
+section: Herramientas de La Sobremesa
 ---
 <!--StartFragment-->
 

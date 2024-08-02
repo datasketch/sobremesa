@@ -8,6 +8,7 @@ target: Organizaciones interesadas en generar un "cambio sistémico", en
   particular, las que trabajan para promover la equidad.
 draft: false
 entry: true
+section: Herramientas de La Sobremesa
 ---
 <!--StartFragment-->
 

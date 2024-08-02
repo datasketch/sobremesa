@@ -11,6 +11,7 @@ target: Organizaciones de sociedad civil que necesitan apoyo en cómo crear un
 lastmod: 2024-01-24T20:04:49.499Z
 draft: false
 entry: true
+section: Herramientas de La Sobremesa
 ---
 <!--StartFragment-->
 

@@ -10,6 +10,7 @@ target: Civil society organizations that need to define their objectives, plan
   achieve the expected results.
 draft: false
 entry: true
+section: Herramientas de La Sobremesa
 ---
 <!--StartFragment-->
 

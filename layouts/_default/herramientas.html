@@ -1,21 +1,98 @@
 {{ define "main" }}
-{{ partial "page-header.html" (dict "title" (T "label_tools") "description" (T "page_tools_desc") "image" "images/resources-section.png")}}
+{{ partial "page-header.html" (dict "title" (T "label_tools") "description" (T "page_tools_desc") "image"
+"images/resources-section.png")}}
 <section class="px-4 py-16">
-  <div class="container-lg">
-    <h2 class="font-source-serif-pro text-4xl font-bold text-darmouth-green">
-      {{ T "page_tools_used" }}
-    </h2>
-    <div class="mt-6 grid gap-8 md:grid-cols-2 xl:grid-cols-3">
-      {{ range .Pages.ByLastmod.Reverse }}
-        {{ partial "resource-card.html" . }}
+  <!-- SECCIÓN FILTROS -->
+  <div id="filters" class="container-lg flex flex-row gap-2">
+    <div class="w-1/2">
+      <input class="w-full py-4 px-3 border border-chocolate text-base font-source-sans-pro font-semibold" type="text"
+        id="searchInput" placeholder="Palabra clave" />
+    </div>
+    <div class="w-1/2 flex flex-col lg:flex-row gap-2">
+      <select class="w-56 py-4 px-3 border border-chocolate text-base font-source-sans-pro font-semibold"
+        id="topicSelect">
+        <option value="">Tema</option>
+        <option value="mision">Misión</option>
+        <option value="vision">Visión</option>
+        <option value="teoriaDeCambio">Teoría de Cambio</option>
+        <option value="estrategias">Estrategias</option>
+        <option value="retirosAnuales">Retiros Anuales</option>
+        <option value="planeacion">Planeación</option>
+        <option value="diseñoDeProyectos">Diseño de proyectos</option>
+        <option value="creaciónDeRedesYOrganizaciones
+        ">Creación de redes y organizaciones</option>
+        <option value="sostenibilidadFinanciera">Sostenibilidad financiera</option>
+        <option value="monitoreoEvaluaciónYAprendizaje">Monitoreo, Evaluación y Aprendizaje</option>
+        <option value="transiciones">Transiciones</option>
+        <option value="nuevosLiderazgos">Nuevos liderazgos</option>
+        <option value="equipoSano">Equipo sano</option>
+      </select>
+      <select class="w-56 py-4 px-3 border border-chocolate text-base font-source-sans-pro font-semibold"
+        id="languageSelect">
+        <option value="">Idioma</option>
+        <option value="es">Español</option>
+        <option value="en">Inglés</option>
+      </select>
+      <select class="w-56 py-4 px-3 border border-chocolate text-base font-source-sans-pro font-semibold"
+        id="forWhoSelect">
+        <option value="">Para quién</option>
+        <option value="organizaciones">Organizaciones</option>
+        <option value="lideres">Líderes</option>
+        <option value="redes">Redes</option>
+        <option value="donantes">Donantes</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- CARDS -->
+  <div class="container-lg mt-20">
+    <div class="flex flex-col lg:flex-row justify-between">
+      <!-- Herramientas de La Sobremesa -->
+      <div class="w-1/3">
+        <h2 class="font-source-serif-pro text-4xl font-bold text-darmouth-green">
+          {{ T "page_tools_used" }}
+        </h2>
+      </div>
+      <div class="w-2/3 font-source-serif-pro text-2xl font-semibold">
+        {{ T "page_tools_used_description" }}
+      </div>
+    </div>
+    <div id="items" class="mt-6 grid gap-8 md:grid-cols-2 xl:grid-cols-4 lg:mt-24">
+      {{ range .Paginator.Pages.ByLastmod.Reverse }}
+      {{ if eq .Params.section "Herramientas de La Sobremesa" }}
+      {{ partial "resource-card.html" . }}
+      {{ end }}
       {{ end }}
     </div>
+    {{partial "pagination" .}}
+  </div>
+
+  <div class="container-lg mt-20">
+    <div class="flex flex-col lg:flex-row justify-between">
+      <!-- Otras herramientas recomendadas -->
+      <div class="w-1/3">
+        <h2 class="font-source-serif-pro text-4xl font-bold text-darmouth-green">
+          {{ T "page_tools_recommended" }}
+        </h2>
+      </div>
+      <div class="w-2/3 font-source-serif-pro text-2xl font-semibold">
+        {{ T "page_tools_recommended_description" }}
+      </div>
+    </div>
+    <div id="items" class="mt-6 grid gap-8 md:grid-cols-2 xl:grid-cols-4 lg:mt-24">
+      {{ range .Paginator.Pages.ByLastmod.Reverse }}
+      {{ if eq .Params.section "Otras herramientas recomendadas" }}
+      {{ partial "resource-card.html" . }}
+      {{ end }}
+      {{ end }}
+    </div>
+    {{partial "pagination" .}}
   </div>
 </section>
 <div class="container px-4 py-16">
   <div class="section-row section-row-reverse items-center">
     <div class="section-col">
-      <img class="mx-auto w-2/3" src="{{ (print "images/join-us-" .Site.Language.Lang ".png") | absURL }}" alt="">
+      <img class="mx-auto w-2/3" src="{{ (print " images/join-us-" .Site.Language.Lang ".png" ) | absURL }}" alt="">
     </div>
     <div class="section-col text-center">
       <h2 class="section-title-md leading-extra-tight">
@@ -32,12 +109,89 @@
     </div>
   </div>
 </div>
+
 {{ range where .Pages "Params.draft" false }}
-  {{ partial "resource-modal.html" . }}
+{{ partial "resource-modal.html" . }}
 {{ end }}
 {{ end }}
 
 {{ define "js" }}
-  {{ $do := resources.Get "js/do.js" | js.Build (dict "minify" true)}}
-  <script src="{{ $do.Permalink }}"></script>
+{{ $do := resources.Get "js/do.js" | js.Build (dict "minify" true)}}
+<script src="{{ $do.Permalink }}"></script>
+<script>
+  const searchInput = document.getElementById('searchInput')
+
+  function filterItems() {
+    const query = searchInput.value.toLowerCase();
+    const tema = document.getElementById('topicSelect').value;
+    const idioma = document.getElementById('languageSelect').value;
+    const paraQuien = document.getElementById('forWhoSelect').value;
+
+    const items = document.querySelectorAll('.item');
+    let filteredItems = []
+
+    items.forEach(item => {
+      const title = item.getAttribute('data-title').toLowerCase();
+      const topic = item.getAttribute('data-topic');
+      const language = item.getAttribute('data-language');
+      const target = item.getAttribute('data-target');
+
+      const matchQuery = title.includes(query);
+      /* console.log(title, matchQuery); */
+      const matchTema = tema === "" || topic === tema;
+      console.log(tema, matchTema);
+      const matchIdioma = idioma === "" || language === idioma;
+      const matchParaQuien = paraQuien === "" || target === paraQuien;
+
+      // item.classList.remove('hidden')
+
+      if (!matchQuery || !matchTema /* || matchIdioma || matchParaQuien */) {
+        /* console.log("filtra"); */
+        // filteredItems.push(item);
+        // console.log(filteredItems, 'filteredItems')
+        // item.classList.add('block')
+        item.classList.add('hidden')
+      } else {
+        item.classList.remove('hidden')
+      }
+
+    });
+  }
+
+  searchInput.addEventListener('input', filterItems);
+  document.getElementById('topicSelect').addEventListener('change', filterItems);
+  document.getElementById('languageSelect').addEventListener('change', filterItems);
+  document.getElementById('forWhoSelect').addEventListener('change', filterItems);
+
+  /* filterItems() */
+</script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const shareButtons = document.querySelectorAll('.share-button');
+    const shareTooltips = document.querySelectorAll('.share-tooltip');
+    const closeModalButtons = document.querySelectorAll('.close-modal');
+    const modalWrappers = document.querySelectorAll('.modal-wrapper');
+
+    /* shareButtons.forEach((button, i) => button.addEventListener('click', () => {
+      shareTooltips[i].classList.toggle('hidden')
+    })) */
+    shareButtons.forEach((button, i) => button.addEventListener('click', () => {
+      const tooltip = shareTooltips[i];
+      tooltip.classList.toggle('hidden');
+      if (!tooltip.classList.contains('hidden')) {
+        tooltip.style.display = 'flex';
+        tooltip.style.flexDirection = 'row';
+        tooltip.style.gap = '0.5rem';  // equivalente a gap-2 en Tailwind CSS
+      } else {
+        tooltip.style.display = '';
+        tooltip.style.flexDirection = '';
+        tooltip.style.gap = '';
+      }
+    }));
+
+    closeModalButtons.forEach((button, i) => button.addEventListener('click', () => {
+      modalWrappers[i].classList.toggle('is-open')
+    }))
+  });
+</script>
 {{ end }}
