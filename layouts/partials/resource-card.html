@@ -1,69 +1,69 @@
-{{ $border_class := "" }}
-{{ $bg_class := "" }}
-{{ $text_class := "" }}
-{{ if in (slice "guide" "book" "report") .Params.genre }}
-  {{ $border_class = "border-darmouth-green" }}
-  {{ $text_class = "text-darmouth-green" }}
-  {{ $bg_class = "bg-darmouth-green" }}
-{{ else if in (slice "website" "tool") .Params.genre }}
-  {{ $border_class = "border-maximum-green" }}
-  {{ $text_class = "text-maximum-green" }}
-  {{ $bg_class = "bg-maximum-green" }}
-{{ else if in (slice "blogpost") .Params.genre }}
-  {{ $border_class = "border-fern-green" }}
-  {{ $text_class = "text-fern-green" }}
-  {{ $bg_class = "bg-fern-green" }}
-{{ else if in (slice "methodology") .Params.genre }}
-  {{ $border_class = "border-office-green" }}
-  {{ $text_class = "text-office-green" }}
-  {{ $bg_class = "bg-office-green" }}
-{{ else if in (slice "template") .Params.genre }}
-  {{ $border_class = "border-office-green-2" }}
-  {{ $text_class = "text-office-green-2" }}
-  {{ $bg_class = "bg-office-green-2" }}
-{{ else if in (slice "repository") .Params.genre }}
-  {{ $border_class = "border-pakistan-green" }}
-  {{ $text_class = "text-pakistan-green" }}
-  {{ $bg_class = "bg-pakistan-green" }}
-{{ else }}
-  {{ $border_class = "border-pine-green" }}
-  {{ $text_class = "text-pine-green" }}
-  {{ $bg_class = "bg-pine-green" }}
-{{ end }}
-
-<div class="resource-card {{ $border_class }}">
-  <div class="resource-image">
-    <img src="{{ .Params.clip }}" alt="">
-  </div>
-  <div class="resource-content">
-    <div class="resource-body">
-      <div class="flex items-center gap-x-2 resource-type {{ $text_class }}">
-        <span>
-          {{ T (print "label_" .Params.genre) }}
-        </span>
-        {{ if .Params.topic }}
-          <span>
-            -
-          </span>
-          <span>
-            {{ T (print "label_" .Params.topic) }}
-          </span>
-        {{ end }}
+<div>
+  <div class="flex items-stretch gap-x-5">
+    <div class="w-1/3">
+      <div class="aspect-w-1 aspect-h-1 border-2 border-darmouth-green">
+        <img
+          class="w-full h-full object-cover object-center"
+          src="{{ .Params.clip }}"
+          alt=""
+        />
       </div>
-      <h3 class="resource-title">
-        {{ .Title }}
-      </h3>
-      <p class="resource-source">
-        {{ .Params.creator }}
-      </p>
     </div>
-    <div class="resource-buttons">
-      <button data-modal="{{ .Params.resource_url }}" class="mr-4 mb-4 px-4 py-2 leading-tight text-white font-bold text-lg hover:bg-chocolate {{ $bg_class }}">
+    <div class="w-2/3 flex flex-col justify-between">
+      <div>
+        <h3
+          class="text-lg font-semibold font-source-serif-pro leading-none line-clamp-2"
+        >
+          {{ .Title }}
+        </h3>
+      </div>
+      <div>
+        <ul class="font-bold text-darmouth-green flex items-center gap-x-0.5">
+          <li>Tema</li>
+          <li class="w-px bg-darmouth-green h-4">&nbsp;</li>
+          <li>Idioma</li>
+          <li class="w-px bg-darmouth-green h-4">&nbsp;</li>
+          <li>Para quién</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="mt-5 flex gap-x-3">
+    <div class="w-1/2">
+      <button
+        data-modal="{{ .Params.resource_url }}"
+        class="text-white bg-darmouth-green w-full inline-block text-center py-2 px-3 text-sm font-bold"
+      >
         {{ T "action_read_more" }}
       </button>
-      <a href="{{ .Params.resource_url }}" class="mr-4 mb-4 px-4 py-2 text-white font-bold text-lg hover:bg-chocolate {{ $bg_class }}" target="_blank">
+    </div>
+    <div class="w-1/2">
+      <a
+        href="{{ .Params.resource_url }}"
+        class="text-white bg-darmouth-green w-full inline-block text-center py-2 px-3 text-sm font-bold"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         {{ T "action_visit_tool" }}
       </a>
     </div>
   </div>
 </div>
+
+{{/*
+<div class="">
+  <button
+    data-modal="{{ .Params.resource_url }}"
+    class="mr-4 mb-4 px-4 py-2 leading-tight text-white font-bold text-lg hover:bg-chocolate"
+  >
+    {{ T "action_read_more" }}
+  </button>
+  <a
+    href="{{ .Params.resource_url }}"
+    class="mr-4 mb-4 px-4 py-2 text-white font-bold text-lg hover:bg-chocolate"
+    target="_blank"
+  >
+    {{ T "action_visit_tool" }}
+  </a>
+</div>
+*/}}

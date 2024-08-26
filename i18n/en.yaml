@@ -50,6 +50,8 @@
   translation: Report
 - id: label_subscribe_newsletter
   translation: Sign up for our newsletter
+- id: label_subscribe_blog
+  translation: Sign up for our blog
 - id: label_subscribe_participate
   translation: Subscribe to our newsletter to participate in future conversation spaces
 - id: label_the_team
@@ -311,9 +313,7 @@
 - id: page_home_third_tool
   translation: Donor Intelligence
 - id: page_home_fourth_tool
-  translation: Project Ranking
-- id: page_home_fifth_tool
-  translation:  6 Steps to Create Your Annual Plan
+  translation: 6 Steps to Create Your Annual Plan
 - id: page_home_talk_trend
   translation: What are we discussing?
 - id: page_spaces_card_footer

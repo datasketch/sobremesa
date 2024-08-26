@@ -1,69 +1,96 @@
-{{ $border_class := "" }}
-{{ $bg_class := "" }}
-{{ $text_class := "" }}
-{{ if in (slice "guide" "book" "report") .Params.genre }}
-  {{ $border_class = "border-darmouth-green" }}
-  {{ $text_class = "text-darmouth-green" }}
-  {{ $bg_class = "bg-darmouth-green" }}
-{{ else if in (slice "website" "tool") .Params.genre }}
-  {{ $border_class = "border-maximum-green" }}
-  {{ $text_class = "text-maximum-green" }}
-  {{ $bg_class = "bg-maximum-green" }}
-{{ else if in (slice "blogpost") .Params.genre }}
-  {{ $border_class = "border-fern-green" }}
-  {{ $text_class = "text-fern-green" }}
-  {{ $bg_class = "bg-fern-green" }}
-{{ else if in (slice "methodology") .Params.genre }}
-  {{ $border_class = "border-office-green" }}
-  {{ $text_class = "text-office-green" }}
-  {{ $bg_class = "bg-office-green" }}
-{{ else if in (slice "template") .Params.genre }}
-  {{ $border_class = "border-office-green-2" }}
-  {{ $text_class = "text-office-green-2" }}
-  {{ $bg_class = "bg-office-green-2" }}
-{{ else if in (slice "repository") .Params.genre }}
-  {{ $border_class = "border-pakistan-green" }}
-  {{ $text_class = "text-pakistan-green" }}
-  {{ $bg_class = "bg-pakistan-green" }}
-{{ else }}
-  {{ $border_class = "border-pine-green" }}
-  {{ $text_class = "text-pine-green" }}
-  {{ $bg_class = "bg-pine-green" }}
-{{ end }}
+{{ $page := .Site.GetPage "/herramientas" }}
 
-<div class="modal-wrapper" id="{{ .Params.resource_url }}" tabindex="-1" role="dialog" aria-labelledby="resource-name" aria-describedby="resource-answer">
-  <div class="w-full bg-linen m-auto p-4 md:py-8 lg:max-w-5xl lg:pt-16">
-    <div class="section-row space-y-0 justify-start items-center lg:items-start">
-      <div class="w-full md:w-2/3 lg:w-1/2 lg:pr-20 lg:pl-12">
-        <div class="lg:mx-auto flex justify-start lg:justify-end">
-          <img class="h-60 w-auto object-contain" src="{{ .Params.clip | absURL }}" alt="">
+<div
+  class="modal-wrapper"
+  id="{{ .Params.resource_url }}"
+  tabindex="-1"
+  data-name="{{ .Title }}"
+  role="dialog"
+  aria-labelledby="resource-name"
+  aria-describedby="resource-answer"
+>
+  <div class="lg:max-w-5xl m-auto w-full relative">
+    <div class="bg-linen p-8 pt-20 lg:px-24 lg:pt-24 lg:pb-10">
+      <div class="flex flex-col md:flex-row md:gap-x-10 gap-y-4">
+        <div class="md:w-5/12">
+          <div class="md:aspect-w-1 md:aspect-h-1 border-2 border-chocolate">
+            <img
+              class="w-full h-full object-cover object-center"
+              src="{{ .Params.clip | absURL }}"
+              alt=""
+            />
+          </div>
         </div>
-        <div class="lg:text-right">
-          <p class="mt-6 lg:mt-2 resource-type {{ $text_class }}">
-            {{ T (print "label_" .Params.genre) }}
-          </p>
-          <a href="{{ .Params.resource_url }}" class="mt-2 font-source-serif-pro text-2xl font-bold text-darmouth-green hover:text-chocolate hover:cursor-pointer" id="resource-name">
+        <div class="md:w-7/12">
+          <h3
+            class="text-2xl lg:text-3xl font-bold font-source-sans-pro text-fire-opal"
+          >
             {{ .Title }}
-          </a>
-          <p class="font-bold leading-tight uppercase">{{ .Params.creator }}</p>
+          </h3>
+          <ul
+            class="mt-2 lg:mt-4 flex items-center gap-x-2 lg:gap-x-5 text-darmouth-green font-bold"
+          >
+            <li>Tema</li>
+            <li class="bg-darmouth-green w-px h-3">&nbsp;</li>
+            <li>Idioma</li>
+            <li class="bg-darmouth-green w-px h-3">&nbsp;</li>
+            <li>Para quién</li>
+          </ul>
+          <p class="mt-6 lg:mt-8">{{ .Content }}</p>
+          <p class="mt-4 lg:mt-6"><b>Creada por:</b> {{ .Params.creator }}</p>
         </div>
       </div>
-      <div class="w-full md:w-2/3 lg:w-1/2 lg:max-w-sm">
-        <p class="mt-8 lg:mt-2 font-source-serif-pro text-2xl font-bold" id="resource-target">
-          {{ T "page_tools_for_who" }}
-        </p>
-        <p class="">{{ .Params.target }}</p>
-        <p class="mt-6 font-source-serif-pro text-2xl font-bold">
-          {{ T "label_desc" }}
-        </p>
-        <p class="" id="resource-answer">{{ .Content }}</p>
+      <div class="mt-20 flex justify-center items-center gap-x-2.5">
+        <div class="popup relative">
+          <div
+            class="popup-button font-bold lg:text-lg py-2.5 px-6 cursor-pointer border-2 border-chocolate text-chocolate hover:text-white hover:bg-chocolate duration-300"
+          >
+            <p>Compartir Por</p>
+          </div>
+          <div class="popup-content absolute transform -translate-x-1/2 -top-12 left-1/2 hidden">
+            <ul class="border-2 border-chocolate py-2 px-6 flex items-center gap-x-4">
+              <li class="w-4 h-4">
+                <a href="/" target="_blank" rel="noopener noreferrer">
+                  <img class="h-4 w-4"
+                    src='{{ "images/linkedin.svg" | absURL }}'
+                    alt=""
+                  />
+                </a>
+              </li>
+              <li class="w-4 h-4">
+                <a href="https://www.facebook.com/sharer/sharer.php?u={{ $page.Permalink }}&modal={{ .Title }}" target="_blank" rel="noopener noreferrer">
+                  <img class="h-4 w-4"
+                    src='{{ "images/meta.svg" | absURL }}'
+                    alt=""
+                  />
+                </a>
+              </li>
+              <li class="w-4 h-4">
+                <a href="{{ $page.Permalink }}?modal={{ .Title }}" target="_blank" rel="noopener noreferrer">
+                  <img class="h-4 w-4"
+                    src='{{ "images/web-link.svg" | absURL }}'
+                    alt=""
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <a
+            class="inline-block font-bold py-2.5 px-6 bg-darmouth-green text-white lg:text-lg"
+            href="{{ .Params.resource_url }}"
+            target="_blank"
+          >
+            {{ T "action_visit_tool" }}
+          </a>
+        </div>
       </div>
     </div>
-    <div class="text-center mt-12">
-      <a class="mr-4 mb-4 border-2 border-chocolate uppercase font-bold p-2 leading-none hover:text-darmouth-green hover:border-darmouth-green" href="{{ .Params.resource_url }}" target="_blank">
-        {{ T "action_visit_tool" }}
-      </a>
-      <button class="mr-4 mb-4 border-2 border-chocolate uppercase font-bold p-2 leading-tight hover:text-darmouth-green hover:border-darmouth-green">
+    <div class="absolute top-4 right-4">
+      <button
+        class="border-2 border-chocolate uppercase font-bold p-2 leading-tight hover:text-darmouth-green hover:border-darmouth-green"
+      >
         {{ T "action_close" }}
       </button>
     </div>

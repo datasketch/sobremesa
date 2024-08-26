@@ -2,13 +2,51 @@
 {{ partial "page-header.html" (dict "title" (T "label_tools") "description" (T "page_tools_desc") "image" "images/resources-section.png")}}
 <section class="px-4 py-16">
   <div class="container-lg">
-    <h2 class="font-source-serif-pro text-4xl font-bold text-darmouth-green">
-      {{ T "page_tools_used" }}
-    </h2>
-    <div class="mt-6 grid gap-8 md:grid-cols-2 xl:grid-cols-3">
-      {{ range .Pages.ByLastmod.Reverse }}
-        {{ partial "resource-card.html" . }}
-      {{ end }}
+    <div class="flex flex-col lg:flex-row lg:gap-x-2.5 gap-y-4">
+      <div class="lg:w-6/12">
+        <div class="relative">
+          <input class="w-full py-2 pl-12 pr-8 bg-white border-2 border-chocolate focus:outline-none placeholder-chocolate" type="search" name="search" placeholder="Palabra clave">
+          <div class="absolute transform -translate-y-1/2 top-1/2 left-4">
+            <img class="w-6 h-6" src='{{ "images/search.svg" | absURL }}' alt="">
+          </div>
+        </div>
+      </div>
+      <div class="lg:w-2/12">
+          <select class="w-full py-2 px-4 bg-white border-2 border-chocolate focus:outline-none" name="topic">
+            <option value="">Tema</option>
+          </select>
+      </div>
+      <div class="lg:w-2/12">
+        <select class="w-full py-2 px-4 bg-white border-2 border-chocolate focus:outline-none" name="language">
+          <option value="">Idioma</option>
+        </select>
+      </div>
+      <div class="lg:w-2/12">
+        <select class="w-full py-2 px-4 bg-white border-2 border-chocolate focus:outline-none" name="whom">
+          <option value="">Para quién</option>
+        </select>
+      </div>
+    </div>
+    <div class="mt-12 lg:mt-16 xl:mt-20">
+      <div class="flex flex-col lg:flex-row gap-y-4 lg:gap-x-16 xl:gap-x-20">
+        <div class="lg:w-4/12 xl:w-3/12">
+          <h2 class="font-source-serif-pro text-3xl lg:text-4xl font-bold text-darmouth-green">
+            Herramientas de La Sobremesa
+          </h2>
+        </div>
+        <div class="lg:w-8/12 xl:w-9/12">
+          <p class="text-xl lg:text-2xl font-semibold">
+            Herramientas generadas por La Sobremesa y construidas a partir de años de experiencia en el acompañamiento y fortalecimiento a organizaciones, redes y donantes de sociedad civil.
+          </p>
+        </div>
+      </div>
+      <div class="mt-12 lg:mt-16 xl:mt-20">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-5 gap-y-8 lg:gap-y-16 xl:gap-y-20">
+          {{ range .Pages.ByLastmod.Reverse }}
+          {{ partial "resource-card.html" . }}
+          {{ end }}
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -21,13 +59,10 @@
       <h2 class="section-title-md leading-extra-tight">
         {{ T "page_tools_cta_q" | safeHTML }}
       </h2>
-      <div class="mt-12 h-full flex flex-col">
-        <p class="font-semibold text-lg tracking-wide lg:text-xl">
-          {{ T "label_subscribe_newsletter" }}
-        </p>
-        <div class="mt-4">
-          {{ partial "newsletter-form.html" (dict "Plain" false) }}
-        </div>
+      <div class="mt-6">
+        <a href="https://lasobremesa.medium.com/" target="_blank" rel="noopener noreferrer" class="inline-block font-semibold text-lg tracking-wide lg:text-xl py-2 px-6 uppercase underline">
+          {{ T "label_subscribe_blog" }}
+        </a>
       </div>
     </div>
   </div>

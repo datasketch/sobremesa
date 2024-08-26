@@ -87,13 +87,10 @@
       <h2 class="section-title-md leading-extra-tight">
         {{ T "page_spaces_cta_q" | safeHTML }}
       </h2>
-      <div class="mt-12 h-full flex flex-col">
-        <p class="font-semibold text-lg tracking-wide lg:text-xl">
-          {{ T "label_subscribe_newsletter" }}
-        </p>
-        <div class="mt-4">
-          {{ partial "newsletter-form.html" (dict "Plain" false) }}
-        </div>
+      <div class="mt-6">
+        <a href="https://lasobremesa.medium.com/" target="_blank" rel="noopener noreferrer" class="inline-block font-semibold text-lg tracking-wide lg:text-xl py-2 px-6 uppercase underline">
+          {{ T "label_subscribe_blog" }}
+        </a>
       </div>
     </div>
   </div>

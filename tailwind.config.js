@@ -20,6 +20,10 @@ module.exports = {
         "left-0",
         "modal-wrapper",
         "is-open",
+        "hidden",
+        "bg-black",
+        "text-white",
+        "text-chocolate"
       ],
     },
   },
