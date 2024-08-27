@@ -107,19 +107,40 @@ collections:
           - { label: "Template", value: "template" }
           - { label: "Repository", value: "repository" }
         required: true
-      - label: "Thematics"
+      - label: "Topic"
         name: "topic"
         widget: "select"
         options:
-          - { label: "Sustainability", value: "sustainability" }
-          - { label: "Governance", value: "governance" }
-          - { label: "Administration", value: "administration" }
-          - { label: "Leadership", value: "leadership" }
-          - { label: "Team", value: "team" }
-          - { label: "Design", value: "design" }
-          - { label: "Monitoring and evaluation", value: "monitoring" }
-          - { label: "Annual Plan", value: "plan" }
-          - { label: "Organizational strategy", value: "strategy" }
+          - { label: "Misión", value: "mision" }
+          - { label: "Visión", value: "vision" }
+          - { label: "Theory of change", value: "theory of change" }
+          - { label: "Strategies", value: "strategies" }
+          - { label: "Annual Retreats", value: "annual retreats" }
+          - { label: "Planning", value: "planning" }
+          - { label: "Project design", value: "project design" }
+          - { label: "Networking and Organization Building", value: "networking and organization building" }
+          - { label: "Financial sustainability", value: "financial sustainability" }
+          - { label: "Monitoring, Evaluation and Learning", value: "monitoring, evaluation and learning" }
+          - { label: "Transitions", value: "transitions" }
+          - { label: "New leaderships", value: "new leaderships" }
+          - { label: "Healthy team", value: "healthy team" }
+        required: true
+      - label: "Language"
+        name: "language"
+        widget: "select"
+        options:
+          - { label: "Spanish", value: "spanish" }
+          - { label: "English", value: "english" }
+          - { label: "Portuguese", value: "portuguese" }
+        required: true
+      - label: "For whom?"
+        name: "for_whom"
+        widget: "select"
+        options:
+          - { label: "Organizations", value: "organizations" }
+          - { label: "Leaders", value: "leaders" }
+          - { label: "Networks", value: "networks" }
+          - { label: "Donors", value: "donors" }
         required: true
       - label: "Clip"
         name: "clip"
@@ -176,19 +197,40 @@ collections:
           - { label: "Plantilla", value: "template" }
           - { label: "Repositorio", value: "repository" }
         required: true
-      - label: "Temáticas"
+      - label: "Tema"
         name: "topic"
         widget: "select"
         options:
-          - { label: "Sostenibilidad", value: "sustainability" }
-          - { label: "Gobernanza", value: "governance" }
-          - { label: "Administración", value: "administration" }
-          - { label: "Liderazgo", value: "leadership" }
-          - { label: "Equipo", value: "team" }
-          - { label: "Diseño", value: "design" }
-          - { label: "Monitoreo y evaluación", value: "monitoring" }
-          - { label: "Plan Anual", value: "plan" }
-          - { label: "Estrategia organizacional", value: "strategy" }
+          - { label: "Misión", value: "mision" }
+          - { label: "Visión", value: "vision" }
+          - { label: "Teoría de Cambio", value: "theory of change" }
+          - { label: "Estrategias", value: "strategies" }
+          - { label: "Retiros Anuales", value: "annual retreats" }
+          - { label: "Planeación", value: "planning" }
+          - { label: "Diseño de proyectos", value: "project design" }
+          - { label: "Creación de redes y organizaciones", value: "networking and organization building" }
+          - { label: "Sostenibilidad financiera", value: "financial sustainability" }
+          - { label: "Monitoreo, Evaluación y Aprendizaje", value: "monitoring, evaluation and learning" }
+          - { label: "Transiciones", value: "transitions" }
+          - { label: "Nuevos liderazgos", value: "new leaderships" }
+          - { label: "Equipo sano", value: "healthy team" }
+        required: true
+      - label: "Language"
+        name: "language"
+        widget: "select"
+        options:
+          - { label: "Español", value: "spanish" }
+          - { label: "Inglés", value: "english" }
+          - { label: "Portugués", value: "portuguese" }
+        required: true
+      - label: "Para quién?"
+        name: "for_whom"
+        widget: "select"
+        options:
+          - { label: "Organizaciones", value: "organizations" }
+          - { label: "Líderes", value: "leaders" }
+          - { label: "Redes", value: "networks" }
+          - { label: "Donantes", value: "donors" }
         required: true
       - label: "Clip"
         name: "clip"
