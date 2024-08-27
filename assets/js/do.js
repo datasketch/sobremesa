@@ -39,23 +39,22 @@ triggers.forEach((trigger) => {
 
     popupButton.addEventListener("click", () => {
       popupContent.classList.remove("hidden");
-      popupButton.classList.add('bg-black', 'text-white')
-      popupButton.classList.remove('text-chocolate')
+      popupButton.classList.add("bg-black", "text-white");
+      popupButton.classList.remove("text-chocolate");
     });
   });
 });
 
 window.addEventListener("load", () => {
-  const queryString = window.location.search;
-  const urlParams = new URLSearchParams(queryString);
-  if (!urlParams.has("modal")) return;
+  const pathname = decodeURIComponent(window.location.pathname);
+  const segments = pathname.split("/").filter(Boolean);
+  const slug = segments[segments.length - 1];
 
-  const value = urlParams.get("modal");
-
-  const modals = document.querySelectorAll("[data-name]");
-  const modal = Array.from(modals).find(
-    (el) => el.getAttribute("data-name") === value
-  );
+  const modals = document.querySelectorAll("[data-slug]");
+  const modal = Array.from(modals).find((el) => {
+    const decode = decodeURIComponent(el.getAttribute("data-slug"));
+    return decode === slug;
+  });
 
   if (!modal) return;
 
@@ -76,7 +75,7 @@ window.addEventListener("load", () => {
 
   popupButton.addEventListener("click", () => {
     popupContent.classList.remove("hidden");
-    popupButton.classList.add('bg-black', 'text-white')
-    popupButton.classList.remove('text-chocolate')
+    popupButton.classList.add("bg-black", "text-white");
+    popupButton.classList.remove("text-chocolate");
   });
 });

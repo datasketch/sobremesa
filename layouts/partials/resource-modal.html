@@ -1,10 +1,9 @@
-{{ $page := .Site.GetPage "/herramientas" }}
-
+{{ $slug := .Title | urlize }}
 <div
   class="modal-wrapper"
   id="{{ .Params.resource_url }}"
+  data-slug="{{ $slug }}"
   tabindex="-1"
-  data-name="{{ .Title }}"
   role="dialog"
   aria-labelledby="resource-name"
   aria-describedby="resource-answer"
@@ -50,15 +49,15 @@
           <div class="popup-content absolute transform -translate-x-1/2 -top-12 left-1/2 hidden">
             <ul class="border-2 border-chocolate py-2 px-6 flex items-center gap-x-4">
               <li class="w-4 h-4">
-                <a href="/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" target="_blank" rel="noopener noreferrer">
                   <img class="h-4 w-4"
-                    src='{{ "images/linkedin.svg" | absURL }}'
+                    src='{{ "images/facebook-black.svg" | absURL }}'
                     alt=""
                   />
                 </a>
               </li>
               <li class="w-4 h-4">
-                <a href="https://www.facebook.com/sharer/sharer.php?u={{ $page.Permalink }}&modal={{ .Title }}" target="_blank" rel="noopener noreferrer">
+                <a href="https://twitter.com/intent/tweet?url={{ .Permalink }}" target="_blank" rel="noopener noreferrer">
                   <img class="h-4 w-4"
                     src='{{ "images/meta.svg" | absURL }}'
                     alt=""
@@ -66,12 +65,20 @@
                 </a>
               </li>
               <li class="w-4 h-4">
-                <a href="{{ $page.Permalink }}?modal={{ .Title }}" target="_blank" rel="noopener noreferrer">
+                <a href="http://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}" target="_blank" rel="noopener noreferrer">
+                  <img class="h-4 w-4"
+                    src='{{ "images/linkedin.svg" | absURL }}'
+                    alt=""
+                  />
+                </a>
+              </li>
+              <li class="w-4 h-4">
+                <div class="btn-save-link cursor-pointer" target="_blank" rel="noopener noreferrer">
                   <img class="h-4 w-4"
                     src='{{ "images/web-link.svg" | absURL }}'
                     alt=""
                   />
-                </a>
+                </div>
               </li>
             </ul>
           </div>
