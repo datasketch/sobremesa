@@ -3,6 +3,34 @@ const triggers = Array.from(document.querySelectorAll("[data-modal]"));
 const modals = new Map();
 const dismissButtons = new Map();
 
+const searchEl = document.getElementById("search");
+const cards = Array.from(document.querySelectorAll(".card"));
+
+const removeAccents = (str) =>
+  str
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase();
+
+function validateFilters() {
+  const search = searchEl.value;
+
+  cards.forEach((card) => {
+    card.style.display = "none";
+    const hasSearch = removeAccents(card.dataset.title).includes(
+      removeAccents(search)
+    );
+
+    if (hasSearch) {
+      card.style.display = "block";
+    }
+  });
+}
+
+searchEl.addEventListener("input", () => {
+  validateFilters();
+});
+
 triggers.forEach((trigger) => {
   trigger.addEventListener("click", function () {
     const modalId = this.dataset.modal;
