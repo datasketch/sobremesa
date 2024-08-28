@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://www.lasobremesa.co/"
 languageCode = "es"
 title = "La Sobremesa"
 defaultContentLanguage = "es"
