@@ -142,6 +142,10 @@ collections:
           - { label: "Networks", value: "networks" }
           - { label: "Donors", value: "donors" }
         required: true
+      - label: "Recommended tool"
+        name: "recommended"
+        widget: "boolean"
+        default: false
       - label: "Clip"
         name: "clip"
         widget: "file"
@@ -232,6 +236,10 @@ collections:
           - { label: "Redes", value: "networks" }
           - { label: "Donantes", value: "donors" }
         required: true
+      - label: "Herramienta recomendada"
+        name: "recommended"
+        widget: "boolean"
+        default: false
       - label: "Clip"
         name: "clip"
         widget: "file"

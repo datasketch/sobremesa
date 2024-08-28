@@ -43,15 +43,36 @@
       </div>
       <div class="mt-12 lg:mt-16 xl:mt-20">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-5 gap-y-8 lg:gap-y-16 xl:gap-y-20">
-          {{ range $pages.ByLastmod.Reverse }}
+          {{ range first 8 $pages.ByLastmod.Reverse }}
           {{ partial "resource-card.html" . }}
           {{ end }}
+        </div>
+      </div>
+      <div class="mt-20 lg:mt-28 xl:mt-36">
+        <div class="flex flex-col lg:flex-row gap-y-4 lg:gap-x-16 xl:gap-x-20">
+          <div class="lg:w-4/12 xl:w-3/12">
+            <h2 class="font-source-serif-pro text-3xl lg:text-4xl font-bold text-darmouth-green">
+              Otras herramientas recomendadas
+            </h2>
+          </div>
+          <div class="lg:w-8/12 xl:w-9/12">
+            <p class="text-xl lg:text-2xl font-semibold">
+              Herramientas inspiradoras de autores y fuentes latinoamericanas y globales. Artículos, guías, reportes y podcasts, entre otras, que permiten conocer perspectivas diversas y complementan la propuesta de La Sobremesa.
+            </p>
+          </div>
+        </div>
+        <div class="mt-12 lg:mt-16 xl:mt-20">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-5 gap-y-8 lg:gap-y-16 xl:gap-y-20">
+            {{ range first 8 $pages.ByLastmod.Reverse }}
+            {{ partial "resource-card.html" . }}
+            {{ end }}
+          </div>
         </div>
       </div>
     </div>
   </div>
 </section>
-<div class="container px-4 py-16">
+<div class="container px-4 pb-16">
   <div class="section-row section-row-reverse items-center">
     <div class="section-col">
       <img class="mx-auto w-2/3" src="{{ (print "images/join-us-" .Site.Language.Lang ".png") | absURL }}" alt="">
