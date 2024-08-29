@@ -1,6 +1,7 @@
 ---
 title: Brené sobre "Armored versus Daring Leadership" (Parte 1 de 2)
 genre: podcast
+recommended: true
 clip: https://dl.airtable.com/.attachments/449927a63acc352857a0e10469197b73/36977300/ScreenShot2021-06-21at08.24.06.png
 resource_url: https://open.spotify.com/episode/4Oo3T5ryR3i005ocQwtkyB?si=YCThx_ylS2KFV3VEk7K4-g&dl_branch=1
 creator: Brené Brown, Dare to Lead
