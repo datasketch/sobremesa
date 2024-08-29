@@ -63,7 +63,7 @@
       </div>
       <div class="mt-12 lg:mt-16 xl:mt-20">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-5 gap-y-8 lg:gap-y-16 xl:gap-y-20">
-          {{ range first 8 .Pages.ByLastmod.Reverse }}
+          {{ range first 8 (where .Pages.ByLastmod.Reverse "Params.recommended" true) }}
           {{ partial "resource-card.html" . }}
           {{ end }}
         </div>
