@@ -1,6 +1,7 @@
 ---
 title: '"Theory of Change in 10 Steps"'
 genre: tool
+recommended: true
 clip: https://dl.airtable.com/.attachmentThumbnails/dd0803311508622704d1062f4e1cc464/bed530c0
 resource_url: https://www.thinknpc.org/resource-hub/ten-steps/
 creator: James Noble, NPC
