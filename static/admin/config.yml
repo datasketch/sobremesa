@@ -106,6 +106,7 @@ collections:
           - { label: "Methodology", value: "methodology" }
           - { label: "Template", value: "template" }
           - { label: "Repository", value: "repository" }
+        required: false
       - label: "Topic"
         name: "topic"
         widget: "select"
@@ -123,6 +124,7 @@ collections:
           - { label: "Transitions", value: "transitions" }
           - { label: "New leaderships", value: "new leaderships" }
           - { label: "Healthy team", value: "healthy team" }
+        required: false
       - label: "Language"
         name: "language"
         widget: "select"
@@ -130,6 +132,7 @@ collections:
           - { label: "Spanish", value: "spanish" }
           - { label: "English", value: "english" }
           - { label: "Portuguese", value: "portuguese" }
+        required: false
       - label: "For whom?"
         name: "for_whom"
         widget: "select"
@@ -138,6 +141,7 @@ collections:
           - { label: "Leaders", value: "leaders" }
           - { label: "Networks", value: "networks" }
           - { label: "Donors", value: "donors" }
+        required: false
       - label: "Recommended tool"
         name: "recommended"
         widget: "boolean"
@@ -196,6 +200,7 @@ collections:
           - { label: "Metodología", value: "methodology" }
           - { label: "Plantilla", value: "template" }
           - { label: "Repositorio", value: "repository" }
+        required: false
       - label: "Tema"
         name: "topic"
         widget: "select"
@@ -213,6 +218,7 @@ collections:
           - { label: "Transiciones", value: "transitions" }
           - { label: "Nuevos liderazgos", value: "new leaderships" }
           - { label: "Equipo sano", value: "healthy team" }
+        required: false
       - label: "Language"
         name: "language"
         widget: "select"
@@ -220,6 +226,7 @@ collections:
           - { label: "Español", value: "spanish" }
           - { label: "Inglés", value: "english" }
           - { label: "Portugués", value: "portuguese" }
+        required: false
       - label: "Para quién?"
         name: "for_whom"
         widget: "select"
@@ -228,6 +235,7 @@ collections:
           - { label: "Líderes", value: "leaders" }
           - { label: "Redes", value: "networks" }
           - { label: "Donantes", value: "donors" }
+        required: false
       - label: "Herramienta recomendada"
         name: "recommended"
         widget: "boolean"
