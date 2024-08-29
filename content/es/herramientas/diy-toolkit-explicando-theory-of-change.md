@@ -1,6 +1,7 @@
 ---
 title: DIY Toolkit explicando "Theory of Change"
 genre: video
+recommended: true
 clip: https://dl.airtable.com/.attachmentThumbnails/228d66336fea1a45d257dd39df2f75e2/2b91f793
 resource_url: https://diytoolkit.org/tools/theory-of-change/
 creator: DIY Toolkit
