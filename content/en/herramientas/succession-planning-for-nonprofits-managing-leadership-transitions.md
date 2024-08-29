@@ -2,6 +2,7 @@
 title: Succession Planning for Nonprofits - Managing Leadership Transitions
 genre: guide
 topic: leadership
+recommended: true
 clip: /uploads/10.png
 resource_url: https://www.councilofnonprofits.org/tools-resources/succession-planning-nonprofits-managing-leadership-transitions
 creator: National Council of Nonprofits
