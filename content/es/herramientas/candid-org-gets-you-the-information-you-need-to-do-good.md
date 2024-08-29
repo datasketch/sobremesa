@@ -1,6 +1,7 @@
 ---
 title: "Candid.org: Gets you the information you need to do good"
 genre: website
+recommended: true
 clip: https://dl.airtable.com/.attachmentThumbnails/74d2dd27661dc9d8f3e13c004bfa1661/59780df6
 resource_url: https://candid.org/
 creator: Candid, Foundation Center y Guidestar
