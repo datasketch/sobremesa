@@ -50,6 +50,8 @@
   translation: Report
 - id: label_subscribe_newsletter
   translation: Sign up for our newsletter
+- id: label_subscribe_blog
+  translation: Sign up for our blog
 - id: label_subscribe_participate
   translation: Subscribe to our newsletter to participate in future conversation spaces
 - id: label_the_team
@@ -306,14 +308,20 @@
   translation: We curate
 - id: page_home_first_tool
   translation: How to Create a Sustainability Plan
+- id: page_home_first_tool_slug
+  translation: how-to-create-a-sustainability-plan
 - id: page_home_second_tool
   translation: Competitor Analysis
+- id: page_home_second_tool_slug
+  translation: competitor-analysis
 - id: page_home_third_tool
   translation: Donor Intelligence
+- id: page_home_third_tool_slug
+  translation: donor-intelligence
 - id: page_home_fourth_tool
-  translation: Project Ranking
-- id: page_home_fifth_tool
-  translation:  6 Steps to Create Your Annual Plan
+  translation: 6 Steps to Create Your Annual Plan
+- id: page_home_fourth_tool_slug
+  translation: 6-steps-to-create-your-annual-plan
 - id: page_home_talk_trend
   translation: What are we discussing?
 - id: page_spaces_card_footer

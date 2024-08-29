@@ -8,19 +8,15 @@
     <div class="w-full md:w-1/2 lg:w-2/12">
       <div class="h-full flex flex-col justify-center">
         <ul class="uppercase font-bold tracking-wide text-sm">
-          {{ range .Site.Menus.main }}
-            {{ if .Children }}
-              {{ range .Children }}
-                <li>
-                  <a class="hover:text-chocolate" href="{{.URL}}">{{ .Title }}</a>
-                </li>
-              {{ end }}
-            {{ else }}
-              <li>
-                <a class="hover:text-chocolate" href="{{.URL}}">{{ .Title }}</a>
-              </li>
-            {{ end }}
-          {{ end}}
+          {{ range .Site.Menus.main }} {{ if .Children }} {{ range .Children }}
+          <li>
+            <a class="hover:text-chocolate" href="{{.URL}}">{{ .Title }}</a>
+          </li>
+          {{ end }} {{ else }}
+          <li>
+            <a class="hover:text-chocolate" href="{{.URL}}">{{ .Title }}</a>
+          </li>
+          {{ end }} {{ end}}
         </ul>
       </div>
     </div>
@@ -29,30 +25,63 @@
         <p class="font-semibold text-lg tracking-wide lg:text-xl">
           {{- T "label_receive_newsletter" -}}
         </p>
-        <div class="mt-6">{{ partial "newsletter-form" . }}</div>
+        <div class="mt-6">
+          <a
+            href="https://lasobremesa.medium.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex flex-row gap-2 justify-start items-center border-b border-white"
+          >
+            <p
+              class="text-white font-semibold py-2 px-2 cursor-pointer text-lg"
+            >
+              {{ T "action_subscribe" }}
+            </p>
+            <img
+              class="text-white"
+              src="/images/arrow-right-white.svg"
+              alt="arrow-right"
+            />
+          </a>
+        </div>
       </div>
     </div>
     <div class="w-full md:w-1/2 lg:w-3/12 h-64 lg:h-auto">
       <div class="h-full flex flex-col justify-center relative">
-        <img class="absolute top-0 left-0 w-full h-full object-contain" src="{{ "images/chat-bubble.svg" | absURL }}" alt="">
-        <div class="text-chocolate font-source-serif-pro text-center relative left-5">
+        <img class="absolute top-0 left-0 w-full h-full object-contain" src="{{
+        "images/chat-bubble.svg" | absURL }}" alt="">
+        <div
+          class="text-chocolate font-source-serif-pro text-center relative left-5"
+        >
           <h3 class="font-bold text-2xl">{{ T "label_contact_us" }}</h3>
           <p class="font-semibold">
             <a href="mailto:hola@lasobremesa.co">hola@lasobremesa.co</a>
           </p>
           <ul class="mt-2 flex justify-center items-center space-x-3">
             <li>
-              <a href="https://twitter.com/LaSobremesa_co" target="_blank" title="Twitter La Sobremesa">
+              <a
+                href="https://twitter.com/LaSobremesa_co"
+                target="_blank"
+                title="Twitter La Sobremesa"
+              >
                 <img src="{{ "images/x-twitter-icon.svg" | absURL }}" alt="">
               </a>
             </li>
             <li>
-              <a href="https://www.instagram.com/lasobremesa_co/" target="_blank" title="Instagram La Sobremesa">
+              <a
+                href="https://www.instagram.com/lasobremesa_co/"
+                target="_blank"
+                title="Instagram La Sobremesa"
+              >
                 <img src="{{ "images/instagram.svg" | absURL }}" alt="">
               </a>
             </li>
             <li>
-              <a href="https://lasobremesa.medium.com/" target="_blank" title="Medium La Sobremesa">
+              <a
+                href="https://lasobremesa.medium.com/"
+                target="_blank"
+                title="Medium La Sobremesa"
+              >
                 <img src="{{ "images/medium.svg" | absURL }}" alt="">
               </a>
             </li>

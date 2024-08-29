@@ -1,5 +1,5 @@
 ---
-title: "How to Create a Sustainability Plan "
+title: "How to Create a Sustainability Plan"
 genre: tool
 topic: sustainability
 clip: /uploads/header-blogpost.png

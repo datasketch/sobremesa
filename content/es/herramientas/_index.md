@@ -1,6 +1,5 @@
 ---
 title: Herramientas
-layout: herramientas
 logo: images/logo-tools.png
 weight: 5
 menu: main
