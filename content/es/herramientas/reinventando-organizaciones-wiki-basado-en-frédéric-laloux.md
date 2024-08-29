@@ -1,6 +1,7 @@
 ---
 title: '"Reinventando Organizaciones Wiki" basado en Frédéric Laloux'
 genre: guide
+recommended: true
 clip: https://dl.airtable.com/.attachmentThumbnails/2878fe77b4a91f87858e361a614c4d81/a005d21f
 resource_url: https://sp.reinventingorganizationswiki.com/
 creator: Editores voluntarios
