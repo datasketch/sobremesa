@@ -42,7 +42,7 @@
         </div>
       </div>
       <div class="mt-12 lg:mt-16 xl:mt-20">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-5 gap-y-8 lg:gap-y-16 xl:gap-y-20">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-8 lg:gap-y-16 xl:gap-y-20">
           {{ range first 8 $pages.ByLastmod.Reverse }}
           {{ partial "resource-card.html" . }}
           {{ end }}

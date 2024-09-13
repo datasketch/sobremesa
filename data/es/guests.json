@@ -1,5 +1,17 @@
 [
   {
+    "id": "ana-zuniga",
+    "name": "Ana Gabriel Zúñiga Aponte",
+    "image": "images/people/ana-zuniga.jpg",
+    "tagline": "Veo una polarización sociopolítica a la que nos están arrastrando los grupos hegemónicos...",
+    "location": "Basada en San José, Costa Rica",
+    "about": "Veo una polarización sociopolítica a la que nos están arrastrando los grupos hegemónicos para seguir monopolizando el ejercicio del poder, además de una aceleración de las desigualdades. Soy una optimista empedernida, que cree en el diálogo ciudadano, en la resiliencia cívica y devolverle las democracias a quienes les pertenecen, ¡a las mayorías!",
+    "twitter": "agza05",
+    "instagram": "unapechoamarilla",
+    "company": "Sin datos",
+    "projects": "FAU, Decidim, Code for All, Tor"
+  },
+  {
     "id": "milena-pafundi",
     "name": "Milena Pafundi",
     "image": "images/people/milena-pafundi.jpg",
@@ -43,15 +55,6 @@
     "projects": "TEDIC"
   },
   {
-    "id": "lucia-villafane",
-    "name": "Lucia Villafañe",
-    "image": "images/people/lucia-villafane.jpg",
-    "tagline": "Veo un desafío a la hora de que las ONGs vinculen su trabajo con organismos dedicados a la movilización de recursos y apoyo técnico...",
-    "location": "Argentina basada en Ciudad de México, México",
-    "about": "Veo en las OSC el potencial de resolver los problemas que enfrentan desde sus saberes y experiencias situadas; éstas demuestran permanentemente su capacidad para generar cambios desde su incidencia en una amplia gama de temas relevantes que afectan a la región. Esto a su vez se presenta como un desafío a la hora de vincular su trabajo con organismos internacionales, gubernamentales e instituciones vinculadas a la movilización de recursos y apoyo técnico. En este sentido, es necesario revisar las dinámicas dominantes y promover una mayor flexibilidad en los espacios de cooperación para promover el reconocimiento de los saberes situados y los valores que guían y definen el trabajo de la sociedad civil organizada.",
-    "projects": "ILSB"
-  },
-  {
     "id": "virginie-martin-onraet",
     "name": "Virginie Martin Onraet",
     "image": "images/people/virginie-martin-onraet.jpg",
@@ -76,7 +79,7 @@
     "name": "Adriana Peralta",
     "image": "images/people/adri-peralta.jpg",
     "tagline": "Veo un desafío con nuestros contextos de violencia y corrupción...",
-    "location": "Basada en Asunción, Paraguay",
+    "location": "Paraguaya basada en Leiden, Países Bajos",
     "about": "Veo un desafío con nuestros contextos que muchas veces son violentos y corruptas como las de América Latina. Para no perder la motivación en hacer las cosas lo mejor posible ayuda mucho rodearse de personas que estiren para el mismo lado, que también crean en que se puede, que te inspiren, que te alienten, con quienes puedas tomarte unas cervecitas y relajar y reir un poco. Soy ilustradora y diseñadora gráfica especilizada en sociología. (Y si, soy la diseñadora detrás de La Sobremesa!)",
     "twitter": "adriperaltaaa",
     "projects": "Graphic Design"
@@ -96,7 +99,7 @@
     "id": "nadia-chanquia",
     "name": "Nadia Chanquia",
     "image": "images/people/nadia-chanquia.jpg",
-    "tagline": "Veo un desafío en potencir las voces diversas y crear acuerdos básicos...",
+    "tagline": "Veo un desafío en potenciar las voces diversas y crear acuerdos básicos...",
     "location": "Basada en Ciudad de Buenos Aires, Argentina",
     "about": "La sociedad latinoamericana vive constantemente en un ciclo de desafíos interconectados entre sí. Descreimiento en los gobiernos, instituciones y consensos democráticos, que se creían básicos, generan en la sociedad un sentimiento de estancamiento o supervivencia, en donde no se sabe si se está de un lado u otro de la brecha. El mayor desafío, entonces, sería potenciar las voces diversas y unificarlas para crear acuerdos básicos que impulsen el cumplimiento de los derechos en la región.",
     "projects": "Comms"

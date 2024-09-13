@@ -35,13 +35,13 @@
           </h2>
         </div>
         <div class="lg:w-8/12 xl:w-9/12">
-          <p class="text-xl lg:text-2xl font-semibold">
+          <p class="text-lg lg:text-xl font-semibold">
             Herramientas generadas por La Sobremesa y construidas a partir de años de experiencia en el acompañamiento y fortalecimiento a organizaciones, redes y donantes de sociedad civil.
           </p>
         </div>
       </div>
       <div class="mt-12 lg:mt-16 xl:mt-20">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-5 gap-y-8 lg:gap-y-16 xl:gap-y-20">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-8 lg:gap-y-16 xl:gap-y-20">
           {{ range first 8 .Pages.ByLastmod.Reverse }}
           {{ partial "resource-card.html" . }}
           {{ end }}
@@ -56,7 +56,7 @@
           </h2>
         </div>
         <div class="lg:w-8/12 xl:w-9/12">
-          <p class="text-xl lg:text-2xl font-semibold">
+          <p class="text-lg lg:text-xl font-semibold">
             Herramientas inspiradoras de autores y fuentes latinoamericanas y globales. Artículos, guías, reportes y podcasts, entre otras, que permiten conocer perspectivas diversas y complementan la propuesta de La Sobremesa.
           </p>
         </div>
