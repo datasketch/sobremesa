@@ -78,6 +78,8 @@
   translation: Quiénes somos
 - id: label_with
   translation: en
+- id: label_with_2
+  translation: con
 - id: page_accompaniment_clients_desc
   translation: Hemos acompañado a varias organizaciones, redes, y donantes en La Sobremesa.
 - id: page_accompaniment_cta_desc
@@ -404,7 +406,7 @@
 - id: page_spaces_conversations_challenges
   translation: Los 3 grandes desafíos de la sociedad civil en América Latina
 - id: page_spaces_conversations_playlist
-  translation: Nombre lista de reproducción
+  translation: Las ideas sobre la mesa
 - id: page_tools_cta_q
   translation: >-
     ¿Te interesa ser parte de futuros <span
@@ -472,3 +474,16 @@
   translation: Testimonios
 - id: label_all
   translation: Todos
+- id: action_more_info
+  translation: Más info
+- id: label_designed
+  translation: Diseñado y facilitado por
+- id: label_tools_title
+  translation: Herramientas de La Sobremesa
+- id: label_tools_description
+  translation: Herramientas generadas por La Sobremesa y construidas a partir de años de experiencia en el acompañamiento y fortalecimiento a organizaciones, redes y donantes de sociedad civil.
+- id: label_recommended_tools_title
+  translation: Otras herramientas recomendadas
+- id: label_recommended_tools_description
+  translation: Herramientas inspiradoras de autores y fuentes latinoamericanas y globales. Artículos, guías, reportes y podcasts, entre otras, que permiten conocer perspectivas diversas y complementan la propuesta de La Sobremesa.
+
