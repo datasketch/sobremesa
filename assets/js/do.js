@@ -27,7 +27,7 @@ function validateFilters() {
   });
 }
 
-searchEl.addEventListener("input", () => {
+searchEl && searchEl.addEventListener("input", () => {
   validateFilters();
 });
 

@@ -1,5 +1,17 @@
 [
   {
+    "id": "ana-zuniga",
+    "name": "Ana Gabriel Zúñiga Aponte",
+    "image": "images/people/ana-zuniga.jpg",
+    "tagline": "I see a sociopolitical polarization that the hegemonic groups are dragging...",
+    "location": "Based in San Jose, Costa Rica",
+    "about": "I see a sociopolitical polarization that the hegemonic groups are dragging us towards in order to continue monopolizing the exercise of power, as well as an acceleration of inequalities. I am a hardened optimist, who believes in citizen dialogue, in civic resilience and in returning democracies to those to whom they belong, to the majorities!",
+    "twitter": "agza05",
+    "instagram": "unapechoamarilla",
+    "company": "Sin datos",
+    "projects": "FAU, Decidim, Code for All, Tor"
+  },
+  {
     "id": "milena-pafundi",
     "name": "Milena Pafundi",
     "image": "images/people/milena-pafundi.jpg",
@@ -43,15 +55,6 @@
     "projects": "TEDIC"
   },
   {
-    "id": "lucia-villafane",
-    "name": "Lucia Villafañe",
-    "image": "images/people/lucia-villafane.jpg",
-    "tagline": "I see a challenge when NGOs try to link their work with organizations dedicated to resource mobilization and technical support...",
-    "location": "Argentina based in Mexico City, Mexico",
-    "about": "I see in NGOs the potential to address the challenges they face through their situated knowledge and experiences. They continually demonstrate their ability to effect change by influencing a wide range of relevant issues affecting the region. However, this presents a challenge when it comes to linking their work with international organizations, government agencies, and institutions involved in resource mobilization and technical support. In this sense, it is necessary to review dominant dynamics and promote greater flexibility in cooperation spaces to foster recognition of situated knowledge and the values that guide and define the work of organized civil society.",
-    "projects": "ILSB"
-  },
-  {
     "id": "virginie-martin-onraet",
     "name": "Virginie Martin Onraet",
     "image": "images/people/virginie-martin-onraet.jpg",
@@ -76,7 +79,7 @@
     "name": "Adriana Peralta",
     "image": "images/people/adri-peralta.jpg",
     "tagline": "I see a challenge given our contexts of violence and corruption...",
-    "location": "Based in Asunción, Paraguay",
+    "location": "Paraguayan based in Leiden, Netherlands",
     "about": "I see a challenge with contexts that are often violent and corrupt, like those of Latin America. In order not to lose motivation to do things as well as possible, it helps a lot to surround yourself with people who you align with, who also believe that you can do it, who inspire you, who encourage you, with whom you can have a few beers and relax and laugh a bit. I am an illustrator and graphic designer specialized in sociology. (And yes, I'm the designer behind La Sobremesa!)",
     "twitter": "adriperaltaaa",
     "projects": "Graphic Design"
