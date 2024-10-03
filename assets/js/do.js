@@ -6,6 +6,44 @@ const dismissButtons = new Map();
 const searchEl = document.getElementById("search");
 const cards = Array.from(document.querySelectorAll(".card"));
 
+const toolsPreview = document.getElementById('tools-preview');
+const toolsViewMore = document.getElementById('tools-view-more');
+const buttonTools = document.getElementById('button-tools')
+
+
+const recommendedToolsPreview = document.getElementById('recommended-tools-preview');
+const recommendedToolsViewMore = document.getElementById('recommended-tools-view-more');
+const buttonRecommendedTools = document.getElementById('button-recommended-tools')
+
+
+buttonTools.addEventListener('click', () => {
+  if (buttonTools.innerHTML === 'Ver todas las herramientas') {
+    buttonTools.innerHTML = 'Ver menos herramientas'
+    toolsPreview.classList.add('hidden')
+    toolsViewMore.classList.remove('hidden')
+    document.getElementById('scroll-to').scrollIntoView({ behavior: 'smooth', block: 'start' })
+  } else {
+    buttonTools.innerHTML = 'Ver todas las herramientas'
+    toolsPreview.classList.remove('hidden')
+    toolsViewMore.classList.add('hidden')
+    document.getElementById('scroll-to').scrollIntoView({ behavior: 'smooth', block: 'start' })
+  }
+})
+
+buttonRecommendedTools.addEventListener('click', () => {
+  if (buttonRecommendedTools.innerHTML === 'Ver todas las herramientas recomendadas') {
+    buttonRecommendedTools.innerHTML = 'Ver menos herramientas recomendadas'
+    recommendedToolsPreview.classList.add('hidden')
+    recommendedToolsViewMore.classList.remove('hidden')
+    document.getElementById('scroll-to-2').scrollIntoView({ behavior: 'smooth', block: 'start' })
+  } else {
+    buttonRecommendedTools.innerHTML = 'Ver todas las herramientas recomendadas'
+    recommendedToolsPreview.classList.remove('hidden')
+    recommendedToolsViewMore.classList.add('hidden')
+    document.getElementById('scroll-to-2').scrollIntoView({ behavior: 'smooth', block: 'start' })
+  }
+})
+
 const removeAccents = (str) =>
   str
     .normalize("NFD")
@@ -84,9 +122,6 @@ window.addEventListener("load", () => {
     return decode === slug;
   });
 
-  console.log(modal);
-  
-
   if (!modal) return;
 
   modal.classList.add("is-open");
@@ -109,41 +144,4 @@ window.addEventListener("load", () => {
     popupButton.classList.add("bg-black", "text-white");
     popupButton.classList.remove("text-chocolate");
   });
-
-  const toolsPreview = document.getElementById('tools-preview');
-const toolsViewMore = document.getElementById('tools-view-more');
-const buttonTools = document.getElementById('button-tools')
-
-const recommendedToolsPreview = document.getElementById('recommended-tools-preview');
-const recommendedToolsViewMore = document.getElementById('recommended-tools-view-more');
-const buttonRecommendedTools = document.getElementById('button-recommended-tools')
-
-
-buttonTools.addEventListener('click', () => {
-  if (buttonTools.innerHTML === 'Ver todas las herramientas') {
-    buttonTools.innerHTML = 'Ver menos herramientas'
-    toolsPreview.classList.add('hidden')
-    toolsViewMore.classList.remove('hidden')
-    document.getElementById('scroll-to').scrollIntoView({behavior: 'smooth', block: 'start'})
-  } else {
-    buttonTools.innerHTML = 'Ver todas las herramientas'
-    toolsPreview.classList.remove('hidden')
-    toolsViewMore.classList.add('hidden')
-    document.getElementById('scroll-to').scrollIntoView({behavior: 'smooth', block: 'start'})
-  }
-})
-
-buttonRecommendedTools.addEventListener('click', () => {
-  if (buttonRecommendedTools.innerHTML === 'Ver todas las herramientas recomendadas') {
-    buttonRecommendedTools.innerHTML = 'Ver menos herramientas recomendadas'
-    recommendedToolsPreview.classList.add('hidden')
-    recommendedToolsViewMore.classList.remove('hidden')
-    document.getElementById('scroll-to-2').scrollIntoView({behavior: 'smooth', block: 'start'})
-  } else {
-    buttonRecommendedTools.innerHTML = 'Ver todas las herramientas recomendadas'
-    recommendedToolsPreview.classList.remove('hidden')
-    recommendedToolsViewMore.classList.add('hidden')
-    document.getElementById('scroll-to-2').scrollIntoView({behavior: 'smooth', block: 'start'})
-  }
-})
 });
