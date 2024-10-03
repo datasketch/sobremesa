@@ -18,10 +18,6 @@ image: images/what-we-do-section.png
 
 Given this pressure that civil society has to deal with - from donors, colleagues and counterparts - organizations and the people in them need a moment to pause, to reflect and learn. It’s always better to do this in community, with good company, at La Sobremesa.
 
-**At La Sobremesa we want a strong, resilient and innovative civil society,** whose leaders, organizations and networks have everything they need to be able to focus on creating a positive impact in Latin America.
-
-**To do this, we create learning spaces, identify tools for transformation and provide direct support** for organizations and civil society leaders in Latin America, so that they can generate the impact they seek in innovative, healthy and unique ways.
-
 **Our Vision: At La Sobremesa, we envision a strong, resilient, and innovative civil society** where leaders, organizations, and networks have everything they need to focus on creating a positive impact in Latin America.
 
 **Our Mission: To achieve this, we facilitate spaces for learning, provide transformational tools, and offer personalized accompaniments** to civil society organizations and leaders in Latin America, enabling them to generate the impact they seek in innovative, healthy, and personalized ways.

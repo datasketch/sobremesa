@@ -111,8 +111,8 @@ collections:
         name: "topic"
         widget: "select"
         options:
-          - { label: "Misión", value: "mision" }
-          - { label: "Visión", value: "vision" }
+          - { label: "Mission", value: "mision" }
+          - { label: "Vision", value: "vision" }
           - { label: "Theory of change", value: "theory of change" }
           - { label: "Strategies", value: "strategies" }
           - { label: "Annual Retreats", value: "annual retreats" }

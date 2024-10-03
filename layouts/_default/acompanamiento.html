@@ -67,27 +67,30 @@
                     <p class="uppercase text-2xl lg:text-3xl font-normal font-martin">
                       {{ T "page_accompaniment_organizations" | safeHTML }}
                     </p>
-                    <div class="flex flex-row gap-4 mt-4">
-                      <div>
-                        <img src="/images/logos/logo-small-iris.svg" alt="logo-iris">
-                      </div>
+                    <div class="flex flex-row items-center gap-4 mt-4">
                       <div>
                         <img src="/images/logos/logo-small-dialogos.svg" alt="logo-dialogos">
                       </div>
                       <div>
-                        <img src="/images/logos/logo-small-japigay.svg" alt="logo-japigay">
+                        <img src="/images/logos/logo-small-oxfam.svg" alt="logo-oxfam">
+                      </div>
+                      <div>
+                        <img src="/images/logos/logo-small-tedic.svg" alt="logo-tedic">
+                      </div>
+                      <div>
+                        <img src="/images/logos/logo-small-iris.svg" alt="logo-iris">
+                      </div>
+                      <div>
+                        <img src="/images/logos/logo-small-codeforall.svg" alt="logo-codeforall">
                       </div>
                       <div>
                         <img src="/images/logos/logo-small-odc.svg" alt="logo-odc">
                       </div>
                       <div>
-                        <img src="/images/logos/logo-small-oxfam.svg" alt="logo-oxfam-mexico">
+                        <img src="/images/logos/logo-small-global-integrity.svg" alt="logo-global-integrity">
                       </div>
                       <div>
-                        <img src="/images/logos/logo-small-fundar.svg" alt="logo-fundar">
-                      </div>
-                      <div>
-                        <img src="/images/logos/logo-small-open-contracting.svg" alt="logo-open-contracting">
+                        <img src="/images/logos/logo-small-fau.svg" alt="logo-fau">
                       </div>
                     </div>
                   </div>
@@ -161,7 +164,7 @@
                     <p class="uppercase text-2xl lg:text-3xl font-normal font-martin">
                       {{ T "page_accompaniment_organizations" | safeHTML }}
                     </p>
-                    <div class="flex flex-row gap-4 mt-4">
+                    <div class="flex flex-row gap-4 mt-4 items-center">
                       <div>
                         <img src="/images/logos/logo-small-iris.svg" alt="logo-iris">
                       </div>
@@ -249,7 +252,7 @@
                     <p class="uppercase text-2xl lg:text-3xl font-normal font-martin">
                       {{ T "page_accompaniment_organizations" | safeHTML }}
                     </p>
-                    <div class="flex flex-row gap-4 mt-4">
+                    <div class="flex flex-row gap-4 mt-4 items-center">
                       <div>
                         <img src="/images/logos/logo-small-odc.svg" alt="logo-odc">
                       </div>
@@ -340,7 +343,7 @@
                     <p class="uppercase text-2xl lg:text-3xl font-normal font-martin">
                       {{ T "page_accompaniment_organizations" | safeHTML }}
                     </p>
-                    <div class="flex flex-row gap-4 mt-4">
+                    <div class="flex flex-row gap-4 mt-4 items-center">
                       <div>
                         <img src="/images/logos/logo-small-poder.svg" alt="logo-poder">
                       </div>
@@ -422,7 +425,7 @@
                     <p class="uppercase text-2xl lg:text-3xl font-normal font-martin">
                       {{ T "page_accompaniment_organizations" | safeHTML }}
                     </p>
-                    <div class="flex flex-row gap-4 mt-4">
+                    <div class="flex flex-row gap-4 mt-4 items-center">
                       <div>
                         <img src="/images/logos/logo-small-nodo.svg" alt="logo-nodo">
                       </div>
@@ -504,7 +507,7 @@
                     <p class="uppercase text-2xl lg:text-3xl font-normal font-martin">
                       {{ T "page_accompaniment_organizations" | safeHTML }}
                     </p>
-                    <div class="flex flex-row gap-4 mt-4">
+                    <div class="flex flex-row gap-4 mt-4 items-center">
                       <div>
                         <img src="/images/logos/logo-small-hiperderecho.svg" alt="logo-hiperderecho">
                       </div>
@@ -586,7 +589,7 @@
                     <p class="uppercase text-2xl lg:text-3xl font-normal font-martin">
                       {{ T "page_accompaniment_organizations" | safeHTML }}
                     </p>
-                    <div class="flex flex-row gap-4 mt-4">
+                    <div class="flex flex-row gap-4 mt-4 items-center">
                       <div>
                         <img src="/images/logos/logo-small-wings.svg" alt="logo-wings">
                       </div>
@@ -637,7 +640,7 @@
     <div class="slider-wrapper slider-wrapper-experiencias">
       <div class="swiper-container">
         <div class="swiper-wrapper">
-          {{ $order := slice "Oxfam México" "IRI" "Decidim" "Alianza Campo Justo" "Code for All" "PODER" "reAcción" "Japiqay" }}
+          {{ $order := slice "Oxfam México" "Iri" "Decidim" "Alianza Campo Justo" "Code for All" "Poder" "reAcción" "Japiqay" }}
           {{ $pages := .Pages }}
           {{ $sortedPages := slice }}
           {{ range $index, $client := $order }}
@@ -646,19 +649,11 @@
             {{ end }}
           {{ end }}
 
-          {{ range $pages }}
-          {{ if eq .Params.category "Experiencias" }}
-          {{ partial "experiences-slider.html" . }}
-          {{ else }}
-
-          {{ end }}
-          {{ end }}
-
           {{ range $sortedPages }}
             {{ if eq .Params.category "Testimonio" }}
               {{ partial "testimonies-slider.html" . }}
               {{ else }}
-
+              {{ partial "experiences-slider.html" . }}
             {{ end }}
           {{ end }}
         </div>

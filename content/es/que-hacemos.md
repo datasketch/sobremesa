@@ -16,10 +16,6 @@ image: images/what-we-do-section.png
 
 Dada esta presión que la sociedad civil tiene que sobrellevar – por parte de los donantes, de sus colegas y de sus contrapartes – las organizaciones y las personas en ellas necesitamos un momento para tomar una pausa, para reflexionar y aprender. Y siempre mejor hacerlo en comunidad, con buena compañía, en La Sobremesa.
 
-**En La Sobremesa queremos una sociedad civil fuerte, resiliente e innovadora,** cuyas líderes, organizaciones y redes tengan todo lo que necesitan para poder enfocarse en crear un impacto positivo en América Latina.
-
-**Para ello, generamos espacios de aprendizaje, herramientas para la transformación y acompañamiento directo** para las organizaciones y líderes de sociedad civil de América Latina, para que ellas puedan generar el impacto que buscan de forma innovadora, saludable y a su manera.
-
 **Nuestra Visión: En La Sobremesa queremos una sociedad civil fuerte, resiliente e innovadora**, cuyas líderes, organizaciones y redes tengan todo lo que necesitan para poder enfocarse en crear un impacto positivo en América Latina.
 
 **Nuestra Misión: Para ello, generamos espacios de aprendizaje, herramientas para la transformación y acompañamiento directo** para las organizaciones y líderes de sociedad civil de América Latina, para que ellas puedan generar el impacto que buscan de forma innovadora, saludable y a su manera

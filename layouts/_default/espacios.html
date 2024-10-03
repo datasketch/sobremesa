@@ -8,11 +8,11 @@
   </h2>
   <span class="font-beth-ellen text-xl relative z-10 -ml-8">{{ T "label_with_2" }} La Sobremesa</span>
 </div>
-<div class="mt-14 pb-12 pt-20 lg:pb-16 lg:pt-24 xl:pb-20 xl:pt-28 bg-lime font-open-sans text-onyx">
+<div class="mt-14 pb-12 pt-16 bg-lime font-open-sans text-onyx">
   <div class="container">
     <div class="text-center">
       {{ if eq .Site.Language.Lang "es" }}
-        <h2 class="text-5xl lg:text-6xl xl:text-7xl font-bold"><div class="relative inline-block"><span class="relative z-10">Curso</span> <div class="absolute top-0 left-0"><img class="w-full transform scale-125 -translate-y-2" src="{{ "images/cursos/cloud-white.svg" | absURL }}" alt=""></div></div> <span class="relative z-10">de Sostenibilidad Financiera</span></h2>
+      <img class="mx-auto w-11/12 lg:w-auto" src="{{ "images/cursos/course-title.png" | absURL }}" alt="">
       {{ else }}
         <h2 class="text-5xl lg:text-6xl xl:text-7xl font-bold"><span class="relative z-10">Financial Sustainability <br></span><div class="relative inline-block"><span class="relative z-10">Course</span> <div class="absolute top-0 left-0"><img class="w-full transform scale-125 -translate-y-2" src="{{ "images/cursos/cloud-white.svg" | absURL }}" alt=""></div></div></h2>
       {{ end }}
@@ -38,12 +38,6 @@
         <img src="{{ "images/cursos/arrow-big.svg" | absURL }}" alt="">
        </div>
       </a>
-    </div>
-    <div class="mt-12 flex justify-center items-center lg:justify-end lg:items-end">
-      <div class="flex items-center lg:gap-x-2">
-        <p class="font-semibold">{{ T "label_designed" }}</p>
-        <img class="flex-shrink-0 w-28 lg:w-36" src='{{ "images/logo.png" | absURL }}' alt="logo la sobremesa" />
-      </div>
     </div>
   </div>
 </div>

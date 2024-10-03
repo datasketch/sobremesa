@@ -1,61 +1,5 @@
 [
     {
-        "company": "Oxfam México",
-        "text": "It was a pleasure to work with Anca and the team. The process was like a journey, starting from defining the destination and what we aim to achieve with the process; planning and preparing all the important elements for the conversations we are about to embark on; navigating and exploring the ideas, ambitions, and fears of the team; until landing the reflections into concrete and manageable proposals. La Sobremesa is not just a consultant, they are a \"thought partner\" and guide.",
-        "contact": "Estefania Hechenberger",
-        "role": "Program Manager for Work and Well-being [oxfammexico.org](https://www.oxfammexico.org/)",
-        "logo": "/images/logos/oxfam-mexico.png"
-    },
-    {
-        "company": "International Republican Institute",
-        "text": "With International Republican Institute, 'Working with La Sobremesa was a seamless experience, and one of the best experiences we've had with an external trainer designing workshops for our partners. La Sobremesa provided two in-depth workshops to capacitate our grantee partners on how to think about and achieve greater financial sustainability. La Sobremesa listened carefully, regularly collaborated with our team, and produced tailored guidance and materials that was exactly meeting the needs of our grantees. We couldn't recommend working with La Sobremesa more'",
-        "contact": "Amanda Zink",
-        "role": "Program Manager [iri.org/](https://www.iri.org/)",
-        "logo": "/images/logos/logo-iri.svg"
-    },
-    {
-        "company": "Decidim",
-        "text": "With Decidim, 'the exercises proposed by La Sobremesa have been very helpful in incorporating the fundraising culture into our organization. The development of a sustainability plan has been the perfect culmination of all this work, as it has compelled us to dedicate quality time to think and create a strategic plan for economic sustainability. The La Sobremesa team is well-versed in this field, and their experience is evident. Their advice and guidance have been key in steering the work we have done after the workshops.'",
-        "contact": "Nil Homedes",
-        "role": "President [decidim.org/](https://www.decidim.org/)",
-        "logo": "/images/logos/logo-decidim.svg"
-    },
-    {
-        "company": "Alianza Campo Justo",
-        "text": "With Alianza Campo Justo, 'La Sobremesa's accompaniment work is very comprehensive, complete, harmonious, reflective, and generated an atmosphere of trust and integration. They were spaces where debates were triggered and agreements were reached collectively and respectfully; also, each space was interconnected, and the continuity was always felt in each of them.'",
-        "contact": "Margarita Nemecio",
-        "role": "[https://twitter.com/RAgricolas](https://twitter.com/RAgricolas)",
-        "logo": "/images/logos/logo-alianza-campo-justo.svg"
-    },
-    {
-        "company": "Code For All",
-        "text": "With Code For All, 'After a decade of serving as the global Civic Tech Network, La Sobremesa played a crucial role in supporting us during the essential refresh process. Despite the challenging nature of many discussions, their expertise and skills, combined with strategic exercises, helped propel the conversation forward, ultimately shaping an action plan that holds the potential to drive both the Network and its members forward.'",
-        "contact": "Mar Marín",
-        "role": "Code For All Communications Leader [codeforall.org/](https://codeforall.org/)",
-        "logo": "/images/logos/logo-codeforall.svg"
-    },
-    {
-        "company": "Poder",
-        "text": "With PODER, 'working with La Sobremesa was very good as they challenged us to truly think about the meaning of impact and how we can not only measure it internally but also account for it. The La Sobremesa team accompanied us in these reflections with a very clear methodology and some excellent facilitators. Thanks, colleagues!'",
-        "contact": "Fernanda Hopenhaym",
-        "role": "Co-Executive Director [poderlatam.org/](https://poderlatam.org/)",
-        "logo": "/images/logos/logo-poder.svg"
-    },
-    {
-        "company": "reAcción",
-        "text": "When working with La Sobremesa in creating possible Futures to prioritize actions and adjust our institutional development plan, we felt that they cared about the future of our organization as if it were their own. They have a capacity to listen and empathize that is not common in these fields (of consultants). Their priority was to ensure that our alternative development vision could become a reality.",
-        "contact": "David Riveros García",
-        "role": "Executive Director of [reAccion.org.py](https://reaccion.org.py/)",
-        "logo": "/images/logos/reaccion.svg"
-    },
-    {
-        "company": "Japiqay",
-        "text": "With Japiqay, 'the learning process was crucial for us. The sessions with La Sobremesa allowed us to review and assess the work already done, but, above all, to understand and define the steps to professionalize our efforts. The interaction and feedback dynamics made us feel like partners.'",
-        "contact": "Gabriela Flores",
-        "role": "Executive Director [japiqay.org](http://www.japiqay.org/)",
-        "logo": "/images/logos/logo-japigay.svg"
-    },
-    {
         "company": "Diálogos",
         "text": "Working with La Sobremesa marks a turning point in our institutional history. They accompanied us in co-creating and defining a roadmap for our organization. As part of that technical assistance, they helped us define mechanisms in Dialogos on how we anticipate futures and learn from them. We truly enjoyed working with La Sobremesa. Thanks to their inspiration and support, we were able to achieve the objectives and goals we set for ourselves. A work like this deserves to be properly recognized, so thank you for dedicating so much time, love, and effort to our project.",
         "contact": "Walter Corzo",
@@ -68,5 +12,19 @@
         "contact": "Conrad Zellman",
         "role": "Impact Lead at [hivos.org](https://hivos.org/)",
         "logo": "/images/logos/hivos.svg"
+    },
+    {
+        "company": "reAcción",
+        "text": "When working with La Sobremesa in creating possible Futures to prioritize actions and adjust our institutional development plan, we felt that they cared about the future of our organization as if it were their own. They have a capacity to listen and empathize that is not common in these fields (of consultants). Their priority was to ensure that our alternative development vision could become a reality.",
+        "contact": "David Riveros García",
+        "role": "Executive Director of [reAccion.org.py](https://reaccion.org.py/)",
+        "logo": "/images/logos/reaccion.svg"
+    },
+    {
+        "company": "Oxfam México",
+        "text": "It was a pleasure to work with Anca and the team. The process was like a journey, starting from defining the destination and what we aim to achieve with the process; planning and preparing all the important elements for the conversations we are about to embark on; navigating and exploring the ideas, ambitions, and fears of the team; until landing the reflections into concrete and manageable proposals. La Sobremesa is not just a consultant, they are a \"thought partner\" and guide.",
+        "contact": "Estefania Hechenberger",
+        "role": "Program Manager for Work and Well-being [oxfammexico.org](https://www.oxfammexico.org/)",
+        "logo": "/images/logos/oxfam-mexico.png"
     }
 ]

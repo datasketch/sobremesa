@@ -23,7 +23,8 @@ module.exports = {
         "hidden",
         "bg-black",
         "text-white",
-        "text-chocolate"
+        "text-chocolate",
+        "hidden"
       ],
     },
   },
