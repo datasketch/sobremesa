@@ -220,14 +220,21 @@
     </div>
   </div>
 </section>
-<section class="px-8 pb-16 md:px-4 md:py-16 bg-darmouth-green">
+<section class="px-8 py-16 md:px-4 md:py-16 bg-darmouth-green">
   <div class="container w-full lg:w-10/12">
     <div class="section-row md:space-y-0 md:flex-row">
-      <div class="section-col md:py-0 md:px-4 md:w-1/2">
-        <div class='section-col-inner home-banner md:py-32 {{ print "bg-tools-sm-" .Site.Language.Lang " " "md:bg-tools-lg-" .Site.Language.Lang }}'>
+      <div class="section-col md:py-0 md:px-4 md:w-1/2 relative">
+        <div class='section-col-inner home-banner md:py-32 relative z-10'>
           <h2 class="section-title leading-extra-tight text-linen relative">
             {{ T "page_home_reading_listening" }}
           </h2>
+        </div>
+        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+          {{ if eq .Site.Language.Lang "es" }}
+             <img class="w-full" src="{{ "/images/tools-lg-es.svg" | absURL }}" alt="herramientas">
+          {{ else }}
+             <img class="w-full" src="{{ "/images/tools-lg-en.svg" | absURL }}" alt="herramientas">
+          {{ end }}
         </div>
       </div>
       <div class="section-col px-4 md:w-1/2">
@@ -276,14 +283,21 @@
     </div>
   </div>
 </section>
-<section class="px-8 pb-16 md:px-4 md:pb-0 bg-gold-metallic">
+<section class="px-8 py-16 md:px-4 md:py-0 bg-gold-metallic">
   <div class="container w-full lg:w-10/12">
     <div class="section-row section-row-reverse md:space-y-0 md:flex-row-reverse">
-      <div class="section-col md:py-0 md:px-4 md:w-1/2">
-        <div class="section-col-inner home-banner py-40 {{ print "bg-spaces-sm-" .Site.Language.Lang " " "md:bg-spaces-lg-" .Site.Language.Lang }}">
+      <div class="section-col md:py-0 md:px-4 md:w-1/2 relative">
+        <div class="section-col-inner home-banner py-40 relative z-10">
           <h2 class="section-title leading-extra-tight text-linen relative">
             {{ T "page_home_talk_trend" }}
           </h2>
+        </div>
+        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+          {{ if eq .Site.Language.Lang "es" }}
+             <img class="w-full" src="{{ "/images/spaces-lg-es.svg" | absURL }}" alt="spaces">
+          {{ else }}
+             <img class="w-full" src="{{ "/images/spaces-lg-en.svg" | absURL }}" alt="spaces">
+          {{ end }}
         </div>
       </div>
       <div class="section-col py-0 md:py-24 lg:py-48 px-4 md:w-1/2">

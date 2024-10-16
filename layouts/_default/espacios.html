@@ -8,36 +8,38 @@
   </h2>
   <span class="font-beth-ellen text-xl relative z-10 -ml-8">{{ T "label_with_2" }} La Sobremesa</span>
 </div>
-<div class="mt-14 pb-12 pt-16 bg-lime font-open-sans text-onyx">
-  <div class="container">
-    <div class="text-center">
+<div class="container">
+  <div class="mt-14 pb-12 pt-16 bg-lime font-open-sans text-onyx">
+    <div class="container">
+      <div class="text-center">
+        {{ if eq .Site.Language.Lang "es" }}
+        <img class="mx-auto w-11/12 lg:w-auto" src="{{ "images/cursos/course-title.png" | absURL }}" alt="">
+        {{ else }}
+          <h2 class="text-5xl lg:text-6xl xl:text-7xl font-bold"><span class="relative z-10">Financial Sustainability <br></span><div class="relative inline-block"><span class="relative z-10">Course</span> <div class="absolute top-0 left-0"><img class="w-full transform scale-125 -translate-y-2" src="{{ "images/cursos/cloud-white.svg" | absURL }}" alt=""></div></div></h2>
+        {{ end }}
+      </div>
       {{ if eq .Site.Language.Lang "es" }}
-      <img class="mx-auto w-11/12 lg:w-auto" src="{{ "images/cursos/course-title.png" | absURL }}" alt="">
+      <div class="mt-8 text-center">
+        <p class="text-xl lg:text-2xl">
+          Un curso virtual, <br> donde crearás tu propio <b>Plan de Sostenibilidad
+            Financiera</b> <br> para tu organización de sociedad civil.
+        </p>
+      </div>
       {{ else }}
-        <h2 class="text-5xl lg:text-6xl xl:text-7xl font-bold"><span class="relative z-10">Financial Sustainability <br></span><div class="relative inline-block"><span class="relative z-10">Course</span> <div class="absolute top-0 left-0"><img class="w-full transform scale-125 -translate-y-2" src="{{ "images/cursos/cloud-white.svg" | absURL }}" alt=""></div></div></h2>
+      <div class="mt-16 text-center">
+        <p class="text-xl lg:text-2xl">
+          A virtual course <br> where you will create your own <b>Financial Sustainability Plan</b> <br> for your civil society organization.
+        </p>
+      </div>
       {{ end }}
-    </div>
-    {{ if eq .Site.Language.Lang "es" }}
-    <div class="mt-8 text-center">
-      <p class="text-xl lg:text-2xl">
-        Un curso virtual, <br> donde crearás tu propio <b>Plan de Sostenibilidad
-          Financiera</b> <br> para tu organización de sociedad civil.
-      </p>
-    </div>
-    {{ else }}
-    <div class="mt-16 text-center">
-      <p class="text-xl lg:text-2xl">
-        A virtual course <br> where you will create your own <b>Financial Sustainability Plan</b> <br> for your civil society organization.
-      </p>
-    </div>
-    {{ end }}
-    <div class="mt-12 text-center">
-      <a class="relative inline-block uppercase bg-white py-6 px-16 rounded-full font-semibold" href="{{ absURL "/cursos/sostenibilidad-financiera" }}">
-       <p class="relative z-10">{{ T "action_more_info" }}</p>
-       <div class="absolute top-0 -left-full hidden sm:block">
-        <img src="{{ "images/cursos/arrow-big.svg" | absURL }}" alt="">
-       </div>
-      </a>
+      <div class="mt-12 text-center">
+        <a class="relative inline-block uppercase bg-white py-6 px-16 rounded-full font-semibold" href="{{ absURL "/cursos/sostenibilidad-financiera" }}">
+         <p class="relative z-10">{{ T "action_more_info" }}</p>
+         <div class="absolute top-0 -left-full hidden sm:block">
+          <img src="{{ "images/cursos/arrow-big.svg" | absURL }}" alt="">
+         </div>
+        </a>
+      </div>
     </div>
   </div>
 </div>

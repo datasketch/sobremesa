@@ -2,14 +2,12 @@
 client: reAcción
 name: David Riveros García
 web: https://reaccion.org.py/
-role: Executive Director
+role: Executive Director of https://reaccion.org.py/
 logo: uploads/reaccion.svg
 draft: false
-weight: 3
+weight: 1
 entry: true
-category: Experiencias
+category: Testimonio
 ---
 
-With reAccion from Paraguay, "we worked with La Sobremesa in the analysis of possible futures to prioritize actions and adjust our institutional development plan."
-
-We felt that the future of our organization mattered to them just as if it were their own. They have a capacity for listening and for empathy that is not common in these spaces. Thier priority was to ensure that our alternative vision of development can become reality.
+With reAcción, 'We felt the proactivity of La Sobremesa in providing the necessary materials for the development of the assigned tasks. We appreciate La Sobremesa for the support and facilitation of tools and resources that adapt to our organization's reality. This support was very flexible and adaptive to our changing needs and times due to the nature of our work. In this process, we forced ourselves to stop the ball to continue thinking about the future of the organization.'

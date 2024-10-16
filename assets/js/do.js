@@ -16,7 +16,7 @@ const recommendedToolsViewMore = document.getElementById('recommended-tools-view
 const buttonRecommendedTools = document.getElementById('button-recommended-tools')
 
 
-buttonTools.addEventListener('click', () => {
+buttonTools && buttonTools.addEventListener('click', () => {
   if (buttonTools.innerHTML === 'Ver todas las herramientas') {
     buttonTools.innerHTML = 'Ver menos herramientas'
     toolsPreview.classList.add('hidden')
@@ -30,7 +30,7 @@ buttonTools.addEventListener('click', () => {
   }
 })
 
-buttonRecommendedTools.addEventListener('click', () => {
+buttonRecommendedTools && buttonRecommendedTools.addEventListener('click', () => {
   if (buttonRecommendedTools.innerHTML === 'Ver todas las herramientas recomendadas') {
     buttonRecommendedTools.innerHTML = 'Ver menos herramientas recomendadas'
     recommendedToolsPreview.classList.add('hidden')
@@ -103,7 +103,7 @@ triggers.forEach((trigger) => {
     const popupButton = modal.querySelector(".popup-button");
     const popupContent = modal.querySelector(".popup-content");
 
-    popupButton.addEventListener("click", () => {
+    popupButton && popupButton.addEventListener("click", () => {
       popupContent.classList.remove("hidden");
       popupButton.classList.add("bg-black", "text-white");
       popupButton.classList.remove("text-chocolate");
