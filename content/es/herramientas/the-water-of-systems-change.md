@@ -1,6 +1,7 @@
 ---
 title: The Water of Systems Change
 genre: tool
+recommended: true
 clip: /uploads/inverted-pyramid-water-of-systems-change-1-2048x1260.jpg
 resource_url: https://www.fsg.org/resource/water_of_systems_change/
 creator: John Kania, Mark Kramer, Peter Senge
