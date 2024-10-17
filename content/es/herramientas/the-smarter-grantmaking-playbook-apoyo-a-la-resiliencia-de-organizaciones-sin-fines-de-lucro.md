@@ -3,6 +3,7 @@ title: "The Smarter Grantmaking Playbook: Apoyo a la Resiliencia de
   Organizaciones Sin Fines de Lucro"
 genre: guide
 topic: leadership
+recommended: true
 clip: /uploads/herramienta-4.png
 resource_url: https://www.geofunders.org/what-we-offer/the-smarter-grantmaking-playbook/support-nonprofit-resilience
 creator: GEO
