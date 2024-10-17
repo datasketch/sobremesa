@@ -1,6 +1,7 @@
 ---
 title: '"Liberating Structures: Including and Unleashing Everyone" basado en el libro'
 genre: guide
+recommended: true
 clip: https://dl.airtable.com/.attachmentThumbnails/ed6acda64a0b3ac88a3504b2bb791b80/384fff0a
 resource_url: https://www.liberatingstructures.com/
 creator: Henri Lipmanowicz y Keith McCandless
