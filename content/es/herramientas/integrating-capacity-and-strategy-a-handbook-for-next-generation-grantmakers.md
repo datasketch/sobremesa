@@ -2,6 +2,7 @@
 title: '"Integrating Capacity and Strategy: A Handbook for Next Generation
   Grantmakers"'
 genre: guide
+recommended: true
 clip: https://dl.airtable.com/.attachmentThumbnails/23fb10c553c7bf7139efeddc064f026f/ee2088cb
 resource_url: https://pacscenter.stanford.edu/publication/integrating-capacity-and-strategy-a-handbook-for-next-generation-grantmakers-and-grantees/
 creator: C.R. Hibbs, Stanford PACS
