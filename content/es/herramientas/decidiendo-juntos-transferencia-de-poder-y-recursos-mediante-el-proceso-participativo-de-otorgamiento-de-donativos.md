@@ -2,6 +2,7 @@
 title: '"Decidiendo Juntos Transferencia de poder y recursos mediante el proceso
   participativo de otorgamiento de donativos"'
 genre: report
+recommended: true
 clip: https://dl.airtable.com/.attachmentThumbnails/b901957c636f1f1cb92914896c85391d/87fef2a3
 resource_url: https://grantcraft.org/content/guides/decidiendo-juntos/
 creator: Grantcraft
