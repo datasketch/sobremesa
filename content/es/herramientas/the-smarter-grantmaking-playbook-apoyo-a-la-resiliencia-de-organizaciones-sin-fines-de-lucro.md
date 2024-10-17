@@ -10,7 +10,7 @@ creator: GEO
 target: Donantes que estén buscando herramientas para fortalecer a las
   organizaciones que apoyan.
 lastmod: 2023-11-20T21:05:39.960Z
-draft: false
+draft: true
 entry: true
 ---
 <!--StartFragment-->
