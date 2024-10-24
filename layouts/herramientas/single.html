@@ -1,31 +1,34 @@
 {{ define "main" }}
-{{ $pages := where site.RegularPages "Type" "herramientas" }}
 {{ partial "page-header.html" (dict "title" (T "label_tools") "description" (T "page_tools_desc") "image" "images/resources-section.png")}}
 <section class="px-4 py-16">
   <div class="p-8 bg-gold-metallic">
     <div class="flex flex-col gap-y-4">
       <div>
         <div class="relative">
-          <input id="search" class="w-full py-2 pl-12 pr-8 bg-white border-2 border-chocolate focus:outline-none placeholder-chocolate" type="search" name="search" placeholder="Palabra clave">
+          <input id="search"
+            class="w-full py-2 pl-12 pr-8 bg-white border-2 border-chocolate focus:outline-none placeholder-chocolate"
+            type="search" name="search" placeholder="Palabra clave">
           <div class="absolute transform -translate-y-1/2 top-1/2 left-4">
             <img class="w-6 h-6" src='{{ "images/search.svg" | absURL }}' alt="">
           </div>
         </div>
       </div>
-      <div>
+      <div class="flex flex-col md:flex-row items-center gap-4">
+        <div class="md:w-1/3 w-full">
           <select class="w-full py-2 px-4 bg-white border-2 border-chocolate focus:outline-none" name="topic">
             <option value="">Tema</option>
           </select>
-      </div>
-      <div>
-        <select class="w-full py-2 px-4 bg-white border-2 border-chocolate focus:outline-none" name="language">
-          <option value="">Idioma</option>
-        </select>
-      </div>
-      <div>
-        <select class="w-full py-2 px-4 bg-white border-2 border-chocolate focus:outline-none" name="whom">
-          <option value="">Para quién</option>
-        </select>
+        </div>
+        <div class="md:w-1/3 w-full">
+          <select class="w-full py-2 px-4 bg-white border-2 border-chocolate focus:outline-none" name="language">
+            <option value="">Idioma</option>
+          </select>
+        </div>
+        <div class="md:w-1/3 w-full">
+          <select class="w-full py-2 px-4 bg-white border-2 border-chocolate focus:outline-none" name="whom">
+            <option value="">Para quién</option>
+          </select>
+        </div>
       </div>
     </div>
   </div>
@@ -45,17 +48,17 @@
       </div>
       <div class="mt-12 lg:mt-16 xl:mt-20">
         <div id="tools-preview" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-8 lg:gap-y-16 xl:gap-y-20">
-          {{ range first 6 (where $pages "Params.recommended" "!=" true) }}
+          {{ range first 6 (where .Pages "Params.recommended" "!=" true) }}
           {{ partial "resource-card.html" (dict "title" .Title "description" .Content "clip" .Params.clip "resource_url" .Params.resource_url "show_more" false "go_to_tool" true) }}
           {{ end }}
         </div>
         <div id="tools-view-more" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-8 lg:gap-y-16 xl:gap-y-20 hidden">
-          {{ range (where $pages "Params.recommended" "!=" true) }}
+          {{ range (where .Pages "Params.recommended" "!=" true) }}
           {{ partial "resource-card.html" (dict "title" .Title "description" .Content "clip" .Params.clip "resource_url" .Params.resource_url "show_more" false "go_to_tool" true) }}
           {{ end }}
         </div>
         <div class="mt-12 text-center">
-          <button id="button-tools" class="text-lg lg:text-xl">Ver todas las herramientas</button>
+          <button id="button-tools" class="site-link">Ver todas las herramientas</button>
         </div>
       </div>
     </div>
@@ -74,17 +77,17 @@
       </div>
       <div class="mt-12 lg:mt-16 xl:mt-20">
         <div id="recommended-tools-preview" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-5 gap-y-8 lg:gap-y-16 xl:gap-y-20">
-          {{ range first 8 (where $pages "Params.recommended" true) }}
+          {{ range first 8 (where .Pages "Params.recommended" true) }}
           {{ partial "resource-card.html" (dict "title" .Title "description" .Content "clip" .Params.clip "resource_url" .Params.resource_url "show_more" true "go_to_tool" false) }}
           {{ end }}
         </div>
         <div id="recommended-tools-view-more" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-5 gap-y-8 lg:gap-y-16 xl:gap-y-20 hidden">
-          {{ range (where $pages "Params.recommended" true) }}
+          {{ range (where .Pages "Params.recommended" true) }}
           {{ partial "resource-card.html" (dict "title" .Title "description" .Content "clip" .Params.clip "resource_url" .Params.resource_url "show_more" true "go_to_tool" false) }}
           {{ end }}
         </div>
         <div class="mt-12 text-center">
-          <button id="button-recommended-tools" class="text-lg lg:text-xl">Ver todas las herramientas recomendadas</button>
+          <button id="button-recommended-tools" class="site-link">Ver todas las herramientas recomendadas</button>
         </div>
       </div>
     </div>
@@ -107,7 +110,7 @@
     </div>
   </div>
 </div>
-{{ range where $pages "Params.draft" false }}
+{{ range where .Pages "Params.draft" false }}
   {{ partial "resource-modal.html" . }}
 {{ end }}
 {{ end }}

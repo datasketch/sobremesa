@@ -5,26 +5,30 @@
     <div class="flex flex-col gap-y-4">
       <div>
         <div class="relative">
-          <input id="search" class="w-full py-2 pl-12 pr-8 bg-white border-2 border-chocolate focus:outline-none placeholder-chocolate" type="search" name="search" placeholder="Palabra clave">
+          <input id="search"
+            class="w-full py-2 pl-12 pr-8 bg-white border-2 border-chocolate focus:outline-none placeholder-chocolate"
+            type="search" name="search" placeholder="Palabra clave">
           <div class="absolute transform -translate-y-1/2 top-1/2 left-4">
             <img class="w-6 h-6" src='{{ "images/search.svg" | absURL }}' alt="">
           </div>
         </div>
       </div>
-      <div>
+      <div class="flex flex-col md:flex-row items-center gap-4">
+        <div class="md:w-1/3 w-full">
           <select class="w-full py-2 px-4 bg-white border-2 border-chocolate focus:outline-none" name="topic">
             <option value="">Tema</option>
           </select>
-      </div>
-      <div>
-        <select class="w-full py-2 px-4 bg-white border-2 border-chocolate focus:outline-none" name="language">
-          <option value="">Idioma</option>
-        </select>
-      </div>
-      <div>
-        <select class="w-full py-2 px-4 bg-white border-2 border-chocolate focus:outline-none" name="whom">
-          <option value="">Para quién</option>
-        </select>
+        </div>
+        <div class="md:w-1/3 w-full">
+          <select class="w-full py-2 px-4 bg-white border-2 border-chocolate focus:outline-none" name="language">
+            <option value="">Idioma</option>
+          </select>
+        </div>
+        <div class="md:w-1/3 w-full">
+          <select class="w-full py-2 px-4 bg-white border-2 border-chocolate focus:outline-none" name="whom">
+            <option value="">Para quién</option>
+          </select>
+        </div>
       </div>
     </div>
   </div>
