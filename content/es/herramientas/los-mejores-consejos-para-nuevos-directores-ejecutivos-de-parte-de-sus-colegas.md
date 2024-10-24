@@ -4,7 +4,7 @@ genre: guide
 topic: transitions
 language: english
 for_whom: leaders
-recommended: true
+recommended: false
 clip: /uploads/333.png
 resource_url: https://www.opensocietyfoundations.org/uploads/31d2bc8b-bf92-4457-8c13-f7317a30f85b/in-support-of-those-who-take-the-leap-top-advice-for-the-new-executive-directors-from-their-peers-20211019.pdf
 creator: Open Society Foundation
