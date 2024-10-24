@@ -2,8 +2,8 @@
 {{ partial "page-header.html" (dict "title" (T "label_tools") "description" (T "page_tools_desc") "image" "images/resources-section.png")}}
 <section class="px-4 py-16">
   <div class="p-8 bg-gold-metallic">
-    <div class="flex flex-col lg:flex-row lg:gap-x-2.5 gap-y-4">
-      <div class="lg:w-6/12">
+    <div class="flex flex-col gap-y-4">
+      <div>
         <div class="relative">
           <input id="search" class="w-full py-2 pl-12 pr-8 bg-white border-2 border-chocolate focus:outline-none placeholder-chocolate" type="search" name="search" placeholder="Palabra clave">
           <div class="absolute transform -translate-y-1/2 top-1/2 left-4">
@@ -11,17 +11,17 @@
           </div>
         </div>
       </div>
-      <div class="lg:w-2/12">
+      <div>
           <select class="w-full py-2 px-4 bg-white border-2 border-chocolate focus:outline-none" name="topic">
             <option value="">Tema</option>
           </select>
       </div>
-      <div class="lg:w-2/12">
+      <div>
         <select class="w-full py-2 px-4 bg-white border-2 border-chocolate focus:outline-none" name="language">
           <option value="">Idioma</option>
         </select>
       </div>
-      <div class="lg:w-2/12">
+      <div>
         <select class="w-full py-2 px-4 bg-white border-2 border-chocolate focus:outline-none" name="whom">
           <option value="">Para quién</option>
         </select>
