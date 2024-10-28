@@ -1,8 +1,11 @@
 ---
 title: Ranking de Proyectos
 genre: tool
-topic: monitoring
-clip: /uploads/2.png
+topic: monitoring, evaluation and learning
+language: spanish
+for_whom: organizations
+recommended: false
+clip: /uploads/5.png
 resource_url: https://docs.google.com/spreadsheets/d/191DzNVMVziyYg90mD7xuFX-ScRYes7grMYbmCAcsaQ8/edit#gid=0
 creator: La Sobremesa
 target: Organizaciones que quieren reflexionar sobre sus proyectos de una forma
