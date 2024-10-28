@@ -1,8 +1,11 @@
 ---
 title: Plan de Acción de Sostenibilidad Financiera
 genre: tool
-topic: sustainability
-clip: /uploads/plan-de-acción-de-sostenibilidad-financiera.png
+topic: financial sustainability
+language: spanish
+for_whom: organizations
+recommended: false
+clip: /uploads/miniaturas-web-330-x-330-px.png
 resource_url: https://docs.google.com/spreadsheets/d/1QHxD5ppoBOzH7ujwveZSN9flXai-LpKvHjig5ooDXhU/edit#gid=416387894
 creator: La Sobremesa
 target: Organizaciones que necesitan poner en práctica su Plan de Sostenibilidad
