@@ -1,7 +1,9 @@
 ---
 title: 6 pasos para crear tu Plan Anual
 genre: tool
-topic: plan
+topic: mision
+language: spanish
+for_whom: organizations
 clip: /uploads/6-pasos-para-crear-tu-plan-anual.png
 resource_url: https://lasobremesa.medium.com/6-pasos-para-crear-tu-plan-anual-210d0f62752f
 creator: La Sobremesa
