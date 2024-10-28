@@ -5,7 +5,7 @@ topic: financial sustainability
 language: spanish
 for_whom: organizations
 recommended: false
-clip: /uploads/miniaturas-web-330-x-330-px-1-.png
+clip: /uploads/4.png
 resource_url: https://docs.google.com/spreadsheets/d/1WHDzvUbT5UtciHm5nGC4rERY9-f4pOXBfMvyZEDjgIM/edit#gid=1001896263
 creator: La Sobremesa
 target: "Organizaciones de sociedad civil que quieren ser más resilientes
