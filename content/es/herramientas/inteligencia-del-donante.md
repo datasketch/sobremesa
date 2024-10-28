@@ -5,7 +5,7 @@ topic: financial sustainability
 language: spanish
 for_whom: organizations
 recommended: false
-clip: /uploads/4.png
+clip: /uploads/7.png
 resource_url: https://docs.google.com/spreadsheets/d/150DdYx-OoTgcUkyxEXgHV35fxx97FG_VaPumXy3k_MY/edit#gid=1731208060
 creator: La Sobremesa
 target: Organizaciones que quieren explorar dónde están los donantes que puedan
