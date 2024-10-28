@@ -146,6 +146,7 @@ collections:
         name: "recommended"
         widget: "boolean"
         default: false
+        required: false
       - label: "Clip"
         name: "clip"
         widget: "file"
@@ -240,6 +241,7 @@ collections:
         name: "recommended"
         widget: "boolean"
         default: false
+        required: false
       - label: "Clip"
         name: "clip"
         widget: "file"
