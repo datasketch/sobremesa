@@ -1,7 +1,7 @@
 ---
 title: Keep, Fix, Try
 genre: tool
-topic: financial sustainability
+topic: monitoring, evaluation and learning
 language: spanish
 for_whom: organizations
 recommended: false
