@@ -5,7 +5,7 @@ topic: financial sustainability
 language: spanish
 for_whom: organizations
 recommended: false
-clip: /uploads/miniaturas-web-330-x-330-px.png
+clip: /uploads/1.png
 resource_url: https://docs.google.com/spreadsheets/d/1QHxD5ppoBOzH7ujwveZSN9flXai-LpKvHjig5ooDXhU/edit#gid=416387894
 creator: La Sobremesa
 target: Organizaciones que necesitan poner en práctica su Plan de Sostenibilidad
