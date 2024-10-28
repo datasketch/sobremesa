@@ -459,3 +459,47 @@
   translation: Other recommended tools
 - id: label_recommended_tools_description
   translation: Inspiring tools from Latin American and global authors and sources. Articles, guides, reports and podcasts, among others, that allow you to discover diverse perspectives and complement La Sobremesa's proposal.
+- id: filter_topic
+  translation: Topic
+- id: filter_language
+  translation: Language
+- id: filter_for_whom
+  translation: For whom
+- id: topic_mision
+  translation: Mission
+- id: topic_vision
+  translation: Vision
+- id: topic_theory_of_change
+  translation: Teoría de Cambio
+- id: topic_strategies
+  translation: Strategies
+- id: topic_annual_retreats
+  translation: Annual Retreats
+- id: topic_planning
+  translation: Planning
+- id: topic_project_design
+  translation: Project Design
+- id: topic_networking_and_organization_building
+  translation: Networking and Organization Building
+- id: topic_financial_sustainability
+  translation: Financial Sustainability
+- id: topic_monitoring_evaluation_and_learning
+  translation: Monitoring, Evaluation and Learning
+- id: topic_transitions
+  translation: Transiciones
+- id: topic_new_leaderships
+  translation: New Leadership
+- id: topic_healthy_team
+  translation: Healthy Team
+- id: language_spanish
+  translation: Español
+- id: language_english
+  translation: Inglés
+- id: for_whom_organizations
+  translation: Organizations
+- id: for_whom_leaders
+  translation: Leaders
+- id: for_whom_networks
+  translation: Networks
+- id: for_whom_donors
+  translation: Donors

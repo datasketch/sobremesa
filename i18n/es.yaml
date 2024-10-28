@@ -486,4 +486,47 @@
   translation: Otras herramientas recomendadas
 - id: label_recommended_tools_description
   translation: Herramientas inspiradoras de autores y fuentes latinoamericanas y globales. Artículos, guías, reportes y podcasts, entre otras, que permiten conocer perspectivas diversas y complementan la propuesta de La Sobremesa.
-
+- id: filter_topic
+  translation: Tema
+- id: filter_language
+  translation: Idioma
+- id: filter_for_whom
+  translation: Para quién
+- id: topic_mision
+  translation: Misión
+- id: topic_vision
+  translation: Visión
+- id: topic_theory_of_change
+  translation: Teoría de Cambio
+- id: topic_strategies
+  translation: Estrategias
+- id: topic_annual_retreats
+  translation: Retiros Anuales
+- id: topic_planning
+  translation: Planeación
+- id: topic_project_design
+  translation: Diseño de proyectos
+- id: topic_networking_and_organization_building
+  translation: Creación de redes y organizaciones
+- id: topic_financial_sustainability
+  translation: Sostenibilidad financiera
+- id: topic_monitoring_evaluation_and_learning
+  translation: Monitoreo, Evaluación y Aprendizaje
+- id: topic_transitions
+  translation: Transiciones
+- id: topic_new_leaderships
+  translation: Nuevos liderazgos
+- id: topic_healthy_team
+  translation: Equipo sano
+- id: language_spanish
+  translation: Español
+- id: language_english
+  translation: Inglés
+- id: for_whom_organizations
+  translation: Organizaciones
+- id: for_whom_leaders
+  translation: Líderes
+- id: for_whom_networks
+  translation: Redes
+- id: for_whom_donors
+  translation: Donantes

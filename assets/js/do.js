@@ -4,6 +4,10 @@ const modals = new Map();
 const dismissButtons = new Map();
 
 const searchEl = document.getElementById("search");
+const topicEl = document.getElementById("topic");
+const languageEl = document.getElementById("language");
+const forWhomEl = document.getElementById("for-whom");
+
 const cards = Array.from(document.querySelectorAll(".card"));
 
 const toolsPreview = document.getElementById('tools-preview');
@@ -52,20 +56,50 @@ const removeAccents = (str) =>
 
 function validateFilters() {
   const search = searchEl.value;
+  const topic = topicEl.value;
+  const language = languageEl.value;
+  const forWhom = forWhomEl.value;
 
   cards.forEach((card) => {
     card.style.display = "none";
+
     const hasSearch = removeAccents(card.dataset.title).includes(
       removeAccents(search)
-    ) || removeAccents(card.dataset.description).includes(removeAccents(search))
+    ) || removeAccents(card.dataset.description).includes(removeAccents(search));
 
-    if (hasSearch) {
-      card.style.display = "block";
+    const hasTopic = card.dataset.topic === topic;
+    const hasLanguage = card.dataset.language === language;
+    const hasForWhom = card.dataset.forWhom === forWhom;
+
+    // Show card if search is empty or matches
+    if (!search || hasSearch) {
+      // Show card if no topic filter or matches topic
+      if (!topic || hasTopic) {
+        // Show card if no language filter or matches language  
+        if (!language || hasLanguage) {
+          // Show card if no forWhom filter or matches forWhom
+          if (!forWhom || hasForWhom) {
+            card.style.display = "block";
+          }
+        }
+      }
     }
   });
 }
 
 searchEl && searchEl.addEventListener("input", () => {
+  validateFilters();
+});
+
+topicEl && topicEl.addEventListener("input", () => {
+  validateFilters();
+});
+
+languageEl && languageEl.addEventListener("input", () => {
+  validateFilters();
+});
+
+forWhomEl && forWhomEl.addEventListener("input", () => {
   validateFilters();
 });
 

@@ -27,13 +27,17 @@
             {{ .Title }}
           </h3>
           <ul
-            class="mt-2 lg:mt-4 flex items-center gap-x-2 lg:gap-x-5 text-darmouth-green font-bold"
+            class="mt-2 lg:mt-4 flex items-center gap-x-2 lg:gap-x-5"
           >
-            <li>Tema</li>
-            <li class="bg-darmouth-green w-px h-3">&nbsp;</li>
-            <li>Idioma</li>
-            <li class="bg-darmouth-green w-px h-3">&nbsp;</li>
-            <li>Para quién</li>
+            {{ if .Params.topic }}
+              <li><span class="font-bold text-darmouth-green">{{ T "filter_topic" }}:</span> {{ T (printf "topic_%s" (lower .Params.topic)) }}</li>
+            {{ end }}
+            {{ if .Params.language }}
+              <li><span class="font-bold text-darmouth-green">{{ T "filter_language" }}:</span> {{ T (printf "language_%s" (lower .Params.language)) }}</li>
+            {{ end }}
+            {{ if .Params.for_whom }}
+              <li><span class="font-bold text-darmouth-green">{{ T "filter_for_whom" }}:</span> {{ T (printf "for_whom_%s" (lower .Params.for_whom)) }}</li>
+            {{ end }}
           </ul>
           <p class="mt-6 lg:mt-8">{{ .Content }}</p>
           <p class="mt-4 lg:mt-6"><b>Creada por:</b> {{ .Params.creator }}</p>
