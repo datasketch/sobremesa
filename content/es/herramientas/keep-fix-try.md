@@ -1,7 +1,10 @@
 ---
 title: Keep, Fix, Try
 genre: tool
-topic: strategy
+topic: financial sustainability
+language: spanish
+for_whom: organizations
+recommended: false
 clip: /uploads/1.png
 resource_url: https://docs.google.com/document/d/1_rKx6ZvcKCNcp9ZcwCaOoZMXnNGdlIUrHPNz0VwygCA/edit
 creator: La Sobremesa
