@@ -1,8 +1,11 @@
 ---
 title: Análisis de Competidores
 genre: tool
-topic: sustainability
-clip: /uploads/3.png
+topic: strategies
+language: spanish
+for_whom: organizations
+recommended: false
+clip: /uploads/6.png
 resource_url: https://docs.google.com/spreadsheets/d/1XmBt_qvcQfpkFbSF_hGl6MGdu0dllnvM2zapbeQIYXc/edit#gid=589235514
 creator: La Sobremesa
 target: Para equipos que se quieren inspirar en las organizaciones parecidas a ellas.
