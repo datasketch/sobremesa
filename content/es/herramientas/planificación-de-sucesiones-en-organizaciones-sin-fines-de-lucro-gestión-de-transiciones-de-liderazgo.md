@@ -2,7 +2,9 @@
 title: Planificación de sucesiones en organizaciones sin fines de lucro -
   Gestión de transiciones de liderazgo
 genre: guide
-topic: leadership
+topic: transitions
+language: english
+for_whom: organizations
 recommended: true
 clip: /uploads/10.png
 resource_url: https://www.councilofnonprofits.org/tools-resources/succession-planning-nonprofits-managing-leadership-transitions
