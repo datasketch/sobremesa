@@ -1,8 +1,11 @@
 ---
 title: '"Reinventando Organizaciones Wiki" basado en Frédéric Laloux'
 genre: guide
+topic: strategies
+language: spanish
+for_whom: leaders
 recommended: true
-clip: https://dl.airtable.com/.attachmentThumbnails/2878fe77b4a91f87858e361a614c4d81/a005d21f
+clip: /uploads/miniaturas-web-330-x-330-px-4-.png
 resource_url: https://sp.reinventingorganizationswiki.com/
 creator: Editores voluntarios
 target: Lideres quienes quieren repensar las dinámicas de sus organizaciones
