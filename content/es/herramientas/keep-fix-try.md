@@ -1,5 +1,5 @@
 ---
-title: Keep, Fix, Try
+title: Mantener, Arreglar, Intentar (Keep, Fix, Try)
 genre: tool
 topic: monitoring, evaluation and learning
 language: spanish
