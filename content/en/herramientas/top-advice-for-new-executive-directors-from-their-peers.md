@@ -1,9 +1,11 @@
 ---
 title: Top Advice for New Executive Directors from Their Peers
 genre: guide
-topic: leadership
+topic: transitions
+language: english
+for_whom: leaders
 recommended: true
-clip: /uploads/333.png
+clip: /uploads/miniaturas-web-330-x-330-px-15-.png
 resource_url: https://www.opensocietyfoundations.org/uploads/31d2bc8b-bf92-4457-8c13-f7317a30f85b/in-support-of-those-who-take-the-leap-top-advice-for-the-new-executive-directors-from-their-peers-20211019.pdf
 creator: Open Society Foundation
 target: '" Individuals who are assuming the Executive Director role and
