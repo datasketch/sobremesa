@@ -1,5 +1,5 @@
 ---
-title: Six Steps for Sustainability Planning
+title: Seis Pasos para la Planificación de la Sostenibilidad
 genre: tool
 topic: financial sustainability
 language: english
