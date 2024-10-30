@@ -9,7 +9,7 @@ clip: /uploads/miniaturas-web-330-x-330-px-2-.png
 resource_url: https://www.nonprofitpro.com/article/whats-a-nonprofit-annual-plan/
 creator: Pinky Vincent, NonProfitPro
 target: Líderes de organizaciones que quieran crear un Plan Anual.
-lastmod: 2023-02-09T18:54:10.788Z
+lastmod: 2024-10-30T19:46:44.919Z
 draft: false
 entry: true
 ---
