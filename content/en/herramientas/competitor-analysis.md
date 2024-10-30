@@ -1,8 +1,10 @@
 ---
 title: Competitor Analysis
 genre: tool
-topic: sustainability
-clip: /uploads/competitor-analysis.png
+topic: strategies
+language: english
+for_whom: organizations
+clip: /uploads/miniaturas-web-330-x-330-px-12-.png
 resource_url: https://docs.google.com/spreadsheets/d/1e-_GDl8FvZMuD3ng-Vk6aainNKbT88ZOHrCnwOsr_8M/edit#gid=997183394
 creator: La Sobremesa
 target: For teams that want to be inspired by organizations similar to themselves.
