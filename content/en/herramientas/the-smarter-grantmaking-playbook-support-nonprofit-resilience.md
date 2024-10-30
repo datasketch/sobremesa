@@ -6,7 +6,7 @@ clip: /uploads/herramienta-4.png
 resource_url: https://www.geofunders.org/what-we-offer/the-smarter-grantmaking-playbook/support-nonprofit-resilience
 creator: GEO
 target: Donors seeking tools to enhance their leadership.
-draft: false
+draft: true
 entry: true
 ---
 <!--StartFragment-->
