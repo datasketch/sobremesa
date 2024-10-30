@@ -1,8 +1,11 @@
 ---
 title: Adam Kahane con Daniel Stillman sobre "Facilitating Breakthrough"
 genre: podcast
+topic: healthy team
+language: english
+for_whom: leaders
 recommended: true
-clip: https://dl.airtable.com/.attachments/5c5c269a71fa2761f63c3eb852f9a0d2/7c292673/ScreenShot2021-06-21at08.31.03.png
+clip: /uploads/miniaturas-web-330-x-330-px-7-.png
 resource_url: https://theconversationfactory.com/podcast/facilitating-breakthrough-with-adam-kahane
 creator: Daniel Stillman, The Conversation Factory
 target: Personas quienes les interesa la facilitación de conversaciones difíciles
