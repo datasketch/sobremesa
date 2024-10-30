@@ -1,8 +1,11 @@
 ---
 title: '"Theory of Change in 10 Steps"'
 genre: tool
+topic: theory of change
+language: english
+for_whom: organizations
 recommended: true
-clip: https://dl.airtable.com/.attachmentThumbnails/dd0803311508622704d1062f4e1cc464/bed530c0
+clip: /uploads/theory-of-change.png
 resource_url: https://www.thinknpc.org/resource-hub/ten-steps/
 creator: James Noble, NPC
 target: Organizaciones que quieren un apoyo detallado para (re)crear su teoría
