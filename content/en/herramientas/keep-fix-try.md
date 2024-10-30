@@ -1,8 +1,10 @@
 ---
 title: Keep, Fix, Try
 genre: tool
-topic: strategy
-clip: /uploads/keep-fix-try.png
+topic: monitoring, evaluation and learning
+language: english
+for_whom: organizations
+clip: /uploads/miniaturas-web-330-x-330-px-14-.png
 resource_url: https://docs.google.com/document/d/1dgHl2IMdK3IQw8akzppJBhI_WMtnrkrvKwDJY_0PJm8/edit
 creator: La Sobremesa
 target: For nonprofit organizations seeking to facilitate learning moments with
