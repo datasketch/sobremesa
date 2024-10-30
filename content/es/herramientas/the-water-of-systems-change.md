@@ -1,5 +1,5 @@
 ---
-title: The Water of Systems Change
+title: El Agua del Cambio de Sistemas
 genre: tool
 topic: strategies
 language: english
