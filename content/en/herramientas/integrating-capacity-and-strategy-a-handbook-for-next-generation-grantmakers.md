@@ -2,13 +2,21 @@
 title: '"Integrating Capacity and Strategy: A Handbook for Next Generation
   Grantmakers"'
 genre: guide
-clip: https://dl.airtable.com/.attachmentThumbnails/23fb10c553c7bf7139efeddc064f026f/ee2088cb
+topic: strategies
+language: english
+for_whom: leaders
+recommended: true
+clip: /uploads/miniaturas-web-330-x-330-px-8-.png
 resource_url: https://pacscenter.stanford.edu/publication/integrating-capacity-and-strategy-a-handbook-for-next-generation-grantmakers-and-grantees/
 creator: C.R. Hibbs, Stanford PACS
-target: Líderes quienes quieren fortalecer su capacidad internos, con estos tips
-  de ex-donantes
+target: Leaders who want to strengthen their internal capacity with these tips
+  from former donors
 draft: false
-entry: true
 lastmod: 2022-01-01T05:00:00.000Z
+entry: true
 ---
-"Las herramientas de este manual no están diseñadas necesariamente para los muchos gurús talentosos de la eficacia organizacional (OE) del mundo, aunque creemos que el manual será una contribución positiva a la caja de herramientas de OE existente. Son herramientas amigables, rápidas, económicas y específicas para ayudar a cualquier persona, independientemente de su experiencia previa en OE, a iniciar la conversación de capacidad, descargar y organizar información valiosa que ya existe, iniciar evaluaciones y planificación de capacidad básica y señalar problemas clave de capacidad estratégica y efectividad. y tendencias dentro de una organización sin fines de lucro."
+<!--StartFragment-->
+
+The tools in this manual are not necessarily designed for the many talented gurus of organizational effectiveness (OE) in the world, although we believe the manual will be a positive contribution to the existing OE toolbox. They are user-friendly, quick, cost-effective, and specific tools to help anyone, regardless of their prior experience in OE, to start the capacity conversation, download and organize valuable information that already exists, initiate basic capacity assessments and planning, and highlight key strategic capacity and effectiveness issues and trends within a nonprofit organization.
+
+<!--EndFragment-->
