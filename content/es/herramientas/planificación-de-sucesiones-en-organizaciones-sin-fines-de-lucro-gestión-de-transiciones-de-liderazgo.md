@@ -6,7 +6,7 @@ topic: transitions
 language: english
 for_whom: organizations
 recommended: true
-clip: /uploads/10.png
+clip: /uploads/miniaturas-web-330-x-330-px-16-.png
 resource_url: https://www.councilofnonprofits.org/tools-resources/succession-planning-nonprofits-managing-leadership-transitions
 creator: National Council of Nonprofits
 target: "Organizaciones de sociedad civil que necesitan panificar y gestionar
