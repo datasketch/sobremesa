@@ -1,8 +1,11 @@
 ---
 title: What’s a Nonprofit Annual Plan?
 genre: tool
+topic: planning
+language: english
+for_whom: organizations
 recommended: true
-clip: /uploads/plan-anual-herr.png
+clip: /uploads/miniaturas-web-330-x-330-px-2-.png
 resource_url: https://www.nonprofitpro.com/article/whats-a-nonprofit-annual-plan/
 creator: Pinky Vincent, NonProfitPro
 target: Líderes de organizaciones que quieran crear un Plan Anual.
