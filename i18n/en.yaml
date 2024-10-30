@@ -491,6 +491,10 @@
   translation: New Leadership
 - id: topic_healthy_team
   translation: Healthy Team
+- id: topic_sustainability
+  translation: Sustainability
+- id: topic_monitoring_evaluation_and_learning
+  translation: Monitoring, Evaluation and Learning
 - id: language_spanish
   translation: Español
 - id: language_english

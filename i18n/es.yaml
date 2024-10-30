@@ -518,6 +518,10 @@
   translation: Nuevos liderazgos
 - id: topic_healthy_team
   translation: Equipo sano
+- id: topic_sustainability
+  translation: Sostenibilidad
+- id: topic_monitoring__evaluation_and_learning
+  translation: Monitoreo, Evaluación y Aprendizaje
 - id: language_spanish
   translation: Español
 - id: language_english

@@ -1,4 +1,8 @@
 {{ $slug := .Title | urlize }}
+{{ $topicKey := .Params.topic | lower | replaceRE "[^a-z0-9]" "_" }}
+{{ $languageKey := .Params.language | lower | replaceRE "[^a-z0-9]" "_" }}
+{{ $forWhomKey := .Params.for_whom | lower | replaceRE "[^a-z0-9]" "_" }}
+
 <div
   class="modal-wrapper"
   id="{{ .Params.resource_url }}"
@@ -30,13 +34,13 @@
             class="mt-2 lg:mt-4 flex items-center gap-x-2 lg:gap-x-5"
           >
             {{ if .Params.topic }}
-              <li><span class="font-bold text-darmouth-green">{{ T "filter_topic" }}:</span> {{ T (printf "topic_%s" (lower .Params.topic)) }}</li>
+              <li><span class="font-bold text-darmouth-green">{{ T "filter_topic" }}:</span> {{ T (printf "topic_%s" $topicKey) }}</li>
             {{ end }}
             {{ if .Params.language }}
-              <li><span class="font-bold text-darmouth-green">{{ T "filter_language" }}:</span> {{ T (printf "language_%s" (lower .Params.language)) }}</li>
+              <li><span class="font-bold text-darmouth-green">{{ T "filter_language" }}:</span> {{ T (printf "language_%s" $languageKey) }}</li>
             {{ end }}
             {{ if .Params.for_whom }}
-              <li><span class="font-bold text-darmouth-green">{{ T "filter_for_whom" }}:</span> {{ T (printf "for_whom_%s" (lower .Params.for_whom)) }}</li>
+              <li><span class="font-bold text-darmouth-green">{{ T "filter_for_whom" }}:</span> {{ T (printf "for_whom_%s" $forWhomKey) }}</li>
             {{ end }}
           </ul>
           <p class="mt-6 lg:mt-8">{{ .Content }}</p>

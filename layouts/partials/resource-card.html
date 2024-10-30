@@ -1,3 +1,7 @@
+{{ $topicKey := .topic | lower | replaceRE "[^a-z0-9]" "_" }}
+{{ $languageKey := .language | lower | replaceRE "[^a-z0-9]" "_" }}
+{{ $forWhomKey := .for_whom | lower | replaceRE "[^a-z0-9]" "_" }}
+
 <div class="card" data-title="{{ .title }}" data-description="{{ .description }}" data-topic="{{ .topic }}"
   data-language="{{ .language }}" data-for-whom="{{ .for_whom }}">
   <div class="flex items-stretch gap-x-5">
@@ -15,13 +19,13 @@
       <div>
         <ul class="text-sm">
           {{ if .topic }}
-          <li><span class="font-bold text-darmouth-green">{{ T "filter_topic" }}:</span> {{ T (printf "topic_%s" (lower .topic)) }}</li>
+          <li><span class="font-bold text-darmouth-green">{{ T "filter_topic" }}:</span> {{ T (printf "topic_%s" $topicKey) }}</li>
           {{ end }}
           {{ if .language }}
-          <li><span class="font-bold text-darmouth-green">{{ T "filter_language" }}:</span> {{ T (printf "language_%s" (lower .language)) }}</li>
+          <li><span class="font-bold text-darmouth-green">{{ T "filter_language" }}:</span> {{ T (printf "language_%s" $languageKey) }}</li>
           {{ end }}
           {{ if .for_whom }}
-          <li><span class="font-bold text-darmouth-green">{{ T "filter_for_whom" }}:</span> {{ T (printf "for_whom_%s" (lower .for_whom)) }}</li>
+          <li><span class="font-bold text-darmouth-green">{{ T "filter_for_whom" }}:</span> {{ T (printf "for_whom_%s" $forWhomKey) }}</li>
           {{ end }}
         </ul>
       </div>
