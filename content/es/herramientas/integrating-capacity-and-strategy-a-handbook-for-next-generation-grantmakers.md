@@ -2,8 +2,11 @@
 title: '"Integrating Capacity and Strategy: A Handbook for Next Generation
   Grantmakers"'
 genre: guide
+topic: strategies
+language: english
+for_whom: leaders
 recommended: true
-clip: https://dl.airtable.com/.attachmentThumbnails/23fb10c553c7bf7139efeddc064f026f/ee2088cb
+clip: /uploads/miniaturas-web-330-x-330-px-8-.png
 resource_url: https://pacscenter.stanford.edu/publication/integrating-capacity-and-strategy-a-handbook-for-next-generation-grantmakers-and-grantees/
 creator: C.R. Hibbs, Stanford PACS
 target: Líderes quienes quieren fortalecer su capacidad internos, con estos tips
