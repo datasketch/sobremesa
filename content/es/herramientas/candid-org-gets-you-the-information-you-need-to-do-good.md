@@ -1,5 +1,5 @@
 ---
-title: "Candid.org: Gets you the information you need to do good"
+title: "Candid.org: Te proporciona la información que necesitas para hacer el bien"
 genre: website
 topic: financial sustainability
 language: english
