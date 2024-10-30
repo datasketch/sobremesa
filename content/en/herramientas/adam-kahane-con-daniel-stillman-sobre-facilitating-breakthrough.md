@@ -1,5 +1,5 @@
 ---
-title: Adam Kahane con Daniel Stillman sobre "Facilitating Breakthrough"
+title: Adam Kahane with Daniel Stillman on 'Facilitating Breakthrough'
 genre: podcast
 topic: healthy team
 language: english
