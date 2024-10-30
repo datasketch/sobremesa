@@ -1,8 +1,10 @@
 ---
 title: Annual Projections
 genre: tool
-topic: sustainability
-clip: /uploads/nueva-herramienta-la-sobemesa-8-.png
+topic: financial sustainability
+language: english
+for_whom: organizations
+clip: /uploads/miniaturas-web-330-x-330-px-10-.png
 resource_url: https://docs.google.com/spreadsheets/d/11_5POuw9_sz3ImqE1W2ZykLI9gRocR7zq7GAsTNylk4/edit#gid=626252855
 creator: La Sobremesa
 target: Civil society organizations that want to be more financially resilient.
