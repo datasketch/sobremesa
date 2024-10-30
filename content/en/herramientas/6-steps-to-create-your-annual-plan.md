@@ -4,7 +4,7 @@ genre: tool
 topic: planning
 language: spanish
 for_whom: organizations
-clip: /uploads/6-pasos-para-crear-tu-plan-anual.png
+clip: /uploads/9.png
 resource_url: https://lasobremesa.medium.com/6-pasos-para-crear-tu-plan-anual-210d0f62752f
 creator: La Sobremesa
 target: Civil society organizations that need to define their objectives, plan
