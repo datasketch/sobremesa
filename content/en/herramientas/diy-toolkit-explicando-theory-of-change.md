@@ -1,5 +1,5 @@
 ---
-title: DIY Toolkit explicando "Theory of Change"
+title: DIY Toolkit explaining "Theory of Change"
 genre: video
 topic: theory of change
 language: english
