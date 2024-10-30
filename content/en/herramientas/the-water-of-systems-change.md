@@ -1,16 +1,20 @@
 ---
 title: The Water of Systems Change
 genre: tool
+topic: strategies
+language: english
+for_whom: organizations
+recommended: true
 clip: /uploads/inverted-pyramid-water-of-systems-change-1-2048x1260.jpg
 resource_url: https://www.fsg.org/resource/water_of_systems_change/
 creator: John Kania, Mark Kramer, Peter Senge
-target: Organizaciones interesadas en generar un "cambio sistémico", en
-  particular, las que trabajan para promover la equidad.
+target: Organizations interested in generating systemic change, particularly
+  those working to promote equity
 draft: false
 entry: true
 ---
 <!--StartFragment-->
 
-Las organizaciones, redes, y donantes implicados en el cambio sistémico pueden aumentar sus probabilidades de éxito centrándose en las "condiciones" menos explícitas pero más poderosas para el cambio, al tiempo que se enfocan a sí mismas. "El agua del cambio sistémico" presenta un modelo práctico del "triángulo invertido" de las 6 condiciones de cámbio sistémico que se deberían de pensar al momento de diseñar un proyecto o programa.
+Organizations, networks, and donors involved in systemic change can increase their chances of success by focusing on the less explicit but more powerful 'conditions' for change while also focusing on themselves. 'The Waters of Systemic Change' presents a practical model of the 'inverted triangle' of the six conditions for systemic change that should be considered when designing a project or program.
 
 <!--EndFragment-->
