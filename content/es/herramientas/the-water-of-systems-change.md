@@ -1,8 +1,11 @@
 ---
 title: The Water of Systems Change
 genre: tool
+topic: strategies
+language: english
+for_whom: organizations
 recommended: true
-clip: /uploads/inverted-pyramid-water-of-systems-change-1-2048x1260.jpg
+clip: /uploads/miniaturas-web-330-x-330-px-5-.png
 resource_url: https://www.fsg.org/resource/water_of_systems_change/
 creator: John Kania, Mark Kramer, Peter Senge
 target: Organizaciones interesadas en generar un "cambio sistémico", en
