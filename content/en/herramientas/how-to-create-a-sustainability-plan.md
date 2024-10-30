@@ -1,8 +1,10 @@
 ---
-title: "How to Create a Sustainability Plan"
+title: How to Create a Sustainability Plan
 genre: tool
-topic: sustainability
-clip: /uploads/header-blogpost.png
+topic: financial sustainability
+language: spanish
+for_whom: organizations
+clip: /uploads/8.png
 resource_url: https://lasobremesa.medium.com/c%C3%B3mo-crear-un-plan-de-sostenibilidad-y-no-colapsar-en-el-intento-a584c9de0e01
 creator: La Sobremesa
 target: For civil society organizations, particularly in the field of civic
