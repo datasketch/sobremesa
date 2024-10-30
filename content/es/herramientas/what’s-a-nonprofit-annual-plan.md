@@ -1,5 +1,5 @@
 ---
-title: What’s a Nonprofit Annual Plan?
+title: ¿Qué es un Plan Anual para una Organización Sin Fines de Lucro?
 genre: tool
 topic: planning
 language: english
