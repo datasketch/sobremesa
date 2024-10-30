@@ -1,5 +1,5 @@
 ---
-title: '"Theory of Change in 10 Steps"'
+title: Teoría del Cambio en 10 pasos
 genre: tool
 topic: theory of change
 language: english
