@@ -1,8 +1,11 @@
 ---
 title: "Candid.org: Gets you the information you need to do good"
 genre: website
+topic: financial sustainability
+language: english
+for_whom: leaders
 recommended: true
-clip: https://dl.airtable.com/.attachmentThumbnails/74d2dd27661dc9d8f3e13c004bfa1661/59780df6
+clip: /uploads/13.png
 resource_url: https://candid.org/
 creator: Candid, Foundation Center y Guidestar
 target: Personas a cargo de la sosteniblidad de sus organizaciones
