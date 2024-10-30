@@ -1,8 +1,10 @@
 ---
 title: Financial Sustainability Action Plan
 genre: tool
-topic: sustainability
-clip: /uploads/financial-sustainability-action-plan.png
+topic: financial sustainability
+language: english
+for_whom: organizations
+clip: /uploads/miniaturas-web-330-x-330-px-9-.png
 resource_url: https://docs.google.com/spreadsheets/d/1Os4KUvxfE7I1LY05zOZIBavkgGdySfxIwjb6MNwn5j8/edit#gid=416387894
 creator: La Sobremesa
 target: Organizations that need to put their Financial Sustainability Plan into
