@@ -28,7 +28,7 @@
         <div class="relative">
           <input id="search"
             class="w-full py-2 pl-12 pr-8 bg-white border-2 border-chocolate focus:outline-none placeholder-chocolate"
-            type="search" name="search" placeholder="Palabra clave">
+            type="search" name="search" placeholder="{{ T "place_holder_search" }}">
           <div class="absolute transform -translate-y-1/2 top-1/2 left-4">
             <img class="w-6 h-6" src='{{ "images/search.svg" | absURL }}' alt="">
           </div>
@@ -91,7 +91,8 @@
           {{ end }}
         </div>
         <div class="mt-12 text-center">
-          <button id="button-tools" class="site-link">Ver todas las herramientas</button>
+          <button id="button-tools-active" class="site-link" style="display: inline-block;">{{ T "view_all_tools" }}</button>
+          <button id="button-tools-unactive" class="site-link" style="display: none;">{{ T "view_less_tools" }}</button>
         </div>
       </div>
     </div>
@@ -120,7 +121,8 @@
           {{ end }}
         </div>
         <div class="mt-12 text-center">
-          <button id="button-recommended-tools" class="site-link">Ver todas las herramientas recomendadas</button>
+          <button id="button-recommended-tools-active" class="site-link" style="display: inline-block;">{{ T "view_all_recommended_tools" }}</button>
+          <button id="button-recommended-tools-unactive" class="site-link" style="display: none;">{{ T "view_less_recommended_tools" }}</button>
         </div>
       </div>
     </div>

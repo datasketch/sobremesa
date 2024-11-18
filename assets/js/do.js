@@ -12,40 +12,45 @@ const cards = Array.from(document.querySelectorAll(".card"));
 
 const toolsPreview = document.getElementById('tools-preview');
 const toolsViewMore = document.getElementById('tools-view-more');
-const buttonTools = document.getElementById('button-tools')
+const buttonToolsActive = document.getElementById('button-tools-active')
+const buttonToolsUnactive = document.getElementById('button-tools-unactive')
 
 
 const recommendedToolsPreview = document.getElementById('recommended-tools-preview');
 const recommendedToolsViewMore = document.getElementById('recommended-tools-view-more');
-const buttonRecommendedTools = document.getElementById('button-recommended-tools')
+const buttonRecommendedToolsActive = document.getElementById('button-recommended-tools-active')
+const buttonRecommendedToolsUnactive = document.getElementById('button-recommended-tools-unactive')
 
-
-buttonTools && buttonTools.addEventListener('click', () => {
-  if (buttonTools.innerHTML === 'Ver todas las herramientas') {
-    buttonTools.innerHTML = 'Ver menos herramientas'
+buttonToolsActive && buttonToolsActive.addEventListener('click', () => {
     toolsPreview.classList.add('hidden')
     toolsViewMore.classList.remove('hidden')
+    buttonToolsUnactive.style.display = 'inline-block'
+    buttonToolsActive.style.display = 'none'
     document.getElementById('scroll-to').scrollIntoView({ behavior: 'smooth', block: 'start' })
-  } else {
-    buttonTools.innerHTML = 'Ver todas las herramientas'
-    toolsPreview.classList.remove('hidden')
-    toolsViewMore.classList.add('hidden')
-    document.getElementById('scroll-to').scrollIntoView({ behavior: 'smooth', block: 'start' })
-  }
 })
 
-buttonRecommendedTools && buttonRecommendedTools.addEventListener('click', () => {
-  if (buttonRecommendedTools.innerHTML === 'Ver todas las herramientas recomendadas') {
-    buttonRecommendedTools.innerHTML = 'Ver menos herramientas recomendadas'
-    recommendedToolsPreview.classList.add('hidden')
-    recommendedToolsViewMore.classList.remove('hidden')
-    document.getElementById('scroll-to-2').scrollIntoView({ behavior: 'smooth', block: 'start' })
-  } else {
-    buttonRecommendedTools.innerHTML = 'Ver todas las herramientas recomendadas'
-    recommendedToolsPreview.classList.remove('hidden')
-    recommendedToolsViewMore.classList.add('hidden')
-    document.getElementById('scroll-to-2').scrollIntoView({ behavior: 'smooth', block: 'start' })
-  }
+buttonToolsUnactive && buttonToolsUnactive.addEventListener('click', () => {
+  toolsPreview.classList.remove('hidden')
+  toolsViewMore.classList.add('hidden')
+  buttonToolsUnactive.style.display = 'none'
+  buttonToolsActive.style.display = 'inline-block'
+  document.getElementById('scroll-to').scrollIntoView({ behavior: 'smooth', block: 'start' })
+})
+
+buttonRecommendedToolsActive && buttonRecommendedToolsActive.addEventListener('click', () => {
+  recommendedToolsPreview.classList.add('hidden')
+  recommendedToolsViewMore.classList.remove('hidden')
+  buttonRecommendedToolsUnactive.style.display = 'inline-block'
+  buttonRecommendedToolsActive.style.display = 'none'
+  document.getElementById('scroll-to-2').scrollIntoView({ behavior: 'smooth', block: 'start' })
+})
+
+buttonRecommendedToolsUnactive && buttonRecommendedToolsUnactive.addEventListener('click', () => {
+  recommendedToolsPreview.classList.remove('hidden')
+  recommendedToolsViewMore.classList.add('hidden')
+  buttonRecommendedToolsUnactive.style.display = 'none'
+  buttonRecommendedToolsActive.style.display = 'inline-block'
+  document.getElementById('scroll-to-2').scrollIntoView({ behavior: 'smooth', block: 'start' })
 })
 
 const removeAccents = (str) =>

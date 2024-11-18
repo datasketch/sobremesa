@@ -520,8 +520,6 @@
   translation: Equipo sano
 - id: topic_sustainability
   translation: Sostenibilidad
-- id: topic_monitoring__evaluation_and_learning
-  translation: Monitoreo, Evaluación y Aprendizaje
 - id: language_spanish
   translation: Español
 - id: language_english
@@ -534,3 +532,13 @@
   translation: Redes
 - id: for_whom_donors
   translation: Donantes
+- id: place_holder_search
+  translation: Palabra clave
+- id: view_all_tools
+  translation: Ver todas las herramientas
+- id: view_less_tools
+  translation: Ver menos herramientas
+- id: view_all_recommended_tools
+  translation: Ver todas las herramientas recomendadas
+- id: view_less_recommended_tools
+  translation: Ver menos herramientas recomendadas

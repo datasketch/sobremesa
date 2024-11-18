@@ -470,7 +470,7 @@
 - id: topic_vision
   translation: Vision
 - id: topic_theory_of_change
-  translation: Teoría de Cambio
+  translation: Theory of Change
 - id: topic_strategies
   translation: Strategies
 - id: topic_annual_retreats
@@ -483,10 +483,12 @@
   translation: Networking and Organization Building
 - id: topic_financial_sustainability
   translation: Financial Sustainability
+- id: topic_monitoring__evaluation_and_learning
+  translation: Monitoring, Evaluation and Learning
 - id: topic_monitoring_evaluation_and_learning
   translation: Monitoring, Evaluation and Learning
 - id: topic_transitions
-  translation: Transiciones
+  translation: Transitions
 - id: topic_new_leaderships
   translation: New Leadership
 - id: topic_healthy_team
@@ -498,7 +500,7 @@
 - id: language_spanish
   translation: Español
 - id: language_english
-  translation: Inglés
+  translation: English
 - id: for_whom_organizations
   translation: Organizations
 - id: for_whom_leaders
@@ -507,3 +509,13 @@
   translation: Networks
 - id: for_whom_donors
   translation: Donors
+- id: place_holder_search
+  translation: Keyword
+- id: view_all_tools
+  translation: See all tools
+- id: view_less_tools
+  translation: See fewer tools
+- id: view_all_recommended_tools
+  translation: See all recommended tools
+- id: view_less_recommended_tools
+  translation: See fewer recommended tools
