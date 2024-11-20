@@ -10,7 +10,7 @@ resource_url: https://docs.google.com/document/d/1_rKx6ZvcKCNcp9ZcwCaOoZMXnNGdlI
 creator: La Sobremesa
 target: Para aquellas organizaciones que quieran facilitar momentos de
   aprendizaje con sus equipos.
-lastmod: 2024-10-29T15:59:33.576Z
+lastmod: 2024-11-20T16:21:54.543Z
 draft: false
 entry: true
 ---
