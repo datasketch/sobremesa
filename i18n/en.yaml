@@ -485,8 +485,6 @@
   translation: Financial Sustainability
 - id: topic_monitoring__evaluation_and_learning
   translation: Monitoring, Evaluation and Learning
-- id: topic_monitoring_evaluation_and_learning
-  translation: Monitoring, Evaluation and Learning
 - id: topic_transitions
   translation: Transitions
 - id: topic_new_leaderships
@@ -498,7 +496,7 @@
 - id: topic_monitoring_evaluation_and_learning
   translation: Monitoring, Evaluation and Learning
 - id: language_spanish
-  translation: Español
+  translation: Spanish
 - id: language_english
   translation: English
 - id: for_whom_organizations
