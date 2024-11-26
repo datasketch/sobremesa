@@ -10,7 +10,7 @@ resource_url: https://diytoolkit.org/tools/theory-of-change/
 creator: DIY Toolkit
 target: Organizations that want to create a theory of change for their
   organization or project
-draft: false
+draft: true
 lastmod: 2022-01-01T05:00:00.000Z
 entry: true
 ---
