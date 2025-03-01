@@ -1,16 +1,16 @@
 ---
-title: Financial Sustainability Course | USAID Crisis Edition
+title: Curso de Sostenibilidad Financiera | Edición Crisis USAID
 genre: website
 topic: financial sustainability
 language: english
 for_whom: organizations
 recommended: false
-clip: /uploads/miniaturas-web-330-x-330-px-18-.png
-resource_url: https://drive.google.com/file/d/105cRgp17omTNL2ZMOXVhPLSSHSYWtq6V/view?usp=sharing
+clip: /uploads/miniaturas-web-330-x-330-px-20-.png
+resource_url: https://bit.ly/CursoSostenibilidadFinanciera_EdicionCrisisUSAID
 creator: La Sobremesa
 target: Este curso está diseñado para ti, si tu organización se ha visto
   afectada por la congelación de fondos de USAID y el Departamento de Estado.
-lastmod: 2025-02-17T15:49:44.042Z
+lastmod: 2025-03-01T00:13:25.113Z
 draft: false
 entry: true
 ---
