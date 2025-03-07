@@ -29,11 +29,27 @@
     "image": "images/people/aniela-stojanowski.jpg"
   },
   {
-    "id": "helen-saadoun",
-    "name": "Helene Saadoun",
-    "role": "Project-based consultant",
-    "about": "Hello! I'm Helene Saadoun. I am French-Uruguayan, but I am based in Mexico City. I am a lawyer with a master's degree in International Criminal Law from the University of Sussex in England, with over 8 years of experience working on gender issues, human rights, public policies, and capacity building. Before La Sobremesa, I worked at the United Nations, where I supported capacity-building processes for state governments on gender and human rights issues, and I was a consultant at Namati, where I assisted in strategic planning processes with a network of organizations in Latin America. What I am most passionate about in my work is gathering information, conducting research, and diagnosing issues to create strategies, processes, and tools that promote the strengthening and sustainability of organizations and institutions. Currently, I work as a consultant in Mexico and regionally on incorporating gender perspective and human rights into public policies, strategic planning, capacity building, and conducting research on businesses and human rights.",
-    "linkedin": "helene-saadoun-407524212",
-    "image": "images/people/helen-saadoun.jpeg"
+    "id": "carolina-padro",
+    "name": "Carolina Padró",
+    "role": "Lawyer",
+    "about": "Hi! I am Carolina, a lawyer specialized in international law from the [University of Buenos Aires](http://www.derecho.uba.ar/), with a postgraduate degree in International Relations and Negotiations from [FLACSO](https://www.flacso.org.ar/). Throughout my career, I have been dedicated to institutional strengthening of civil society organizations, strategic planning and project development in Latin America. Before joining La Sobremesa, I was Head of Institutional Development at [Wikimedia Argentina](https://wikimedia.org.ar/), where I designed fundraising strategies, operational planning and consolidation of internal processes. I also served as Director of Institutional Development at [Acceso PanAm](https://accesopanam.org/), leading the strategic planning and financial sustainability of the organization. In addition, I have worked as a consultant on projects with the [GEF](https://www.thegef.org/), advising on institutional sustainability and monitoring systems. At [CELS](https://www.cels.org.ar/web/), I collaborated in the creation of innovative financing mechanisms and in the articulation with cooperation agencies, foundations and private donors. I also have experience in the governmental sector, working in the Ministry of Environment and the Ministry of Agriculture, Livestock and Fisheries of Argentina, participating in international negotiations and project development with multilateral organizations. I am passionate about accompanying organizations in building sustainable strategies that enhance their impact. I am Argentinean and based in Patagonia.",
+    "linkedin": "carolina-padró-25a05419",
+    "image": "images/people/carolina-padro.jpg"
+  },
+  {
+    "id": "claudia-guerrero",
+    "name": "Claudia Guerrero",
+    "role": "Professional",
+    "about": "Hi! I am Claudia Guerrero Trejo, a Mexican professional with more than 30 years of experience in Administration, Finance, Human Resources and Operations. My career spans both civil society organizations and transnational corporations, serving in key roles ranging from Senior Administrator to responsible for accounting and financial management. Throughout my career, I have developed skills in budget management, financial control, personnel supervision, contract administration and organization of large-scale events. My experience also includes coordinating travel and meetings for communities and human rights defenders, ensuring operational efficiency in each project. With strong skills in internal control tools such as QuickBooks, ZohoBooks and Salesforce, I am known for my adaptability, leadership and commitment to operational excellence.",
+    "image": "images/people/claudia-guerrero.jpg"
+  },
+  {
+    "id": "julieta-zacatenco",
+    "name": "Julieta Zacatenco",
+    "role": "Political Science and Public Administration",
+    "about": "Hello! I'm Julieta Zacatenco. I studied Political Science and Public Administration with a concentration in Gender Studies at UNAM. I specialize in organizational development, sustainability, and project management with a decolonial, anti-racist, and social justice approach. I have worked in resource mobilization and institutional strengthening in organizations defending the rights of women, Afro-descendant, and LGBTIQ+ communities. As Chair of the Board of Directors at the[  Youth Coalition for Sexual and Reproductive Rights](https://www.youthcoalition.org/), I have championed youth leadership in global processes on sexual and reproductive rights, health, and justice. I also collaborate as co-facilitator at Diálogos Intergeneracionales, an initiative focused on strengthening the civil society ecosystem in Mexico through participatory methodologies and intergenerational dialogue spaces. At La Sobremesa, I am driven by the opportunity to develop sustainable tools and models that strengthen the sector and contribute to more just and inclusive futures. I believe in the key role of civil society in addressing structural inequalities and generating collective solutions that transform the realities of the Global Majority.",
+    "instagram": "julietazacatenco",
+    "linkedin": "julieta-zacatenco-herrera-3672811b0",
+    "image": "images/people/julieta-zacatenco.jpeg"
   }
 ]

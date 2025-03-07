@@ -103,5 +103,14 @@
     "location": "Basada en Ciudad de Buenos Aires, Argentina",
     "about": "La sociedad latinoamericana vive constantemente en un ciclo de desafíos interconectados entre sí. Descreimiento en los gobiernos, instituciones y consensos democráticos, que se creían básicos, generan en la sociedad un sentimiento de estancamiento o supervivencia, en donde no se sabe si se está de un lado u otro de la brecha. El mayor desafío, entonces, sería potenciar las voces diversas y unificarlas para crear acuerdos básicos que impulsen el cumplimiento de los derechos en la región.",
     "projects": "Comms"
+  },
+  {
+    "id": "helene-saadoun",
+    "name": "Helene Saadoun",
+    "image": "images/people/helen-saadoun.jpeg",
+    "tagline": "Veo la necesidad de trabajar en la recopilación de información, investigación y diagnóstico",
+    "location": "Franco-uruguaya basada en Ciudad de México, México",
+    "about": "Veo la necesidad de trabajar en la recopilación de información, investigación y diagnóstico para crear estrategias, procesos y herramientas que impulsen el fortalecimiento y la sostenibilidad de las organizaciones e instituciones.",
+    "projects": "IRIS, CDR"
   }
 ]

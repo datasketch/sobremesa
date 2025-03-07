@@ -29,11 +29,27 @@
     "image": "images/people/aniela-stojanowski.jpg"
   },
   {
-    "id": "helen-saadoun",
-    "name": "Helene Saadoun",
-    "role": "Consultora por proyecto",
-    "about": "¡Hola! Soy Helene Saadoun. Soy franco-uruguaya, pero estoy basada en la Ciudad de México. Abogada con maestría en Derecho Penal Internacional por la Universidad de Sussex en Inglaterra con más de 8 años trabajando temas de género, derechos humanos, políticas públicas y fortalecimiento de capacidades. Antes de La Sobremesa, trabajé en Naciones Unidas donde acompañaba procesos de fortalecimiento de capacidades de gobiernos estatales en materia de género y derechos humanos y fui consultora en Namati donde apoyé procesos de planeación estratégica con una red de organizaciones de Latinoamérica. Lo que más me apasiona de mi trabajo son las actividades de recopilación de información, investigación y diagnóstico para crear estrategias, procesos y herramientas que impulsen el fortalecimiento y la sostenibilidad de las organizaciones e instituciones. Actualmente, trabajo como consultora en México y a nivel regional en temas de incorporación de la perspectiva de género y derechos humanos en las políticas públicas, planeación estratégica, fortalecimiento de capacidades y realizo investigaciones en materia de empresas y derechos humanos.",
-    "linkedin": "helene-saadoun-407524212",
-    "image": "images/people/helen-saadoun.jpeg"
+    "id": "carolina-padro",
+    "name": "Carolina Padró",
+    "role": "Abogada",
+    "about": "¡Hola! Soy Carolina, abogada especializada en derecho internacional por la [Universidad de Buenos Aires](http://www.derecho.uba.ar/), con un posgrado en Relaciones y Negociaciones Internacionales de [FLACSO](https://www.flacso.org.ar/). A lo largo de mi carrera, me he dedicado al fortalecimiento institucional de organizaciones de la sociedad civil, la planificación estratégica y el desarrollo de proyectos en América Latina. Antes de unirme a La Sobremesa, fui Responsable de Desarrollo Institucional en [Wikimedia Argentina](https://wikimedia.org.ar/), donde diseñé estrategias de recaudación de fondos, planificación operativa y consolidación de procesos internos. También me desempeñé como Directora de Desarrollo Institucional en [Acceso PanAm](https://accesopanam.org/), liderando la planificación estratégica y la sostenibilidad financiera de la organización. Además, he trabajado como consultora en proyectos con el [GEF](https://www.thegef.org/), asesorando en sostenibilidad institucional y sistemas de monitoreo. En el [CELS](https://www.cels.org.ar/web/), colaboré en la creación de mecanismos innovadores de financiamiento y en la articulación con agencias de cooperación, fundaciones y donantes privados. También cuento con experiencia en el sector gubernamental, trabajé en el Ministerio de Medio Ambiente y el Ministerio de Agricultura, Ganadería y Pesca de Argentina, participando en negociaciones internacionales y el desarrollo de proyectos con organismos multilaterales. Me apasiona acompañar a las organizaciones en la construcción de estrategias sostenibles que potencien su impacto. Soy argentina y estoy basada en la Patagonia.",
+    "linkedin": "carolina-padró-25a05419",
+    "image": "images/people/carolina-padro.jpg"
+  },
+  {
+    "id": "claudia-guerrero",
+    "name": "Claudia Guerrero",
+    "role": "Profesional",
+    "about": "¡Hola! Soy Claudia Guerrero Trejo, una profesional mexicana con más de 30 años de experiencia en Administración, Finanzas, Recursos Humanos y Operaciones. Mi trayectoria abarca tanto organizaciones de la sociedad civil como empresas trasnacionales, desempeñándome en roles clave que van desde Administradora Senior hasta responsable de la gestión contable y financiera. A lo largo de mi carrera, he desarrollado habilidades en gestión de presupuestos, control financiero, supervisión de personal, administración de contratos y organización de eventos de gran escala. Mi experiencia también incluye la coordinación de viajes y reuniones para comunidades y defensores de derechos humanos, asegurando la eficiencia operativa en cada proyecto. Con sólidos conocimientos en herramientas de control interno como QuickBooks, ZohoBooks y Salesforce, me caracterizo por mi capacidad de adaptación, liderazgo y compromiso con la excelencia operativa.",
+    "image": "images/people/claudia-guerrero.jpg"
+  },
+  {
+    "id": "julieta-zacatenco",
+    "name": "Julieta Zacatenco",
+    "role": "Ciencia Política y Administración Pública",
+    "about": "¡Hola! Soy Julieta Zacatenco. Estudié Ciencia Política y Administración Pública con una concentración en Estudios de Género en la UNAM. Me he especializado en desarrollo organizacional, sostenibilidad y gestión de proyectos con un enfoque decolonial, antirracista y de justicia social. He trabajado en movilización de recursos y fortalecimiento institucional en organizaciones que defienden los derechos de mujeres, personas afro y LGBTIQ+. Como Presidenta de la Junta Directiva de la[  Youth Coalition for Sexual and Reproductive Rights](https://www.youthcoalition.org/), he impulsado el liderazgo juvenil en procesos globales de derechos, salud y justicia sexual y reproductiva. También colaboro como co-facilitadora de Diálogos Intergeneracionales, una iniciativa enfocada en el fortalecimiento del ecosistema de la sociedad civil en México, a través de metodologías participativas y espacios de diálogo intergeneracional. En La Sobremesa, me motiva desarrollar herramientas y modelos sostenibles que fortalezcan al sector y contribuyan a futuros más justos e inclusivos. Creo en el papel clave de la sociedad civil para enfrentar desigualdades estructurales y generar soluciones colectivas que transformen la realidad de la Mayoría Global.",
+    "instagram": "julietazacatenco",
+    "linkedin": "julieta-zacatenco-herrera-3672811b0",
+    "image": "images/people/julieta-zacatenco.jpeg"
   }
 ]

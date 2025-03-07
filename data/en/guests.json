@@ -103,5 +103,14 @@
     "location": "Based in Buenos Aires City, Argentina",
     "about": "Latin American society constantly lives within an interconnected cycle of challenges. Disbelief in governments, institutions, and democratic agreements, once deemed fundamental, engenders in society a sense of stagnation or mere survival, leaving individuals uncertain of their position amidst the divide. The paramount challenge lies in amplifying diverse voices and uniting them to forge basic agreements that propel the fulfillment of rights in the region",
     "projects": "Comms"
+  },
+  {
+    "id": "helene-saadoun",
+    "name": "Helene Saadoun",
+    "image": "images/people/helen-saadoun.jpeg",
+    "tagline": "I see the need to work on information gathering, research and diagnosis",
+    "location": "Franco-Uruguayan based in Mexico City, Mexico",
+    "about": "I see the need to work on information gathering, research and diagnosis to create strategies, processes and tools that drive the strengthening and sustainability of organizations and institutions.",
+    "projects": "IRIS, CDR"
   }
 ]
