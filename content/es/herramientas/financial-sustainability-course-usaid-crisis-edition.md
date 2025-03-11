@@ -2,7 +2,7 @@
 title: Curso de Sostenibilidad Financiera | Edición Crisis USAID
 genre: website
 topic: financial sustainability
-language: english
+language: spanish
 for_whom: organizations
 recommended: false
 clip: /uploads/miniaturas-web-330-x-330-px-20-.png
