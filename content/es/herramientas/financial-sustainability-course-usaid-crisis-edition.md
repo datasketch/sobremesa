@@ -11,7 +11,7 @@ creator: La Sobremesa
 target: Este curso está diseñado para ti, si tu organización se ha visto
   afectada por la congelación de fondos de USAID y el Departamento de Estado.
 lastmod: 2025-03-01T00:13:25.113Z
-draft: false
+draft: true
 entry: true
 ---
 En sólo 1 semana, con 3 módulos en directo, te proporcionaremos herramientas clave para reforzar la sostenibilidad financiera de tu organización.
