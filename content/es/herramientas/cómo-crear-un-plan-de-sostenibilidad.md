@@ -12,7 +12,7 @@ target: Para organizaciones de la sociedad civil, particularmente en el ámbito
   de la tecnología cívica, que se enfrentan a los desafíos de la sostenibilidad
   financiera debido a, principalmente, la disminución de donantes.
 lastmod: 2024-02-28T18:02:46.390Z
-draft: false
+draft: true
 entry: true
 ---
 <!--StartFragment-->
