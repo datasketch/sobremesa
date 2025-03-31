@@ -112,5 +112,14 @@
     "location": "Franco-Uruguayan based in Mexico City, Mexico",
     "about": "I see the need to work on information gathering, research and diagnosis to create strategies, processes and tools that drive the strengthening and sustainability of organizations and institutions.",
     "projects": "IRIS, CDR"
+  },
+  {
+    "id": "carolina-padro",
+    "name": "Carolina Padró",
+    "image": "images/people/carolina-padro.jpg",
+    "tagline": "I see a challenge in the institutional sustainability of civil society organizations in Latin America.",
+    "location": "Based in Bariloche, Argentina",
+    "about": "I see a challenge in the institutional sustainability of civil society organizations in Latin America. Many face unstable political and economic contexts, which makes it difficult to guarantee their continuity and impact. I believe that one key is to strengthen their funding and planning strategies, diversifying resources and consolidating solid internal processes.",
+    "projects": "Fondo Semillas, Greenpeace"
   }
 ]
