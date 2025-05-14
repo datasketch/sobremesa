@@ -2,7 +2,7 @@
 title: "Boards of Directors and Governance Systems: A Practical Guide for
   Non-Governmental Organizations in Latin America"
 genre: guide
-topic: theory of change
+topic: new leaderships
 language: spanish
 for_whom: leaders
 recommended: true
