@@ -7,7 +7,7 @@ language: spanish
 for_whom: leaders
 recommended: true
 clip: /uploads/miniaturas-herramientas-web-330-x-330-px-1-.png
-resource_url: https://nonprofitquarterly.org/the-matrix-map-a-powerful-tool-for-mission-focused-nonprofits/
+resource_url: https://static1.squarespace.com/static/61d62a84dd321b2a36a82839/t/62d5b3b90ad0f92ad70cfd11/1658172346786/Guia-Consejos-Directivos-22Marzo2017.pdf
 creator: Entre-Lazos
 target: Directores ejecutivos y miembros de consejos directivos que buscan
   fortalecer sus sistemas de gobernanza y roles estratégicos.
