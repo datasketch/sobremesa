@@ -63,6 +63,7 @@ module.exports = {
         onyx: "#414042",
         vanilla: "#FEF2B7",
         alabaster: "#F2F0E6",
+        "alabaster-2": "#E9E7DD",
       },
       fontFamily: {
         "beth-ellen": ['"Beth Ellen"', "cursive"],
@@ -87,6 +88,7 @@ module.exports = {
         "accompaniment-lg-en": "url('/images/accompaniment-lg-en.svg')",
         "cursos-banner-1": "url('/images/cursos/cursos-banner-1.jpg')",
         "cursos-banner-2": "url('/images/cursos/cursos-banner-2.jpg')",
+        "cursos-banner-3": "url('/images/cursos/cursos-banner-3.jpg')",
       },
     },
   },
