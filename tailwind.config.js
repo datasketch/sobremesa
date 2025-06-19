@@ -58,6 +58,7 @@ module.exports = {
         "dark-spring-green": "#00763F",
         pear: "#C5EB46",
         lime: "#D0F646",
+        "lime-2": "#B9DE46",
         "lavender-pink": "#EEABC4",
         "amaranth-pink": "#DF9CB5",
         onyx: "#414042",
