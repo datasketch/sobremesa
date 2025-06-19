@@ -141,6 +141,7 @@ collections:
           - { label: "Leaders", value: "leaders" }
           - { label: "Networks", value: "networks" }
           - { label: "Donors", value: "donors" }
+          - { label: "Board", value: "board" }
         required: false
       - label: "Recommended tool"
         name: "recommended"
@@ -236,6 +237,7 @@ collections:
           - { label: "Líderes", value: "leaders" }
           - { label: "Redes", value: "networks" }
           - { label: "Donantes", value: "donors" }
+          - { label: "Junta Directiva/Board", value: "board" }
         required: false
       - label: "Herramienta recomendada"
         name: "recommended"
