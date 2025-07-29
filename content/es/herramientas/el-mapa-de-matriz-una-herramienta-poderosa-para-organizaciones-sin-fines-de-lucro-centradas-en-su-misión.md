@@ -5,7 +5,7 @@ genre: tool
 topic: financial sustainability
 language: english
 for_whom: organizations
-recommended: false
+recommended: true
 clip: /uploads/miniaturas-herramientas-web-330-x-330-px-2-.png
 resource_url: https://nonprofitquarterly.org/the-matrix-map-a-powerful-tool-for-mission-focused-nonprofits/
 creator: Steve Zimmerman and Jeanne Bell, Non Profit Quarterly
