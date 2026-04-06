@@ -45,7 +45,7 @@
 - id: label_podcast
   translation: Podcast
 - id: label_receive_newsletter
-  translation: Do you want to stay updated? Subscribe to our blog
+  translation: Want to stay up to date? Subscribe to our newsletter
 - id: label_report
   translation: Report
 - id: label_subscribe_newsletter
@@ -412,7 +412,7 @@
 - id: page_who_we_are_read_more
   translation: More about me
 - id: action_subscribe
-  translation: Subscribe
+  translation: Subscribe to our newsletter  
 - id: label_blogpost
   translation: Blog post
 - id: label_methodology
@@ -517,3 +517,9 @@
   translation: See all recommended tools
 - id: view_less_recommended_tools
   translation: See fewer recommended tools
+- id: page_contact_subscribe
+  translation: >-
+    If you want to receive news, resources, and updates from La Sobremesa
+    directly in your inbox,
+- id: action_subscribe_newsletter
+  translation: Subscribe to our newsletter

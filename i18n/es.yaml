@@ -45,7 +45,7 @@
 - id: label_podcast
   translation: Podcast
 - id: label_receive_newsletter
-  translation: ¿Quieres conocer las novedades? Subscríbete a nuestro blog
+  translation: ¿Quieres conocer las novedades? Suscríbete a nuestro boletín
 - id: label_report
   translation: Reporte
 - id: label_subscribe_newsletter
@@ -439,7 +439,7 @@
 - id: page_who_we_are_read_more
   translation: Más sobre mí
 - id: action_subscribe
-  translation: Subscríbete a nuestro blog
+  translation: Suscríbete a nuestro boletín
 - id: label_blogpost
   translation: Blog post
 - id: label_methodology
@@ -544,3 +544,9 @@
   translation: Ver todas las herramientas recomendadas
 - id: view_less_recommended_tools
   translation: Ver menos herramientas recomendadas
+- id: page_contact_subscribe
+  translation: >-
+    Si quieres recibir noticias, recursos y novedades de La Sobremesa
+    directamente en tu correo,
+- id: action_subscribe_newsletter
+  translation: Suscríbete a nuestro newsletter

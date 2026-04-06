@@ -11,15 +11,6 @@
     "image": "images/people/anca-matioc.jpg"
   },
   {
-    "id": "tania-altamirano",
-    "name": "Tania Altamirano",
-    "role": "Design and Facilitation Assistant",
-    "about": "Hi, I am Tania, I am a philosopher, I have a master's degree in philosophy of culture, and I am currently a doctoral candidate in philosophy at UNAM.  I have extensive experience in the development of educational content, research, and facilitation of learning processes. At La Sobremesa, I work hand in hand with Anca in the design, facilitation, systematization and analysis of the accompaniments that are co-designed and facilitated for the organizations, networks and donors with which we collaborate. As a workshop facilitator, I have had the opportunity to work with academic and governmental institutions, generating spaces for reflection and dialogue on issues of interculturality, human rights, justice, and feminisms. My passion for fostering active/critical participation and dialogue has driven me to continue my trajectory within the processes of collective construction with civil society organizations. I firmly believe in the transformative power of critical education and dialogue to promote more empathetic and just societies. Therefore, I am excited to contribute to institutional strengthening and social change in the Latin American civil society ecosystem.",
-    "linkedin": "tania-haide-espinoza-altamirano-2383a2150",
-    "twitter": "TaniaEAltamira1",
-    "image": "images/people/tania-altamirano.jpg"
-  },
-  {
     "id": "aniela-stojanowski",
     "name": "Aniela Stojanowski",
     "role": "Communication leader",
@@ -29,19 +20,19 @@
     "image": "images/people/aniela-stojanowski.jpg"
   },
   {
-    "id": "julieta-zacatenco",
-    "name": "Julieta Zacatenco",
-    "role": "Project support",
-    "about": "Hello! I'm Julieta Zacatenco. I studied Political Science and Public Administration with a concentration in Gender Studies at UNAM. I specialize in organizational development, sustainability, and project management with a decolonial, anti-racist, and social justice approach. I have worked in resource mobilization and institutional strengthening in organizations defending the rights of women, Afro-descendant, and LGBTIQ+ communities. As Chair of the Board of Directors at the[  Youth Coalition for Sexual and Reproductive Rights](https://www.youthcoalition.org/), I have championed youth leadership in global processes on sexual and reproductive rights, health, and justice. I also collaborate as co-facilitator at Diálogos Intergeneracionales, an initiative focused on strengthening the civil society ecosystem in Mexico through participatory methodologies and intergenerational dialogue spaces. At La Sobremesa, I am driven by the opportunity to develop sustainable tools and models that strengthen the sector and contribute to more just and inclusive futures. I believe in the key role of civil society in addressing structural inequalities and generating collective solutions that transform the realities of the Global Majority.",
-    "instagram": "julietazacatenco",
-    "linkedin": "julieta-zacatenco-herrera-3672811b0",
-    "image": "images/people/julieta-zacatenco.jpeg"
-  },
-  {
     "id": "claudia-guerrero",
     "name": "Claudia Guerrero",
     "role": "Head of Admin & Operations",
     "about": "Hi! I am Claudia Guerrero Trejo, a Mexican professional with more than 30 years of experience in Administration, Finance, Human Resources and Operations. My career spans both civil society organizations and transnational corporations, serving in key roles ranging from Senior Administrator to responsible for accounting and financial management. Throughout my career, I have developed skills in budget management, financial control, personnel supervision, contract administration and organization of large-scale events. My experience also includes coordinating travel and meetings for communities and human rights defenders, ensuring operational efficiency in each project. With strong skills in internal control tools such as QuickBooks, ZohoBooks and Salesforce, I am known for my adaptability, leadership and commitment to operational excellence.",
     "image": "images/people/claudia-guerrero.jpg"
+  },
+  {
+    "id": "paz-romero",
+    "name": "Paz Romero",
+    "role": "Project Manager",
+    "email": "paz@lasobremesa.co",
+    "about": "Hi! I'm Paz Romero. I've spent nearly a decade working with civil society organizations across Latin America, from grassroots accompaniment to the management of international projects. I specialize in resource mobilization, facilitation, and project management with a focus on the rights of communities across the Global South. I'm co-founder of Justice Funds, a research and curation platform for funding opportunities for Global South organizations, where I designed the guide How to Get the Money We Need, available in Spanish, English, French, and Arabic. At La Sobremesa, I am motivated by supporting the organizations that sustain their communities, because I deeply believe that this work is more urgent than ever.",
+    "linkedin": "pazromero",
+    "image": "images/people/paz-romero.png"
   }
 ]

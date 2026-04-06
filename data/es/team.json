@@ -11,15 +11,6 @@
     "image": "images/people/anca-matioc.jpg"
   },
   {
-    "id": "tania-altamirano",
-    "name": "Tania Altamirano",
-    "role": "Asistente de Diseño y Facilitación",
-    "about": "¡Hola! Soy Tania, soy filósofa de formación, cuento con una maestría en filosofía de la cultura, y actualmente soy doctoranda en filosofía, en la UNAM.  Cuento con una amplia trayectoria en el desarrollo de contenidos educativos, investigación, y facilitación de procesos de aprendizaje. En La Sobremesa, trabajo mano a mano con Anca en el diseño, facilitación, sistematización y análisis de los acompañamientos que se co-diseñan y facilitan para las organizaciones, redes y donantes, con los cuales colaboramos. Como tallerista, he tenido la oportunidad de trabajar con instituciones académicas y gubernamentales, generando espacios de reflexión y diálogo en temas de interculturalidad, derechos humanos, justicia,  y feminismos. Mi pasión por fomentar la participación activa/crítica y el diálogo, me ha impulsado a continuar mi trayectoria dentro de los procesos de construcción colectiva con organizaciones de la sociedad civil. Creo firmemente en el poder transformador de la educación crítica y el diálogo para promover sociedades más empáticas y justas. Por ello, me entusiasma poder contribuir al fortalecimiento institucional y al cambio social en el ecosistema de la sociedad civil latinoamericana.",
-    "linkedin": "tania-haide-espinoza-altamirano-2383a2150",
-    "twitter": "TaniaEAltamira1",
-    "image": "images/people/tania-altamirano.jpg"
-  },
-  {
     "id": "aniela-stojanowski",
     "name": "Aniela Stojanowski",
     "role": "Líder de Comunicación",
@@ -29,19 +20,19 @@
     "image": "images/people/aniela-stojanowski.jpg"
   },
   {
-    "id": "julieta-zacatenco",
-    "name": "Julieta Zacatenco",
-    "role": "Asistente de proyectos",
-    "about": "¡Hola! Soy Julieta Zacatenco. Estudié Ciencia Política y Administración Pública con una concentración en Estudios de Género en la UNAM. Me he especializado en desarrollo organizacional, sostenibilidad y gestión de proyectos con un enfoque decolonial, antirracista y de justicia social. He trabajado en movilización de recursos y fortalecimiento institucional en organizaciones que defienden los derechos de mujeres, personas afro y LGBTIQ+. Como Presidenta de la Junta Directiva de la[  Youth Coalition for Sexual and Reproductive Rights](https://www.youthcoalition.org/), he impulsado el liderazgo juvenil en procesos globales de derechos, salud y justicia sexual y reproductiva. También colaboro como co-facilitadora de Diálogos Intergeneracionales, una iniciativa enfocada en el fortalecimiento del ecosistema de la sociedad civil en México, a través de metodologías participativas y espacios de diálogo intergeneracional. En La Sobremesa, me motiva desarrollar herramientas y modelos sostenibles que fortalezcan al sector y contribuyan a futuros más justos e inclusivos. Creo en el papel clave de la sociedad civil para enfrentar desigualdades estructurales y generar soluciones colectivas que transformen la realidad de la Mayoría Global.",
-    "instagram": "julietazacatenco",
-    "linkedin": "julieta-zacatenco-herrera-3672811b0",
-    "image": "images/people/julieta-zacatenco.jpeg"
-  },
-  {
     "id": "claudia-guerrero",
     "name": "Claudia Guerrero",
     "role": "Líder de administración y operaciones",
     "about": "¡Hola! Soy Claudia Guerrero Trejo, una profesional mexicana con más de 30 años de experiencia en Administración, Finanzas, Recursos Humanos y Operaciones. Mi trayectoria abarca tanto organizaciones de la sociedad civil como empresas trasnacionales, desempeñándome en roles clave que van desde Administradora Senior hasta responsable de la gestión contable y financiera. A lo largo de mi carrera, he desarrollado habilidades en gestión de presupuestos, control financiero, supervisión de personal, administración de contratos y organización de eventos de gran escala. Mi experiencia también incluye la coordinación de viajes y reuniones para comunidades y defensores de derechos humanos, asegurando la eficiencia operativa en cada proyecto. Con sólidos conocimientos en herramientas de control interno como QuickBooks, ZohoBooks y Salesforce, me caracterizo por mi capacidad de adaptación, liderazgo y compromiso con la excelencia operativa.",
     "image": "images/people/claudia-guerrero.jpg"
+  },
+  {
+    "id": "paz-romero",
+    "name": "Paz Romero",
+    "role": "Coordinadora de proyectos",
+    "email": "paz@lasobremesa.co",
+    "about": "¡Hola! Soy Paz Romero. Llevo casi una década trabajando en organizaciones de la sociedad civil en América Latina, desde el acompañamiento territorial hasta la gestión de proyectos internacionales. Me he especializado en movilización de recursos, facilitación y gestión de proyectos con un enfoque centrado en los derechos de las comunidades del Sur Global. Soy co-fundadora de Justice Funds, plataforma de investigación y curaduría de oportunidades de financiamiento para organizaciones del Sur Global, donde diseñé la guía How to Get the Money We Need, disponible en español, inglés, francés y árabe. En La Sobremesa, me motiva acompañar a las organizaciones que sostienen sus comunidades porque creo profundamente en que ese trabajo es más urgente que nunca.",
+    "linkedin": "pazromero",
+    "image": "images/people/paz-romero.png"
   }
 ]
