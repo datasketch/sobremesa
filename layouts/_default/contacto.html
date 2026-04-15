@@ -39,8 +39,8 @@
       <p class="mt-14 mx-auto max-w-lg section-description text-lg lg:text-xl">
         {{ T "page_contact_subscribe" }}
       </p>
-      <div class="mt-6 mx-auto max-w-lg">
-        <iframe src="https://preview.mailerlite.io/forms/1608070/182381205556036687/share" width="100%" height="300" frameborder="0" scrolling="no" style="border:none; overflow:hidden;"></iframe>
+      <div id="newsletter" class="mt-6 mx-auto max-w-lg" style="scroll-margin-top: 9rem;">
+        {{ partial "newsletter-form.html" (dict "show_heading" false) }}
       </div>
     </div>
   </div>
@@ -55,11 +55,38 @@
         {{ T "page_contact_cta_q" | safeHTML }}
       </h2>
       <div class="mt-6">
-        <a href="https://lasobremesa.medium.com/" target="_blank" rel="noopener noreferrer" class="inline-block font-semibold text-lg tracking-wide lg:text-xl py-2 px-6 uppercase underline">
-          {{ T "label_subscribe_blog" }}
+        <a href="#newsletter" data-scroll-to="newsletter" class="inline-block font-semibold text-lg tracking-wide lg:text-xl py-2 px-6 uppercase underline">
+          {{ T "label_subscribe_newsletter" }}
         </a>
       </div>
     </div>
   </div>
 </div>
+<script>
+  (function () {
+    function scrollToNewsletter() {
+      var target = document.getElementById("newsletter");
+      if (!target) return;
+      target.scrollIntoView({ behavior: "smooth", block: "start" });
+      var input = target.querySelector('input[type="email"]');
+      if (input) {
+        setTimeout(function () { input.focus({ preventScroll: true }); }, 600);
+      }
+    }
+    document.querySelectorAll('a[data-scroll-to="newsletter"], a[href="#newsletter"]').forEach(function (a) {
+      a.addEventListener("click", function (e) {
+        if (document.getElementById("newsletter")) {
+          e.preventDefault();
+          history.replaceState(null, "", "#newsletter");
+          scrollToNewsletter();
+        }
+      });
+    });
+    if (window.location.hash === "#newsletter") {
+      window.addEventListener("load", function () {
+        setTimeout(scrollToNewsletter, 100);
+      });
+    }
+  })();
+</script>
 {{ end }}

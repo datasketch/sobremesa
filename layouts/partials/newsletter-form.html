@@ -1,22 +1,32 @@
-<div id="mlb2-4227259" class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-4227259">
-  <div class="ml-form-embedBody ml-form-embedBodyHorizontal row-form">
+{{- $showHeading := true -}}
+{{- if and . (reflect.IsMap .) -}}
+  {{- if isset . "show_heading" -}}
+    {{- $showHeading = .show_heading -}}
+  {{- end -}}
+{{- end -}}
+<div id="mlb2-4227259" class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-4227259 bg-linen text-chocolate font-source-serif-pro mx-auto max-w-md w-full p-5 sm:p-6">
+  <div class="ml-form-embedBody row-form">
+    {{ if $showHeading }}
+    <div class="text-center">
+      <h4 class="font-bold text-xl sm:text-2xl mb-2">{{ T "label_subscribe_newsletter" }}</h4>
+      <p class="text-sm sm:text-base mb-4">{{ T "page_contact_subscribe" }}</p>
+    </div>
+    {{ end }}
     <form class="ml-block-form" action="https://static.mailerlite.com/webforms/submit/m9a5r7" data-code="m9a5r7" method="post" target="_blank">
       <input type="hidden" name="ml-submit" value="1">
       <input type="hidden" name="anticsrf" value="true">
-      <div class="flex flex-col space-y-2 sm:flex-row sm:space-x-2 sm:space-y-0 sm:justify-center">
-        <!-- <input type="email" class="bg-linen text-chocolate px-4 py-2 placeholder-chocolate {{ if not .Plain }}border border-chocolate{{ end }}" data-inputmask="" name="fields[email]" placeholder="Email" autocomplete="email"> -->
-        <div class="ml-button-horizontal primary">
-          <div class="flex flex-row gap-2 justify-start items-center border-b border-white w-3/4 md:w-full">
-            <button type="submit" class="text-white font-semibold py-2 px-2 cursor-pointer text-lg">{{ T "action_subscribe" }}</button>
-            <img class="text-white" src="/images/arrow-right-white.svg" alt="arrow-right">
-          </div>
-          <button disabled="disabled" style="display:none" type="button" class="loading"> <div class="ml-form-embedSubmitLoad"></div> <span class="sr-only">Loading...</span> </button>
-        </div>
+      <div class="flex flex-col space-y-3">
+        <input type="email" required aria-label="Email" class="w-full bg-white text-chocolate px-4 py-2 border border-chocolate placeholder-chocolate focus:outline-none" name="fields[email]" placeholder="Email" autocomplete="email">
+        <button type="submit" class="w-full bg-fire-opal hover:bg-chocolate transition-colors text-white font-semibold uppercase tracking-wide py-2 px-4 cursor-pointer">{{ T "action_subscribe" }}</button>
+        <button disabled="disabled" style="display:none" type="button" class="loading">
+          <div class="ml-form-embedSubmitLoad"></div>
+          <span class="sr-only">Loading...</span>
+        </button>
       </div>
     </form>
   </div>
   <div class="ml-form-successBody row-success" style="display: none;">
-    <div class="ml-form-successContent">
+    <div class="ml-form-successContent text-center">
       <h4 class="text-chocolate font-semibold text-2xl">¡Gracias!</h4>
     </div>
   </div>

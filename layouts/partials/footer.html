@@ -21,29 +21,8 @@
       </div>
     </div>
     <div class="w-full md:w-1/2 lg:w-4/12">
-      <div class="h-full flex flex-col justify-center text-center">
-        <p class="font-semibold text-lg tracking-wide lg:text-xl">
-          {{- T "label_receive_newsletter" -}}
-        </p>
-        <div class="mt-6">
-          <a
-            href="https://preview.mailerlite.io/forms/1608070/182381205556036687/share"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="inline-flex flex-row gap-2 justify-start items-center border-b border-white"
-          >
-            <p
-              class="text-white font-semibold py-2 px-2 cursor-pointer text-lg"
-            >
-              {{ T "action_subscribe" }}
-            </p>
-            <img
-              class="text-white"
-              src="/images/arrow-right-white.svg"
-              alt="arrow-right"
-            />
-          </a>
-        </div>
+      <div class="h-full flex flex-col justify-center">
+        {{ partial "newsletter-form.html" (dict "show_heading" true) }}
       </div>
     </div>
     <div class="w-full md:w-1/2 lg:w-3/12 h-64 lg:h-auto">
