@@ -6,7 +6,7 @@ language: spanish
 for_whom: organizations
 recommended: false
 clip: /uploads/2.png
-resource_url: https://docs.google.com/document/d/1_rKx6ZvcKCNcp9ZcwCaOoZMXnNGdlIUrHPNz0VwygCA/edit
+resource_url: zclouv.subscribepage.io
 creator: La Sobremesa
 target: Para aquellas organizaciones que quieran facilitar momentos de
   aprendizaje con sus equipos.
