@@ -6,7 +6,7 @@ language: spanish
 for_whom: organizations
 recommended: false
 clip: /uploads/miniaturas-herramientas-web-330-x-330-px-11-.png
-resource_url: http://subscribepage.io/78gzrl
+resource_url: http://analisisdeinspiraciones.subscribepage.io
 creator: La Sobremesa
 target: Para equipos que se quieren inspirar en las organizaciones parecidas a ellas.
 lastmod: 2023-08-29T16:55:35.567Z
