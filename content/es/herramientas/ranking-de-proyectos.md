@@ -6,7 +6,7 @@ language: spanish
 for_whom: organizations
 recommended: false
 clip: /uploads/5.png
-resource_url: rankingdeproyectos.subscribepage.io
+resource_url: http://rankingdeproyectos.subscribepage.io
 creator: La Sobremesa
 target: Organizaciones que quieren reflexionar sobre sus proyectos de una forma
   ágil, con impacto.
