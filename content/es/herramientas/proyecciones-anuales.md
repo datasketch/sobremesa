@@ -6,7 +6,7 @@ language: spanish
 for_whom: organizations
 recommended: false
 clip: /uploads/4.png
-resource_url: https://docs.google.com/spreadsheets/d/1WHDzvUbT5UtciHm5nGC4rERY9-f4pOXBfMvyZEDjgIM/edit#gid=1001896263
+resource_url: http://proyeccionesanuales.subscribepage.io
 creator: La Sobremesa
 target: "Organizaciones de sociedad civil que quieren ser más resilientes
   financieramente. "
