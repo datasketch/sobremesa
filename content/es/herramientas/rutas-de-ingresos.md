@@ -6,7 +6,7 @@ language: spanish
 for_whom: organizations
 recommended: false
 clip: /uploads/miniaturas-herramientas-web-330-x-330-px-12-.png
-resource_url: http://rutasdeingresos.subscribepage.io
+resource_url: https://rutasdeingresos.subscribepage.io
 creator: La Sobremesa
 target: Organizaciones de sociedad civil que buscan definir con anticipación
   cómo alcanzar sus metas financieras.
